@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base type="string">
+  <tags>
+    <tag language="한국어" />
+  </tags>
+  <strings>
+    <string id="RTSCamera_option_class" text="RTS 카메라" />
+    <string id="RTSCamera_command_battle" text="(RTS 카메라) 전투 지휘" />
+    <string id="RTSCamera_cannot_control_agent_in_command_mode" text="지휘 전용 모드에서는 유닛을 직접 조종할 수 없습니다." />
+    <string id="RTSCamera_command_mode_tool_tip" text="부상을 입어 직접 전투에 참가할 수는 없지만, 병력을 지휘할 수는 있습니다." />
+    <string id="RTSCamera_switch_camera_hint" text="전투 중 {KeyName} 키를 눌러 자유 카메라를 전환합니다." />
+    <string id="RTSCamera_disable_death_hint" text="영상 촬영용으로 모든 유닛을 무적 상태로 만듭니다." />
+    <string id="RTSCamera_switch_team_hint" text="영상 촬영용으로 플레이어의 소속 진영을 맞바꿉니다." />
+    <string id="RTSCamera_controltroop" text="조종 중인 병사: {ControlledTroopName}" />
+    <string id="RTSCamera_notrooptocontrol" text="조종할 수 있는 아군 병사가 없습니다." />
+    <string id="RTSCamera_deathdisabled" text="전체 무적 모드가 활성화되었습니다." />
+    <string id="RTSCamera_deathenabled" text="전체 무적 모드가 비활성화되었습니다." />
+    <string id="RTSCamera_camera_options" text="카메라 설정" />
+    <string id="RTSCamera_switchfreecamera" text="자유 카메라 전환" />
+    <string id="RTSCamera_switch_free_camera_hint" text="자유 카메라와 플레이어 시점 카메라를 전환합니다." />
+    <string id="RTSCamera_default_to_free_camera" text="기본 자유 카메라 시점" />
+    <string id="RTSCamera_default_to_free_camera_hint" text="전투 진입 시 기본적으로 자유 카메라로 시작할 시점을 설정합니다." />
+    <string id="RTSCamera_default_to_free_camera_option_never" text="사용 안 함" />
+    <string id="RTSCamera_default_to_free_camera_option_deployment_stage" text="배치 단계에서만" />
+    <string id="RTSCamera_controller_default_to_free_camera_option_always" text="항상" />
+    <string id="RTSCamera_raisedheightafterswitchingtofreecamera" text="자유 카메라 전환 시 상승 높이" />
+    <string id="RTSCamera_raised_height_hint" text="자유 카메라로 전환했을 때 카메라가 기본으로 올라가는 높이입니다." />
+    <string id="RTSCamera_limit_camera_distance" text="카메라 이동 거리 제한" />
+    <string id="RTSCamera_limit_camera_distance_hint" text="전술 및 정찰 기술 수치에 따라 카메라 최대 이동 거리를 제한합니다." />
+    <string id="RTSCamera_camera_distance_limit" text="카메라 최대 이동 반경" />
+    <string id="RTSCamera_constantspeed" text="일정한 카메라 이동 속도" />
+    <string id="RTSCamera_constant_speed_hint" text="카메라 고도(높이)에 상관없이 카메라 이동 속도를 일정하게 유지합니다." />
+    <string id="RTSCamera_camera_height_follows_terrain" text="지형 높이에 맞춰 카메라 고도 유지" />
+    <string id="RTSCamera_camera_height_follows_terrain_hint" text="카메라가 지형 높낮이를 따라 이동합니다(성벽, 건물, 바위 등 오브젝트 내부/위쪽일 때는 제외)." />
+    <string id="RTSCamera_ignore_terrain" text="지형 및 건물 충돌 무시" />
+    <string id="RTSCamera_ignore_terrain_hint" text="활성화 시 카메라가 지형이나 건물에 막히지 않고 통과합니다." />
+    <string id="RTSCamera_ignore_boundaries" text="전장 경계 무시" />
+    <string id="RTSCamera_ignore_boundaries_hint" text="활성화 시 카메라가 전장 외곽 경계선에 제한받지 않습니다." />
+    <string id="RTSCamera_elevated_camera_rise_delay" text="지휘 시점 상승 지연 시간" />
+    <string id="RTSCamera_elevated_camera_rise_delay_hint" text="명령 시 고공 카메라가 본격적으로 상승하기 시작하기 전까지의 지연 시간(초)입니다." />
+    <string id="RTSCamera_elevated_camera_rise_duration" text="지휘 시점 상승 소요 시간" />
+    <string id="RTSCamera_elevated_camera_rise_duration_hint" text="고공 카메라가 최대 높이까지 상승하는 데 걸리는 시간(초)입니다." />
+    <string id="RTSCamera_elevated_camera_off_duration" text="지휘 시점 복귀 소요 시간" />
+    <string id="RTSCamera_elevated_camera_off_duration_hint" text="고공 카메라가 원래 플레이어 높이로 돌아오는 데 걸리는 시간(초)입니다." />
+    <string id="RTSCamera_follow_facing_direction" text="캐릭터 시선 방향 따라가기" />
+    <string id="RTSCamera_follow_facing_direction_hint" text="캐릭터 시점으로 복귀할 때 카메라 방향을 캐릭터가 바라보는 방향으로 회전시킬지 설정합니다." />
+    <string id="RTSCamera_follow_facing_direction_option_never" text="사용 안 함" />
+    <string id="RTSCamera_follow_facing_direction_option_control_new_unit_only" text="새 유닛 조종 시에만 (권장)" />
+    <string id="RTSCamera_follow_facing_direction_option_always" text="항상" />
+    <string id="RTSCamera_control_options" text="조종 설정" />
+    <string id="RTSCamera_player_controller_in_free_camera" text="자유 카메라 중 플레이어 캐릭터 제어" />
+    <string id="RTSCamera_player_controller_in_free_camera_hint" text="자유 카메라 상태에서 플레이어 캐릭터의 제어 방식입니다. '없음'은 정지 상태, 'AI'는 AI가 자동 전투, '플레이어'는 자유 카메라에서도 직접 캐릭터를 조작합니다." />
+    <string id="RTSCamera_controller_type_none" text="없음" />
+    <string id="RTSCamera_controller_type_AI" text="AI (권장)" />
+    <string id="RTSCamera_controller_type_player" text="플레이어" />
+    <string id="RTSCamera_playerformation" text="플레이어 소속 부대(진형)" />
+    <string id="RTSCamera_player_formation_unset" text="지정 안 함" />
+    <string id="RTSCamera_player_formation_hint" text="플레이어를 선택한 부대(진형)에 배속시킵니다." />
+    <string id="RTSCamera_assign_player_formation" text="플레이어 부대 자동 배속 방식" />
+    <string id="RTSCamera_assign_player_formation_hint" text="전투 배치 단계에서 플레이어를 어느 부대에 배속시킬지 설정합니다." />
+    <string id="RTSCamera_assign_player_formation_default_or_general_formation" text="기본 부대 또는 지휘관 호위대" />
+    <string id="RTSCamera_assign_player_formation_default" text="항상 기본 부대" />
+    <string id="RTSCamera_assign_player_formation_overwrite" text="위에서 지정한 부대로 고정" />
+    <string id="RTSCamera_watchanotherhero" text="다른 영웅 관전" />
+    <string id="RTSCamera_watch_another_hero_hint" text="선택한 영웅을 카메라로 관전합니다." />
+    <string id="RTSCamera_select_character" text="캐릭터 마우스 선택 모드" />
+    <string id="RTSCamera_select_character_hint" text="마우스로 전장의 캐릭터를 직접 클릭하여 카메라를 고정하거나 조종합니다." />
+    <string id="RTSCamera_control_ally_after_death_timing" text="플레이어 쓰러짐 후 아군 자동 조종 시점" />
+    <string id="RTSCamera_control_ally_after_death_timing_hint" text="플레이어가 전투 불능이 된 후 아군 병사를 자동으로 이어서 조종할 조건을 설정합니다." />
+    <string id="RTSCamera_control_ally_after_death_timing_option_never" text="사용 안 함" />
+    <string id="RTSCamera_control_ally_after_death_timing_option_free_camera" text="자유 카메라 상태일 때만" />
+    <string id="RTSCamera_control_ally_after_death_timing_option_always" text="항상 (권장)" />
+    <string id="RTSCamera_control_ally_after_death_timing_prompt" text="쓰러진 후 '사망 후 아군 병사 조종' 기능을 활성화하시겠습니까?" />
+    <string id="RTSCamera_prefer_unit_in_same_formation" text="같은 부대(진형) 소속 유닛 우선 조종" />
+    <string id="RTSCamera_prefer_unit_in_same_formation_hint" text="조종할 아군을 찾을 때 플레이어와 같은 부대에 속한 병사를 우선 선택합니다." />
+    <string id="RTSCamera_controltroopsinplayerpartyonly" text="플레이어 부대 소속 병사만 조종" />
+    <string id="RTSCamera_control_troops_in_player_party_only_hint" text="조종할 아군을 찾을 때 플레이어의 직속 부대원만 대상으로 삼습니다." />
+    <string id="RTSCamera_limited_to_player_party_only" text="'플레이어 부대 소속 병사만 조종' 옵션이 켜져 있어 플레이어 직속 부대원만 조종할 수 있습니다." />
+    <string id="RTSCamera_controlheroonly" text="영웅(동료/귀족)만 조종" />
+    <string id="RTSCamera_controlheroonlyhint" text="조종할 아군을 찾을 때 일반 병사는 제외하고 영웅 캐릭터만 대상으로 삼습니다." />
+    <string id="RTSCamera_limitedtoheroonly" text="'영웅만 조종' 옵션이 켜져 있어 영웅 캐릭터만 조종할 수 있습니다." />
+    <string id="RTSCamera_ignoreretreatingtroops" text="후퇴 중인 병사 제외" />
+    <string id="RTSCamera_ignore_retreating_troops_hint" text="조종할 아군을 찾을 때 도주(후퇴) 중인 병사는 제외합니다." />
+    <string id="RTSCamera_time_speed_options" text="시간 배속 설정" />
+    <string id="RTSCamera_togglepause" text="일시정지 전환" />
+    <string id="RTSCamera_toggle_pause_hint" text="전투를 일시정지하거나 재개합니다." />
+    <string id="RTSCamera_slowmotionmode" text="슬로우 모션 모드" />
+    <string id="RTSCamera_slow_motion_hint" text="슬로우 모션 모드(시간 속도 조절)를 활성화합니다." />
+    <string id="RTSCamera_slowmotionfactor" text="슬로우 모션 배율" />
+    <string id="RTSCamera_slow_motion_factor_hint" text="시간 배속 비율입니다. 1보다 크게 설정하면 AI나 물리 연산에 문제가 생길 수 있으므로, 빠르게 감으려면 아래의 '빨리 감기 모드'를 사용하십시오." />
+    <string id="RTSCamera_slowmotiononrtsview" text="자유 카메라 시 자동 슬로우 모션" />
+    <string id="RTSCamera_slowmotiononrtsviewhint" text="자유 카메라로 전환할 때 자동으로 슬로우 모션 모드를 켭니다." />
+    <string id="RTSCamera_slow_motion_hotkey_mode" text="슬로우 모션 단축키 방식" />
+    <string id="RTSCamera_slow_motion_hotkey_mode_hint" text="단축키로 슬로우 모션을 작동시키는 방식입니다." />
+    <string id="RTSCamera_hotkey_mode_toggle" text="토글 (켜기/끄기)" />
+    <string id="RTSCamera_hotkey_mode_hold" text="홀드 (누르고 있는 동안)" />
+    <string id="RTSCamera_fast_forward_mode" text="빨리 감기 모드" />
+    <string id="RTSCamera_fast_forward_hint" text="전투 빨리 감기 모드를 활성화합니다." />
+    <string id="RTSCamera_override_fast_forward_speed" text="빨리 감기 배속 사용자 지정 (재시작 필요)" />
+    <string id="RTSCamera_override_fast_forward_speed_hint" text="(게임 재시작 필요) 기본 빨리 감기 배속(10배속)을 덮어쓰고 아래 설정한 배속 값으로 적용합니다." />
+    <string id="RTSCamera_fast_forward_speed" text="빨리 감기 배속" />
+    <string id="RTSCamera_fast_forward_speed_hint" text="빨리 감기 모드의 시간 배속입니다(위 덮어쓰기 옵션이 켜져 있어야 작동)." />
+    <string id="RTSCamera_fast_forward_hotkey_mode" text="빨리 감기 단축키 방식" />
+    <string id="RTSCamera_fast_forward_hotkey_mode_hint" text="단축키로 빨리 감기를 작동시키는 방식입니다." />
+    <string id="RTSCamera_miscellaneous_options" text="기타 설정" />
+    <string id="RTSCamera_displaymodmessage" text="모드 알림 메시지 표시" />
+    <string id="RTSCamera_display_message_hint" text="화면 좌측 하단에 이 모드의 상태 알림 메시지를 표시할지 설정합니다." />
+    <string id="RTSCamera_toggleui" text="HUD(UI) 숨기기/표시" />
+    <string id="RTSCamera_toggle_ui_hint" text="영상 촬영용으로 게임 화면 UI(HUD)를 숨기거나 표시합니다." />
+    <string id="RTSCamera_naval_options" text="해전 (War Sails) 설정" />
+    <string id="RTSCamera_player_ship_controller_in_free_camera" text="자유 카메라 중 플레이어 함선 제어" />
+    <string id="RTSCamera_player_ship_controller_in_free_camera_hint" text="자유 카메라 상태에서 플레이어 함선의 조타 방식입니다. '없음'은 제어 안 함, 'AI'는 AI 조타, '플레이어'는 직접 함선을 조종합니다." />
+    <string id="RTSCamera_steering_mode_when_player_stops_piloting" text="플레이어가 키를 놓았을 때의 함선 조타 모드" />
+    <string id="RTSCamera_steering_mode_when_player_stops_piloting_hint" text="플레이어가 함선 조타를 중단했을 때 함선 제어 방식입니다. '없음'은 조타수 없음, '병사 조타'는 병사가 조타하며 플레이어 명령을 따름, '지휘 위임'은 병사가 조타하며 AI 함선 명령을 따릅니다." />
+    <string id="RTSCamera_steering_mode_none" text="없음 (기본값)" />
+    <string id="RTSCamera_steering_mode_soldier" text="병사 조타" />
+    <string id="RTSCamera_steering_mode_delegate_command" text="지휘 위임" />
+    <string id="RTSCamera_switch_retreat_and_delegate_command" text="후퇴(F7)와 지휘 위임(F6) 단축키 맞바꾸기" />
+    <string id="RTSCamera_switch_retreat_and_delegate_command_hint" text="후퇴와 지휘 위임의 단축키 및 UI 위치를 서로 바꿔 지휘 위임이 F6에 배정되도록 합니다." />
+    <string id="RTSCamera_ship_need_to_be_connected" text="함선을 나포하려면 아군 함선과 연결되어 있어야 합니다." />
+    <string id="RTSCamera_unbalancedoptionsdescription" text="치트 설정" />
+    <string id="RTSCamera_disabledeath" text="전체 무적 모드" />
+    <string id="RTSCamera_enable_all_invulnerable_hotkey" text="전체 무적 단축키 활성화" />
+    <string id="RTSCamera_switchteam" text="진영 전환" />
+    <string id="RTSCamera_enable_switch_team_hotkey" text="진영 전환 단축키 활성화" />
+    <string id="RTSCamera_missionpaused" text="전투가 일시정지되었습니다." />
+    <string id="RTSCamera_missioncontinue" text="전투가 재개되었습니다." />
+    <string id="RTSCamera_slowmotionenabled" text="슬로우 모션 모드가 켜졌습니다." />
+    <string id="RTSCamera_normalmodeenabled" text="일반 속도 모드로 복귀했습니다." />
+    <string id="RTSCamera_fastforwardenabled" text="빨리 감기 모드가 켜졌습니다." />
+    <string id="RTSCamera_fastforwarddisabled" text="빨리 감기 모드가 꺼졌습니다." />
+    <string id="RTSCamera_playeragentdead" text="플레이어 캐릭터가 쓰러졌습니다." />
+    <string id="RTSCamera_switchtoplayer" text="플레이어 캐릭터 시점으로 전환합니다." />
+    <string id="RTSCamera_switchtofreecamera" text="자유 카메라 시점으로 전환합니다." />
+    <string id="RTSCamera_elevated_camera_hint" text="명령을 내릴 때 카메라 시점을 위로 높입니다." />
+    <string id="RTSCamera_elevated_camera_trigger_mode" text="고공 지휘 카메라 작동 조건" />
+    <string id="RTSCamera_elevated_camera_trigger_mode_hint" text="명령을 내릴 때 언제 고공 지휘 카메라를 작동시킬지 선택합니다." />
+    <string id="RTSCamera_elevated_camera_trigger_mode_option_never" text="사용 안 함" />
+    <string id="RTSCamera_elevated_camera_trigger_mode_option_when_opening_order_ui" text="명령 UI를 열 때" />
+    <string id="RTSCamera_elevated_camera_trigger_mode_option_when_giving_movement_order" text="이동 명령을 내릴 때" />
+    <string id="RTSCamera_switch_camera_on_ordering" text="명령 시 자유 카메라 자동 전환" />
+    <string id="RTSCamera_switch_camera_on_ordering_hint" text="명령 UI를 열면 자동으로 자유 카메라로 전환하고, 닫으면 원래 시점으로 돌아옵니다." />
+    <string id="RTSCamera_orderonswitchingcamera" text="자유 카메라 전환 시 명령 UI 자동 열기" />
+    <string id="RTSCamera_orderonswitchingcamerahint" text="자유 카메라로 전환할 때 자동으로 명령 UI를 열고, 복귀할 때 명령 UI를 닫습니다." />
+    <string id="RTSCamera_keep_order_ui_open_in_free_camera" text="자유 카메라에서 명령 UI 열린 상태 유지" />
+    <string id="RTSCamera_keep_order_ui_open_in_free_camera_hint" text="자유 카메라 상태에서는 명령을 내린 후에도 명령 UI가 닫히지 않도록 유지합니다." />
+    <string id="RTSCamera_keep_order_ui_open_in_elevated_camera" text="고공 카메라에서 명령 UI 열린 상태 유지" />
+    <string id="RTSCamera_keep_order_ui_open_in_elevated_camera_hint" text="고공 지휘 카메라 상태에서는 명령 UI가 닫히지 않도록 유지합니다." />
+    <string id="RTSCamera_show_hotkey_hint" text="단축키 도움말 표시" />
+    <string id="RTSCamera_show_hotkey_hint_hint" text="자유 카메라 모드에서 화면에 단축키 안내를 표시합니다." />
+    <string id="RTSCamera_fast_forward_hideout" text="은신처 공격 시 자동 빨리 감기" />
+    <string id="RTSCamera_fast_forward_hideout_hint" text="산적 은신처 공격 시 자동으로 빨리 감기를 켜고 플레이어 캐릭터를 AI에게 맡깁니다." />
+    <string id="RTSCamera_fast_forward_hideout_option_never" text="사용 안 함" />
+    <string id="RTSCamera_fast_forward_hideout_option_until_boss_fight" text="두목 결투 전까지" />
+    <string id="RTSCamera_fast_forward_hideout_option_always" text="항상" />
+    <string id="RTSCamera_fast_forward_hideout_prompt" text="은신처 전투에서 자동 빨리 감기를 활성화하시겠습니까?" />
+    <string id="RTSCamera_ai_control_ship_on" text="병사 조타 켜짐" />
+    <string id="RTSCamera_player_control_ship_off" text="병사 조타 꺼짐" />
+    <string id="RTSCamera_soldiers_start_controlling_ship" text="병사가 함선 조타를 시작합니다." />
+    <string id="RTSCamera_soldiers_stop_controlling_ship" text="병사가 함선 조타를 중단했습니다." />
+    <string id="RTSCamera_hotkeycategory" text="RTS 카메라 단축키" />
+    <string id="RTSCamera_pausekey" text="일시정지" />
+    <string id="RTSCamera_slowmotionkey" text="슬로우 모션" />
+    <string id="RTSCamera_fastforwardkey" text="빨리 감기" />
+    <string id="RTSCamera_freecamerakey" text="자유 카메라" />
+    <string id="RTSCamera_disabledeathkey" text="전체 무적" />
+    <string id="RTSCamera_controltroopkey" text="카메라 고정 / 병사 조종" />
+    <string id="RTSCamera_camera_move_forward" text="카메라 앞으로 이동" />
+    <string id="RTSCamera_camera_move_backward" text="카메라 뒤로 이동" />
+    <string id="RTSCamera_camera_move_left" text="카메라 왼쪽으로 이동" />
+    <string id="RTSCamera_camera_move_right" text="카메라 오른쪽으로 이동" />
+    <string id="RTSCamera_camera_move_up" text="카메라 위로 상승" />
+    <string id="RTSCamera_camera_move_down" text="카메라 아래로 하강" />
+    <string id="RTSCamera_camera_increase_camera_limit" text="카메라 이동 제한 반경 늘리기" />
+    <string id="RTSCamera_camera_decrease_camera_limit" text="카메라 이동 제한 반경 줄이기" />
+    <string id="RTSCamera_camera_increase_camera_speed" text="카메라 이동 속도 증가" />
+    <string id="RTSCamera_camera_decrease_camera_speed" text="카메라 이동 속도 감소" />
+    <string id="RTSCamera_camera_reset_camera_speed" text="카메라 이동 속도 초기화" />
+    <string id="RTSCamera_camera_move_by_mouse" text="마우스 드래그로 카메라 이동" />
+    <string id="RTSCamera_slowmotionkey_description" text="슬로우 모션 모드를 켭니다. 다시 누르면 원래 속도로 돌아옵니다." />
+    <string id="RTSCamera_fastforwardkey_description" text="빨리 감기 모드를 켜거나 끕니다." />
+    <string id="RTSCamera_disable_death_description" text="영상 촬영용으로 모든 유닛을 죽지 않게 합니다. 치트 모드가 켜져 있고 메뉴에서 단축키가 활성화되어 있어야 합니다." />
+    <string id="RTSCamera_controltroopkey_description" text="카메라를 특정 캐릭터나 선택한 부대에 고정하며, 고정된 캐릭터를 직접 조종합니다." />
+    <string id="RTSCamera_switchteam_description" text="영상 촬영용으로 플레이어 진영을 맞바꿉니다. 치트 모드가 켜져 있고 메뉴에서 단축키가 활성화되어 있어야 합니다." />
+    <string id="RTSCamera_camera_move_forward_description" text="카메라를 앞으로 이동시킵니다." />
+    <string id="RTSCamera_camera_move_backward_description" text="카메라를 뒤로 이동시킵니다." />
+    <string id="RTSCamera_camera_move_left_description" text="카메라를 왼쪽으로 이동시킵니다." />
+    <string id="RTSCamera_camera_move_right_description" text="카메라를 오른쪽으로 이동시킵니다." />
+    <string id="RTSCamera_camera_move_up_description" text="카메라를 위로 올립니다." />
+    <string id="RTSCamera_camera_move_down_description" text="카메라를 아래로 내립니다." />
+    <string id="RTSCamera_camera_increase_camera_limit_description" text="카메라 최대 이동 제한 반경을 늘립니다." />
+    <string id="RTSCamera_camera_decrease_camera_limit_description" text="카메라 최대 이동 제한 반경을 줄입니다." />
+    <string id="RTSCamera_camera_increase_camera_speed_description" text="카메라 이동 속도를 높입니다." />
+    <string id="RTSCamera_camera_decrease_camera_speed_description" text="카메라 이동 속도를 낮춥니다." />
+    <string id="RTSCamera_camera_reset_camera_speed_description" text="카메라 이동 속도를 기본값으로 초기화합니다." />
+    <string id="RTSCamera_camera_move_by_mouse_description" text="누르고 있는 동안 마우스로 카메라를 이동시킵니다." />
+    <string id="RTSCamera_enemywipedout" text="적이 전멸했습니다." />
+    <string id="RTSCamera_switchtoenemyteam" text="적군 진영으로 전환되었습니다." />
+    <string id="RTSCamera_select_character_view_hint" text="좌클릭으로 캐릭터를 선택한 뒤, {KeyName} 키를 눌러 카메라를 고정하고 한 번 더 눌러 직접 조종하십시오." />
+    <string id="RTSCamera_control_troop_hint" text="{KeyName} 키를 눌러 아군 병사 중 한 명을 직접 조종할 수 있습니다." />
+    <string id="RTSCamera_control_current_agent_hint" text="{KeyName} 키를 눌러 현재 캐릭터를 조종합니다." />
+    <string id="RTSCamera_focus_on_formation_hint" text="{KeyName} 키를 눌러 선택한 부대(진형)에 카메라를 고정합니다." />
+    <string id="RTSCamera_tactics_skill_effect_description" text="전술 스킬에 따른 RTS 카메라 반경 보너스: +{a0}m" />
+    <string id="RTSCamera_scouting_skill_effect_description" text=" 정찰 스킬에 따른 RTS 카메라 반경 보너스: +{a0}%" />
+    <string id="RTSCamera_base_distance" text="기본 반경" />
+    <string id="RTSCamera_out_of_campaign" text="캠페인 외부" />
+    <string id="RTSCamera_no_main_hero" text="주인공 영웅이 존재하지 않습니다" />
+    <string id="RTSCamera_cheat_mode_required" text="이 옵션을 끄려면 치트 모드를 활성화해야 합니다." />
+    <string id="RTSCamera_focus_on_formation_usage" text="(신기능) 자유 카메라 상태에서 명령 UI를 열었을 때 {KeyName} 키를 누르면 선택한 부대에 카메라를 고정할 수 있습니다." />
+    <string id="RTSCamera_control_troop_usage" text="전투 중 캐릭터가 쓰러진 후, {KeyName} 키를 눌러 아군 병사를 관전하고 한 번 더 {KeyName} 키를 눌러 직접 병사를 조종해 전투를 이어갈 수 있습니다." />
+    <string id="RTSCamera_open_menu_hotkey_hint" text="메뉴 열기" />
+    <string id="RTSCamera_switch_camera_hotkey_hint" text="자유 카메라 전환" />
+    <string id="RTSCamera_control_troop_hotkey_hint" text="유닛/부대 고정 및 유닛 조종" />
+    <string id="RTSCamera_select_character_hotkey_hint" text="캐릭터 선택 모드" />
+    <string id="RTSCamera_move_camera_hotkey_hint" text="카메라 이동" />
+  </strings>
+</base>

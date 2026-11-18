@@ -1,0 +1,38 @@
+================================================================================
+[Bannerlord] RTS Camera & Command System 한국어 번역 패치
+================================================================================
+
+1. 구성 파일 안내
+--------------------------------------------------------------------------------
+[RTSCamera 본편]
+- RTSCamera\ModuleData\Languages\KO\language_data.xml
+- RTSCamera\ModuleData\Languages\KO\std_MissionLibrary.xml (단축키 및 메뉴 라이브러리 16문장)
+- RTSCamera\ModuleData\Languages\KO\std_RTSCamera.xml (RTS 자유 카메라, 배속, 병사 조종, 해전 조타 설정 209문장)
+
+[RTSCamera.CommandSystem 확장 모듈 (함께 설치 시)]
+- RTSCamera.CommandSystem\ModuleData\Languages\KO\language_data.xml
+- RTSCamera.CommandSystem\ModuleData\Languages\KO\std_MissionLibrary.xml (16문장)
+- RTSCamera.CommandSystem\ModuleData\Languages\KO\std_RTSCamera.CommandSystem.xml (부대 지정 공격, 명령 대기열, 일제 사격 등 147문장)
+
+2. 수동 설치 방법 (모드 폴더에 바로 적용할 때)
+--------------------------------------------------------------------------------
+- `RTSCamera`의 `ModuleData` 폴더를 `...\Modules\RTSCamera\` 경로에 복사(덮어쓰기)하세요.
+- `RTSCamera.CommandSystem`도 사용 중이시라면 해당 `ModuleData` 폴더를 `...\Modules\RTSCamera.CommandSystem\` 경로에 복사하세요.
+
+3. 넥서스 모드(Nexus Mods) 업로드 및 패키징 가이드
+--------------------------------------------------------------------------------
+`Modules` 폴더 안에 `RTSCamera`와 `RTSCamera.CommandSystem` 두 폴더를 함께 넣어 압축하면
+유저가 한 번에 두 모듈 모두 한글화할 수 있습니다.
+
+[권장 압축 구조]
+RTSCamera_Korean_Translation.zip
+ └── Modules
+      ├── RTSCamera
+      │    └── ModuleData\Languages\KO\...
+      └── RTSCamera.CommandSystem
+           └── ModuleData\Languages\KO\...
+
+[넥서스 업로드 시 참고 정보]
+- 원본 모드(Requirements): RTS Camera (https://www.nexusmods.com/mountandblade2bannerlord/mods/355)
+- 태그(Tags): Translation / Korean
+================================================================================
