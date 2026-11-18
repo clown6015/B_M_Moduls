@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <tags>
+    <tag language="한국어" />
+  </tags>
+  <strings>
+
+    <!-- 정착지 메뉴: 루트 -->
+
+    <!-- 정착지 메뉴: 수비대 -->
+    <string id="MLW_garrison_no_units" text="아직 커스텀 병종을 편집하지 않았습니다. 먼저 병종 편집기에서 유닛을 편집하십시오." />
+    <string id="MLW_garrison_left_roster" text="나의 커스텀 병종" />
+    <string id="MLW_garrison_right_roster" text="수비대 편성 구성" />
+
+    <!-- 정착지 메뉴: 민병대 -->
+    <string id="MLW_militia_none_to_disband" text="이곳에는 해산할 민병대가 없습니다." />
+
+    <!-- 편집기: 상단 헤더 및 명령 -->
+    <string id="MLW_editor_title" text="MLW 병종 편집기" />
+    <string id="MLW_editor_save" text="저장" />
+    <string id="MLW_editor_rename" text="이름 변경" />
+    <string id="MLW_editor_presets" text="스킬 프리셋" />
+    <string id="MLW_editor_copy" text="장비 및 스킬 복사" />
+    <string id="MLW_editor_points_left" text="남은 포인트" />
+    <string id="MLW_editor_unsaved" text="저장되지 않은 변경 사항" />
+    <string id="MLW_editor_discard_title" text="변경 사항을 취소하시겠습니까?" />
+    <string id="MLW_editor_discard_body" text="이 유닛에 저장되지 않은 변경 사항이 있습니다. 편집기를 닫고 변경 사항을 버리시겠습니까?" />
+    <string id="MLW_editor_discard_yes" text="버리기" />
+    <string id="MLW_editor_discard_no" text="계속 편집" />
+    <string id="MLW_editor_root_node" text="기본(루트) 병종" />
+    <string id="MLW_editor_upgrade_node" text="승급 병종" />
+
+    <!-- 편집기: 컬럼 -->
+    <string id="MLW_editor_skills" text="스킬" />
+    <string id="MLW_editor_combat" text="전투 스킬" />
+    <string id="MLW_editor_general" text="일반 스킬" />
+    <string id="MLW_editor_edit" text="편집" />
+    <string id="MLW_editor_loadout_n" text="장비 세트 {NUMBER}" />
+    <string id="MLW_editor_gender_mix_note" text="혼성 병종은 스폰될 때 각 병사의 성별이 무작위로 결정됩니다. 편집기 모델에는 다수 성별이 표시됩니다." />
+    <string id="MLW_editor_equipment" text="장비" />
+    <string id="MLW_editor_appearance" text="외형" />
+    <string id="MLW_editor_weapons" text="무기" />
+    <string id="MLW_editor_armor" text="방어구" />
+    <string id="MLW_editor_mount" text="탈것" />
+    <string id="MLW_editor_copy_loadouts" text="모든 장비 세트에 복사" />
+    <string id="MLW_editor_culture" text="문화" />
+    <string id="MLW_editor_gender" text="성별" />
+    <string id="MLW_editor_change" text="변경" />
+    <string id="MLW_editor_change_culture" text="문화 변경" />
+    <string id="MLW_editor_battle_loadout" text="전투 장비 세트" />
+    <string id="MLW_editor_male" text="남성" />
+    <string id="MLW_editor_female" text="여성" />
+    <string id="MLW_editor_mixed" text="혼성" />
+
+    <!-- 편집기: 미리보기 얼굴 -->
+    <string id="MLW_editor_face" text="얼굴" />
+    <string id="MLW_editor_randomize" text="미리보기 얼굴 다시 굴리기" />
+    <string id="MLW_editor_face_note" text="미리보기 전용입니다. 실제 전투에서는 해당 문화권의 외형 범위 내에서 병사마다 무작위 얼굴이 생성되므로 특정 얼굴을 고정할 수 없습니다." />
+
+    <!-- 편집기: 장비 슬롯 -->
+    <string id="MLW_slot_weapon1" text="무기 1" />
+    <string id="MLW_slot_weapon2" text="무기 2" />
+    <string id="MLW_slot_weapon3" text="무기 3" />
+    <string id="MLW_slot_weapon4" text="무기 4" />
+    <string id="MLW_slot_helmet" text="투구" />
+    <string id="MLW_slot_cape" text="망토 / 어깨" />
+    <string id="MLW_slot_body" text="갑옷" />
+    <string id="MLW_slot_gloves" text="장갑" />
+    <string id="MLW_slot_boots" text="신발" />
+    <string id="MLW_slot_mount" text="말 (탈것)" />
+    <string id="MLW_slot_harness" text="마갑 (안장)" />
+    <string id="MLW_slot_hint_empty" text="{SLOT}: 비어 있음" />
+    <string id="MLW_slot_hint_filled" text="{SLOT}: {ITEM}" />
+    <string id="MLW_slot_empty_option" text="(비우기)" />
+    <string id="MLW_slot_empty_hint" text="이 슬롯을 비워 둡니다." />
+    <string id="MLW_slot_item_hint" text="{TIER}티어  ·  가치 {VALUE}" />
+    <string id="MLW_slot_nothing_available" text="이 슬롯에 장착 가능한 아이템이 없습니다." />
+    <string id="MLW_slot_no_loadout" text="[MLW] 존재하지 않는 장비 세트입니다." />
+    <string id="MLW_slot_select" text="선택" />
+    <string id="MLW_slot_cancel" text="취소" />
+
+    <!-- 편집기: 파생 병종 분류 -->
+    <string id="MLW_editor_general_type" text="기본 병종 분류: {TYPE}" />
+    <string id="MLW_editor_general_type_note" text="병종 분류는 전투 장비 세트에 따라 자동 결정됩니다. 전투 시 각 병사는 자신에게 부여된 장비 세트에 맞춰 부대에 배치됩니다." />
+    <string id="MLW_editor_loadout_summary" text="설정된 장비 세트: {FILLED}/{TOTAL}" />
+    <string id="MLW_type_infantry" text="보병" />
+    <string id="MLW_type_archer" text="궁병" />
+    <string id="MLW_type_cavalry" text="기병" />
+    <string id="MLW_type_horsearcher" text="궁기병" />
+
+    <!-- 편집기: 승급 트리 -->
+    <string id="MLW_editor_upgraded_from" text="이전 단계 병종" />
+    <string id="MLW_editor_upgrade_1" text="승급 분기 1" />
+    <string id="MLW_editor_upgrade_2" text="승급 분기 2" />
+    <string id="MLW_editor_upgrade_3" text="승급 분기 3" />
+
+    <!-- 프리셋 창: 프레임 -->
+    <string id="MLW_presets_archetypes" text="병종 역할군 (아키타입)" />
+    <string id="MLW_presets_grade" text="등급 (GRADE)" />
+    <string id="MLW_presets_title" text="스킬 프리셋" />
+    <string id="MLW_presets_apply" text="적용" />
+    <string id="MLW_presets_cancel" text="취소" />
+    <string id="MLW_presets_current_label" text="현재 설정" />
+    <string id="MLW_presets_current" text="현재: {PRESET}" />
+    <string id="MLW_presets_custom" text="사용자 지정" />
+    <string id="MLW_presets_modified" text="(수정됨)" />
+    <string id="MLW_presets_points" text="{SPENT} / {BUDGET} 포인트" />
+    <string id="MLW_presets_ceiling" text="단일 스킬 최대 상한: {CEILING}" />
+    <string id="MLW_presets_note" text="MLW Reforged에서는 모든 등급(Grade)이 해금되어 있습니다." />
+    <string id="MLW_presets_describe" text="주력: {MAIN}.  부력: {SECONDARY}.  보조: {TERTIARY}." />
+
+    <!-- 프리셋 창: Grade VI 치트 등급 -->
+    <string id="MLW_presets_cheat_points" text="편집 가능한 모든 스킬 600 고정" />
+    <string id="MLW_presets_cheat_ceiling" text="해전(War Sails) 스킬 활성화 시 함께 포함" />
+    <string id="MLW_presets_cheat_note" text="치트 등급 — 일반 밸런스를 벗어난 최대 능력치 설정입니다." />
+
+    <!-- 프리셋 역할군 -->
+    <string id="MLW_arch_infantry" text="보병" />
+    <string id="MLW_arch_infantry_role" text="전열에서 검과 방패로 싸우는 표준 보병입니다." />
+    <string id="MLW_arch_spearman" text="창병" />
+    <string id="MLW_arch_spearman_role" text="전열에서 창을 다루며 기병 돌격을 저지합니다." />
+    <string id="MLW_arch_warrior" text="양손 전사 (충격보병)" />
+    <string id="MLW_arch_warrior_role" text="양손 무기로 적 전열을 분쇄하는 돌격 전사입니다." />
+    <string id="MLW_arch_archer" text="궁병" />
+    <string id="MLW_arch_archer_role" text="활을 주력으로 쓰면서 근접전도 어느 정도 수행합니다." />
+    <string id="MLW_arch_crossbowman" text="석궁병" />
+    <string id="MLW_arch_crossbowman_role" text="석궁과 보조 근접 무기 또는 창으로 무장합니다." />
+    <string id="MLW_arch_skirmisher" text="척후병 (투척병)" />
+    <string id="MLW_arch_skirmisher_role" text="투창과 투척 무기로 견제한 뒤 백병전에 돌입합니다." />
+    <string id="MLW_arch_cavalry" text="기병" />
+    <string id="MLW_arch_cavalry_role" text="마상에서 기병창과 검을 휘두르는 기병입니다." />
+    <string id="MLW_arch_horsearcher" text="궁기병" />
+    <string id="MLW_arch_horsearcher_role" text="빠른 기동력으로 마상에서 활을 쏘는 궁기병입니다." />
+    <string id="MLW_arch_custom" text="사용자 지정" />
+    <string id="MLW_arch_custom_role" text="스킬 수치를 직접 수동으로 배분합니다." />
+
+    <!-- 프리셋 창 내 스킬 명칭 -->
+    <string id="MLW_skill_onehanded" text="한손 무기" />
+    <string id="MLW_skill_twohanded" text="양손 무기" />
+    <string id="MLW_skill_polearm" text="장병기" />
+    <string id="MLW_skill_bow" text="활" />
+    <string id="MLW_skill_crossbow" text="석궁" />
+    <string id="MLW_skill_throwing" text="투척" />
+    <string id="MLW_skill_riding" text="기마술" />
+    <string id="MLW_skill_athletics" text="운동능력" />
+
+    <!-- militia.xml 민병대 병종명 -->
+    <string id="MLW_militia_footman" text="MLWR 민병대 보병" />
+    <string id="MLW_militia_archer" text="MLWR 민병대 궁병" />
+    <string id="MLW_militia_footman_veteran" text="MLWR 고참 민병대 보병" />
+    <string id="MLW_militia_archer_veteran" text="MLWR 고참 민병대 궁병" />
+
+    <!-- 정착지 병력 관리 화면 -->
+    <string id="MLW_branch_elite" text="정예(귀족)" />
+    <string id="MLW_branch_regular" text="일반(평민)" />
+    <string id="MLW_confirm_disband" text="해산" />
+    <string id="MLW_confirm_no" text="취소" />
+    <string id="MLW_confirm_yes" text="비우기" />
+    <string id="MLW_garrison_clear_body" text="{TYPES}개 병종, 총 {TOTAL}명 구성입니다. 이미 정착지에 주둔 중인 수비대는 사라지지 않으며, 단지 추가 자동 충원만 중단됩니다." />
+    <string id="MLW_garrison_clear_title" text="수비대 편성 구성을 비우시겠습니까?" />
+    <string id="MLW_garrison_mode_off" text="편성 구성이 저장되었으나, 현재 이 정착지는 바닐라 병종 모드로 설정되어 있습니다. 적용하려면 '커스텀 병종 사용'으로 전환하십시오." />
+    <string id="MLW_garrison_over_size" text="편성 목표 인원은 {TOTAL}명이지만, 이 정착지의 최대 수용 한도는 {LIMIT}명입니다. 초과 인원은 충원되지 않습니다." />
+    <string id="MLW_garrison_wage" text="{LIMIT}" />
+    <string id="MLW_io_choose_save" text="저장 파일 선택" />
+    <string id="MLW_io_compat" text="호환 버전" />
+    <string id="MLW_io_compat_value" text="v1 - v3" />
+    <string id="MLW_io_create_export" text="내보내기 생성" />
+    <string id="MLW_io_export_note" text="일반 및 정예 병종 트리 전체(4개 장비 세트, 외형, 프리셋, 승급 연결 포함)를 XML 파일로 저장합니다." />
+    <string id="MLW_io_export_title" text="병종 트리 내보내기" />
+    <string id="MLW_io_footer" text="내보낸 병종 데이터는 XML 저장 파일을 통해 다른 캠페인에서도 그대로 불러올 수 있습니다." />
+    <string id="MLW_io_format" text="포맷" />
+    <string id="MLW_io_format_version" text="버전 3" />
+    <string id="MLW_io_import_note" text="저장된 병종 트리를 불러옵니다. 현재 모드 환경에 없는 아이템은 빈 슬롯으로 처리되며 적용 전 미리 안내됩니다." />
+    <string id="MLW_io_import_title" text="병종 트리 불러오기" />
+    <string id="MLW_io_no_saves" text="내보낸 저장 파일이 없습니다." />
+    <string id="MLW_io_nothing_to_export" text="아직 내보낼 커스텀 병종 데이터가 없습니다." />
+    <string id="MLW_io_save_count" text="{COUNT} / {LIMIT}" />
+    <string id="MLW_io_saves" text="저장된 파일 목록" />
+    <string id="MLW_io_units_ready" text="편집된 병종 수" />
+    <string id="MLW_menu_manage" text="커스텀 병종 관리 (MLW)" />
+    <string id="MLW_militia_change" text="변경" />
+    <string id="MLW_militia_default_hint" text="이 슬롯에 모드 기본 내장 민병대 병종을 사용합니다." />
+    <string id="MLW_militia_default_option" text="기본 민병대 병종" />
+    <string id="MLW_militia_disband_body" text="{SETTLEMENT}에서 현재 민병대 {COUNT}명이 해산됩니다. 이후 정착지는 정상 속도로 새 민병대를 다시 양성합니다." />
+    <string id="MLW_militia_disband_title" text="민병대를 해산하시겠습니까?" />
+    <string id="MLW_militia_no_troops" text="아직 편집된 커스텀 병종이 없습니다. 먼저 병종 트리에서 병종을 구성하십시오." />
+    <string id="MLW_militia_note" text="모드 변경은 새로 양성되는 민병대부터 적용됩니다. 이미 정착지에 있는 민병대는 교체되거나 해산할 때까지 유지됩니다." />
+    <string id="MLW_militia_pick_body" text="이 민병대 슬롯에서 양성할 병종을 선택하십시오." />
+    <string id="MLW_militia_pick_hint" text="{TIER}티어  ·  {TYPE}  ·  {BRANCH}" />
+    <string id="MLW_militia_slot_melee" text="근접 민병대" />
+    <string id="MLW_militia_slot_ranged" text="원거리 민병대" />
+    <string id="MLW_militia_slot_veteran_melee" text="고참 근접 민병대" />
+    <string id="MLW_militia_slot_veteran_ranged" text="고참 원거리 민병대" />
+    <string id="MLW_mode_custom" text="커스텀 병종" />
+    <string id="MLW_mode_vanilla" text="바닐라 기본" />
+    <string id="MLW_row_loadouts" text="장비 세트 {FILLED}/4" />
+    <string id="MLW_row_tier" text="{TIER}티어" />
+    <string id="MLW_scr_branches" text="병종 계통" />
+    <string id="MLW_scr_clear_composition" text="템플릿 비우기" />
+    <string id="MLW_scr_disband" text="현재 민병대 해산" />
+    <string id="MLW_scr_elite" text="정예(귀족) 병종" />
+    <string id="MLW_scr_militia_count" text="현재 민병대 인원" />
+    <string id="MLW_scr_militia_roster" text="민병대 슬롯 편성" />
+    <string id="MLW_scr_militia_status" text="정착지 민병대 현황" />
+    <string id="MLW_scr_mode" text="운영 모드" />
+    <string id="MLW_scr_regular" text="일반(평민) 병종" />
+    <string id="MLW_scr_status" text="정착지 수비대 현황" />
+    <string id="MLW_scr_current_size" text="현재 수비대 규모" />
+    <string id="MLW_scr_maximum_size" text="최대 수비대 한도" />
+    <string id="MLW_scr_target_size" text="목표 편성 인원" />
+    <string id="MLW_scr_use_custom" text="커스텀 병종 사용" />
+    <string id="MLW_scr_use_vanilla" text="바닐라 병종 사용" />
+    <string id="MLW_scr_wage" text="일일 급여 한도" />
+    <string id="MLW_screen_breadcrumb" text="{PLACE} · {KIND}" />
+    <string id="MLW_screen_cancel" text="뒤로" />
+    <string id="MLW_screen_castle" text="성 관리" />
+    <string id="MLW_screen_done" text="완료" />
+    <string id="MLW_screen_footer" text="편성 구성은 즉시 소환이 아닌 충원 목표치입니다. 정착지의 식량, 수용 한도, 급여 한도 내에서 매일 조금씩 충원됩니다." />
+    <string id="MLW_screen_foreign" text="소유하지 않은 정착지이므로 수비대와 민병대를 관리할 수 없습니다." />
+    <string id="MLW_screen_title" text="MY LITTLE WARBAND" />
+    <string id="MLW_screen_town" text="도시 관리" />
+    <string id="MLW_settlement_selector" text="정착지 ({COUNT})" />
+    <string id="MLW_selector_city" text="도시" />
+    <string id="MLW_selector_castle" text="성" />
+    <string id="MLW_selector_none" text="소유한 정착지 없음" />
+    <string id="MLW_garrison_presets_header" text="저장된 수비대 템플릿" />
+    <string id="MLW_garrison_presets_note" text="템플릿은 SavedRoots\Garrison 폴더에 저장되어 어느 정착지나 캠페인에서도 불러올 수 있습니다. 단, 템플릿에 기록된 병종이 현재 캠페인의 병종과 일치할 때만 적용됩니다." />
+    <string id="MLW_garrison_preset_load" text="불러오기" />
+    <string id="MLW_garrison_preset_save" text="새로 저장" />
+    <string id="MLW_garrison_preset_delete" text="삭제" />
+    <string id="MLW_garrison_preset_empty" text="이 정착지에는 아직 저장된 수비대 편성 구성이 없습니다." />
+    <string id="MLW_garrison_preset_default" text="{SETTLEMENT} 수비대" />
+    <string id="MLW_garrison_preset_delete_confirm" text="삭제" />
+    <string id="MLW_tab_garrison" text="수비대" />
+    <string id="MLW_tab_garrison_title" text="수비대 관리" />
+    <string id="MLW_tab_io" text="불러오기 / 내보내기" />
+    <string id="MLW_tab_io_title" text="불러오기 / 내보내기" />
+    <string id="MLW_tab_militia" text="민병대" />
+    <string id="MLW_tab_militia_title" text="민병대 관리" />
+    <string id="MLW_tab_trees" text="병종 트리" />
+    <string id="MLW_tab_trees_title" text="병종 트리" />
+
+    <!-- 병종 트리 및 수비대 개요 -->
+    <string id="MLW_garrison_edit_template" text="수비대 편성 템플릿 편집" />
+    <string id="MLW_garrison_edit_template_note" text="표준 부대 편성 화면을 엽니다. 원하는 병종을 오른쪽 목록으로 옮긴 뒤 완료(Done)를 누르면 이 정착지의 목표 수비대 구성으로 저장됩니다." />
+    <string id="MLW_garrison_row_info" text="{TIER}티어  ·  {TYPE}" />
+    <string id="MLW_garrison_template_empty" text="이 정착지에 저장된 편성 구성이 없습니다. '수비대 편성 템플릿 편집'을 눌러 구성을 만드십시오." />
+    <string id="MLW_garrison_template_header" text="현재 수비대 템플릿 ({TYPES})" />
+    <string id="MLW_tree_branch_info" text="병종 {COUNT}종" />
+    <string id="MLW_tree_culture_none" text="없음" />
+    <string id="MLW_tree_detached" text="이 계통의 병종 {COUNT}종이 트리와 연결되어 있지 않습니다. 오른쪽 목록에서 확인할 수 있으며 상위 병종 편집기의 승급 슬롯에서 다시 연결할 수 있습니다." />
+    <string id="MLW_tree_header_culture" text="문화: {CULTURE}  ·  계통 내 병종 {COUNT}종" />
+    <string id="MLW_tree_header_root" text="기본 병종: {NAME}  ·  {TIER}티어" />
+    <string id="MLW_tree_hint" text="병종을 클릭하면 편집기가 열립니다. 승급 트리 연결은 편집기 내 3개의 '승급 분기' 슬롯에서 설정할 수 있습니다." />
+    <string id="MLW_tree_list_detached" text="{TYPE}  ·  트리 미연결" />
+    <string id="MLW_tree_list_tier" text="{TIER}티어" />
+    <string id="MLW_tree_node_root" text="기본 병종" />
+    <string id="MLW_tree_node_type" text="{TIER}티어  ·  {TYPE}" />
+    <string id="MLW_tree_node_upgrade" text="승급  ·  장비 세트 {FILLED}/4" />
+    <string id="MLW_tree_open_root" text="기본 병종 편집기 열기" />
+    <string id="MLW_tree_tier" text="{TIER}티어" />
+    <string id="MLW_tree_tier_root" text="기본(루트)" />
+    <string id="MLW_tree_tier_step" text="{STEP}차 승급" />
+    <string id="MLW_tree_troops_header" text="계통 내 병종 목록 ({COUNT})" />
+
+    <!-- 공통 저장 대화상자 버튼 -->
+    <string id="MLW_preset_name_confirm" text="계속" />
+    <string id="MLW_preset_overwrite_confirm" text="덮어쓰기" />
+    <string id="MLW_preset_unnamed" text="슬롯 {SLOT}" />
+
+    <!-- 민병대 불러오기/내보내기 및 모드 상태 -->
+    <string id="MLW_garrison_feature_off" text="모드 설정에서 커스텀 수비대 기능이 꺼져 있어, 이곳의 설정과 무관하게 바닐라 병종이 충원됩니다." />
+    <string id="MLW_militia_io_bad_name" text="저장 파일 이름을 입력해야 합니다." />
+    <string id="MLW_militia_io_bad_path" text="유효하지 않은 파일 이름입니다." />
+    <string id="MLW_militia_io_choose" text="민병대 저장 파일 선택" />
+    <string id="MLW_militia_io_create" text="민병대 내보내기 생성" />
+    <string id="MLW_militia_io_default_name" text="{SETTLEMENT} 민병대" />
+    <string id="MLW_militia_io_delete_body" text="디스크에서 해당 파일이 삭제됩니다. 현재 진행 중인 캠페인에는 영향을 주지 않습니다." />
+    <string id="MLW_militia_io_delete_failed" text="삭제 실패: {REASON}" />
+    <string id="MLW_militia_io_delete_title" text="어느 민병대 저장 파일을 삭제하시겠습니까?" />
+    <string id="MLW_militia_io_deleted" text="민병대 저장 파일이 삭제되었습니다." />
+    <string id="MLW_militia_io_empty" text="이 민병대 저장 파일에는 병종 데이터가 없습니다." />
+    <string id="MLW_militia_io_export_failed" text="내보내기 실패: {REASON}" />
+    <string id="MLW_militia_io_export_note" text="4개의 민병대 슬롯 구성과 해당 병종들의 전체 상태(이름, 외형, 스킬, 프리셋, 모든 장비 세트)를 함께 저장합니다." />
+    <string id="MLW_militia_io_export_title" text="민병대 내보내기" />
+    <string id="MLW_militia_io_file_hint" text="저장 일시: {WHEN}" />
+    <string id="MLW_militia_io_format" text="민병대 포맷 버전 1" />
+    <string id="MLW_militia_io_full" text="민병대 저장 슬롯({LIMIT}개)이 모두 찼습니다. 기존 파일에 덮어쓰거나 먼저 삭제하십시오." />
+    <string id="MLW_militia_io_import_failed" text="불러오기 실패: {REASON}" />
+    <string id="MLW_militia_io_import_note" text="파일 전체를 먼저 검증한 뒤 적용합니다. 정착지의 커스텀/바닐라 모드 여부와 수비대 템플릿은 변경되지 않습니다." />
+    <string id="MLW_militia_io_import_title" text="민병대 불러오기" />
+    <string id="MLW_militia_io_imported" text="민병대 불러오기 완료: 병종 {UNITS}종, 슬롯 {SLOTS}개 설정됨." />
+    <string id="MLW_militia_io_imported_partial" text="민병대 불러오기 완료: 병종 {UNITS}종, 슬롯 {SLOTS}개 설정됨. 저장 파일의 병종 중 {MISSING}종은 현재 환경에 존재하지 않아 건너뛰었습니다." />
+    <string id="MLW_militia_io_missing" text="해당 민병대 저장 파일을 찾을 수 없습니다." />
+    <string id="MLW_militia_io_name_body" text="SavedRoots\Militia 폴더에 저장되며 다른 캠페인에서도 불러올 수 있습니다." />
+    <string id="MLW_militia_io_name_title" text="민병대 내보내기 파일 이름 입력" />
+    <string id="MLW_militia_io_no_campaign" text="실행 중인 캠페인이 없습니다." />
+    <string id="MLW_militia_io_no_targets" text="이 저장 파일의 병종 중 현재 환경에 존재하는 병종이 없습니다." />
+    <string id="MLW_militia_io_none" text="저장된 민병대 파일이 없습니다." />
+    <string id="MLW_militia_io_nothing" text="내보낼 민병대 설정이 없습니다." />
+    <string id="MLW_militia_io_overwrite_body" text="'{NAME}' 이름의 민병대 저장 파일이 이미 존재합니다. 덮어쓰시겠습니까?" />
+    <string id="MLW_militia_io_overwrite_title" text="이 민병대 저장 파일을 덮어쓰시겠습니까?" />
+    <string id="MLW_militia_io_pick_body" text="불러올 저장 파일을 선택하십시오. 파일 전체 검증이 끝난 후에만 적용됩니다." />
+    <string id="MLW_militia_io_pick_title" text="민병대 저장 파일 목록" />
+    <string id="MLW_militia_io_saved" text="민병대 구성이 '{NAME}'(으)로 저장되었습니다." />
+    <string id="MLW_militia_io_slots" text="민병대 저장 슬롯" />
+    <string id="MLW_militia_io_wrong_type" text="올바른 민병대 내보내기 파일이 아닙니다." />
+    <string id="MLW_militia_io_wrong_version" text="이 민병대 파일의 버전은 {FOUND}이며, 현재 버전에서는 최대 {SUPPORTED}까지만 지원합니다." />
+    <string id="MLW_mode_disabled" text="모드 설정에서 비활성화됨" />
+
+    <!-- 편집기: 아이템 목록 필터 -->
+    <string id="MLW_editor_filter_culture" text="문화 필터" />
+    <string id="MLW_editor_filter_tier" text="티어 필터" />
+    <string id="MLW_editor_filters" text="아이템 필터" />
+    <string id="MLW_filter_all" text="전체" />
+    <string id="MLW_filter_culture_body" text="하나 이상의 문화를 선택하십시오. 아무것도 선택하지 않으면 모든 문화의 아이템이 표시됩니다." />
+    <string id="MLW_filter_culture_title" text="문화별 아이템 필터링" />
+    <string id="MLW_filter_no_culture" text="문화 없음 (공용)" />
+    <string id="MLW_filter_no_cultures" text="아이템 문화를 찾을 수 없습니다." />
+    <string id="MLW_filter_no_tiers" text="아이템 티어를 찾을 수 없습니다." />
+    <string id="MLW_filter_none" text="필터 없음: 이 슬롯에 장착 가능한 모든 아이템이 표시됩니다." />
+    <string id="MLW_filter_selected_hint" text="선택됨" />
+    <string id="MLW_filter_summary" text="문화: {CULTURES}  ·  티어: {TIERS}" />
+    <string id="MLW_filter_tier_body" text="하나 이상의 티어를 선택하십시오. 아무것도 선택하지 않으면 모든 티어의 아이템이 표시됩니다." />
+    <string id="MLW_filter_tier_name" text="{TIER}티어" />
+    <string id="MLW_filter_tier_title" text="티어별 아이템 필터링" />
+    <string id="MLW_slot_nothing_filtered" text="현재 필터 조건에 맞는 아이템이 없습니다. ({FILTER})" />
+
+    <!-- 수비대 템플릿: SavedRoots\Garrison 파일 입출력 -->
+    <string id="MLW_garrison_io_apply_body" text="{SETTLEMENT}에 이 수비대 구성을 적용합니다. 병종 자체는 변경되지 않으며, 저장된 병종과 현재 병종이 일치하는지 확인한 뒤 일치할 때만 적용됩니다." />
+    <string id="MLW_garrison_io_apply_confirm" text="적용" />
+    <string id="MLW_garrison_io_apply_title" text="이 템플릿을 적용하시겠습니까?" />
+    <string id="MLW_garrison_io_bad_name" text="템플릿 이름을 입력해야 합니다." />
+    <string id="MLW_garrison_io_bad_path" text="유효하지 않은 파일 이름입니다." />
+    <string id="MLW_garrison_io_delete_body" text="디스크에서 템플릿 파일이 삭제됩니다. 이미 이 구성을 사용 중인 정착지는 그대로 유지됩니다." />
+    <string id="MLW_garrison_io_delete_failed" text="삭제 실패: {REASON}" />
+    <string id="MLW_garrison_io_delete_title" text="어느 템플릿을 삭제하시겠습니까?" />
+    <string id="MLW_garrison_io_deleted" text="템플릿이 삭제되었습니다." />
+    <string id="MLW_garrison_io_empty" text="이 템플릿에는 병종이 포함되어 있지 않습니다." />
+    <string id="MLW_garrison_io_export_failed" text="내보내기 실패: {REASON}" />
+    <string id="MLW_garrison_io_file_hint" text="{TYPES}개 병종, 총 {TOTAL}명  ·  저장 일시: {WHEN}" />
+    <string id="MLW_garrison_io_file_unreadable" text="이 파일을 읽을 수 없습니다." />
+    <string id="MLW_garrison_io_full" text="템플릿 슬롯({LIMIT}개)이 모두 찼습니다. 기존 템플릿에 덮어쓰거나 먼저 삭제하십시오." />
+    <string id="MLW_garrison_io_import_failed" text="불러오기 실패: {REASON}" />
+    <string id="MLW_garrison_io_imported" text="{SETTLEMENT}에 템플릿 적용 완료: {TYPES}개 병종, 총 {TOTAL}명." />
+    <string id="MLW_garrison_io_missing" text="해당 템플릿 파일을 찾을 수 없습니다." />
+    <string id="MLW_garrison_io_name_body" text="SavedRoots\Garrison 폴더에 저장되며 다른 캠페인에서도 불러올 수 있습니다." />
+    <string id="MLW_garrison_io_name_title" text="수비대 템플릿 이름 입력" />
+    <string id="MLW_garrison_io_no_campaign" text="실행 중인 캠페인이 없습니다." />
+    <string id="MLW_garrison_io_no_settlement" text="선택된 정착지가 없습니다." />
+    <string id="MLW_garrison_io_none" text="저장된 수비대 템플릿이 없습니다." />
+    <string id="MLW_garrison_io_nothing" text="내보낼 수비대 편성 구성이 없습니다." />
+    <string id="MLW_garrison_io_overwrite_body" text="'{NAME}' 이름의 템플릿이 이미 존재합니다. 덮어쓰시겠습니까?" />
+    <string id="MLW_garrison_io_overwrite_title" text="이 템플릿을 덮어쓰시겠습니까?" />
+    <string id="MLW_garrison_io_pick_body" text="선택한 템플릿으로 {SETTLEMENT}의 수비대 편성 구성을 교체합니다." />
+    <string id="MLW_garrison_io_pick_title" text="수비대 템플릿 목록" />
+    <string id="MLW_garrison_io_saved" text="수비대 템플릿이 '{NAME}'(으)로 저장되었습니다." />
+    <string id="MLW_garrison_io_wrong_type" text="올바른 수비대 템플릿 파일이 아닙니다." />
+    <string id="MLW_garrison_io_wrong_version" text="이 템플릿의 버전은 {FOUND}이며, 현재 버전에서는 최대 {SUPPORTED}까지만 지원합니다." />
+
+    <!-- 구 장비 편집기: 모듈 및 장비 세트 -->
+    <string id="TD_Btn_Cancel" text="취소" />
+    <string id="TD_Btn_Confirm" text="확인" />
+    <string id="TD_Mod_All" text="모든 모듈" />
+    <string id="TD_Mod_Select" text="모듈 선택" />
+    <string id="TD_Mod_SelectMulti" text="모듈 선택 (다중 선택 가능):" />
+    <string id="TD_Set_Battle" text="전투용 장비 세트" />
+    <string id="TD_Set_Civilian" text="평상복 장비 세트" />
+    <string id="TD_Set_Modify_Equipment" text="장비 수정" />
+    <string id="TD_Set_TempNameFormat" text="{NAME}-{SET} {INDEX}" />
+
+    <!-- 수비대 템플릿 불러오기 거부 안내 및 민병대 해산 알림 -->
+    <string id="MLW_garrison_io_refuse_different" text="다음 병종의 상태가 저장된 템플릿과 다릅니다: {NAMES}." />
+    <string id="MLW_garrison_io_refuse_missing" text="템플릿에 포함된 병종 중 {COUNT}종이 현재 게임에 존재하지 않습니다." />
+    <string id="MLW_garrison_io_refuse_unverifiable" text="파일에 다음 병종의 저장된 상태 정보가 없습니다: {NAMES}." />
+    <string id="MLW_garrison_io_refused" text="템플릿이 적용되지 않았습니다. ({REASONS}) 먼저 '불러오기 / 내보내기' 탭에서 일치하는 병종 트리를 불러온 뒤 다시 시도하십시오." />
+    <string id="MLW_militia_disbanded" text="{SETTLEMENT}: 민병대 해산 완료 ({COUNT}명). 이제 지정된 병종으로 민병대가 새로 충원됩니다." />
+  </strings>
+</base>
