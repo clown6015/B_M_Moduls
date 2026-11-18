@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+    <tags>
+        <tag language="한국어" />
+    </tags>
+    <strings>
+        <string id="player_settlement_h_01" text="플레이어 정착지" />
+        <string id="player_settlement_h_02" text="진행 중인 게임이 아닙니다!" />
+        <string id="player_settlement_h_03" text="클랜 티어가 너무 낮습니다. {TIER}티어 필요" />
+        <string id="player_settlement_h_04" text="플레이어 정착지 모드가 비활성화되어 있습니다" />
+        <string id="player_settlement_h_05" text="자금이 부족합니다 ({CURRENT_FUNDS}/{REQUIRED_FUNDS})" />
+        <string id="player_settlement_h_06" text="건설 진행 중" />
+        <string id="player_settlement_h_07" text="도시 건설 불가: {TOWN_REASON}\r\n\r\n성 건설 불가: {CASTLE_REASON}\r\n\r\n마을 건설 불가: {VILLAGE_REASON}" />
+        <string id="player_settlement_h_08" text="건설 가능한 최대 도시 수에 도달했습니다" />
+        <string id="player_settlement_h_09" text="건설 가능한 최대 성 수에 도달했습니다" />
+        <string id="player_settlement_h_10" text="건설 가능한 최대 마을 수에 도달했습니다" />
+        <string id="player_settlement_h_11" text="마을을 귀속시킬 수 있는 후보 정착지가 없습니다" />
+        <string id="player_settlement_h_12" text="플레이어 정착지 건설 옵션 표시/숨기기" />
+        <string id="player_settlement_h_13" text="정착지 재건 불가: {REASON}" />
+    </strings>
+</base>

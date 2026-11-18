@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+    <tags>
+        <tag language="한국어" />
+    </tags>
+    <strings>
+        <string id="player_settlement_01" text="플레이어 정착지" />
+        <string id="player_settlement_02" text="플레이어 정착지 건설" />
+        <string id="player_settlement_03" text="정착지의 이름을 무엇으로 짓겠습니까?" />
+        <string id="player_settlement_04" text="도시 건설" />
+        <string id="player_settlement_05" text="정말 이곳에 도시를 건설하시겠습니까?" />
+        <string id="player_settlement_06" text="이 정착지는 현재 아직 건설 중입니다." />
+        <string id="player_settlement_07" text="{TOWN} 건설이 완료되었습니다!" />
+        <string id="player_settlement_08" text="이후 시점의 저장 파일에서 플레이어 도시가 생성되었습니다. 이전 저장 파일은 지원되지 않으며 세이브 손상이나 도시 '잔상(고스팅)' 현상을 유발할 수 있습니다." />
+        <string id="player_settlement_09" text="도시 문화 선택" />
+        <string id="player_settlement_10" text="{TOWN}의 문화를 선택하십시오" />
+        <string id="player_settlement_11" text="마을 문화 선택" />
+        <string id="player_settlement_12" text="{VILLAGE}의 문화를 선택하십시오" />
+        <string id="player_settlement_13" text="마을 건설" />
+        <string id="player_settlement_14" text="정말 이곳에 마을을 건설하시겠습니까?" />
+        <string id="player_settlement_15" text="마을 유형 선택" />
+        <string id="player_settlement_16" text="{VILLAGE}의 주요 특산품 유형을 선택하십시오" />
+        <string id="player_settlement_17" text="정착지 데이터를 저장하는 중 오류가 발생했습니다!" />
+        <string id="player_settlement_18" text="정말 이곳에 성을 건설하시겠습니까?" />
+        <string id="player_settlement_19" text="성 건설" />
+        <string id="player_settlement_20" text="성 문화 선택" />
+        <string id="player_settlement_21" text="{CASTLE}의 문화를 선택하십시오" />
+        <string id="player_settlement_22" text="마을 귀속 정착지 선택" />
+        <string id="player_settlement_23" text="이 마을이 귀속될 정착지(도시/성)를 선택하십시오" />
+        <string id="player_settlement_24" text="{SETTLEMENT_NAME} 정착지는 {BUILD_TIME}에 {FACTION_TERM}의 {HERO_NAME}에 의해 세워졌습니다." />
+        <string id="player_settlement_25" text="정착지 건설에 관한 선택지를 검토하고 싶네." />
+        <string id="player_settlement_26" text="도시를 건설해야겠어." />
+        <string id="player_settlement_27" text="마을을 건설해야겠어." />
+        <string id="player_settlement_28" text="성을 건설해야겠어." />
+        <string id="player_settlement_29" text="아무것도 아니네." />
+        <string id="player_settlement_30" text="손상된 템플릿" />
+        <string id="player_settlement_31" text="플레이어 정착지 모드에서 손상된 템플릿이 발견되었습니다. \n이 화면을 캡처하여 '{LOG_PATH}' 경로의 로그 파일과 함께 제보해 주십시오. \n{ERROR_DETAIL}\n\n충돌을 방지하기 위해 긴급 저장 파일이 새로 생성되었습니다. 불러오기 전에 게임을 먼저 종료하는 것을 강력히 권장합니다." />
+        <string id="player_settlement_32" text="게임 종료" />
+        <string id="player_settlement_33" text="복구 시도" />
+
+        <!-- V6 Hints -->
+        <string id="player_settlement_36" text="성문 위치를 선택하십시오. \r\n도움말을 보려면 {HELP_KEY} 키를 누르십시오. \r\n적용하려면 아무 곳이나 {MOUSE_CLICK} 클릭하고, 정착지 배치로 돌아가려면 {ESC_KEY} 키를 누르십시오." />
+        <string id="player_settlement_37" text="정착지를 선택하십시오. \r\n도움말을 보려면 {HELP_KEY} 키를 누르십시오. \r\n적용하려면 아무 곳이나 {MOUSE_CLICK} 클릭하고, 취소하려면 {ESC_KEY} 키를 누르십시오.  \r\n정밀 편집 모드로 전환하려면 {DEEP_EDIT_KEY} 키를 사용하십시오. \r\n외형 옵션을 변경하려면 {CYCLE_MODIFIER_KEY} 키와 {CYCLE_BACK_KEY} / {CYCLE_NEXT_KEY} 키를 사용하십시오.\r\n회전 각도를 변경하려면 {ROTATE_MODIFIER_KEY} 키와 {ROTATE_BACK_KEY} / {ROTATE_NEXT_KEY} 키를 사용하십시오. \r\n전후 기울기를 변경하려면 {ROTATE_MODIFIER_KEY} 키와 {ROTATE_FORWARD_KEY} / {ROTATE_BACKWARD_KEY} 키를 사용하십시오. \r\n축 회전을 변경하려면 {ROTATE_MODIFIER_KEY} + {ROTATE_MODIFIER_ALTERNATE} 키와 {ROTATE_FORWARD_KEY} / {ROTATE_BACKWARD_KEY} 키를 사용하십시오. \r\n크기(배율)를 변경하려면 {SCALE_MODIFIER_KEY} 키와 {SCALE_BACK_KEY} / {SCALE_NEXT_KEY} 키를 사용하십시오. \r\n위아래 높이를 이동하려면 {CYCLE_MODIFIER_KEY} 키와 {MOVE_UP_KEY} / {MOVE_DOWN_KEY} 키를 사용하십시오." />
+        <string id="player_settlement_38" text="도움말을 보려면 {HELP_KEY} 키를 누르십시오. \r\n적용하려면 {APPLY_KEY} 키를 누르고, 취소하려면 {ESC_KEY} 키를 누르십시오.  \r\n정밀 편집 모드에서 일반 배치 모드로 전환하려면 {DEEP_EDIT_KEY} 키를 사용하십시오. \r\n선택된 세부 모델을 변경하려면 {CYCLE_MODIFIER_KEY} 키와 {CYCLE_BACK_KEY} / {CYCLE_NEXT_KEY} 키를 사용하십시오.\r\n위치를 재배치하려면 {ROTATE_MODIFIER_KEY} 키와 {MOUSE_CLICK} 클릭을 사용하십시오. \r\n회전 각도를 변경하려면 {ROTATE_MODIFIER_KEY} 키와 {ROTATE_BACK_KEY} / {ROTATE_NEXT_KEY} 키를 사용하십시오. \r\n전후 기울기를 변경하려면 {ROTATE_MODIFIER_KEY} 키와 {ROTATE_FORWARD_KEY} / {ROTATE_BACKWARD_KEY} 키를 사용하십시오. \r\n축 회전을 변경하려면 {ROTATE_MODIFIER_KEY} + {ROTATE_MODIFIER_ALTERNATE} 키와 {ROTATE_FORWARD_KEY} / {ROTATE_BACKWARD_KEY} 키를 사용하십시오. \r\n크기(배율)를 변경하려면 {SCALE_MODIFIER_KEY} 키와 {SCALE_BACK_KEY} / {SCALE_NEXT_KEY} 키를 사용하십시오. \r\n위아래 높이를 이동하려면 {CYCLE_MODIFIER_KEY} 키와 {MOVE_UP_KEY} / {MOVE_DOWN_KEY} 키를 사용하십시오. \r\n선택한 모델을 삭제하려면 {DELETE_KEY} 키를 사용하십시오. \r\n이전 삭제를 취소(복구)하려면 {UNDELETE_MODIFIER_KEY} 키와 {DELETE_KEY} 키를 함께 사용하십시오." />
+
+        <!-- V6 Rebuild texts -->
+        <string id="player_settlement_39" text="플레이어 정착지 재건" />
+        <string id="player_settlement_40" text="이 정착지를 재건해야겠어." />
+        <string id="player_settlement_41" text="정착지 재건" />
+        <string id="player_settlement_42" text="{SETTLEMENT} 재건" />
+
+        <!-- V7 War Sails texts -->
+        <string id="player_settlement_43" text="항구 위치를 선택하십시오. \r\n도움말을 보려면 {HELP_KEY} 키를 누르십시오. \r\n적용하려면 아무 곳이나 {MOUSE_CLICK} 클릭하고, 이전 단계로 돌아가려면 {ESC_KEY} 키를 누르십시오." />
+        <string id="player_settlement_44" text="항구 추가" />
+        <string id="player_settlement_45" text="이 정착지에 항구를 추가하시겠습니까?" />
+    </strings>
+</base>

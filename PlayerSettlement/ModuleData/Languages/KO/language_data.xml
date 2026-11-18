@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData id="한국어" name="한국어" subtitle_extension="ko" supported_iso="ko,kor,ko-kr" under_development="false">
+  <LanguageFile xml_path="KO/std_dialogs.xml" />
+  <LanguageFile xml_path="KO/std_hints.xml" />
+  <LanguageFile xml_path="KO/std_module_strings_xml.xml" />
+</LanguageData>

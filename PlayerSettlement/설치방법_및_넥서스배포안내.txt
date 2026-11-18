@@ -1,0 +1,44 @@
+================================================================================
+[Bannerlord] Player Settlement (v7.5.1) 한국어 번역 패치
+================================================================================
+
+1. 구성 파일 안내
+--------------------------------------------------------------------------------
+- ModuleData\Languages\KO\language_data.xml
+- ModuleData\Languages\KO\std_dialogs.xml (정착지 건설/재건/항구 추가 대화 및 배치 조작 안내 43문장)
+- ModuleData\Languages\KO\std_hints.xml (건설 조건/비용/제한 툴팁 힌트 13문장)
+- ModuleData\Languages\KO\std_module_strings_xml.xml (MCM 설정 및 단축키 설명 136문장)
+  * War Sails DLC 항구 추가 기능 및 V6 정밀 편집(Deep Edit) 모드 안내까지 100% 한글화
+
+2. 수동 설치 방법 (모드 폴더에 바로 적용할 때)
+--------------------------------------------------------------------------------
+본 폴더 안의 `ModuleData` 폴더를 아래의 PlayerSettlement 모드 설치 경로에 그대로 복사(덮어쓰기)하세요.
+
+[설치 경로 예시]
+C:\Program Files (x86)\Steam\steamapps\common\Mount & Blade II Bannerlord\Modules\PlayerSettlement\
+
+정상적으로 적용되면 아래 경로에 파일이 위치하게 됩니다:
+...\Modules\PlayerSettlement\ModuleData\Languages\KO\language_data.xml
+...\Modules\PlayerSettlement\ModuleData\Languages\KO\std_dialogs.xml
+...\Modules\PlayerSettlement\ModuleData\Languages\KO\std_hints.xml
+...\Modules\PlayerSettlement\ModuleData\Languages\KO\std_module_strings_xml.xml
+
+3. 넥서스 모드(Nexus Mods) 업로드 및 패키징 가이드
+--------------------------------------------------------------------------------
+[권장 압축 구조]
+PlayerSettlement_Korean_Translation.zip
+ └── Modules
+      └── PlayerSettlement
+           └── ModuleData
+                └── Languages
+                     └── KO
+                          ├── language_data.xml
+                          ├── std_dialogs.xml
+                          ├── std_hints.xml
+                          └── std_module_strings_xml.xml
+
+[넥서스 업로드 시 참고 정보]
+- 원본 모드(Requirements): Player Settlement (https://www.nexusmods.com/mountandblade2bannerlord/mods/7298)
+- 호환 버전: v7.5.1 기준
+- 태그(Tags): Translation / Korean
+================================================================================

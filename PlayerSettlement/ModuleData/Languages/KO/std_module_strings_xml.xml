@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+    <tags>
+        <tag language="한국어" />
+    </tags>
+    <strings>
+        <string id="player_settlement_n_01" text="플레이어 정착지" />
+        <string id="player_settlement_n_02" text=" (자동)" />
+        <string id="player_settlement_n_03" text="정착지 건설 시 새 저장 파일을 생성합니다. 기본값(꺼짐)일 경우 현재 활성 저장 파일에 덮어씁니다.  [ 기본값: 꺼짐 ]" />
+        <string id="player_settlement_n_04" text="건설 시 새 저장 파일 생성" />
+        <string id="player_settlement_n_05" text="최소 하나 이상의 건설 조건이 충족될 때까지 건설 패널을 항상 숨깁니다. \n대화 선택지를 사용할 때도 건설 가능한 항목만 표시되며, 이 옵션이 꺼져 있으면 건설 불가 사유가 툴팁으로 표시됩니다.  [ 기본값: 꺼짐 ]" />
+        <string id="player_settlement_n_06" text="건설 가능 시점까지 패널 숨기기" />
+        <string id="player_settlement_n_07" text="건설 패널을 항상 숨깁니다. 오직 동료와의 대화(활성화된 경우)를 통해서만 건설을 시작할 수 있습니다.  [ 기본값: 꺼짐 ]" />
+        <string id="player_settlement_n_08" text="몰입 모드 (건설 패널 숨김)" />
+        <string id="player_settlement_n_09" text="동료와의 건설 대화 선택지를 제거합니다. 오직 월드맵 건설 패널(활성화된 경우)을 통해서만 건설을 시작할 수 있습니다.  [ 기본값: 꺼짐 ]" />
+        <string id="player_settlement_n_10" text="대화 선택지 비활성화" />
+        <string id="player_settlement_n_11" text="정착지를 배치할 위치와 회전 각도를 직접 지정할 수 있게 합니다. 비활성화하면 플레이어 부대의 현재 위치에 즉시 건설됩니다.  [ 기본값: 켜짐 ]" />
+        <string id="player_settlement_n_12" text="정착지 직접 배치 활성화" />
+        <string id="player_settlement_n_13" text="마우스 이동으로 정착지를 회전시킬 때의 속도입니다. \n정착지 회전은 'Alt' 키를 누른 상태에서 적용됩니다.  [ 기본값: 50% ]" />
+        <string id="player_settlement_n_14" text="마우스 회전 속도" />
+        <string id="player_settlement_n_15" text="회전 키를 사용하여 정착지를 회전시킬 때의 속도입니다. \n키를 변경하지 않았다면 기본 회전 키는 'Q'와 'E'입니다. \n정착지 회전은 'Alt' 키를 누른 상태에서 적용됩니다. [ 기본값: 100% ]" />
+        <string id="player_settlement_n_16" text="키보드 회전 속도" />
+        <string id="player_settlement_n_17" text="정착지 외형 선택지를 선택한 문화권으로만 제한합니다. \n비활성화하면 모든 문화권의 정착지 외형을 선택할 수 있습니다. \n'Shift' 키를 누른 채 전환 키(기본 'Q'/'E')를 눌러 외형을 순환할 수 있습니다.  [ 기본값: 켜짐 ]" />
+        <string id="player_settlement_n_18" text="선택한 문화권 외형만 허용" />
+        <string id="player_settlement_n_19" text="배치 중 'Shift' + 전환 키로 정착지 외형을 순환하는 속도, 또는 'Ctrl' + 크기 조절 키로 정착지 크기를 조절하는 속도입니다. \n기본 전환 및 크기 조절 키는 'Q'와 'E'입니다.  [ 기본값: 50% ]" />
+        <string id="player_settlement_n_20" text="정착지 외형 전환/크기 조절 속도" />
+        <string id="player_settlement_n_21" text="플레이어 정착지 모드를 활성화하고 월드맵 화면에 건설 버튼을 추가합니다.  [ 기본값: 켜짐 ]" />
+        <string id="player_settlement_n_22" text="정착지를 건설하기 위해 클랜이 지정된 티어 이상이어야 합니다.  [ 기본값: 켜짐 ]" />
+        <string id="player_settlement_n_23" text="클랜 티어 조건 사용" />
+        <string id="player_settlement_n_24" text="정착지를 건설하기 위해 필요한 최소 클랜 티어입니다.  [ 기본값: 4 ]" />
+        <string id="player_settlement_n_25" text="필요 클랜 티어" />
+        <string id="player_settlement_n_26" text="새 도시를 건설할 때 지정된 액수의 자금(디나르)을 요구합니다.  [ 기본값: 켜짐 ]" />
+        <string id="player_settlement_n_27" text="도시 건설 비용 사용" />
+        <string id="player_settlement_n_28" text="새 도시를 건설하는 데 필요한 비용(디나르)입니다.  [ 기본값: 10 000 ]" />
+        <string id="player_settlement_n_29" text="필요 도시 건설 비용" />
+        <string id="player_settlement_n_30" text="건설 소요 기간을 건너뛰고 정착지 건설을 즉시 완료합니다.  [ 기본값: 꺼짐 ]" />
+        <string id="player_settlement_n_31" text="즉시 건설 완료" />
+        <string id="player_settlement_n_32" text="도시 건설이 완료되기까지 걸리는 일수입니다.  [ 기본값: 7 ]" />
+        <string id="player_settlement_n_34" text="도시 문화로 플레이어의 문화를 자동 사용합니다. 기본값(꺼짐)일 경우 건설 시 도시 문화를 직접 선택할 수 있습니다.  [ 기본값: 꺼짐 ]" />
+        <string id="player_settlement_n_35" text="플레이어 문화 자동 사용" />
+        <string id="player_settlement_n_36" text="새 마을을 건설할 때 지정된 액수의 자금(디나르)을 요구합니다.  [ 기본값: 켜짐 ]" />
+        <string id="player_settlement_n_37" text="마을 건설 비용 사용" />
+        <string id="player_settlement_n_38" text="새 마을을 건설하는 데 필요한 비용(디나르)입니다.  [ 기본값: 3 000 ]" />
+        <string id="player_settlement_n_39" text="필요 마을 건설 비용" />
+        <string id="player_settlement_n_40" text="마을의 주요 생산품을 결정하는 마을 유형을 자동으로 배정합니다. 기본값(꺼짐)일 경우 직접 선택할 수 있습니다.  [ 기본값: 꺼짐 ]" />
+        <string id="player_settlement_n_41" text="마을 생산 유형 자동 배정" />
+        <string id="player_settlement_n_42" text="마을이 귀속될 도시나 성을 자동으로 결정합니다. 기본값(꺼짐)일 경우 귀속 정착지를 직접 선택할 수 있습니다.  [ 기본값: 꺼짐 ]" />
+        <string id="player_settlement_n_43" text="마을 귀속 정착지 자동 결정" />
+        <string id="player_settlement_n_44" text="새 성을 건설할 때 지정된 액수의 자금(디나르)을 요구합니다.  [ 기본값: 켜짐 ]" />
+        <string id="player_settlement_n_45" text="성 건설 비용 사용" />
+        <string id="player_settlement_n_46" text="새 성을 건설하는 데 필요한 비용(디나르)입니다.  [ 기본값: 7 500 ]" />
+        <string id="player_settlement_n_47" text="필요 성 건설 비용" />
+        <string id="player_settlement_n_48" text="플레이어가 건설할 수 있는 최대 도시 수입니다. 최소 1개 이상이어야 합니다.  [ 기본값: 10 ]" />
+        <string id="player_settlement_n_49" text="최대 허용 도시 수" />
+        <string id="player_settlement_n_50" text="도시 1곳당 플레이어가 건설할 수 있는 최대 귀속 마을 수입니다.  [ 기본값: 5 ]" />
+        <string id="player_settlement_n_51" text="도시당 최대 허용 마을 수" />
+        <string id="player_settlement_n_52" text="플레이어가 건설할 수 있는 최대 성 수입니다. 최소 1개의 도시가 먼저 필요합니다.  [ 기본값: 15 ]" />
+        <string id="player_settlement_n_53" text="최대 허용 성 수" />
+        <string id="player_settlement_n_54" text="성 1곳당 플레이어가 건설할 수 있는 최대 귀속 마을 수입니다.  [ 기본값: 4 ]" />
+        <string id="player_settlement_n_55" text="성당 최대 허용 마을 수" />
+        <string id="player_settlement_n_56" text="진행 중인 건설이 완료되어야만 다음 정착지를 건설할 수 있도록 제한합니다. 기본값(꺼짐)일 경우 여러 정착지를 동시에 건설할 수 있습니다.  [ 기본값: 꺼짐 ]" />
+        <string id="player_settlement_n_57" text="동시 건설 제한 (한 번에 하나씩)" />
+        <string id="player_settlement_n_58" text="새로 건설된 도시와 성에 초기 수비대를 자동으로 배치합니다.  [ 기본값: 켜짐 ]" />
+        <string id="player_settlement_n_59" text="초기 수비대 추가" />
+        <string id="player_settlement_n_60" text="새로 건설된 정착지에 초기 민병대를 자동으로 배치합니다.  [ 기본값: 켜짐 ]" />
+        <string id="player_settlement_n_61" text="초기 민병대 추가" />
+        <string id="player_settlement_n_62" text="새로 건설된 도시와 마을에 초기 유력자(유명 인사)를 자동으로 추가합니다.  [ 기본값: 켜짐 ]" />
+        <string id="player_settlement_n_63" text="초기 유력자 추가" />
+        <string id="player_settlement_n_64" text="모드 활성화" />
+        <string id="player_settlement_n_65" text="플레이어 정착지 (Player Settlements)" />
+        <string id="player_settlement_n_66" text="저장 설정" />
+        <string id="player_settlement_n_67" text="사용자 인터페이스 (UI)" />
+        <string id="player_settlement_n_68" text="가능한 경우 정착지의 성문(입구) 위치를 직접 지정할 수 있게 합니다.  [ 기본값: 켜짐 ]" />
+        <string id="player_settlement_n_69" text="성문 위치 지정 허용" />
+        <string id="player_settlement_n_70" text="정착지 배치 설정" />
+
+        <!-- V6 Settings -->
+        <string id="player_settlement_n_71" text="정착지 배치 중 자동으로 표시되는 도움말 힌트를 비활성화합니다. 도움말 키(기본 'F1')를 누르면 언제든 다시 볼 수 있습니다.  [ 기본값: 꺼짐 ]" />
+        <string id="player_settlement_n_72" text="자동 도움말 힌트 끄기" />
+
+        <!-- Keybindings -->
+        <string id="player_settlement_n_73" text="도움말 표시" />
+        <string id="player_settlement_n_74" text="플레이어 정착지 배치 중 상황별 도움말 정보를 표시합니다." />
+        <string id="player_settlement_n_75" text="전환(순환) 보조키" />
+        <string id="player_settlement_n_76" text="정착지 배치 중 누르고 있는 동안 외형 전환(순환) 모드로 전환합니다." />
+        <string id="player_settlement_n_77" text="회전 보조키" />
+        <string id="player_settlement_n_78" text="정착지 배치 중 누르고 있는 동안 회전 모드로 전환합니다." />
+        <string id="player_settlement_n_79" text="크기 조절 보조키" />
+        <string id="player_settlement_n_80" text="정착지 배치 중 누르고 있는 동안 크기(배율) 조절 모드로 전환합니다." />
+        <string id="player_settlement_n_81" text="정밀 편집 모드 전환" />
+        <string id="player_settlement_n_82" text="정착지 배치 중 일반 배치 모드와 정밀 편집(Deep Edit) 모드를 전환합니다." />
+        <string id="player_settlement_n_83" text="정밀 편집 완료" />
+        <string id="player_settlement_n_84" text="정밀 편집 모드에서 편집을 마치고 성문 위치 선택 또는 최종 건설 확인 단계로 넘어갑니다." />
+        <string id="player_settlement_n_85" text="플레이어 정착지 (Player Settlements)" />
+        <string id="player_settlement_n_86" text="플레이어 정착지: 전환 모드" />
+        <string id="player_settlement_n_87" text="이전 모델로 전환" />
+        <string id="player_settlement_n_88" text="정착지 배치 중 이전 정착지 외형(정밀 편집 모드에서는 이전 세부 모델)으로 전환합니다." />
+        <string id="player_settlement_n_89" text="다음 모델로 전환" />
+        <string id="player_settlement_n_90" text="정착지 배치 중 다음 정착지 외형(정밀 편집 모드에서는 다음 세부 모델)으로 전환합니다." />
+        <string id="player_settlement_n_91" text="아래로 이동" />
+        <string id="player_settlement_n_92" text="정착지 배치 중 선택한 오브젝트를 아래로 내립니다." />
+        <string id="player_settlement_n_93" text="위로 이동" />
+        <string id="player_settlement_n_94" text="정착지 배치 중 선택한 오브젝트를 위로 올립니다." />
+        <string id="player_settlement_n_95" text="플레이어 정착지: 크기 조절 모드" />
+        <string id="player_settlement_n_96" text="크기 축소" />
+        <string id="player_settlement_n_97" text="정착지 배치 중 모델의 크기를 축소합니다." />
+        <string id="player_settlement_n_98" text="크기 확대" />
+        <string id="player_settlement_n_99" text="정착지 배치 중 모델의 크기를 확대합니다." />
+        <string id="player_settlement_n_100" text="플레이어 정착지: 회전 모드" />
+        <string id="player_settlement_n_101" text="왼쪽으로 회전" />
+        <string id="player_settlement_n_102" text="정착지 배치 중 모델을 왼쪽으로 회전시킵니다." />
+        <string id="player_settlement_n_103" text="오른쪽으로 회전" />
+        <string id="player_settlement_n_104" text="정착지 배치 중 모델을 오른쪽으로 회전시킵니다." />
+        <string id="player_settlement_n_105" text="뒤로 기울이기" />
+        <string id="player_settlement_n_106" text="정착지 배치 중 모델을 뒤쪽으로 기울여 회전시킵니다." />
+        <string id="player_settlement_n_107" text="앞으로 기울이기" />
+        <string id="player_settlement_n_108" text="정착지 배치 중 모델을 앞쪽으로 기울여 회전시킵니다." />
+        <string id="player_settlement_n_109" text="보조 회전축 전환키" />
+        <string id="player_settlement_n_110" text="정착지 배치 중 '회전 보조키'와 함께 누르면 전후 기울기 키의 회전축을 변경합니다." />
+
+        <string id="player_settlement_n_111" text="성 건설이 완료되기까지 걸리는 일수입니다.  [ 기본값: 7 ]" />
+        <string id="player_settlement_n_112" text="마을 건설이 완료되기까지 걸리는 일수입니다.  [ 기본값: 3 ]" />
+        <string id="player_settlement_n_113" text="도시 건설 기간 (일)" />
+        <string id="player_settlement_n_114" text="성 건설 기간 (일)" />
+        <string id="player_settlement_n_115" text="마을 건설 기간 (일)" />
+        <string id="player_settlement_n_116" text="힌트 표시 시간" />
+        <string id="player_settlement_n_117" text="힌트가 화면에 표시되는 추가 시간(초)입니다. 게임 기본 표시 시간에 더해집니다. [ 기본값: 3 ]" />
+        <string id="player_settlement_n_118" text="도시 재건이 완료되기까지 걸리는 일수입니다.  [ 기본값: 5 ]" />
+        <string id="player_settlement_n_119" text="성 재건이 완료되기까지 걸리는 일수입니다.  [ 기본값: 4 ]" />
+        <string id="player_settlement_n_120" text="마을 재건이 완료되기까지 걸리는 일수입니다.  [ 기본값: 2 ]" />
+        <string id="player_settlement_n_121" text="도시 재건 기간 (일)" />
+        <string id="player_settlement_n_122" text="성 재건 기간 (일)" />
+        <string id="player_settlement_n_123" text="마을 재건 기간 (일)" />
+        <string id="player_settlement_n_124" text="도시를 재건하는 데 필요한 비용(디나르)입니다.  [ 기본값: 5 000 ]" />
+        <string id="player_settlement_n_125" text="필요 도시 재건 비용" />
+        <string id="player_settlement_n_126" text="마을을 재건하는 데 필요한 비용(디나르)입니다.  [ 기본값: 1 000 ]" />
+        <string id="player_settlement_n_127" text="필요 마을 재건 비용" />
+        <string id="player_settlement_n_128" text="성을 재건하는 데 필요한 비용(디나르)입니다.  [ 기본값: 3 500 ]" />
+        <string id="player_settlement_n_129" text="필요 성 재건 비용" />
+
+        <string id="player_settlement_n_130" text="플레이어 정착지: 정밀 편집 모드" />
+        <string id="player_settlement_n_131" text="선택 모델 삭제" />
+        <string id="player_settlement_n_132" text="정밀 편집 모드에서 현재 선택된 세부 모델을 삭제합니다." />
+        <string id="player_settlement_n_133" text="삭제 복구 보조키" />
+        <string id="player_settlement_n_134" text="정밀 편집 모드에서 이 키를 누른 채 '선택 모델 삭제' 키를 누르면 직전에 삭제한 모델을 복구합니다." />
+
+        <!-- Temp save support -->
+        <string id="player_settlement_n_135" text="건설 시 새 저장 파일을 생성합니다. 기본값(꺼짐)일 경우 아래 임시 저장이 사용되거나 현재 활성 저장 파일에 덮어씁니다.  [ 기본값: 꺼짐 ]" />
+        <string id="player_settlement_n_136" text="임시 저장 파일을 생성한 뒤 불러오기 후 자동 삭제합니다. 비활성화하면 위 옵션이 켜져 있지 않은 한 현재 저장 파일에 덮어씁니다.  [ 기본값: 켜짐 ]" />
+        <string id="player_settlement_n_137" text="건설 및 불러오기 시 임시 저장 파일 사용" />
+    </strings>
+</base>
