@@ -15,8 +15,9 @@
 | **CharacterReload** | b1.5.7.0 | 캐릭터 외형/능력치/관계도 편집 메뉴 총 383개 문자열 100% 한국어화 |
 | **RTSCamera** | v5.5.4 | RTS 시점 전술 지휘 모드 225개 문자열 한국어화 |
 | **RTSCamera.CommandSystem** | v5.5.4 | 부대 전술 명령 및 v5.5.4 상륙 작전 옵션 포함 150개 문자열 한국어화 |
-| **MLWReforged** | v4.2.0 | 영주 포섭 및 정착지 점령 시스템 총 327개 문자열 100% 한국어화 |
+| **MLWReforged** | v4.2.0 | 커스텀 병종 편집기/수비대 모드 XML(348개) + DLL 하드코딩 UI/MCM 설정 전수 한국어화 |
 | **TrueController** | v2.0.7 | 부대 한도, 자금, 전투 전리품 밸런스 설정 111개 문자열 한국어화 |
+| **Bannerlord.Diplomacy** | v1.5.5 | 외교 모드 전체 5개 XML(730개 문자열) 한국어화 및 `language_data.xml` 경로/문법 버그 수정 |
 
 ---
 
@@ -28,5 +29,5 @@
 - 각 모드 폴더 안의 `Modules/` 구조가 포함된 상태로 압축하여 모드 매니저로 설치 및 활성화합니다.
 
 ### 방법 2: 수동 설치 시
-- 배너로드 설치 디렉터리의 `Modules\<해당 모드명>\` 폴더 안에 각 모드의 `ModuleData` 폴더를 덮어씌웁니다.
+- 배너로드 설치 디렉터리의 `Modules\<해당 모드명>\` 폴더 안에 각 모드의 `ModuleData` (및 `bin`) 폴더를 덮어씌웁니다.
 - 기본 경로: `C:\Program Files (x86)\Steam\steamapps\common\Mount & Blade II Bannerlord\Modules\<모드명>\`
