@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="한국어" />
+  </tags>
+  <strings>
+    <string id="RTSCameraCommandSystem_option_class" text="지휘 시스템 (Command System)" />
+
+    <string id="RTSCameraCommandSystem_command_system_options" text="지휘 시스템 설정" />
+
+    <string id="RTSCameraCommandSystem_click_to_select_formation" text="마우스 휠 클릭으로 아군 부대 선택" />
+    <string id="RTSCameraCommandSystem_click_to_select_formation_hint" text="아군 부대 위에서 {KeyName} 키를 눌러 해당 부대를 직접 선택합니다. 선택된 부대는 외곽선으로 강조 표시됩니다." />
+    <string id="RTSCameraCommandSystem_attack_specific_formation" text="특정 적 부대 지정 공격 활성화" />
+    <string id="RTSCameraCommandSystem_attack_specific_formation_hint" text="적 부대 위에서 {KeyName} 키를 눌러 해당 적 부대만 집중 공격하도록 명령합니다." />
+    <string id="RTSCameraCommandSystem_attack_specific_formation_alt_hint" text="(신기능) Alt 키를 함께 누르면 이전 이동 명령을 유지한 채 공격합니다." />
+
+    <string id="RTSCameraCommandSystem_disable_native_attack" text="바닐라 기본 아이콘 클릭 공격 비활성화" />
+    <string id="RTSCameraCommandSystem_disable_native_attack_hint" text="실수로 공격 명령이 내려지는 것을 방지하기 위해 적 진형 아이콘 클릭으로 발동되는 기본 공격을 비활성화합니다." />
+
+    <string id="RTSCameraCommandSystem_after_enemy_eliminated" text="대상 적 부대 전멸 후 행동" />
+    <string id="RTSCameraCommandSystem_after_enemy_formation_eliminated_hint" text="지정 공격하던 적 부대가 전멸했을 때 아군 부대의 후속 행동을 설정합니다." />
+    <string id="RTSCameraCommandSystem_after_charge_behavior_charge" text="돌격 (Charge)" />
+    <string id="RTSCameraCommandSystem_after_charge_behavior_hold" text="위치 사수 (Hold)" />
+
+    <string id="RTSCameraCommandSystem_troop_highlight_character_mode" text="병사 강조 표시 (캐릭터 시점)" />
+    <string id="RTSCameraCommandSystem_troop_highlight_character_mode_hint" text="일반 캐릭터 시점에서의 병사 강조 표시 방식입니다." />
+    <string id="RTSCameraCommandSystem_troop_highlight_option_no" text="표시 안 함" />
+    <string id="RTSCameraCommandSystem_troop_highlight_option_outline" text="윤곽선 강조" />
+    <string id="RTSCameraCommandSystem_troop_highlight_option_ground_marker" text="바닥 마커" />
+
+    <string id="RTSCameraCommandSystem_troop_highlight_rts_mode" text="병사 강조 표시 (RTS 시점)" />
+    <string id="RTSCameraCommandSystem_troop_highlight_rts_mode_hint" text="RTS 자유 카메라 시점에서의 병사 강조 표시 방식입니다." />
+
+    <string id="RTSCameraCommandSystem_highlight_troops_when_showing_indicators" text="부대 표시기 활성화 시 병사 강조" />
+    <string id="RTSCameraCommandSystem_highlight_troops_when_showing_indicators_hint" text="활성화 시 부대 표시기(Alt 등)를 볼 때 병사들도 함께 강조 표시됩니다." />
+
+    <string id="RTSCameraCommandSystem_highlight_troops_without_formation" text="무소속 병사 강조 표시" />
+    <string id="RTSCameraCommandSystem_highlight_troops_without_formation_hint" text="활성화 시 특정 진형에 속하지 않은 병사들도 강조 표시됩니다." />
+
+    <string id="RTSCameraCommandSystem_movement_target_highlight_character_mode" text="이동 목표 지점 표시 스타일 (캐릭터 시점)" />
+    <string id="RTSCameraCommandSystem_movement_target_highlight_character_mode_hint" text="일반 캐릭터 시점에서 이동 목표 지점의 표시 방식입니다." />
+    <string id="RTSCameraCommandSystem_highlight_style_original" text="바닐라 기본" />
+    <string id="RTSCameraCommandSystem_highlight_style_new_model_only" text="신규 마커만" />
+    <string id="RTSCameraCommandSystem_highlight_style_always_visible" text="항상 표시" />
+
+    <string id="RTSCameraCommandSystem_movement_target_highlight_rts_mode" text="이동 목표 지점 표시 스타일 (RTS 시점)" />
+    <string id="RTSCameraCommandSystem_movement_target_highlight_rts_mode_hint" text="RTS 자유 카메라 시점에서 이동 목표 지점의 표시 방식입니다." />
+
+    <string id="RTSCameraCommandSystem_movement_target_fade_out_duration" text="이동 목표 마커 서서히 사라지는 시간" />
+    <string id="RTSCameraCommandSystem_movement_target_fade_out_duration_hint" text="이동 목표 지점 마커가 서서히 사라지는 데 걸리는 시간(초)입니다." />
+
+    <string id="RTSCameraCommandSystem_command_queue_flag_show_mode" text="명령 대기열 깃발 표시 조건" />
+    <string id="RTSCameraCommandSystem_command_queue_flag_show_mode_hint" text="예약된 명령 대기열(큐)의 목표 지점을 깃발로 표시합니다." />
+    <string id="RTSCameraCommandSystem_highlight_mode_never" text="표시 안 함" />
+    <string id="RTSCameraCommandSystem_highlight_mode_free_camera_only" text="자유 카메라 시점에만" />
+    <string id="RTSCameraCommandSystem_highlight_mode_always" text="항상 표시" />
+
+    <string id="RTSCameraCommandSystem_command_queue_arrow_show_mode" text="명령 대기열 화살표 표시 조건" />
+    <string id="RTSCameraCommandSystem_command_queue_arrow_show_mode_hint" text="예약된 명령 대기열(큐)의 목표 지점들을 화살표 경로로 연결해 표시합니다." />
+
+    <string id="RTSCameraCommandSystem_command_queue_formation_shape_show_mode" text="진형 배치 윤곽 틀 표시 조건" />
+    <string id="RTSCameraCommandSystem_command_queue_formation_shape_show_mode_hint" text="이동 목표 지점에 부대의 진형 크기와 형태 틀을 표시합니다." />
+
+    <string id="RTSCameraCommandSystem_formation_lock_condition" text="다중 부대 대형 고정(Lock) 조건" />
+    <string id="RTSCameraCommandSystem_formation_lock_condition_hint" text="여러 부대를 동시에 이동시킬 때 각 부대 간의 상대적 위치와 방향을 그대로 유지합니다." />
+    <string id="RTSCameraCommandSystem_formation_lock_condition_option_never" text="사용 안 함" />
+    <string id="RTSCameraCommandSystem_formation_lock_condition_option_when_pressed" text="단축키를 누르고 있을 때" />
+    <string id="RTSCameraCommandSystem_formation_lock_condition_option_when_not_pressed" text="단축키를 누르지 않을 때 (기본 고정)" />
+
+    <string id="RTSCameraCommandSystem_sync_locked_formation_speed_message" text="이동 속도 동기화" />
+    <string id="RTSCameraCommandSystem_formation_speed_sync_mode" text="다중 부대 이동 속도 동기화 방식" />
+    <string id="RTSCameraCommandSystem_formation_speed_sync_mode_hint" text="여러 부대를 동시에 이동시킬 때 부대 속도를 맞추는 방식입니다. '사용 안 함': 개별 속도로 이동. '선형 동기화': 이동 거리에 비례해 속도 조절. '따라잡기': 가장 느린 부대에 맞춰 대형을 맞춤. '마지막 부대 대기': 먼저 도착한 부대가 마지막 부대를 기다림." />
+    <string id="RTSCameraCommandSystem_formation_speed_sync_mode_option_disabled" text="사용 안 함" />
+    <string id="RTSCameraCommandSystem_formation_speed_sync_mode_option_linear" text="선형 동기화" />
+    <string id="RTSCameraCommandSystem_formation_speed_sync_mode_option_catch_up" text="따라잡기" />
+    <string id="RTSCameraCommandSystem_formation_speed_sync_mode_option_wait_for_last_formation" text="마지막 부대 대기 (기본값)" />
+
+    <string id="RTSCamera_order_ui_clickable" text="부대 카드 마우스 클릭 선택" />
+    <string id="RTSCamera_order_ui_clickable_hint" text="상단 부대 카드를 마우스로 클릭해 선택할 수 있게 합니다(게임 재시작 필요)." />
+
+    <string id="RTSCameraCommandSystem_order_ui_clickable_extension" text="명령 UI 마우스 타겟 지정 확장" />
+    <string id="RTSCameraCommandSystem_order_ui_clickable_extension_hint" text="방향 전환 및 교전(전진) 명령을 내릴 때 {KeyName} 키를 누른 채 대상을 클릭하여 목표를 지정할 수 있게 합니다." />
+    <string id="RTSCameraCommandSystem_click_enemy_to_select_target_for_command" text="명령 대상으로 삼을 적 부대를 클릭하십시오" />
+    <string id="RTSCameraCommandSystem_click_ground_to_select_target_for_command" text="명령 대상으로 삼을 지면을 클릭하십시오" />
+
+    <string id="RTSCameraCommandSystem_face_enemy_by_default" text="전투 시작 시 자동으로 적 방향 바라보기" />
+    <string id="RTSCameraCommandSystem_face_enemy_by_default_hint" text="전투가 시작될 때 병력들이 기본적으로 적 방향을 바라보도록 설정합니다." />
+
+    <string id="RTSCameraCommandSystem_formation_options" text="진형 설정" />
+    <string id="RTSCameraCommandSystem_hollow_square_formation" text="중공 방진(속이 빈 사각 진형) 활성화" />
+    <string id="RTSCameraCommandSystem_hollow_square_formation_hint" text="플레이어가 중공 방진(Hollow Square)을 사용할 수 있도록 활성화합니다." />
+
+    <string id="RTSCameraCommandSystem_square_formation_corner_Fix" text="사각 방진 모서리 시선 보정" />
+    <string id="RTSCameraCommandSystem_square_formation_corner_Fix_hint" text="활성화 시 사각 방진의 모서리에 위치한 병사들이 대각선 바깥 방향을 바라보도록 교정하여 방어 사각지대를 줄이고 자연스럽게 만듭니다." />
+
+    <string id="RTSCameraCommandSystem_circle_formation_preference" text="원형 진형 밀집도 기본 설정" />
+    <string id="RTSCameraCommandSystem_circle_formation_preference_hint" text="원형 진형 구성 시 최소 반경, 밀집, 산개 중 선호하는 형태를 설정합니다." />
+    <string id="RTSCameraCommandSystem_circle_formation_preference_option_minimum" text="최소 반경 원형 진형" />
+    <string id="RTSCameraCommandSystem_circle_formation_preference_option_tight" text="밀집 원형 진형" />
+    <string id="RTSCameraCommandSystem_circle_formation_preference_option_loose" text="산개 원형 진형" />
+
+    <string id="RTSCameraCommandSystem_override_mounted_units_interval_threshold" text="기병 간격 기준 비율 덮어쓰기" />
+    <string id="RTSCameraCommandSystem_override_mounted_units_interval_threshold_hint" text="활성화 시 진형 내 기병 간격 유지 기준 비율을 아래 값으로 덮어씁니다(게임 재시작 필요)." />
+    <string id="RTSCameraCommandSystem_mounted_units_interval_threshold" text="기병 간격 기준 비율" />
+    <string id="RTSCameraCommandSystem_mounted_units_interval_threshold_hint" text="진형 내 병사들이 기병 간격을 유지하기 위한 최소 기병 비율입니다(바닐라 기본값: 0.1)." />
+
+    <string id="RTSCameraCommandSystem_defensive_hold_options" text="방어 위치 고수(Defensive Hold) 설정" />
+    <string id="RTSCameraCommandSystem_add_defensive_hold_order" text="방어 위치 고수 명령 추가" />
+    <string id="RTSCameraCommandSystem_add_defensive_hold_order_hint" text="활성화 시 방어 진형(방패벽 등) 상태에서 대열을 이탈해 적을 추격하지 않고 제자리를 굳건히 지키며 방패를 들게 하는 명령을 추가합니다." />
+    <string id="RTSCameraCommandSystem_defensive_hold_on" text="방어 위치 고수 켜짐" />
+    <string id="RTSCameraCommandSystem_defensive_hold_off" text="방어 위치 고수 꺼짐" />
+    <string id="RTSCameraCommandSystem_attack_if_hit" text="피격 시 반격 허용" />
+    <string id="RTSCameraCommandSystem_attack_if_hit_hint" text="활성화 시 방어 위치 고수 중인 병사라도 적에게 타격을 입으면 반격합니다." />
+
+    <string id="RTSCameraCommandSystem_advance_order_options" text="교전(전진) 명령 보정 설정" />
+
+    <string id="RTSCameraCommandSystem_fix_advance_order_for_throwing_weapons" text="투척 무기 보유 병사 교전 거리 유지 보정" />
+    <string id="RTSCameraCommandSystem_fix_advance_order_for_throwing_weapons_hint" text="활성화 시 투척 무기로 무장한 병사들이 교전(Advance) 명령 시 적과 사거리를 유지하며 투척 무기를 먼저 던집니다." />
+
+    <string id="RTSCameraCommandSystem_apply_advance_order_fix_for_ai" text="AI 부대에도 투척 교전 보정 적용" />
+    <string id="RTSCameraCommandSystem_apply_advance_order_fix_for_ai_hint" text="활성화 시 AI가 지휘하는 부대에도 투척 무기 교전 거리 유지 보정이 적용됩니다." />
+
+    <string id="RTSCameraCommandSystem_thrower_ratio_threshold" text="투척병 최소 비율 기준" />
+    <string id="RTSCameraCommandSystem_thrower_ratio_threshold_hint" text="투척 교전 거리 유지 보정이 작동하기 위해 필요한 부대 내 최소 투척병 비율입니다." />
+
+    <string id="RTSCameraCommandSystem_remaining_ammo_ratio_threshold" text="잔여 탄약 최소 비율 기준" />
+    <string id="RTSCameraCommandSystem_remaining_ammo_ratio_threshold_hint" text="부대가 거리를 유지하며 투척을 계속하기 위해 필요한 최소 잔여 투척 무기 비율입니다." />
+
+    <string id="RTSCameraCommandSystem_shorten_range_based_on_remaining_ammo" text="잔여 탄약에 따라 유지 거리 좁히기" />
+    <string id="RTSCameraCommandSystem_shorten_range_based_on_remaining_ammo_hint" text="남은 투척 무기가 줄어들수록 적과의 유지 거리를 점차 좁혀 들어갑니다." />
+
+    <string id="RTSCameraCommandSystem_defensive_attack" text="적 {TARGET_NAME} 집중 공격 중" />
+
+    <string id="RTSCameraCommandSystem_hotkeycategory" text="지휘 시스템 단축키" />
+    <string id="RTSCameraCommandSystem_select_formation" text="부대 선택 / 지정 공격" />
+    <string id="RTSCameraCommandSystem_select_formation_hint" text="아군 부대를 선택하거나, 선택된 아군 부대에게 특정 적 부대를 공격하도록 명령합니다." />
+    <string id="RTSCameraCommandSystem_keep_movement_order" text="이동 명령 유지 보조키" />
+    <string id="RTSCameraCommandSystem_keep_movement_order_hint" text="누른 상태로 적 부대 공격을 지시하면 기존 이동 명령을 유지한 채 공격합니다." />
+    <string id="RTSCameraCommandSystem_formation_lock_movement" text="부대 대형 고정 전환키" />
+    <string id="RTSCameraCommandSystem_formation_lock_movement_hint" text="누르고 있는 동안 다중 부대 대형 고정(Lock) 동작을 전환합니다." />
+    <string id="RTSCameraCommandSystem_select_target_for_command" text="명령 대상 선택 보조키" />
+    <string id="RTSCameraCommandSystem_select_target_for_command_hint" text="전진(교전) 또는 방향 전환 명령 시 누르고 있으면 목표 대상을 선택할 수 있습니다." />
+    <string id="RTSCameraCommandSystem_command_queue" text="명령 대기열(예약) 보조키" />
+    <string id="RTSCameraCommandSystem_command_queue_hint" text="누른 채 명령을 내리면 대기열에 추가되어 병사들이 순서대로 명령을 수행합니다." />
+    <string id="RTSCameraCommandSystem_command_keep_formation_width" text="진형 너비 고정 보조키" />
+    <string id="RTSCameraCommandSystem_keep_formation_width_hint" text="지면 드래그 시 누르고 있으면 각 부대의 진형 너비와 상대적 위치를 유지하며, 부대 다중 선택에도 사용됩니다." />
+
+    <string id="RTSCameraCommandSystem_tactic_level_required" text="전술 스킬이 최소 {level} 이상이어야 합니다." />
+
+    <string id="RTSCameraCommandSystem_order_queue_usage" text="{KeyName} 키를 누른 채로 명령을 내리면 명령 대기열에 추가되며, 부대가 순서대로 명령을 실행합니다." />
+    <string id="RTSCameraCommandSystem_lock_formation_usage" text="여러 부대를 동시에 이동/회전시킬 때 각 부대의 상대적인 위치와 방향이 그대로 유지됩니다." />
+    <string id="RTSCameraCommandSystem_lock_formation_width_usage" text="지면을 드래그할 때 {KeyName} 키를 누르고 있으면 부대 간 상대적 위치와 진형 너비가 고정됩니다." />
+    <string id="RTSCameraCommandSystem_toggle_locking_usage" text="{KeyName} 키를 누르고 있으면 대형 고정 여부가 반전됩니다." />
+    <string id="RTSCameraCommandSystem_target_only_usage" text="예를 들어 궁병대가 현재 위치를 고수한 채 특정 적 부대만 집중 사격하도록 지시할 수 있습니다." />
+    <string id="RTSCameraCommandSystem_click_troop_card_usage" text="화면 상단의 부대 카드를 마우스로 클릭하여 부대를 선택할 수 있습니다." />
+
+    <string id="RTSCameraCommandSystem_add_order_to_queue" text="명령이 대기열에 예약되었습니다." />
+    <string id="RTSCameraCommandSystem_execute_order_in_queue" text="대기열의 다음 명령을 수행합니다." />
+
+    <string id="RTSCameraCommandSystem_follow_entity" text="따라가기" />
+    <string id="RTSCameraCommandSystem_use_entity" text="사용 시작" />
+    <string id="RTSCameraCommandSystem_stop_use_entity" text="사용 중단" />
+    <string id="RTSCameraCommandSystem_attack_entity" text="공격" />
+    <string id="RTSCameraCommandSystem_point_defense" text="방어" />
+
+    <string id="RTSCameraCommandSystem_volley_order" text="일제 사격 (Volley)" />
+    <string id="RTSCameraCommandSystem_auto_volley" text="자동 일제 사격" />
+    <string id="RTSCameraCommandSystem_auto_volley_hint" text="선택한 원거리 부대의 자동 일제 사격 모드를 켜거나 끕니다." />
+    <string id="RTSCameraCommandSystem_auto_volley_off" text="자동 일제 사격 끄기" />
+    <string id="RTSCameraCommandSystem_manual_volley" text="명령 시 일제 사격 (수동)" />
+    <string id="RTSCameraCommandSystem_manual_volley_hint" text="선택한 원거리 부대의 수동 일제 사격 대기 모드를 켜거나 끕니다." />
+    <string id="RTSCameraCommandSystem_manual_volley_off" text="명령 시 일제 사격 끄기" />
+    <string id="RTSCameraCommandSystem_volley_disabled" text="일제 사격 해제" />
+    <string id="RTSCameraCommandSystem_volley_fire" text="발사! (일제 사격)" />
+    <string id="RTSCameraCommandSystem_volley_fire_hint" text="선택한 원거리 부대에게 즉시 일제 사격을 명령합니다." />
+
+    <string id="RTSCameraCommandSystem_volley_order_options" text="일제 사격 (Volley) 설정" />
+    <string id="RTSCameraCommandSystem_enable_volley_related_features" text="일제 사격 관련 기능 활성화" />
+    <string id="RTSCameraCommandSystem_enable_volley_related_features_hint" text="비활성화 시 자동 일제 사격, 수동 일제 사격, 발사 명령 및 관련 단축키와 예약 명령이 모두 꺼집니다." />
+
+    <string id="RTSCameraCommandSystem_volley_pre_aiming_mode" text="사전 조준(Pre-Aiming) 모드" />
+    <string id="RTSCameraCommandSystem_volley_pre_aiming_mode_hint" text="사전 조준이 켜져 있으면 병사들이 발사 전 미리 목표를 조준하고 대기합니다." />
+    <string id="RTSCameraCommandSystem_volley_pre_aiming_mode_option_in_auto_volley" text="자동 일제 사격 시에만" />
+    <string id="RTSCameraCommandSystem_volley_pre_aiming_mode_option_both_auto_and_manual_volley" text="자동 및 수동 일제 사격 모두" />
+    <string id="RTSCameraCommandSystem_ready_ratio_in_auto_volley" text="자동 일제 사격 발사 준비 완료 비율" />
+    <string id="RTSCameraCommandSystem_ready_ratio_in_auto_volley_hint" text="자동 일제 사격 모드에서 일제히 발사하기 위해 필요한 장전/조준 완료 병사의 최소 비율입니다." />
+    <string id="RTSCameraCommandSystem_max_aiming_time" text="최대 조준 대기 시간" />
+    <string id="RTSCameraCommandSystem_max_aiming_time_hint" text="자동 일제 사격 모드에서 병사들이 조준에 할애하는 최대 대기 시간입니다(기본값: 1.5초)." />
+    <string id="RTSCameraCommandSystem_auto_volley_by_nonthrown_weapon_type" text="일반 원거리 무기(활/석궁) 종류별 자동 일제 사격" />
+    <string id="RTSCameraCommandSystem_auto_volley_by_nonthrown_weapon_type_hint" text="활성화 시 활·석궁 병사들이 무기 종류별로 호흡을 맞춰 자동 일제 사격을 수행합니다." />
+    <string id="RTSCameraCommandSystem_auto_volley_by_thrown_weapon_type" text="투척 무기 종류별 자동 일제 사격" />
+    <string id="RTSCameraCommandSystem_auto_volley_by_thrown_weapon_type_hint" text="활성화 시 투척 무기 병사들이 무기 종류별로 호흡을 맞춰 자동 일제 투척을 수행합니다." />
+
+    <string id="RTSCameraCommandSystem_naval_raid_options" text="해상 습격 (Naval Raid) 설정" />
+    <string id="RTSCameraCommandSystem_fix_move_order_when_disembarking" text="하선 중 이동 명령 초기화 방지 보정" />
+    <string id="RTSCameraCommandSystem_fix_move_order_when_disembarking_hint" text="해상 습격에서 병사들이 하선하며 진형에 재합류할 때, 기존에 내려둔 육상 이동 명령이 함선 집결지로 초기화되는 현상을 방지합니다." />
+  </strings>
+</base>
