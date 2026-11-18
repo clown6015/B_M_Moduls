@@ -1,0 +1,40 @@
+================================================================================
+[Bannerlord] True Controller (v2.0.7) 한국어 번역 패치
+================================================================================
+
+1. 구성 파일 안내
+--------------------------------------------------------------------------------
+- ModuleData\Languages\KO\language_data.xml
+- ModuleData\Languages\KO\sta_strings.xml (총 111개 문자열 100% 한글화)
+  * 도시 자금, 한도 설정(공방/동료/부대 규모/하위 부대/포로), 아이템 가격 조정,
+    산적 처치 및 토너먼트 관계도 상승, 군대 유지비/모병비, 전투 전리품 설정 전체 번역
+  * 영문 원본 XML에 누락되어 있던 DLL 내부 키(`HLC000159` 용병 기본 모병 비용)까지 복원 번역
+
+2. 수동 설치 방법 (모드 폴더에 바로 적용할 때)
+--------------------------------------------------------------------------------
+본 폴더 안의 `ModuleData` 폴더를 아래의 TrueController 모드 설치 경로에 그대로 복사(덮어쓰기)하세요.
+
+[설치 경로 예시]
+C:\Program Files (x86)\Steam\steamapps\common\Mount & Blade II Bannerlord\Modules\TrueController\
+
+정상적으로 적용되면 아래 경로에 파일이 위치하게 됩니다:
+...\Modules\TrueController\ModuleData\Languages\KO\language_data.xml
+...\Modules\TrueController\ModuleData\Languages\KO\sta_strings.xml
+
+3. 넥서스 모드(Nexus Mods) 업로드 및 패키징 가이드
+--------------------------------------------------------------------------------
+[권장 압축 구조]
+TrueController_Korean_Translation.zip
+ └── Modules
+      └── TrueController
+           └── ModuleData
+                └── Languages
+                     └── KO
+                          ├── language_data.xml
+                          └── sta_strings.xml
+
+[넥서스 업로드 시 참고 정보]
+- 원본 모드(Requirements): True Controller
+- 호환 버전: v2.0.7 기준
+- 태그(Tags): Translation / Korean
+================================================================================

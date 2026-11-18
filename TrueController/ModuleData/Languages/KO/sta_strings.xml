@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="한국어" />
+  </tags>
+  <strings>
+    <string id="HLC000000" text="True 모드 설정 (True Mods)" />
+    <string id="HLC000100" text="귀족 호감도" />
+    <string id="HLC000105" text="도시 보유 자금 (디나르)" />
+    <string id="HLC000106" text="일일 변동폭" />
+    <string id="HLC000107" text="도시 번영도 대비 상점 보유 자금(디나르) 비율입니다." />
+    <string id="HLC000110" text="한도 설정 (공방 / 동료 / 부대 / 포로)" />
+    <string id="HLC000111" text="기본 공방 수" />
+    <string id="HLC000112" text="기본으로 소유할 수 있는 시작 공방(작업장) 개수입니다." />
+    <string id="HLC000113" text="클랜 티어당 추가 공방 수" />
+    <string id="HLC000114" text="클랜 티어가 1 오를 때마다 추가로 허용되는 공방 개수입니다." />
+    <string id="HLC000115" text="기본 동료 수" />
+    <string id="HLC000116" text="기본으로 영입할 수 있는 시작 동료 한도입니다." />
+    <string id="HLC000117" text="클랜 티어당 추가 동료 수" />
+    <string id="HLC000118" text="클랜 티어가 1 오를 때마다 추가로 늘어나는 동료 한도입니다." />
+    <string id="HLC000119" text="부대 규모 기본 증감치" />
+    <string id="HLC00011A" text="바닐라 기본 부대 규모 한도에 더해지는 초기 증감 수치입니다." />
+    <string id="HLC00011B" text="통솔력(Leadership) 추가 보너스" />
+    <string id="HLC00011C" text="통솔력 스킬 레벨에 비례하여 추가되는 부대 규모 보너스입니다." />
+    <string id="HLC00011D" text="보급관(주둔지 관리/Steward) 추가 보너스" />
+    <string id="HLC00011E" text="보급관(Steward) 스킬 레벨에 비례하여 추가되는 부대 규모 보너스입니다." />
+    <string id="HLC00011F" text="클랜 하위 부대 기본 보너스" />
+    <string id="HLC00011G" text="바닐라 기본 클랜 부대 수 한도에 더해지는 초기 보너스입니다." />
+    <string id="HLC00011H" text="클랜 티어당 하위 부대 보너스" />
+    <string id="HLC00011I" text="클랜 티어당 추가로 허용되는 클랜 하위 부대 수 보너스입니다." />
+    <string id="HLC00011K" text="최소 부대 규모" />
+    <string id="HLC00011J" text="허용되는 최소 부대 규모입니다." />
+    <string id="HLC00011L" text="최대 부대 규모" />
+    <string id="HLC00011M" text="허용되는 최대 부대 규모입니다." />
+    <string id="HLC000120" text="동료 한도 덮어쓰기" />
+    <string id="HLC000121" text="바닐라의 기본 동료 영입 한도를 아래 설정값으로 덮어씁니다." />
+    <string id="HLC000122" text="부대 규모 한도 수정 활성화" />
+    <string id="HLC000123" text="바닐라 부대 규모 계산식에 추가 변경치를 적용합니다 (기본값을 음수로 설정하면 바닐라보다 부대 규모가 줄어듭니다)." />
+    <string id="HLC000124" text="플레이어 전용 적용" />
+    <string id="HLC000125" text="변경 사항을 플레이어에게만 전용으로 적용합니다." />
+    <string id="HLC000126" text="부대 규모 최소/최대 범위 제한" />
+    <string id="HLC000127" text="부대 규모의 최소치와 최대치 범위를 직접 지정합니다." />
+    <string id="HLC000128" text="클랜 하위 부대 한도 보너스 활성화" />
+    <string id="HLC000129" text="운용 가능한 클랜 하위 부대의 총개수를 늘려주는 보너스를 활성화합니다." />
+    <string id="HLC00012A" text="공방(작업장) 한도 덮어쓰기" />
+    <string id="HLC00012B" text="아래 설정값을 기준으로 바닐라의 공방 소유 한도를 덮어씁니다." />
+    <string id="HLC00012C" text="이동 부대 포로 수용 한도 수정" />
+    <string id="HLC00012D" text="이동 부대(파티)의 포로 수용 한도에 추가 변경치를 적용합니다." />
+    <string id="HLC00012E" text="포로 한도 기본 보너스" />
+    <string id="HLC00012F" text="부대 인원수 비례 계산 전에 먼저 더해지는 기본 포로 수용 한도 증감치입니다." />
+    <string id="HLC00012G" text="병력당 포로 수용 배율" />
+    <string id="HLC00012H" text="전투 가능한 건강한 병사 1명당 수용할 수 있는 포로 인원 비율입니다." />
+    <string id="HLC00012I" text="정착지 포로 수용 한도 수정" />
+    <string id="HLC00012J" text="정착지(도시/성) 감옥의 포로 수용 한도에 추가 변경치를 적용합니다." />
+    <string id="HLC00012K" text="도시 감옥 보너스" />
+    <string id="HLC00012L" text="도시(Town)에 추가로 부여되는 포로 수용 한도 증가량입니다." />
+    <string id="HLC00012M" text="정착지 포로 수용 한도의 기본 증가량입니다." />
+    <string id="HLC00012N" text="성(비도시) 감옥 보너스" />
+    <string id="HLC00012O" text="도시가 아닌 정착지(성 등)에 부여되는 포로 수용 한도 증가량입니다." />
+    <string id="HLC00012P" text="AI에게도 동일하게 적용" />
+    <string id="HLC00012S" text="이 변경 사항을 AI 영주 및 정착지에도 동일하게 적용합니다 (극단적인 수치 설정 시 밸런스 문제가 생길 수 있습니다)." />
+    <string id="HLC000130" text="아이템 가격 조정" />
+    <string id="HLC000131" text="아이템 가치 나눗수 (가격 인하 비율)" />
+    <string id="HLC000132" text="바닐라 원본 아이템 가치를 이 숫자로 나누어 최종 인게임 가격을 산출합니다." />
+    <string id="HLC000133" text="최소 아이템 가격" />
+    <string id="HLC000134" text="아이템이 가질 수 있는 절대 최소 가격(하한선)입니다." />
+    <string id="HLC000140" text="관계도(우호도) 설정" />
+    <string id="HLC000141" text="산적 처치 시 인근 지역 관계도 상승" />
+    <string id="HLC000142" text="정착지 근처에서 산적을 물리쳤을 때 인근 유력자(유명 인사) 및 정착지 소유주와의 관계도가 오르도록 합니다." />
+    <string id="HLC000143" text="최소 처치 산적 수" />
+    <string id="HLC000144" text="관계도가 오르기 위해 물리쳐야 하는 최소 산적 인원수입니다 (이 인원 단위마다 관계도가 1씩 상승할 수 있습니다)." />
+    <string id="HLC000145" text="영향 반경 (거리)" />
+    <string id="HLC000146" text="산적 처치 승리가 인근 정착지에 영향을 미치는 최대 거리입니다." />
+    <string id="HLC000147" text="전투 참전 시 영주 간 관계도 변화" />
+    <string id="HLC000148" text="다른 영주와 함께 싸우거나 적대하여 싸울 때 서로 간의 관계도가 변할 확률을 활성화합니다 (플레이어뿐만 아니라 AI 영주들 사이에도 적용됩니다)." />
+    <string id="HLC000149" text="토너먼트 참가 시 관계도 상승" />
+    <string id="HLC00014A" text="토너먼트(투기장 대회)에서 싸울 때 현지 유력자 및 방문 중인 귀족들과의 평판이 상승합니다." />
+    <string id="HLC00014B" text="관계도 변화 발생 확률" />
+    <string id="HLC00014C" text="관계도 변화가 실제로 발생할 확률(%)입니다." />
+    <string id="HLC000150" text="군대 유지비 및 모병 비용" />
+    <string id="HLC000151" text="기본 모병 비용" />
+    <string id="HLC000152" text="모든 병사를 모병할 때 적용되는 기본 비용입니다." />
+    <string id="HLC000153" text="모병 비용 배율" />
+    <string id="HLC000154" text="용병 및 범죄자(산적) 계통 병종을 모병할 때 적용되는 비용 배율입니다 (장비 가치 반영 포함)." />
+    <string id="HLC000155" text="일일 급여(유지비) 배율" />
+    <string id="HLC000157" text="용병 비용 별도 설정 사용" />
+    <string id="HLC000158" text="용병의 모병 비용과 유지비(급여)를 일반 병사와 분리하여 별도로 설정합니다." />
+    <string id="HLC000159" text="용병 기본 모병 비용" />
+    <string id="HLC00015A" text="예비 항목 (Placeholder)" />
+    <string id="HLC00015B" text="일반 병사의 모병 비용 배율입니다 (장비 가치 합산 전 적용)." />
+    <string id="HLC00015C" text="일반 병사의 일일 급여(유지비) 배율입니다." />
+    <string id="HLC00015D" text="승급 비용 배율" />
+    <string id="HLC00015E" text="일반 병사의 승급 비용 배율입니다 (장비 가치 합산 전 적용)." />
+    <string id="HLC00015F" text="모병 시 장비 가치 반영 비율(%)" />
+    <string id="HLC00015O" text="승급 시 장비 가치 반영 비율(%)" />
+    <string id="HLC00015P" text="병사를 모병할 때 해당 병사의 착용 장비 가치를 모병비에 얼마나 반영할지 결정하는 비율입니다." />
+    <string id="HLC00015S" text="병사를 승급시킬 때 착용 장비 가치를 승급비에 얼마나 반영할지 결정하는 비율입니다." />
+    <string id="HLC00015L" text="용병의 일일 급여(유지비) 배율입니다." />
+    <string id="HLC00015X" text="용병 승급 비용 배율" />
+    <string id="HLC00015Y" text="용병 병종의 승급 비용 배율입니다 (장비 가치 반영 포함)." />
+    <string id="HLC00015Z" text="용병 급여 배율" />
+    <string id="HLC000160" text="전투 전리품 (Battle Loot)" />
+    <string id="HLC000161" text="적 지휘관 1인당 최대 골드 보상" />
+    <string id="HLC000162" text="전투 승리 시 패배한 적 지휘관(영주) 한 명당 획득할 수 있는 최대 골드(디나르)입니다." />
+    <string id="HLC000163" text="추가 전리품 획득 비율" />
+    <string id="HLC000164" text="바닐라 기본 보너스에 추가로 더해지는 전리품 비율입니다 (0.75 / 75% 이하로 유지하는 것을 권장합니다)." />
+    <string id="HLC000165" text="전장 전리품 회수 확률 비율" />
+    <string id="HLC000166" text="전장에서 쓰러진 적의 장비를 전리품으로 회수할 잠재적 확률 비율입니다." />
+    <string id="HLC000167" text="전리품 개별 아이템 최대 가치 한도" />
+    <string id="HLC000168" text="전장에서 획득하는 개별 전리품 아이템 1개가 가질 수 있는 최대 가치(디나르) 한도입니다." />
+    <string id="HLC000169" text="적 1명당 최대 전리품 아이템 개수" />
+    <string id="HLC000170" text="전장에서 쓰러진 적 1명에게서 획득할 수 있는 최대 아이템 개수입니다." />
+    <string id="HLC000171" text="부대원과 전리품 분배" />
+    <string id="HLC000172" text="부대원들과 전리품을 나누어 갖도록 합니다 (부대 내 병사 수가 많을수록 플레이어의 몫이 줄어듭니다)." />
+    <string id="HLC000173" text="지휘관 최소 보장 몫 비율" />
+    <string id="HLC000174" text="부대 규모와 상관없이 부대 지휘관(플레이어)에게 최소한으로 보장되는 전리품 지분 비율입니다." />
+    <string id="HLC000300" text="활성화" />
+  </strings>
+</base>
