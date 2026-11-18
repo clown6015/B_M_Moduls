@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="한국어" />
+  </tags>
+  <strings>
+    <string id="misc_ig_onmapload" text="Improved Garrisons 모드를 불러왔습니다." />
+    <string id="tutorial_title" text="Improved Garrisons 튜토리얼" />
+    <string id="tutorial_introduction" text="Improved Garrisons 튜토리얼에 오신 것을 환영합니다. &#10; &#10;이 튜토리얼에서는 Improved Garrisons의 기본 기능을 설명합니다." />
+    <string id="menu_continue" text="계속" />
+    <string id="tutorial_cancel" text="튜토리얼 취소" />
+    <string id="tutorial_findmenu" text="소유한 성이나 도시의 게임 메뉴(화면 왼쪽)에서 &#10; &#10; &gt;&gt; Improved Garrison &#10; &#10; 항목을 누르면 Improved Garrisons 옵션 메뉴를 열 수 있습니다." />
+    <string id="menu_back" text="뒤로" />
+    <string id="tutorial_mainmenu" text="여기는 [Improved Garrison 옵션 메뉴]입니다. &#10; &#10; 옵션:&#10;&gt; 수비대 모병 &#10; 수비대에 새로운 병사와 포로를 자동으로 모병합니다. 이 옵션을 사용하면 더 이상 수비대에 포로를 직접 넣을 필요가 없습니다.&#10; &#10;&gt; 수비대 훈련 &#10;Improved Garrison이 수비대 병사를 훈련하도록 설정합니다. 어떤 병사를 몇 명이나 훈련할지 선택할 수 있습니다. 이 옵션으로 원하는 구성의 군대를 양성할 수 있습니다.&#10; &#10;&gt; 수비대 관리&#10;새로운 수비대 경비 부대를 창설하거나 다른 수비대로 병력을 이동시킵니다. 또한 설정을 다른 Improved Garrison으로 복사할 수도 있습니다." />
+    <string id="tutorial_recruitment" text="여기는 [Improved Garrison 모병 메뉴]입니다. &#10; &#10;옵션:&#10;&gt; 지역에서 모병 &#10;주변 마을에서 신병을 자동으로 모병하려면 이 옵션을 설정하세요. 마을 유지들과의 관계도는 여전히 충분해야 합니다. 이 옵션을 사용하면 더 이상 수비대를 직접 채울 필요가 없습니다.&#10; &#10;&gt; 시간에 따른 포로 모병 &#10;성이나 도시의 지하 감옥에 있는 포로를 모병하려면 이 옵션을 설정하세요. 마운트 앤 블레이드에서 각 포로는 모병 가능 상태가 되기 위해 도달해야 하는 순응도 수치를 가지고 있습니다. 포로를 데리고 다니며 전투를 치러 순응도를 올리거나, 이 옵션을 사용해 매일 순응도를 얻을 수 있습니다." />
+    <string id="tutorial_garrisonbehavior" text="여기는 [Improved Garrison 모병 행동 메뉴]입니다. &#10; &#10;옵션:&#10;&gt; 최대 모병 인원수 설정&#10;Improved Garrison은 수비대 한도를 초과하여 모병하지 않습니다. 이 옵션을 사용하면 모병을 중단할 사용자 지정 한도를 설정할 수 있습니다.&#10; &#10;&gt; 기준치 초과 포로 모병&#10;사용자 지정 모병 한도에 도달하더라도 포로 모병을 허용합니다. 포로 모병과 주변 지역 신병 모병을 동시에 진행하면 한도에 매우 빠르게 도달하여 두 모병이 모두 중단될 수 있습니다. 따라서 계속해서 포로를 모병하고 싶다면 기준치 초과 포로 모병을 활성화하는 것이 좋습니다." />
+    <string id="tutorial_recruiterbehavior1" text="여기는 [Improved Garrison 모병관 행동 메뉴]입니다. &#10; &#10;옵션: &#10;&gt; 모병 인원수 설정&#10;모병관 부대가 복귀하기 전까지 모집할 최대 신병 수입니다.&#10; &#10;&gt; 정예 병사만 모병&#10;모병관이 정예 병사만 모집하도록 지시합니다. &#10; &#10;&gt; 말 구매 허용&#10;모병관이 이동 속도를 높이기 위해 도시에서 말을 구매할 수 있도록 허용합니다.&#10; &#10;&gt; 모병 문화 변경&#10;모병관이 새로운 병사를 모집할 때 찾을 문화를 설정합니다.&#10; &#10;&gt; 모병관 복귀 명령 &#10;모병관이 수비대로 복귀하여 현재까지 모집한 모든 병사를 수비대에 배치합니다." />
+    <string id="tutorial_training" text="여기는 [Improved Garrison 훈련 메뉴]입니다. &#10; &#10;옵션:&#10;&gt; 수비대 병사 훈련&#10;Improved Garrison이 수비대 병사를 훈련하게 하려면 이 옵션을 설정하세요.&#10; &#10;&gt; 최대 승급 티어 설정&#10;훈련된 병사가 승급할 수 있는 최대 티어를 설정합니다.&#10; &#10;&gt; 현재 훈련 템플릿 관리&#10;수비대 병사를 정확히 어떤 병종으로 훈련할지 지정할 수 있습니다. 여기서 선택한 병사는 티어 제한의 영향을 받지 않습니다. 이를 활용해 원하는 대로 군대를 편성하세요. 지정한 각 승급 목표별로 훈련할 병사 수를 설정할 수 있습니다. 예를 들어 보병, 궁병, 기병을 각각 몇 명씩 보유할지 지정할 수 있습니다." />
+    <string id="tutorial_template" text="여기는 [Improved Garrison 훈련 템플릿 메뉴]입니다. &#10; &#10;옵션:&#10;&gt; 템플릿 관리자&#10;템플릿 관리자는 훈련 템플릿을 적용, 확인 또는 삭제하는 데 사용됩니다. 이 템플릿에는 Improved Garrison이 병사를 훈련할 때 따를 승급 경로가 저장됩니다.&#10; &#10;&gt; 새 훈련 템플릿 추가&#10; 현재 설정된 승급 경로와 인원수를 템플릿으로 저장합니다. 이 템플릿은 모든 저장 파일과 수비대에서 공유됩니다." />
+    <string id="tutorial_management" text="여기는 [Improved Garrison 관리 메뉴]입니다. &#10; &#10;옵션:&#10;&gt; 새 수비대 경비 부대 창설&#10;수비대를 위한 새로운 경비 부대를 편성할 수 있습니다. 경비대는 영지 방어, 클랜 부대 지원, 포로 판매 등 다양한 기능을 갖춘 스마트 AI를 보유하고 있습니다.&#10; &#10;&gt; 다른 수비대로 병력 이동&#10; 현재 수비대의 병력을 다른 수비대로 이동시킬 수 있습니다.&#10; &#10;&gt; 설정 복사&#10;현재 수비대의 모든 설정을 다른 수비대로 복사합니다." />
+    <string id="tutorial_order" text="여기는 [Improved Garrison 명령 메뉴]입니다. &#10; &#10;옵션:&#10;&gt; 순찰 명령&#10;이 수비대의 경비대에 순찰을 명령합니다. 순찰 중인 경비대는 지역을 돌아다니며 적 침입자, 약탈자, 도적으로부터 지역을 방어합니다. 현재 순찰 지역의 마을, 성 또는 도시가 공격받으면 방어를 시도합니다. 경비대는 승리할 수 있는 상대만 공격합니다.&#10; &#10;&gt; 지원 명령&#10;경비대가 지원할 클랜 부대를 선택합니다. 다음 전쟁에서 경비대가 당신을 따라다니며 돕게 하고 싶을 때 이 옵션을 사용할 수 있습니다. 경비대는 공성전과 야전에서 당신을 지원할 것입니다. 또한 상단이나 동료 같은 아군 클랜 부대를 호위하도록 지시할 수도 있습니다. 심지어 다른 경비대를 선택해 대규모 순찰대를 구성하여 왕국 국경을 방어하는 데 활용할 수도 있습니다." />
+    <string id="tutorial_guardbehavior" text="여기는 [Improved Garrison 경비대 행동 메뉴]입니다. &#10; &#10;옵션:&#10;&gt; 병력 보충 허용&#10;경비대가 손실된 병력을 보충하고 부상당한 병사를 치료하기 위해 소속 도시/성으로 복귀할 수 있도록 허용합니다. 이 옵션을 켜면 경비대는 사실상 자급자족이 가능해집니다. 단, 경비대는 최초 부대 편성 시 포함되어 있던 병종만 보충합니다. 따라서 경비대가 나중에 보충할 수 있도록 Improved Garrison에서 해당 병종을 양성해 두어야 합니다. &#10; &#10;&gt; 포로 판매 허용 &#10;경비대가 생포한 포로를 판매할 수 있도록 허용합니다. &#10; &#10;&gt; 은신처 소탕 허용&#10;경비대가 순찰 중 발견한 은신처를 소탕할 수 있도록 허용합니다.&#10; &#10;&gt; 말 구매 허용&#10;경비대가 기마 보병 효과를 받아 이동 속도를 높이기 위해 도시에서 말을 구매할 수 있도록 허용합니다." />
+    <string id="tutorial_config" text="여기는 [Improved Garrison 설정 메뉴]입니다. &#10; &#10;캠페인 지도에서 언제든지 [왼쪽 ALT] + [G] 키를 눌러 열 수 있습니다. &#10; &#10;여기서는 모드의 다양한 수치를 원하는 대로 조절할 수 있습니다. 예시:&#10;&gt; 일일 훈련 경험치 변경&#10;&gt; 경비대 및 수비대 유지비 절감&#10;&gt; 포로 모병 속도 증가&#10;&gt; 식량 채집 모듈 불러오기&#10;&gt; NPC 세력에 모드 기능 활성화&#10;&gt; 새 영지 획득 시 적용되는 기본값 변경&#10;&gt; 치트 설정 활성화&#10;&gt; ...그 외 다양한 기능!" />
+    <string id="tutorial_thankyou" text="드디어 튜토리얼을 모두 마치셨습니다!! :-)&#10; &#10;Improved Garrisons를 사용해 주셔서 진심으로 감사드립니다! 이 프로젝트에 수많은 시간을 쏟았으며, 많은 분이 이 모드를 즐겨 주시는 모습을 보는 것은 정말 놀라운 일입니다.&#10; &#10;제 작업물이 마음에 드신다면 의견을 남겨 주세요. Nexus 모드 페이지에 댓글과 추천(Endorsement)을 남겨 주시면 큰 힘이 됩니다. 또한 제 작업을 후원하고 싶으시다면 철야 개발을 위한 커피 한 잔을 후원해 주실 수 있습니다 :-)&#10; &#10;마운트 앤 블레이드에서의 위대한 여정을 위하여 &#10; ~ Sidies" />
+    <string id="tutorial_mainmenu2" text="옵션:&#10;&gt; 수비대 경비대 명령&#10;각 Improved Garrison은 하나의 경비 부대를 가질 수 있습니다. 경비대는 당신의 명령을 따르며 지역을 안전하게 지킵니다.&#10; &#10;&gt; 다른 수비대의 옵션 변경&#10;이 옵션을 사용하면 직접 이동하지 않고도 소유한 다른 Improved Garrison을 선택해 설정을 변경할 수 있습니다. 이 기능은 다양하게 활용할 수 있습니다. 예를 들어 지도 반대편에 있는 왕국이 전쟁을 선포했을 때, 다른 Improved Garrison에서 경비대를 창설해 국경을 안전하게 지킬 수 있습니다." />
+    <string id="tutorial_recruitment2" text="여기는 모병 섹션입니다. 영지 주변 지역에서 수비대 병사를 자동으로 모병하거나, 모병관 부대를 창설하여 지역 외부에서 병사를 모집할 수 있습니다." />
+    <string id="tutorial_training2" text="여기는 Improved Garrisons의 훈련 섹션입니다. 이 섹션에서는 각 수비대가 병사를 훈련하도록 지시할 수 있습니다." />
+    <string id="tutorial_order2" text="옵션:&#10;&gt; 수비대 복귀 명령&#10; 경비대에 복귀를 명령합니다. 부대는 소속 도시/성에 도착하면 해산되며 병사들은 수비대로 돌아갑니다. 또한 생포한 모든 포로와 전리품을 판매합니다.&#10; &#10;&gt; 경비대 행동 설정&#10;경비대 AI가 따를 다양한 규칙과 행동을 설정할 수 있는 하위 메뉴를 엽니다." />
+    <string id="tutorial_continue" text="계속" />
+    <string id="tutorial_findmenu1" text="Improved Garrisons의 주요 기능은 소유한 성이나 도시의 정착지 메뉴(화면 왼쪽)에서" />
+    <string id="tutorial_findmenu2" text="버튼을 눌러 이용할 수 있습니다." />
+    <string id="tutorial_back" text="뒤로" />
+    <string id="tutorial_uiguide1" text="Improved Garrisons 메뉴" />
+    <string id="tutorial_uiguide2" text="Improved Garrisons 버튼을 누르면 Improved Garrisons 메뉴가 열립니다. 이 메뉴는 수비대를 확인하고 제어하는 데 사용됩니다. 수비대 병사의 모병 및 훈련 같은 기능을 담은 여러 탭으로 구성되어 있습니다." />
+    <string id="tutorial_garrisonselector1" text="Improved Garrisons 정착지 선택" />
+    <string id="tutorial_garrisonselector2" text="Improved Garrisons 메뉴 상단에는 드롭다운 버튼이 있습니다. 현재 소유한 모든 성과 도시가 그곳에 나열됩니다." />
+    <string id="tutorial_garrisonselector3" text="설정을 변경하려는 정착지를 선택하려면 이 드롭다운 메뉴를 사용하세요." />
+    <string id="tutorial_overview1" text="개요 탭" />
+    <string id="tutorial_overview2" text="이 탭은 현재 소유한 모든 영지(성 또는 도시)의 개요를 제공합니다. 각 영지는 카드 형태로 나열됩니다. 이 목록을 통해 지도 어디에서나 각 영지의 현재 상태를 확인할 수 있습니다." />
+    <string id="tutorial_overview3" text="또한 영지나 소속 마을이 현재 공격받고 있거나 약탈당했는지 등 유용한 정보를 실시간으로 보여줍니다." />
+    <string id="tutorial_overview4" text="개요 탭 기능" />
+    <string id="tutorial_overview5" text="각 영지 카드에는 몇 가지 편의 기능이 포함되어 있습니다." />
+    <string id="tutorial_overview6" text="영지 사진을 좌클릭하면 지도에서 해당 위치가 추적됩니다." />
+    <string id="tutorial_overview7" text="영지 카드를 좌클릭하면 설정할 영지로 선택됩니다." />
+    <string id="tutorial_overview8" text="영지 카드를 우클릭하면 추가 옵션이 있는 컨텍스트 메뉴가 표시됩니다." />
+    <string id="tutorial_overview9" text="참고: 정착지가 공격받고 있는 경우, 컨텍스트 메뉴에 경비 부대로 방어하는 옵션도 제공됩니다(자세한 내용은 아래 참조). 이를 통해 지도 어디에서나 성, 도시 또는 마을을 방어할 수 있습니다." />
+    <string id="tutorial_recruitment1" text="모병 메뉴" />
+    <string id="tutorial_recruitment2_1" text="참고: 지역은 성 또는 도시와 그에 귀속된 마을들로 구성됩니다." />
+    <string id="tutorial_recruitment3" text="모병관 정보" />
+    <string id="tutorial_recruitment4" text="모병관 부대는 수비대에 새로운 병사를 모병하는 데 사용됩니다. 모병관은 현재 영지 지역 외부에서 새로운 병사를 찾습니다. 모병관이 수비대를 위해 모집할 병사의 문화와 인원수를 선택할 수 있습니다." />
+    <string id="tutorial_recruitment5" text="모병 설정" />
+    <string id="tutorial_recruitment6" text="Improved Garrisons의 모병 섹션을 통해 성이나 도시에서 새로운 병사를 자동으로 모병할 수 있습니다. 강조 표시된 섹션에서 새로운 병사를 어떻게 모병할지 다양한 옵션을 선택할 수 있습니다." />
+    <string id="tutorial_recruitment6_1" text="바닐라 모병" />
+    <string id="tutorial_recruitment6_2" text="바닐라 모병은 이 모드가 관리하지 않는 기본 게임의 모병을 의미합니다. 기본 게임의 모병은 Improved Garrisons에 의해 제어되지 않아 사용자 지정 설정과 충돌할 수 있으므로 이 설정은 비활성화해 두는 것을 강력히 권장합니다." />
+    <string id="tutorial_recruitment6_3" text="지역에서 모병" />
+    <string id="tutorial_recruitment6_4" text="이 설정을 활성화하면 직접 모으러 갈 필요 없이 주변 마을에서 수비대로 신병 부대를 보냅니다." />
+    <string id="tutorial_recruitment6_5" text="포로 모병" />
+    <string id="tutorial_recruitment6_6" text="이 설정을 활성화하면 지하 감옥에 있는 포로들이 서서히 수비대로 모병됩니다." />
+    <string id="tutorial_recruitment7" text="참고: 각 포로는 모병 가능 상태가 되기 위해 도달해야 하는 고유의 순응도 수치를 가지고 있습니다. 포로를 데리고 다니며 순응도를 쌓거나, 이 Improved Garrison 옵션을 사용해 서서히 순응도를 쌓을 수 있습니다." />
+    <string id="tutorial_recruitment8" text="모병 설정" />
+    <string id="tutorial_recruitment9" text="(이 섹션은 스크롤할 수 있습니다)" />
+    <string id="tutorial_recruitment10" text="이 설정들을 사용해 수비대의 모병 행동과 모병관 부대의 행동을 세부적으로 조정하세요." />
+    <string id="tutorial_training1" text="훈련 메뉴" />
+    <string id="tutorial_training3" text="훈련 템플릿" />
+    <string id="tutorial_training4" text="훈련 템플릿을 설정하면 수비대가 병사를 정확히 어떤 병종으로 훈련할지 지정할 수 있습니다. 이 기능을 통해 예를 들어 바타니아 피안 챔피언 몇 명, 스투르기아 전열 파괴자 몇 명을 훈련할지 등 군대 전체 구성을 하나의 템플릿으로 정의할 수 있습니다." />
+    <string id="tutorial_training5" text="이 기능은 매우 편리합니다. 수비대 중 한 곳이 템플릿 군대를 훈련해 두었다면, 다음에 큰 전투에서 패배하더라도 새로 병사를 모으고 훈련할 필요가 없습니다. 단지 수비대로 가서 미리 훈련된 병사들을 데려오기만 하면 됩니다." />
+    <string id="tutorial_training6" text="어떻게 작동하나요? 수비대 병사가 승급 가능할 때마다 Improved Garrison은 현재 훈련 템플릿에 해당 병사의 승급 목표가 지정되어 있는지 확인합니다. 그런 다음 해당 목표를 향해 병사를 승급시킵니다." />
+    <string id="tutorial_training7" text="참고: Improved Garrison은 훈련 템플릿에 지정된 목표보다 높은 단계로 병사를 승급시키지 않습니다." />
+    <string id="tutorial_training7_1" text="참고: 템플릿에 승급 목표가 지정되지 않은 경우, 병사는 &apos;병사 최대 승급 티어&apos; 설정에 따라 무작위로 승급됩니다." />
+    <string id="tutorial_training7_2" text="참고: 강조 표시된 병사 목록은 상호작용이 가능합니다. 우클릭하여 목록에서 병사를 삭제하고, &apos;+&apos; 및 &apos;-&apos; 버튼을 사용해 훈련할 인원수를 변경하세요." />
+    <string id="tutorial_training8" text="병사 추가" />
+    <string id="tutorial_training9" text="여기서 현재 템플릿에 새로운 병사를 추가할 수 있습니다. 병사는 위 목록에 추가되므로 수비대가 어떤 병종을 목표로 훈련 중인지 언제든 한눈에 확인할 수 있습니다." />
+    <string id="tutorial_training10" text="템플릿 관리자" />
+    <string id="tutorial_training11" text="템플릿 관리자는 훈련 템플릿을 저장하고 관리하는 편리한 기능입니다. 저장된 템플릿은 모든 저장 파일 간에 동기화되므로 나중에 필요할 때 언제든 다시 적용할 수 있습니다." />
+    <string id="tutorial_training12" text="훈련 설정" />
+    <string id="tutorial_training13" text="템플릿 기능이 작동하려면 Improved Garrison이 수비대 병사를 훈련할 수 있도록 허용해야 합니다. 여기서 해당 권한을 부여할 수 있습니다." />
+    <string id="tutorial_training14" text="참고: 훈련에는 비용이 듭니다. 유지비 감당이 어렵다면 현재 훈련 설정을 유지할 수 있는지 확인해 보는 것이 좋습니다." />
+    <string id="tutorial_training14_1" text="바닐라 훈련" />
+    <string id="tutorial_training14_2" text="바닐라 모병과 마찬가지로 기본 게임의 병사 승급 로직을 따르는 바닐라 훈련 설정도 있습니다. 기본 게임의 승급 로직은 훈련 템플릿을 무시하고 병사를 무작위로 승급 및 강등시키므로 이 설정은 비활성화해 두는 것을 강력히 권장합니다." />
+    <string id="tutorial_training17" text="병사 최대 승급 티어 (비템플릿)" />
+    <string id="tutorial_training18" text="이 기능은 현재 훈련 템플릿의 영향을 받지 않는 수비대 내 모든 병사에게만 적용됩니다. Improved Garrison은 해당 병사들을 여기서 선택한 티어까지만 승급시킵니다." />
+    <string id="tutorial_training19" text="참고: 병사에 해당하는 훈련 템플릿이 없으면 승급 경로가 무작위로 선택됩니다." />
+    <string id="tutorial_training14_3" text="잠시 모병 섹션으로 돌아가서 강조 표시된 설정을 살펴보겠습니다." />
+    <string id="tutorial_training15" text="템플릿에 맞춘 모병" />
+    <string id="tutorial_training16" text="이 기능은 매우 편리합니다. 현재 훈련 템플릿에 맞춰 병사를 훈련하려면 당연히 해당 템플릿 목표로 성장할 수 있는 하위 병사들이 필요합니다!" />
+    <string id="tutorial_training16_1" text="이러한 병사들을 직접 모으러 다니는 대신 Improved Garrison 모병 기능이 이를 대신해 줄 수 있습니다. 템플릿에 따라 세계 지도 각지에 흩어져 있는 서로 다른 문화권의 병사가 필요할 수도 있다는 점을 기억하세요. 이러한 문화권의 병사를 자동으로 모집하려면 (&apos;템플릿에 맞춘 모병&apos; 버튼을 활성화한 후) 아래 설정에서 &apos;모병관 자동 생성&apos;을 활성화하여 모병관 부대가 자동으로 생성되게 하세요." />
+    <string id="tutorial_training16_2" text="모병관은 (나름대로) 똑똑합니다. 훈련 템플릿에 어떤 문화권의 어떤 병사가 필요한지 파악하고, 세계 지도 곳곳에서 해당 병사들을 모아 수비대로 데려옵니다." />
+    <string id="tutorial_guards1" text="수비대 경비 부대" />
+    <string id="tutorial_guards2" text="여기는 경비 부대 섹션입니다. 여기서 새로운 경비 부대를 창설하거나, 현재 경비 부대의 정보를 확인하고, 명령을 내리거나 행동을 세부 설정할 수 있습니다." />
+    <string id="tutorial_guards3" text="경비대는 현재 수비대 병력으로 편성되는 부대입니다. 각 Improved Garrison은 하나의 경비 부대를 가질 수 있습니다. 경비 부대는 기본 게임 AI 위에 구축된 고급 사용자 지정 AI를 갖추고 있습니다. 경비대 AI는 &quot;XY 마을을 방어해야겠다&quot;, &quot;XY 부대는 너무 빠르거나 강하니 공격하지 말아야겠다&quot;, &quot;정착지로 돌아가 병사들을 치료해야겠다&quot; 같은 판단을 스스로 내립니다!" />
+    <string id="tutorial_guards4" text="각 경비 부대에 명령을 내릴 수도 있습니다. 가장 일반적인 용도는 지역 방어입니다. 경비대에 순찰을 지시하면 지역을 돌아다니며 약탈자와 도적을 소탕하고 공성전과 약탈로부터 방어합니다. 또한 경비대에 다른 부대를 호위하도록 지시할 수도 있습니다. 그러면 경비대는 해당 부대를 따라다니며 보호합니다. 다음 공격에 지원이 필요하거나 상단을 보호하고 싶을 때 유용합니다." />
+    <string id="tutorial_guards5" text="경비대 설정" />
+    <string id="tutorial_guards6" text="(이 섹션은 스크롤할 수 있습니다)" />
+    <string id="tutorial_guards7" text="이 목록은 경비대의 추가 행동 설정으로 구성되어 있습니다. 예를 들어 마을이 약탈당할 때 자동으로 경비대를 생성하거나, 생포한 포로의 모병을 비활성화하는 등의 설정을 할 수 있습니다." />
+    <string id="tutorial_garrison1" text="수비대 정보" />
+    <string id="tutorial_garrison2" text="여기는 수비대 정보 섹션입니다. 수비대에 관한 중요 정보와 Improved Garrison의 활동 내역이 여기에 표시됩니다." />
+    <string id="tutorial_garrison3" text="현재 수비대" />
+    <string id="tutorial_garrison4" text="이 목록은 선택된 도시 또는 성의 현재 수비대 병력을 표시합니다." />
+    <string id="tutorial_garrison5" text="하단에는 병력 이동 전용 버튼이 있습니다. 이를 통해 소유한 다른 정착지로 이동하는 수송 부대를 생성할 수 있습니다. 수비대 간에 병력을 이동시키고 싶을 때 이 기능을 사용하세요." />
+    <string id="tutorial_garrison6" text="참고: 전쟁 중일 때 더 큰 수비대가 필요한 정착지로 병력을 보내는 데 유용하게 쓸 수 있습니다." />
+    <string id="tutorial_garrison7" text="주간 수비대 정보" />
+    <string id="tutorial_garrison8" text="이 목록은 수비대에서 발생한 다양한 모병 및 훈련 비용을 표시합니다. 또한 이번 주에 모병 및 승급된 병사의 누적 인원수도 보여줍니다." />
+    <string id="tutorial_garrison9" text="수비대 활동" />
+    <string id="tutorial_garrison10" text="수비대가 수행한 최근 활동을 보여주는 채팅 형태의 목록입니다. 모병 및 승급 같은 활동 내역이 시간 기록과 함께 표시됩니다." />
+    <string id="tutorial_management1" text="관리" />
+    <string id="tutorial_management2" text="관리 섹션에서는 영지의 현재 정보를 표시하며, 영지 간 설정 복사 및 프로젝트 관리를 할 수 있습니다." />
+    <string id="tutorial_management3" text="도시 프로젝트" />
+    <string id="tutorial_management7" text="복사 관리자" />
+    <string id="tutorial_management8" text="복사 관리자는 현재 수비대의 설정을 다른 수비대로 복사하는 데 사용됩니다." />
+    <string id="tutorial_management9" text="참고: 예를 들어 다음 전쟁을 대비해 모든 영지가 신속히 300명의 병사를 모으도록 하고 싶다면 여기서 설정할 수 있습니다." />
+    <string id="tutorial_enableonmap1" text="지도에서 활성화" />
+    <string id="tutorial_enableonmap2" text="간단 팁: 지도 어디에서나 Improved Garrisons 메뉴를 사용하고 싶다면 이 버튼을 체크하세요." />
+    <string id="tutorial_configmanager1" text="설정 관리자" />
+    <string id="tutorial_configmanager2" text="Improved Garrison 설정 관리자는 캠페인 지도에서 언제든지 [왼쪽 ALT] + [G] 키를 눌러 열 수 있습니다. &#10; &#10;여기서는 다양한 수치를 원하는 대로 조절할 수 있습니다. 예시:&#10;&gt; 일일 훈련 경험치 변경&#10;&gt; 경비 부대 및 수비대 병사 비용 절감&#10;&gt; 포로 모병 속도 증가&#10;&gt; 식량 채집 모듈 활성화&#10;&gt; NPC 세력이 Improved Garrisons 기능을 사용하도록 허용&#10;&gt; 새 영지 획득 시 적용되는 기본값 변경&#10;&gt; 치트 설정 활성화&#10;&gt; ...그 외 훨씬 더 많은 기능!" />
+    <string id="tutorial_end" text="튜토리얼 종료" />
+    <string id="party_guards" text="수비대 경비대" />
+    <string id="party_recruiter" text="수비대 모병관" />
+    <string id="party_recruits_name" text="수비대 신병" />
+    <string id="misc_costmodel_trainingcosts" text="수비대 훈련 비용:" />
+    <string id="misc_costmodel_recruitmentcosts" text="수비대 모병 비용:" />
+    <string id="misc_costs" text="비용" />
+    <string id="misc_guardwages" text="경비대 급여" />
+    <string id="rhKxsdtz" text=" {PARTY_NAME} 재정 지원" />
+    <string id="ui_improvedgarrisonsui_title" text="Improved Garrisons" />
+    <string id="ui_improvedgarrisonsui_overview" text="개요" />
+    <string id="ui_improvedgarrisonsui_recruitment" text="모병" />
+    <string id="ui_improvedgarrisonsui_guards" text="경비대" />
+    <string id="ui_improvedgarrisonsui_training" text="훈련" />
+    <string id="ui_improvedgarrisonsui_management" text="관리" />
+    <string id="ui_improvedgarrisonsui_finance" text="재정" />
+    <string id="ui_improvedgarrisonsui_garrison" text="수비대" />
+    <string id="ui_improvedgarrisonsui_maptoggle" text="지도에 표시" />
+    <string id="ui_improvedgarrisonsui_tutorialtext" text="튜토리얼" />
+    <string id="ui_improvedgarrisonsui_configurationtext" text="설정" />
+    <string id="ui_improvedgarrisonsui_defaulttext" text="기본 설정" />
+    <string id="ui_improvedgarrisonsui_maptogglehint" text="캠페인 지도에서 Improved Garrisons 메뉴를 표시합니다." />
+    <string id="ui_improvedgarrisonsui_tutorialhint" text="Improved Garrisons 튜토리얼을 시작합니다." />
+    <string id="ui_improvedgarrisonsui_configurationhint" text="Improved Garrisons 설정을 표시합니다." />
+    <string id="ui_improvedgarrisonsui_resethint" text="현재 선택된 정착지를 기본 설정으로 초기화합니다." />
+    <string id="ui_improvedgarrisonsui_resetdefault_title" text="정착지 기본 설정 초기화" />
+    <string id="ui_improvedgarrisonsui_resetdefault_description" text="정말로 현재 선택된 정착지를 기본 설정으로 초기화하시겠습니까?" />
+    <string id="menu_yes" text="예" />
+    <string id="menu_cancel" text="취소" />
+    <string id="misc_hour" text="시간" />
+    <string id="ui_improvedgarrisonwidget_removetroop" text="템플릿에서 병종을 제거하려면 우클릭하세요." />
+    <string id="ui_improvedgarrisonwidget_currentamount" text="템플릿에 설정된 이 병종의 목표 인원수입니다." />
+    <string id="ui_improvedgarrisonwidget_currentgarrisonamount" text="수비대에 보유 중인 이 병종의 현재 인원수입니다." />
+    <string id="ui_garrisonui_currentgarrison" text="현재 수비대" />
+    <string id="ui_garrisonui_transfer" text="병력 이동" />
+    <string id="ui_garrisonui_garrisonactivity" text="수비대 활동" />
+    <string id="ui_garrisonui_weeklyinformation" text="주간 수비대 정보" />
+    <string id="ui_garrisonui_weeklycosts1" text="이번 주에 모병된 병사 수입니다." />
+    <string id="ui_garrisonui_weeklycosts2" text="모병된 병사" />
+    <string id="ui_garrisonui_weeklycosts3" text="이번 주 모병 비용" />
+    <string id="ui_garrisonui_weeklycosts4" text="모병 비용" />
+    <string id="ui_garrisonui_weeklycosts5" text="이번 주에 승급된 병사 수입니다." />
+    <string id="ui_garrisonui_weeklycosts6" text="승급된 병사" />
+    <string id="ui_garrisonui_weeklycosts7" text="이번 주 훈련 비용" />
+    <string id="ui_garrisonui_weeklycosts8" text="훈련 비용" />
+    <string id="ui_trainingui_dailywagetext" text="일일 급여:" />
+    <string id="ui_guardsui_infotitle" text="경비 부대 정보" />
+    <string id="ui_guardsui_createguard" text="새 경비 부대 창설" />
+    <string id="ui_guardsui_guardorders" text="경비 부대 명령" />
+    <string id="ui_guardsui_autocreateguards1" text="경비 부대 자동 생성" />
+    <string id="ui_guardsui_autocreateguards2" text="이 수비대가 자동으로 경비 부대를 창설하도록 허용합니다." />
+    <string id="ui_guardsui_healthytroops" text="건재한 병사" />
+    <string id="ui_guardsui_woundedtroops" text="부상당한 병사" />
+    <string id="ui_guardsui_prisoners" text="포로" />
+    <string id="ui_guardsui_orderpatrol" text="순찰 명령" />
+    <string id="ui_guardsui_orderescort" text="호위 명령" />
+    <string id="ui_guardsui_orderreturn" text="복귀 명령" />
+    <string id="ui_guardsui_creationtitle" text="스마트 경비대 생성 설정" />
+    <string id="ui_guardsui_autodefend1" text="마을 방어를 위한 경비 부대 자동 생성" />
+    <string id="ui_guardsui_autodefend2" text="약탈당하는 마을을 방어하기 위해 현재 수비대가 자동으로 경비 부대를 창설하도록 허용합니다." />
+    <string id="ui_guardsui_autoroam1" text="지역 순찰을 위한 경비 부대 자동 생성" />
+    <string id="ui_guardsui_autoroam2" text="도적 및 적 부대와 싸우기 위해 이 수비대가 자동으로 경비 부대를 창설하도록 허용합니다." />
+    <string id="ui_guardsui_partycreationsize_small" text="소규모" />
+    <string id="ui_guardsui_partycreationsize_medium" text="중규모" />
+    <string id="ui_guardsui_partycreationsize_large" text="대규모" />
+    <string id="ui_guardsui_partycreationsize1" text="자동 생성 경비 부대 규모" />
+    <string id="ui_guardsui_partycreationsize2" text="현재 수비대에서 경비 부대가 자동으로 생성될 때의 부대 규모를 설정합니다." />
+    <string id="ui_guardsui_autocreationthreshold1" text="경비대 자동 생성 기준치" />
+    <string id="ui_guardsui_autocreationthreshold2" text="경비대가 자동으로 생성되기 위해 도달해야 하는 수비대 규모를 설정합니다. &#10; &#10;참고: 경비 부대 자동 생성이 활성화되어 있어야 합니다." />
+    <string id="ui_guardsui_settings" text="경비대 행동 설정" />
+    <string id="ui_guardsui_allowupgrade1" text="병사 승급 허용" />
+    <string id="ui_guardsui_allowupgrade2" text="이 경비 부대가 소속 병사를 승급시킬 수 있도록 허용합니다." />
+    <string id="ui_guardsui_returnthreshold1" text="복귀 기준치 (%)" />
+    <string id="ui_guardsui_returnthreshold2" text="경비 부대가 복귀하기 위한 초기 부대 규모 대비 비율 기준치를 설정합니다. &#10; &#10; 0.9로 설정하면 병력의 10%를 잃은 후 복귀합니다. &#10; &#10; 0.1로 설정하면 초기 규모의 90%를 잃어야 복귀합니다." />
+    <string id="ui_guardsui_allowreplenish1" text="병력 보충 허용" />
+    <string id="ui_guardsui_allowreplenish2" text="이 경비 부대가 손실된 병력을 보충하고 부상자를 치료하기 위해 소속 도시/성으로 돌아가는 것을 허용합니다. &#10; &#10;경비 부대는 최초 편성 시 포함되어 있던 병종만 보충합니다! 따라서 경비 부대가 보충할 때 데려갈 수 있도록 해당 병사들을 수비대에 미리 확보해 두세요." />
+    <string id="ui_guardsui_allowsell1" text="포로 몸값 처분 허용" />
+    <string id="ui_guardsui_allowsell2" text="이 경비 부대가 생포한 포로를 몸값을 받고 넘길 수 있도록 허용합니다." />
+    <string id="ui_guardsui_allowrecruit1" text="포로 모병 허용" />
+    <string id="ui_guardsui_allowrecruit2" text="이 경비 부대가 생포한 포로를 모병할 수 있도록 허용합니다." />
+    <string id="ui_guardsui_allowhorses1" text="말 구매 허용" />
+    <string id="ui_guardsui_allowhorses2" text="이 경비 부대가 이동 속도를 높이기 위해 말을 구매할 수 있도록 허용합니다." />
+    <string id="ui_guardsui_allowships1" text="선박 구매 허용" />
+    <string id="ui_guardsui_allowships2" text="이 경비 부대가 바다 건너 정착지로 이동할 수 있도록 항구에서 선박을 구매하는 것을 허용합니다. 선박이 없으면 현재 대륙을 벗어날 수 없습니다." />
+    <string id="ui_guardsui_noguards" text="활성화된 경비 부대가 없습니다" />
+    <string id="ui_managementui_progresstext" text="진행도" />
+    <string id="ui_managementui_queuetext" text="대기열" />
+    <string id="ui_managementui_noqueuetext" text="대기열에 프로젝트가 없습니다" />
+    <string id="ui_managementui_dailydefaulttext" text="기본 프로젝트" />
+    <string id="ui_managementui_copymanager" text="복사 관리자" />
+    <string id="ui_managementui_townprojectstext" text="도시 프로젝트" />
+    <string id="ui_managementui_information" text="정착지 정보" />
+    <string id="ui_managementui_copycastles1" text="모든 성에 복사" />
+    <string id="ui_managementui_copycastles2" text="현재 수비대 설정을 소유한 모든 성에 복사합니다." />
+    <string id="ui_managementui_copytown1" text="모든 도시에 복사" />
+    <string id="ui_managementui_copytown2" text="현재 수비대 설정을 소유한 모든 도시에 복사합니다." />
+    <string id="ui_managementui_copyspecific1" text="특정 정착지에 복사" />
+    <string id="ui_managementui_copyspecific2" text="현재 수비대 설정을 소유한 특정 도시나 성에 복사합니다." />
+    <string id="ui_overviewui_fiefs" text="소유한 영지" />
+    <string id="ui_recruitmentui_recruiterinfo" text="모병관 정보" />
+    <string id="ui_recruitmentui_createrecruiter" text="새 모병관 생성" />
+    <string id="ui_recruitmentui_regionrecruitment" text="모병 설정" />
+    <string id="ui_recruitmentui_returnrecruiter" text="모병관 복귀" />
+    <string id="ui_recruitmentui_recruiterdesc" text="모병관은 이 영지의 지역 외부에서 새로운 병사를 모집하는 데 사용됩니다." />
+    <string id="ui_recruitmentui_regionrecruitmentdesc" text="수비대가 주변 마을과 현재 성 또는 도시에서 병사를 모병합니다. &#10;이 지역 외부에서 모병하려면 모병관 부대를 사용하세요." />
+    <string id="ui_recruitmentui_regionrecruitmentenable1" text="지역에서 모병" />
+    <string id="ui_recruitmentui_regionrecruitmentenable2" text="이 수비대가 주변 마을과 도시 또는 성에서 병사를 모병하도록 허용합니다." />
+    <string id="ui_recruitmentui_recruitprisoners1" text="포로 모병" />
+    <string id="ui_recruitmentui_recruitprisoners2" text="이 수비대가 지하 감옥에 있는 포로를 시간이 지남에 따라 모병하도록 허용합니다." />
+    <string id="ui_recruitmentui_recruitmentfollowstemplate" text="템플릿에 맞춘 &#10; 모병" />
+    <string id="ui_recruitmentui_recruitmentfollowstemplate2" text="이 수비대는 현재 훈련 템플릿에 포함되거나 템플릿 병사로 승급하는 데 필요한 병사만 모병합니다." />
+    <string id="ui_recruitmentui_vanillarecruitment" text="바닐라 모병" />
+    <string id="ui_recruitmentui_vanillarecruitment2" text="기본 게임의 수비대 모병을 활성화합니다. &#10; &#10;비활성화하면 이 수비대의 자동 모병 옵션이 꺼져 일일 병사 모병이 중단됩니다. 바닐라 모병은 Improved Garrison에 의해 제어되지 않으며 템플릿 설정과 충돌할 수 있습니다. &#10; &#10;수비대를 더 정밀하게 제어하려면 이 옵션을 비활성화해 두는 것을 강력히 권장합니다." />
+    <string id="ui_recruitmentui_partysize" text="부대 규모" />
+    <string id="ui_recruitmentui_recruitedtroops" text="모병된 병사" />
+    <string id="ui_recruitmentui_culture" text="문화" />
+    <string id="misc_any" text="모두" />
+    <string id="ui_recruitmentui_recruitmentwithouttemplate_regiontitle" text="지역 및 포로 모병 설정" />
+    <string id="ui_recruitmentui_recruitthreshold1" text="최대 모병 병사 수" />
+    <string id="ui_recruitmentui_recruitthreshold2" text="이 수비대가 지하 감옥과 주변 지역에서 모병할 최대 병사 수입니다." />
+    <string id="ui_recruitmentui_recruitelite1" text="이 지역에서 정예 병사만 모병" />
+    <string id="ui_recruitmentui_recruitelite2" text="이 수비대의 지역 모병 시 정예 병사만 모병하도록 강제합니다." />
+    <string id="ui_recruitmentui_prisonerthreshold1" text="기준치 초과 포로 모병" />
+    <string id="ui_recruitmentui_prisonerthreshold2" text="지역 모병 기준치를 초과하더라도 포로를 모병할 수 있도록 허용합니다." />
+    <string id="ui_recruitmentui_recruitmentwithouttemplate_recruitertitle" text="모병관 모병 설정" />
+    <string id="ui_recruitmentui_recruiteronlyelite1" text="모병관이 정예 병사만 모병" />
+    <string id="ui_recruitmentui_recruiteronlyelite2" text="활성화하면 이 수비대의 모병관이 정예 병사만 모집합니다." />
+    <string id="ui_recruitmentui_recruiterrecruitamount1" text="모병 목표 인원" />
+    <string id="ui_recruitmentui_recruiterrecruitamount2" text="모병관이 복귀하기 전까지 모집해야 할 병사 수를 설정합니다." />
+    <string id="ui_recruitmentui_recruiterhorses1" text="말 구매 허용" />
+    <string id="ui_recruitmentui_recruiterhorses2" text="이 수비대의 모병관 부대가 이동 속도를 높이기 위해 말을 구매하도록 허용합니다. &#10; &#10;(비용이 많이 들 수 있습니다!)" />
+    <string id="ui_recruitmentui_recruitership1" text="선박 구매 허용" />
+    <string id="ui_recruitmentui_recruitership2" text="이 수비대의 모병관 부대가 바다 건너 신병을 모집할 수 있도록 모항에서 선박을 구매하는 것을 허용합니다. 선박이 없으면 섬 도시의 모병관은 섬을 떠날 수 없습니다. &#10; &#10;(비용이 많이 들 수 있습니다!)" />
+    <string id="ui_recruitmentui_recruiterculture1" text="모병관의 모병 문화 변경" />
+    <string id="ui_recruitmentui_recruiterculture2" text="이 수비대의 모병관이 병사를 모집할 문화를 변경합니다." />
+    <string id="ui_recruitmentui_recruitmentwithtemplate" text="템플릿 연동 모병 설정" />
+    <string id="ui_trainingui_autogather1" text="모병관 자동 생성" />
+    <string id="ui_trainingui_autogather2" text="현재 훈련 템플릿에 필요한 모든 병사를 모으기 위해 이 수비대가 자동으로 모병관을 생성하도록 허용합니다. &#10; &#10;이 기능을 사용하면 군대 훈련이 놀라울 정도로 편리해집니다. 이 설정을 켜고 훈련 템플릿을 설정한 뒤, 수비대가 필요한 모든 문화권에서 병사를 모아 원하는 병종으로 훈련할 때까지 기다리기만 하면 됩니다." />
+    <string id="ui_recruitmentui_prisonertemplate1" text="포로 모병 시 템플릿 무시" />
+    <string id="ui_recruitmentui_prisonertemplate2" text="포로가 템플릿에 포함되지 않더라도 수비대에서 모병합니다." />
+    <string id="ui_recruitmentui_notenoughtroops" text="모병관 부대를 자동으로 생성하기에 병사가 부족합니다!" />
+    <string id="ui_recruitmentui_trainingdisabled" text="모병관 부대를 자동으로 생성하려면 훈련이 활성화되어 있어야 합니다!" />
+    <string id="ui_recruitmentui_notemplate" text="모병관을 자동으로 생성하려면 훈련 템플릿이 필요합니다!" />
+    <string id="ui_recruitmentui_norecruiter" text="활성화된 모병관 부대가 없습니다" />
+    <string id="misc_template" text="템플릿" />
+    <string id="ui_trainingui_addtroops" text="병사 추가" />
+    <string id="ui_trainingui_currenttemplate" text="현재 템플릿" />
+    <string id="ui_trainingui_templatemanager" text="템플릿 관리자" />
+    <string id="ui_trainingui_trainingsettings" text="훈련 설정" />
+    <string id="ui_trainingui_addtroopshint" text="훈련 템플릿에 새로운 병사를 추가합니다.&#10;&#10;훈련 템플릿은 수비대가 병사를 훈련할 때 따를 승급 경로를 정의하는 데 사용됩니다. 여기서 선택한 병사는 훈련 티어 제한의 영향을 받지 않습니다.&#10;&#10; 훈련 템플릿을 사용해 원하는 대로 군대를 구성하세요. 지정한 각 승급 목표별로 훈련할 병사 수를 설정할 수 있습니다. 예를 들어 수비대에 보유할 보병, 원거리 병사 또는 기병의 수를 지정할 수 있습니다." />
+    <string id="ui_trainingui_templatemanagerhint" text="훈련 템플릿은 수비대가 병사를 훈련할 때 따를 승급 경로를 정의하는 데 사용됩니다. 여기서 선택한 병사는 훈련 티어 제한의 영향을 받지 않습니다.&#10; &#10;훈련 템플릿을 사용해 원하는 대로 군대를 구성하세요. 지정한 각 승급 목표별로 훈련할 병사 수를 설정할 수 있습니다. 예를 들어 수비대에 보유할 보병, 원거리 병사 또는 기병의 수를 지정할 수 있습니다.&#10; &#10;템플릿 관리자는 훈련 템플릿을 저장, 적용, 확인 또는 삭제하는 데 사용됩니다. 훈련 템플릿은 모든 수비대와 게임 저장 파일 간에 동기화됩니다." />
+    <string id="ui_trainingui_dailywagetemplatehint" text="템플릿에 포함된 각 병사의 일일 급여입니다." />
+    <string id="ui_recruitmentui_vanillatraining" text="바닐라 훈련" />
+    <string id="ui_recruitmentui_vanillatraining2" text="기본 게임의 수비대 훈련을 활성화합니다. &#10; &#10;비활성화하면 수비대 급여 한도가 0으로 설정되어 기본 게임의 급여 제어가 중단됩니다. 바닐라 훈련은 Improved Garrison에 의해 제어되지 않으며 템플릿 설정과 충돌할 수 있습니다. 이 설정을 켜면 기본 게임이 Improved Garrison의 통제 없이 병사를 임의로 강등하거나 승급시킵니다. &#10; &#10;수비대를 더 정밀하게 제어하려면 이 옵션을 비활성화해 두는 것을 강력히 권장합니다." />
+    <string id="ui_trainingui_garrisontraining1" text="개선된 수비대 훈련" />
+    <string id="ui_trainingui_garrisontraining2" text="이 수비대가 소속 병사를 훈련하도록 허용합니다. &#10; &#10;수비대가 훈련할 최대 티어를 선택하거나 훈련 템플릿을 설정해 승급 경로를 지정할 수 있습니다." />
+    <string id="ui_trainingui_maxupgradetier1" text="병사 최대 승급 티어 &#10; (비템플릿)" />
+    <string id="ui_trainingui_maxupgradetier2" text="현재 훈련 템플릿에 지정되지 않은 병사를 이 수비대가 훈련할 최대 티어입니다." />
+    <string id="ui_settlementinformation_garrisonsize1" text="현재 수비대 규모입니다." />
+    <string id="ui_settlementinformation_garrisonsize2" text="수비대 규모" />
+    <string id="ui_settlementinformation_foodamount1" text="이 정착지의 현재 식량 수치입니다." />
+    <string id="ui_settlementinformation_foodamount2" text="식량" />
+    <string id="ui_settlementinformation_guardparty1" text="활성화된 경비 부대 보유 여부입니다." />
+    <string id="ui_settlementinformation_guardparty2" text="활성 경비 부대" />
+    <string id="ui_settlementinformation_goldchange1" text="이 정착지의 수입과 작업장 수익에서 수비대 및 경비 부대 급여를 뺀 계산 수치입니다." />
+    <string id="ui_settlementinformation_goldchange2" text="디나르 증감" />
+    <string id="ui_settlementinformation_prosperity1" text="이 정착지의 현재 번영도 수치입니다." />
+    <string id="ui_settlementinformation_prosperity2" text="번영도" />
+    <string id="ui_settlementinformation_militia1" text="이 정착지의 현재 민병대 인원수입니다." />
+    <string id="ui_settlementinformation_militia2" text="민병대" />
+    <string id="ui_settlementinformation_loyality1" text="이 정착지의 현재 충성도 수치입니다." />
+    <string id="ui_settlementinformation_loyality2" text="충성도" />
+    <string id="ui_settlementinformation_construction1" text="이 정착지의 현재 건설 수치입니다." />
+    <string id="ui_settlementinformation_construction2" text="건설" />
+    <string id="ui_settlementinformation_reserve1" text="이 정착지의 현재 예비금입니다." />
+    <string id="ui_settlementinformation_reserve2" text="예비금" />
+    <string id="ui_settlementinformation_none" text="없음" />
+    <string id="ui_settlementinformation_activ" text="활성" />
+    <string id="ui_settlementitemwidget_track" text="정착지 추적" />
+    <string id="ui_settlementitemwidget_raid" text="약탈당하는 중" />
+    <string id="ui_settlementitemwidget_hostileraid" text="적대적 약탈" />
+    <string id="ui_settlementitemwidget_raided" text="약탈당함" />
+    <string id="ui_improvedgarrisonsui_activity" text="정착지 행동" />
+    <string id="ui_settlementitemwidget_siege" text="포위당하는 중" />
+    <string id="ui_settlementitemwidget_peace" text="평화로움" />
+    <string id="ui_villagetitemwidget_track" text="마을 추적" />
+    <string id="ui_improvedgarrisonsui_activity_village1" text="마을 행동" />
+    <string id="PJZ8QYgA" text="1단계 : {BONUS}" />
+    <string id="9i0wnjJK" text="2단계 : {BONUS}" />
+    <string id="pRP2sOWP" text="3단계 : {BONUS}" />
+    <string id="ui_buildingui_currentproject" text="&gt;&gt; 현재 정착지 프로젝트 &lt;&lt;" />
+    <string id="ui_buildingui_effects" text="효과:" />
+    <string id="ui_buildingui_effectshint" text="참고: 진행 중인 프로젝트가 없을 때만 작동합니다." />
+    <string id="ui_buildingui_setascurrent" text="현재 프로젝트로 설정" />
+    <string id="ui_buildingui_boostproject" text="현재 프로젝트 지원" />
+    <string id="ui_buildingui_deselectproject" text="현재 프로젝트 선택 해제" />
+    <string id="ui_buildingui_addqueue1" text="프로젝트 대기열에 추가" />
+    <string id="ui_buildingui_removequeue3" text="대기열에서 제거" />
+    <string id="ui_buildingui_action" text="프로젝트 작업" />
+    <string id="ui_buildingui_addqueue2" text="프로젝트" />
+    <string id="ui_buildingui_removequeue4" text="항목이 다음 정착지의 프로젝트 대기열에서 제거되었습니다:" />
+    <string id="ui_buildingui_addreserve" text="프로젝트 지원을 위해 예비금 추가" />
+    <string id="menu_ok" text="확인" />
+    <string id="ui_improvedgarrisonsui_activity_noguards" text="활성화된 경비 부대가 없습니다" />
+    <string id="ui_improvedgarrisonsui_activity_guard1" text="경비 부대 창설" />
+    <string id="ui_improvedgarrisonsui_activity_guard2" text="경비 부대 복귀" />
+    <string id="ui_improvedgarrisonsui_activity_recruiter1" text="모병관 생성" />
+    <string id="ui_improvedgarrisonsui_activity_recruiter2" text="모병관 복귀" />
+    <string id="ui_improvedgarrisonsui_activity_defend1" text="정착지 방어" />
+    <string id="ui_improvedgarrisonsui_activity_defend2" text="방어" />
+    <string id="ui_improvedgarrisonsui_activity_townmanagement" text="도시 관리" />
+    <string id="ui_improvedgarrisonsui_activity_projects" text="프로젝트" />
+    <string id="tipstext" text="팁" />
+    <string id="tips_tip1" text="모든 수비대는 당신을 위해 템플릿 병사를 모병하고 훈련할 수 있습니다." />
+    <string id="tips_tip2" text="경비 부대는 공성전 중에 당신에게 합류할 수 있습니다." />
+    <string id="tips_tip3" text="훈련 템플릿을 사용하여 수비대의 목표 승급 경로를 지정할 수 있습니다." />
+    <string id="tips_tip4" text="개요 섹션에서 아이콘을 클릭하면 해당 마을이나 정착지를 추적합니다." />
+    <string id="tips_tip5" text="한 수비대의 Improved Garrison 설정을 다른 수비대로 복사할 수 있습니다." />
+    <string id="tips_tip6" text="설정 관리자를 사용해 이 모드의 많은 수치를 변경할 수 있습니다. (ALT + G) 키를 눌러 열 수 있습니다." />
+    <string id="tips_tip7" text="모병관은 현재 훈련 템플릿에 따라 필요한 병사를 자동으로 모을 수 있습니다." />
+    <string id="tips_tip8" text="Improved Garrison 설정의 치트 섹션에서 수비대 급여를 비활성화할 수 있습니다." />
+    <string id="tips_tip9" text="설정을 해두면 마을이 약탈당할 때 수비대가 자동으로 경비 부대를 보내 방어할 수 있습니다." />
+    <string id="tips_tip10" text="기존 경비 부대가 전멸한 후 새 경비 부대가 자동으로 생성되게 할 수 있습니다." />
+    <string id="tips_tip11" text="동일한 병종의 병사 수가 많을수록 훈련 속도가 빨라집니다." />
+    <string id="tips_tip12" text="번영도와 식량 부족으로 어려움을 겪고 계신가요? 모드 설정에서 식량 채집 치트를 사용해 보세요!" />
+    <string id="menu_start" text="Improved Garrison" />
+    <string id="menu_manage" text="Improved Garrisons 관리" />
+    <string id="info_global_conf" text="현재 편집 중인 설정 대상:" />
+    <string id="info_config_reset_done" text="Improved Garrisons 설정이 기본값으로 초기화되었습니다." />
+    <string id="menu_close" text="닫기" />
+    <string id="menu_save" text="저장" />
+    <string id="config_category_base_title" text="모드 설정" />
+    <string id="config_category_npc_title" text="NPC 설정" />
+    <string id="config_category_default_title" text="기본값 설정" />
+    <string id="config_category_cheats_title" text="치트" />
+    <string id="config_reload_title" text="다시 불러오기 필요" />
+    <string id="config_reload_desc" text="모든 Improved Garrison 설정을 적용하려면 저장 파일을 다시 불러와야 합니다." />
+    <string id="info_config_save_done" text="Improved Garrison 설정이 성공적으로 저장되었습니다." />
+    <string id="config_category_base_reset_name" text="기본값으로 초기화" />
+    <string id="config_category_base_reset_prompt" text="Improved Garrison 설정을 기본값으로 초기화하시겠습니까?" />
+    <string id="info_deletemode1" text="모든 Improved Garrison 부대를 삭제하시겠습니까?" />
+    <string id="menu_deletemode2" text="정말로 모든 Improved Garrison 부대를 삭제하시겠습니까?" />
+    <string id="menu_description" text="설명:" />
+    <string id="menu_requirements" text="요구 사항:" />
+    <string id="misc_deletepartiesmode" text="모든 Improved Garrisons 부대 삭제 모드가 활성화되어 지금 실행됩니다." />
+    <string id="party_destroyed_new" text="당신의" />
+    <string id="party_destroyed_new2" text="부대가 전멸했습니다." />
+    <string id="menu_your" text="당신의" />
+    <string id="info_guards_sell" text="부대가 포로를 처분했습니다." />
+    <string id="info_guards_prisoners_put" text="부대가 포로" />
+    <string id="info_guards_prisoners_intodungeon" text="명을 지하 감옥에 수감했습니다." />
+    <string id="dialog_recruit_start" text="반갑습니다, 영주님! 저희는 영주님의 정착지로 향하는 신임 수비대 신병들입니다!" />
+    <string id="dialog_recruit_neutral_start" text="반갑습니다! 저희는 우리 고향을 안전하게 지키는 데 힘을 보탤 신병들입니다!" />
+    <string id="dialog_end_nice" text="계속 임무를 수행하라. 그럼 수고하게." />
+    <string id="dialog_transfer_start" text="반갑습니다, 영주님! 저희는 수비대 수송 부대입니다!" />
+    <string id="dialog_guard_start" text="반갑습니다, 영주님! 무엇을 도와드릴까요?" />
+    <string id="dialog_guard_pretalk" text="영주님을 모시게 되어 영광입니다." />
+    <string id="dialog_guard_inspect" text="병력을 점검하겠다." />
+    <string id="dialog_guard_fortify_answer" text="알겠습니다, 이 정착지의 방어를 강화하겠습니다." />
+    <string id="dialog_guard_fortify" text="수비대를 증원하라." />
+    <string id="dialog_guard_return_answer" text="알겠습니다, 즉시 복귀하겠습니다, 영주님!" />
+    <string id="dialog_guard_return" text="수비대로 복귀하라." />
+    <string id="dialog_guard_escort_answer" text="알겠습니다, 목숨을 바쳐 영주님을 호위하겠습니다!" />
+    <string id="dialog_guard_escort" text="내 곁에서 함께 싸우자!" />
+    <string id="dialog_guard_patrol_answer" text="알겠습니다, 영주님의 영지를 지키겠습니다!" />
+    <string id="dialog_guard_patrol" text="이 지역을 순찰하라!" />
+    <string id="dialog_npcguard_neutral_start" text="반갑습니다! 저희는 이 지역을 순찰하는 경비대입니다." />
+    <string id="dialog_npcguard_hostile_fight" text="항복하든가 죽든가!" />
+    <string id="dialog_npcguard_hostile_startplayer" text="우리는 이 지역을 순찰하는 경비대다." />
+    <string id="dialog_npcguard_hostile_startnpc" text="우리는 이 지역을 순찰하는 경비대다. 전쟁 중인 걸 알 텐데! 무단 침입은 용납할 수 없다." />
+    <string id="dialog_recruiter_start" text="반갑습니다, 영주님! 저희는 영주님의 수비대 모병관입니다!" />
+    <string id="dialog_recruiter_inspect" text="병력을 점검하겠다." />
+    <string id="dialog_recruiter_culturechange_answer" text="알겠습니다, 다른 문화권에서 모병하도록 변경하겠습니다!" />
+    <string id="dialog_recruiter_culturechange" text="모병 문화를 변경하라." />
+    <string id="menu_transfer_select" text="수비대 선택" />
+    <string id="menu_fortify_desc" text="경비대가 증원할 수비대를 선택하세요." />
+    <string id="info_guards_noshipbuy" text="부대가 육로로 해당 정착지에 도달할 수 없습니다. 바다를 건너 보낼 수 있도록 경비대의 선박 구매를 허용하세요." />
+    <string id="info_guards_nofleet" text="부대가 해당 정착지에 도달할 수 없으며 함대를 구하지 못했습니다. 선박을 판매하는 항구로 경비대를 이동시킨 후 다시 시도하세요." />
+    <string id="info_daily_info1" text="&quot;영주님, 오늘 Improved Garrisons에서 병사" />
+    <string id="info_daily_info2" text="명을 모병하고," />
+    <string id="info_daily_info3" text="명을 다음 티어로 승급시켰으며, 포로" />
+    <string id="info_daily_info4" text="명을 설득하여 편입시켰습니다.&quot;" />
+    <string id="misc_update_title" text="Improved Garrison 업데이트" />
+    <string id="misc_update_desc" text="~ Improved Garrisons를 사용해 주셔서 감사합니다 &#10; &#10;최신 업데이트에 새로운 설정 옵션이 추가되었습니다!&#10; &#10;설정을 기본값으로 초기화하는 것을 권장합니다. 초기화하지 않으면 새 설정들은 false 또는 0으로 설정됩니다. &#10; &#10;언제든지 ALT + G 키를 눌러 이 모드의 설정을 확인할 수 있습니다. &#10; &#10;즐거운 게임 되세요! &#10;~ Sidies" />
+    <string id="menu_okay" text="확인" />
+    <string id="info_save_delete" text="다음 저장 파일의 Improved Garrison 데이터가 삭제되었습니다:" />
+    <string id="misc_update_title2" text="Improved Garrison 업데이트" />
+    <string id="misc_update_desc2" text="Improved Garrisons를 사용해 주셔서 감사합니다! &#10; &#10;새로운 저장 시스템을 포함한 대규모 모드 업데이트가 진행되었습니다. 안타깝게도 이 새로운 저장 시스템은 기존 모드 설정 저장 방식과 호환되지 않습니다. 따라서 환경 설정 및 템플릿 같은 정착지별 설정을 포함한 모드 데이터가 초기화되었습니다. &#10; &#10;게임을 계속 플레이하기 전에 모드 데이터를 다시 설정하시는 것을 권장합니다. &#10; &#10;이번 업데이트에 대해 더 자세히 알아보려면 Nexusmods의 Improved Garrisons 페이지를 방문해 주세요.&#10; &#10; 즐거운 게임 되세요! &#10; ~ Sidies" />
+    <string id="menu_template_alreadyused" text="이미 사용 중인 이름" />
+    <string id="menu_template_alreadyused_desc" text="이미 사용 중인 템플릿 이름입니다. 이 템플릿을 덮어쓰시겠습니까?" />
+    <string id="info_transfer_dupe" text="이 수비대에는 이미 수송 부대가 있습니다. 목적지에 도착할 때까지 기다려 주세요." />
+    <string id="settings_managementsettings_select" text="수비대 선택" />
+    <string id="settings_managementsettings_selectdesc" text="이 병력을 이동시킬 수비대를 선택하세요" />
+    <string id="info_emptygarrison" text="수비대가 비어 있습니다." />
+    <string id="info_transfer_undersiege" text="이 정착지는 현재 포위당하고 있습니다. 수송 부대가 밖으로 나갈 수 없습니다!" />
+    <string id="settings_managementsettings_copyselction" text="수비대에 복사" />
+    <string id="settings_managementsettings_copydesc" text="현재 수비대의 설정을 복사할 대상 수비대를 선택하세요." />
+    <string id="settings_managementsettings_copytownselection" text="소유한 모든 도시에 이 설정 복사" />
+    <string id="settings_managementsettings_copytownselectiondesc" text="계속하면 소유한 모든 도시가 이곳과 동일한 설정을 갖게 됩니다." />
+    <string id="menu_no" text="아니요" />
+    <string id="settings_managementsettings_copycastleselection" text="소유한 모든 성에 이 설정 복사" />
+    <string id="settings_managementsettings_copycastleselectiondesc" text="계속하면 소유한 모든 성이 이곳과 동일한 설정을 갖게 됩니다." />
+    <string id="info_manage_copy" text="다음 정착지에 설정을 복사했습니다:" />
+    <string id="info_guards_dupe" text="이 수비대에는 이미 경비 부대가 있습니다. 먼저 복귀 명령을 내리세요." />
+    <string id="info_guards_new" text="새 경비 부대에 편성할 병사를 선택하세요. &#10;선택한 병사가 많을수록 경비 부대의 이동 속도가 느려집니다!&#10;약탈자와 도적을 상대로 우위를 점하려면 부대 규모를 30명 내외로 구성하는 것이 좋습니다. 기본적으로 경비 부대는 지역을 순찰합니다. Improved Garrisons 메뉴에서 다른 명령을 내릴 수 있습니다." />
+    <string id="info_guards_undersiege" text="이 정착지는 현재 포위당하고 있습니다. 경비 부대가 밖으로 나갈 수 없습니다!" />
+    <string id="info_guards_noguards" text="이 수비대에는 경비 부대가 없습니다." />
+    <string id="settings_managementsettings_selectionescort1" text="호위 대상 선택" />
+    <string id="settings_managementsettings_selectionescort2" text="지원할 부대를 선택하세요" />
+    <string id="info_patrol_new" text="다음 정착지의 경비 부대:" />
+    <string id="info_patrol_new2" text="— 이제 지역을 순찰합니다." />
+    <string id="info_guards_autoguardsstopped" text="경비 부대 자동 생성이 비활성화되었습니다." />
+    <string id="info_return_new" text="다음 정착지의 경비 부대:" />
+    <string id="info_return_new2" text="— 이제 수비대로 복귀합니다." />
+    <string id="info_escort_new" text="다음 정착지의 경비 부대:" />
+    <string id="info_escort_new2" text="— 이제 다음 부대를 호위합니다:" />
+    <string id="info_guards_sell_enable" text="다음 정착지 경비대의 포로 거래 활성화:" />
+    <string id="info_guards_sell_disable" text="다음 정착지 경비대의 포로 거래 비활성화:" />
+    <string id="settings_mobilegarrisonsettings_autoguardcreation1" text="다음 정착지의 경비대 자동 생성 활성화:" />
+    <string id="settings_mobilegarrisonsettings_autoguardcreation2" text="다음 정착지의 경비대 자동 생성 비활성화:" />
+    <string id="settings_mobilegarrisonsettings_autodefend1" text="다음 정착지의 마을 방어용 경비대 자동 생성 활성화:" />
+    <string id="settings_mobilegarrisonsettings_autodefend2" text="다음 정착지의 마을 방어용 경비대 자동 생성 비활성화:" />
+    <string id="info_guards_prisonerrecruit_enable" text="다음 정착지 경비대의 포로 모병 활성화:" />
+    <string id="info_guards_prisonerrecruit_disable" text="다음 정착지 경비대의 포로 모병 비활성화:" />
+    <string id="info_guards_upgrade_enable" text="다음 정착지 경비대의 병사 승급 활성화:" />
+    <string id="info_guards_upgrade_disable" text="다음 정착지 경비대의 병사 승급 비활성화:" />
+    <string id="info_guards_replenish_enable" text="다음 정착지 경비대의 병력 보충 및 치료 활성화:" />
+    <string id="info_guards_replenish_disable" text="다음 정착지 경비대의 병력 보충 및 치료 비활성화:" />
+    <string id="info_guards_hideoutclear1" text="다음 정착지 경비대의 은신처 소탕 활성화:" />
+    <string id="info_guards_hideoutclear2" text="다음 정착지 경비대의 은신처 소탕 비활성화:" />
+    <string id="info_guards_shipbuy1" text="다음 정착지 경비대의 선박 구매 활성화:" />
+    <string id="info_guards_shipbuy2" text="다음 정착지 경비대의 선박 구매 비활성화:" />
+    <string id="info_guards_horsebuy1" text="다음 정착지 경비대의 말 거래 활성화:" />
+    <string id="info_guards_horsebuy2" text="다음 정착지 경비대의 말 거래 비활성화:" />
+    <string id="info_recruiter_dupe" text="이 수비대에는 이미 모병관 부대가 있습니다." />
+    <string id="info_recruiter_emptygarrison" text="수비대가 비어 있습니다. 모병관을 생성하려면 최소 1명의 병사가 필요합니다." />
+    <string id="info_recruiter_siege" text="이 수비대는 현재 포위당하고 있습니다. 모병관이 밖으로 나갈 수 없습니다!" />
+    <string id="settings_recruitmentsettings_recruiteramount1" text="모병 목표 인원" />
+    <string id="settings_recruitmentsettings_recruiteramount2" text="모병관이 복귀하기 전까지 모집해야 할 병사 수를 설정하세요" />
+    <string id="info_recruiter_disabledautocreation" text="다음 정착지의 모병관 자동 생성 비활성화:" />
+    <string id="info_recruiter_of" text="다음 정착지의 모병관:" />
+    <string id="info_recruiter_return" text="— 이제 수비대로 복귀합니다." />
+    <string id="info_recruiter_norecruiter" text="현재 수비대에 활성화된 모병관이 없습니다" />
+    <string id="info_recruiter_newrecruiter_desc" text="모병관 부대에 편성할 병사를 선택하세요. 부대를 창설하려면 최소 1명의 병사가 필요합니다!" />
+    <string id="info_recruiter_changeculture1" text="모병 문화를" />
+    <string id="info_recruiter_changeculture2" text="문화로 변경했습니다 — 모병관 소속:" />
+    <string id="info_recruit_onlyelites_enable" text="다음 정착지의 정예 병사 전용 모병 활성화:" />
+    <string id="info_recruit_onlyelites_disable" text="다음 정착지의 정예 병사 전용 모병 비활성화:" />
+    <string id="info_prison_above_enable" text="다음 정착지의 기준치 초과 포로 모병 활성화:" />
+    <string id="info_prison_above_disable" text="다음 정착지의 기준치 초과 포로 모병 비활성화:" />
+    <string id="info_prison_enable" text="다음 정착지의 포로 모병 활성화:" />
+    <string id="info_prison_disable" text="다음 정착지의 포로 모병 비활성화:" />
+    <string id="info_vanillarecruitment_enable" text="다음 정착지의 바닐라 모병 활성화:" />
+    <string id="info_vanillarecruitment_disable" text="다음 정착지의 바닐라 모병 비활성화:" />
+    <string id="info_recruit_enable" text="다음 정착지의 지역 모병 활성화:" />
+    <string id="info_recruit_disable" text="다음 정착지의 지역 모병 비활성화:" />
+    <string id="info_recruiter_onlyelite_enabled" text="다음 정착지 모병관의 정예 병사 전용 모병 활성화:" />
+    <string id="info_recruiter_onlyelite_disabled" text="다음 정착지 모병관의 정예 병사 전용 모병 비활성화:" />
+    <string id="info_recruiter_buyhorses_enabled" text="다음 정착지 모병관의 말 거래 활성화:" />
+    <string id="info_recruiter_buyhorses_disabled" text="다음 정착지 모병관의 말 거래 비활성화:" />
+    <string id="info_recruiter_buyships_enabled" text="다음 정착지 모병관의 선박 구매 활성화:" />
+    <string id="info_recruiter_buyships_disabled" text="다음 정착지 모병관의 선박 구매 비활성화:" />
+    <string id="info_recruit_prisonertemplate_enable" text="이제 포로 모병 시 다음 정착지의 훈련 템플릿을 무시합니다:" />
+    <string id="info_recruit_prisonertemplate_disable" text="이제 포로 모병 시 다음 정착지의 훈련 템플릿을 따릅니다:" />
+    <string id="info_recruiter_autocreate_enabled" text="이제 이 수비대는 현재 템플릿에 필요한 병사를 자동으로 모읍니다. 모병관이 생성될 수 있도록 수비대에 최소 1명의 병사를 남겨 두세요 — 대상 정착지:" />
+    <string id="info_recruiter_autocreate_disabled" text="다음 정착지의 자동 병력 모집 비활성화:" />
+    <string id="settings_templatemanager_savetemplate" text="현재 템플릿 저장" />
+    <string id="settings_templatemanager_title" text="훈련 템플릿" />
+    <string id="settings_templatemanager_desc" text="훈련 템플릿을 선택하세요." />
+    <string id="info_template_nosetup" text="현재 설정에 훈련할 병사가 지정되어 있지 않습니다." />
+    <string id="settings_templatemanager_addnew1" text="새 템플릿 추가" />
+    <string id="settings_templatemanager_addnew2" text="현재 훈련 설정을 템플릿 관리자에 추가합니다. 추가된 템플릿은 모든 저장 파일에서 사용할 수 있습니다. &#10; &#10;템플릿의 이름을 입력해 주세요." />
+    <string id="settings_recruitmentsettings_apply" text="템플릿 적용" />
+    <string id="settings_recruitmentsettings_inspect" text="템플릿 확인" />
+    <string id="settings_recruitmentsettings_rename" text="템플릿 이름 변경" />
+    <string id="settings_recruitmentsettings_remove" text="템플릿 삭제" />
+    <string id="settings_recruitmentsettings_manage" text="템플릿 관리" />
+    <string id="settings_recruitmentsettings_yourtemplate" text="템플릿" />
+    <string id="info_template_apply" text="항목이 적용되었습니다." />
+    <string id="menu_train_pathamount_restr" text="제한 없음" />
+    <string id="settings_recruitmentsettings_inspect2" text="확인" />
+    <string id="info_template_rename" text="항목의 이름이 다음으로 변경되었습니다:" />
+    <string id="info_template_remove" text="항목이 삭제되었습니다." />
+    <string id="info_template_add" text="항목이 추가되었습니다." />
+    <string id="settings_recruitmentsettings_renamedesc" text="템플릿의 새 이름을 입력하세요." />
+    <string id="settings_trainingsettings_currenttemplate1" text="현재 훈련 템플릿" />
+    <string id="settings_trainingsettings_currenttemplate2" text="지정된 훈련 목표 목록" />
+    <string id="settings_trainingsettings_specifytroops1" text="훈련할 병사 지정" />
+    <string id="settings_trainingsettings_specifytroops2" text="모든 병사 목록" />
+    <string id="settings_trainingsettings_selecttargets" text="훈련 병사 선택" />
+    <string id="settings_trainingsettings_selecttargetsdesc" text="일반적으로 병사가 다음 티어로 승급할 수 있을 때 Improved Garrison은 승급 경로를 무작위로 선택합니다. 여기서는 병사를 추가하거나 제거하여 승급 경로를 직접 지정할 수 있습니다. 지정된 승급은 티어 제한의 영향을 받지 않습니다. 플레이어가 승급 경로를 지정하지 않은 병사는 설정된 티어 제한까지만 무작위로 승급합니다. &#10;&gt; 첫 번째 목록은 현재 Improved Garrison이 승급 목표로 삼고 있는 경로의 개요입니다. &#10;&gt; 두 번째 목록에는 선택 가능한 모든 승급 경로가 포함되어 있습니다." />
+    <string id="settings_trainingsettings_archer" text="원거리" />
+    <string id="settings_trainingsettings_infantry" text="보병" />
+    <string id="settings_trainingsettings_cavalary" text="기병" />
+    <string id="settings_trainingsettings_filtertype" text="병종별 필터" />
+    <string id="settings_trainingsettings_filtertypedesc" text="템플릿에 추가하려는 병종은 무엇입니까?" />
+    <string id="menu_selectall" text="모두 선택" />
+    <string id="hint_select_all_clans" text="목록의 모든 클랜 선택" />
+    <string id="hint_select_all_units" text="이 목록의 모든 병사 선택" />
+    <string id="settings_trainingsettings_filterculture1" text="문화별 필터" />
+    <string id="settings_trainingsettings_filterculture2" text="원하는 병사의 문화를 선택하세요." />
+    <string id="info_template_notargets" text="현재 정의된 Improved Garrisons 승급 목표가 없습니다." />
+    <string id="settings_trainingsettings_currenttroops" text="현재 훈련 중인 병사" />
+    <string id="settings_trainingsettings_troopstoselect" text="선택 가능한 병사" />
+    <string id="info_template_managetargets" text="이 화면에서는 수비대가 훈련할 병사의 인원수를 조정할 수 있습니다. 목록에서 병사를 제거할 수도 있습니다. &#10; &#10;왼쪽에는 이 수비대가 훈련 목표로 삼고 있는 병사들이 표시됩니다. 오른쪽에는 왼쪽에 추가할 수 있는 동일한 병사들의 사본이 있습니다." />
+    <string id="info_template_newtargets1" text="다음 정착지의 훈련 템플릿:" />
+    <string id="info_template_newtargets2" text="항목이 설정되었습니다." />
+    <string id="info_template_removedtargets1" text="수비대 소속:" />
+    <string id="info_template_newtargets_desc" text="이 수비대에서 훈련할 병사를 화면 왼쪽으로 이동시키세요. &#10;훈련할 인원수를 반드시 선택해 주세요. &#10; &#10;참고: Improved Garrison은 항상 수비대에 이 인원수만큼의 병사를 유지하려고 시도하며, 인원수가 부족해지면 자동으로 새로운 병사를 훈련합니다." />
+    <string id="menu_and" text="및" />
+    <string id="menu_none" text="없음" />
+    <string id="info_path_set" text="다음 정착지의 승급 경로:" />
+    <string id="info_path_set2" text="항목이 다음으로 설정되었습니다:" />
+    <string id="settings_trainingsettings_removetroop1" text="템플릿 병사 제거" />
+    <string id="settings_trainingsettings_removetroop2" text="정말로 현재 템플릿에서 이 병사를 제거하시겠습니까?" />
+    <string id="info_vanillatrain_enable" text="다음 정착지의 바닐라 훈련 활성화:" />
+    <string id="info_vanillatrain_disable" text="다음 정착지의 바닐라 훈련 비활성화:" />
+    <string id="info_train_enable" text="다음 정착지의 훈련 활성화:" />
+    <string id="info_train_disable" text="다음 정착지의 훈련 비활성화:" />
+    <string id="info_recruit_followtemplate_enable" text="이제 Improved Garrison 모병 기능이 템플릿에 포함되거나 템플릿 병사로 승급하는 데 필요한 병사만 모병합니다." />
+    <string id="info_recruit_followtemplate_disable" text="이제 Improved Garrison 모병 기능이 템플릿 관련 병사만 모병하지 않습니다." />
+    <string id="info_recruit_removenontemplate_enable" text="다음 정착지의 비템플릿 병사 자동 제거 활성화:" />
+    <string id="info_recruit_removenontemplate_disable" text="다음 정착지의 비템플릿 병사 자동 제거 비활성화:" />
+    <string id="info_guards_defending1" text="부대가 방어 중:" />
+    <string id="info_guards_defending2" text="— 적 부대:" />
+    <string id="info_guards_defending3" text="/ 규모:" />
+    <string id="info_guards_needshelpdefending1" text="부대가 방어 지원 요청:" />
+    <string id="info_guards_needshelpdefending2" text="— 적 부대:" />
+    <string id="info_guards_needshelpdefending3" text="/ 규모:" />
+    <string id="menu_guard_status_isdefending" text="경비 부대가 방어 중:" />
+    <string id="menu_guard_status_issupporting" text="경비 부대가 호위 중:" />
+    <string id="menu_guard_status_isfortifying" text="경비 부대가 증원 중:" />
+    <string id="menu_guard_status_returningto" text="경비 부대가 복귀 중:" />
+    <string id="menu_guard_status_returning" text="경비 부대가 복귀 중입니다" />
+    <string id="party_replenished" text="부대가 병력을 보충했습니다." />
+    <string id="party_healed" text="부대가 병사들을 치료했습니다." />
+    <string id="info_guards_hideoutcleared" text="부대가 은신처를 소탕했습니다." />
+    <string id="menu_guard_status_isattacking" text="경비 부대가 공격 중:" />
+    <string id="menu_guard_status_isattackinghideout" text="경비 부대가 은신처를 공격 중입니다" />
+    <string id="menu_guard_status_ispatrolingaround" text="경비 부대가 주변을 순찰 중:" />
+    <string id="menu_guard_status_ispatroling" text="경비 부대가 순찰 중입니다" />
+    <string id="menu_guard_status_turningprisoners" text="경비 부대가 포로를 인계 중입니다" />
+    <string id="menu_guard_status_isreplenishing" text="경비 부대가 병력을 보충 중입니다" />
+    <string id="menu_guard_status_returninghome" text="경비 부대가 소속 지역으로 복귀 중입니다" />
+    <string id="menu_guard_status_istradingwith" text="경비 부대가 거래 중:" />
+    <string id="menu_guard_status_istrading" text="경비 부대가 거래 중입니다" />
+    <string id="menu_guard_status_iswaiting" text="경비 부대가 대기 중입니다" />
+    <string id="info_recruiter_noshipbuy" text="부대가 육로로 신병이 있는 정착지에 도달할 수 없습니다. 바닷길로 이동할 수 있도록 선박 구매를 허용하세요. 모병관 자동 생성이 꺼졌습니다." />
+    <string id="info_recruiter_boughtfleet" text="부대가 바다 건너 신병을 모집하기 위해 함대를 구매했습니다." />
+    <string id="info_recruiter_noroute" text="부대가 신병이 있는 정착지에 도달할 수 없어 복귀합니다. 모병관 자동 생성이 꺼졌습니다." />
+    <string id="menu_recruiter_status_goingto" text="모병관이 이동 중:" />
+    <string id="menu_recruiter_status_returningto" text="모병관이 복귀 중:" />
+    <string id="menu_recruiter_status_needsfleet" text="모병관이 바다 건너 신병에게 가기 위해 함대가 필요합니다" />
+    <string id="menu_recruiter_status_gatheringintel" text="모병관이 새로운 신병에 대한 정보를 수집 중입니다" />
+    <string id="menu_recruiter_status_tradingwith" text="모병관이 거래 중:" />
+    <string id="info_guards_sellitems1" text="부대가 아이템" />
+    <string id="info_guards_sellitems2" text="개를 판매한 정착지:" />
+    <string id="menu_bought" text="부대가 말" />
+    <string id="info_guards_buyhorses" text="마리를 구매한 정착지:" />
+    <string id="info_guards_returnafterthreshold" text="부대 규모가 기준치 아래로 떨어졌습니다. 경비 부대가 이제 복귀합니다." />
+    <string id="party_recruiter_name" text="수비대 모병관 -" />
+    <string id="settings_recruitmentsettings_recruiterculture1" text="모병관 모병 문화" />
+    <string id="settings_recruitmentsettings_recruiterculture2" text="모병관 부대가 어느 문화권에서 병사를 모집할까요?" />
+    <string id="party_guards_name" text="수비대 경비대 -" />
+    <string id="info_guards_return2" text="부대가 수비대로 복귀했습니다." />
+    <string id="info_transfer_done" text="부대가 이동 목적지에 도착했습니다." />
+    <string id="info_recruiter_returned1" text="부대가 병사" />
+    <string id="info_recruiter_returned2" text="명을 데리고 복귀한 정착지:" />
+    <string id="party_transfer_name" text="수비대 수송 부대 -" />
+    <string id="info_transfer_noroute" text="다음 정착지로 가는 경로가 없어 병력 이동이 취소되었습니다:" />
+    <string id="info_transfer_noroutehint" text="또한 모항에서 함대를 구매할 수 없었습니다." />
+    <string id="ui_improvedgarrisonsui_activity_partycreation1" text="새 부대(" />
+    <string id="ui_improvedgarrisonsui_activity_partycreation2" text=")가 병사" />
+    <string id="ui_improvedgarrisonsui_activity_partycreation3" text="명으로 창설되었습니다." />
+    <string id="ui_improvedgarrisonsui_activity_destroyed1" text="부대가 전멸했습니다." />
+    <string id="ui_improvedgarrisonsui_activity_partymerge1" text="부대가 병사" />
+    <string id="ui_improvedgarrisonsui_activity_partymerge2" text="명을 데리고 수비대로 복귀했습니다." />
+    <string id="ui_improvedgarrisonsui_activity_recruitment1" text="명의 병사가 다음 정착지에서 모병되었습니다:" />
+    <string id="ui_improvedgarrisonsui_activity_recruitment2" text="명이 지하 감옥에서 모병되었습니다." />
+    <string id="ui_improvedgarrisonsui_activity_recruitment3" text="명이 지하 감옥에서 모병되었습니다." />
+    <string id="ui_improvedgarrisonsui_activity_recruitment4" text="명의 병사가 모병되었습니다." />
+    <string id="ui_improvedgarrisonsui_activity_upgrade1" text="명이 다음 병종으로 훈련되었습니다:" />
+    <string id="ui_improvedgarrisonsui_activity_upgrade2" text="명이 다음 병종으로 훈련되었습니다:" />
+    <string id="ui_buildingui_addreserve2" text="디나르가 부족합니다." />
+    <string id="ui_buildingui_currenthint1" text="정착지" />
+    <string id="ui_buildingui_currenthint2" text="의 현재 프로젝트가 다음으로 설정되었습니다:" />
+    <string id="ui_buildingui_removequeue1" text="프로젝트" />
+    <string id="ui_buildingui_removequeue2" text="항목은 더 이상 다음 정착지의 현재 프로젝트가 아닙니다:" />
+    <string id="ui_buildingui_addqueue3" text="항목이 다음 정착지의 프로젝트 대기열에 추가되었습니다:" />
+    <string id="config_category_base_minrecruits_name" text="마을 신병 부대 규모" />
+    <string id="config_category_base_minrecruits_description" text="신병 부대가 편성되어 수비대로 출발하기 전에 마을에서 모여야 하는 최소 신병 수를 설정합니다." />
+    <string id="config_category_base_dailyexp_name" text="일일 경험치 획득량" />
+    <string id="config_category_base_dailyexp_description" text="훈련 중인 수비대 병사가 매일 획득하는 경험치 양을 설정합니다." />
+    <string id="config_category_base_dailyexp_extradescription" text="이 모드는 각 병종 명단에 지정된 경험치에 해당 명단의 병사 수를 곱한 만큼의 경험치를 부여합니다. 예를 들어 신병이 20명 있고 각각 승급에 250의 경험치가 필요하며 일일 경험치 획득량이 50으로 설정된 경우, 총 50 * 20 = 1000의 경험치를 얻습니다. 결과적으로 4명의 병사가 승급됩니다 (1000 / 250 = 4)." />
+    <string id="config_category_base_prisonerconformity_name" text="일일 포로 순응도 획득량" />
+    <string id="config_category_base_prisonerconformity_description" text="각 포로가 매일 얻는 순응도 양을 설정합니다." />
+    <string id="config_category_base_prisonerconformity_extradescription" text="각 포로는 모병 가능 상태가 되기 위해 도달해야 하는 고유의 순응도 수치를 가지고 있습니다. 이 설정을 통해 포로들이 매일 얻는 순응도 양을 조절할 수 있습니다." />
+    <string id="config_category_base_loadsize_name" text="사용자 지정 규모 모듈 불러오기" />
+    <string id="config_category_base_loadsize_description" text="Improved Garrisons의 사용자 지정 규모 모듈을 불러옵니다. 이를 통해 수비대 및 경비 부대의 최대 규모를 설정할 수 있습니다." />
+    <string id="config_category_base_loadsize_requirements" text="게임을 재시작해야 합니다." />
+    <string id="config_category_base_partysize_name" text="수비대 경비 및 수송 부대 규모" />
+    <string id="config_category_base_partysize_description" text="경비 부대와 수송 부대의 사용자 지정 규모를 설정합니다." />
+    <string id="config_category_base_partysize_extradescription" text="이 수치는 기본 이동 속도 및 사기 계산에 사용됩니다. 수송 부대, 모병관 부대 또는 경비 부대의 규모가 이 수치를 초과하면 이동 속도가 느려집니다." />
+    <string id="config_category_base_partysize_requirements" text="[{LoadCustomPartySizeModel}] 옵션이 활성화되어 있어야 합니다." />
+    <string id="config_category_base_loadspeed_name" text="사용자 지정 속도 모듈 불러오기" />
+    <string id="config_category_base_loadspeed_description" text="Improved Garrisons의 사용자 지정 속도 모듈을 불러옵니다. 이를 통해 경비 부대, 모병관 부대, 수송 부대의 이동 속도를 수동으로 설정할 수 있습니다. 사용자 지정 규모 모듈과 호환성 문제가 발생할 경우 이 설정을 사용하세요." />
+    <string id="config_category_base_loadspeed_requirements" text="게임을 재시작해야 합니다." />
+    <string id="config_Category_base_guardreplenishperc_name" text="경비대 병력 보충 비율" />
+    <string id="config_Category_base_guardreplenishperc_description" text="경비대가 병력을 보충하기 위해 수비대로 복귀해야 하는 현재 부대 규모의 하락 비율입니다. 경비대는 수비대에 유효한 병사가 있을 때만 보충합니다! 최초 부대 편성 시 포함되어 있던 병종만 데려오며, 해당 병종의 현재 부대 내 인원수가 초기 인원수를 초과하지 않을 때만 보충합니다." />
+    <string id="config_Category_base_guardreplenishperc_extradescription" text="&gt; 경비대는 초기 부대 구성을 그대로 맞추기 위해 병력을 보충합니다.&#10;&gt; 0.0으로 설정하면 경비대는 병력을 보충하기 위해 수비대로 절대 복귀하지 않습니다.&#10;&gt; 0.5로 설정하면 초기 규모의 절반이 되었을 때 병력을 보충합니다.&#10;&gt; 1.0으로 설정하면 병력 손실이 발생하는 즉시, 그리고 데려올 수 있는 가용 병사 수가 [{GuardAvailableTroopsPercentage}] 이상일 때 병력을 보충합니다." />
+    <string id="config_Category_base_guardreplenishperc_requirements" text="[{GuardAvailableTroopsPercentage}] 조건에 도달해야 합니다." />
+    <string id="config_Category_base_guardreplenishavail_name" text="경비대 보충 가능 병력 비율" />
+    <string id="config_Category_base_guardreplenishavail_description" text="경비대가 복귀하여 병력을 보충하기 위해 수비대에 준비되어 있어야 하는 초기 경비 부대 규모 대비 병사 수의 비율입니다." />
+    <string id="config_Category_base_guardreplenishavail_extradescription" text="&gt; 1.0으로 설정하면 초기 경비 부대 규모 전체만큼의 병력이 수비대에 준비되어 있어야 합니다.&#10;&gt; 0.5로 설정하면 초기 규모의 최소 절반 이상이 수비대에 준비되어 있을 때 보충합니다.&#10;&gt; 0.0으로 설정하면 데려올 수 있는 병사가 조금이라도 있고 부대 규모가 [{GuardReplenishPercentage}] 미만일 때 즉시 보충합니다." />
+    <string id="config_Category_base_guardreplenishavail_requirements" text="[{GuardReplenishPercentage}] 조건에 도달해야 합니다." />
+    <string id="config_category_base_guardheal_name" text="경비대 치료 비율" />
+    <string id="config_category_base_guardheal_description" text="순찰 중인 부대가 치료를 위해 도시나 성으로 복귀하기 위해 도달해야 하는 초기 부대 규모 대비 사망 또는 부상 병사의 비율입니다." />
+    <string id="config_category_base_guardheal_extradescription" text="&gt; 0.0으로 설정하면 전원 사망해야 치료 조건이 충족되므로 절대 치료하러 복귀하지 않습니다.&#10;&gt; 0.5로 설정하면 현재 건재한 규모가 초기 규모의 절반에 도달했을 때 치료하러 복귀합니다.&#10;&gt; 1.0으로 설정하면 건재한 규모가 초기 부대 규모보다 줄어드는 즉시 치료하러 복귀합니다." />
+    <string id="config_category_base_guardsell_name" text="경비대 포로 몸값 처분 기준치" />
+    <string id="config_category_base_guardsell_description" text="포로를 몸값 받고 처분하기 위해 도달해야 하는 기준치를 조정합니다." />
+    <string id="config_category_base_guardsell_prompt" text="&gt; 0.0으로 설정하면 포로 수용 한도 최대치에 도달해야 포로를 처분합니다.&#10;&gt; 0.5로 설정하면 포로 수용 한도의 절반이 찼을 때 포로를 처분합니다.&#10;&gt; 1.0으로 설정하면 포로를 생포하는 즉시 처분하러 갑니다." />
+    <string id="config_category_default_dailymessage_name" text="일일 메시지 비활성화" />
+    <string id="config_category_default_dailymessage_description" text="일일 채팅 보고 메시지를 비활성화합니다." />
+    <string id="config_category_default_tutorial_name" text="튜토리얼 비활성화" />
+    <string id="config_category_default_tutorial_description" text="소유한 영지에 입장할 때 시작되는 튜토리얼을 비활성화합니다." />
+    <string id="config_category_base_errormessage_name" text="오류 메시지 비활성화" />
+    <string id="config_category_base_errormessage_description" text="모드에서 오류가 발생할 때마다 표시되는 오류 메시지를 비활성화합니다." />
+    <string id="config_category_base_errormessage_extradescription" text="경고: 오류 메시지를 비활성화하면 이 모드에서 오류가 발생해도 더 이상 알림을 받을 수 없습니다!" />
+    <string id="config_category_base_reset_description" text="Improved Garrisons의 설정을 기본값으로 초기화합니다." />
+    <string id="config_category_base_deleteparties_name" text="모든 Improved Garrison 부대 삭제" />
+    <string id="config_category_base_deleteparties_description" text="활성화하면 현재 캠페인의 모든 Improved Garrison 부대를 삭제합니다." />
+    <string id="config_category_base_deletesavedata_name" text="불필요한 저장 데이터 삭제" />
+    <string id="config_category_base_deletesavedata_description" text="저장 파일을 삭제하더라도 해당 저장 파일에 대한 Improved Garrisons의 저장 데이터는 남아 있을 수 있습니다. 이 옵션을 활성화하면 모드가 더 이상 존재하지 않는 저장 파일에 연결된 데이터를 찾아 삭제합니다.&#10; &#10;참고: 이 작업은 다소 시간이 걸릴 수 있습니다." />
+    <string id="config_category_base_deletesavedata_extradescription" text="내 문서 폴더의 Mount and Blade II Bannerlord 폴더에서 Improved Garrison 설정 파일을 찾아 직접 삭제할 수도 있습니다." />
+    <string id="config_category_dummyname" text="카테고리 제목" />
+    <string id="config_category_cheats_garrisonwage_name" text="수비대 급여 배율" />
+    <string id="config_category_cheats_garrisonwage_description" text="수비대 급여를 낮춥니다. 기본 비용은 1, 무료로 하려면 0으로 설정하세요." />
+    <string id="config_category_cheats_garrisonwage_extradescription" text="1보다 작은 숫자를 선택하면 수비대 비용에 상응하는 보너스가 일일 재정에 추가됩니다." />
+    <string id="config_category_cheats_trainingcost_name" text="Improved Garrison 훈련 비용 배율" />
+    <string id="config_category_cheats_trainingcost_description" text="수비대 병사의 Improved Garrison 훈련 비용을 낮춥니다. 기본 비용은 1, 무료로 하려면 0으로 설정하세요." />
+    <string id="config_category_cheats_trainingcost_extradescription" text="이 옵션은 수비대 병사의 승급 비용에 영향을 줍니다. 승급 비용을 없애고 싶다면 이 옵션을 사용하세요." />
+    <string id="config_category_cheats_garrisonguardwage_name" text="수비대 경비 부대 급여 배율" />
+    <string id="config_category_cheats_garrisoguardnwage_description" text="경비 부대의 급여를 낮춥니다. 기본 비용은 1, 무료로 하려면 0으로 설정하세요." />
+    <string id="config_category_cheats_partyspeed_name" text="경비 부대, 모병 부대 및 수송 부대 사용자 지정 속도" />
+    <string id="config_category_cheats_partyspeed_description" text="경비, 모병 및 수송 부대의 사용자 지정 이동 속도를 설정합니다." />
+    <string id="config_category_cheats_partyspeed_requirements" text="[{LoadCustomPartySpeedModel}] 옵션이 활성화되어 있어야 합니다." />
+    <string id="config_category_cheats_garrisonsize_name" text="사용자 지정 수비대 규모 배율" />
+    <string id="config_category_cheats_garrisonsize_description" text="수비대 규모를 늘리기 위한 수비대 규모 배율을 설정합니다. 자동 모병은 전체 수비대 규모 한도를 초과하지 않습니다!" />
+    <string id="config_category_cheats_garrisonsize_requirements" text="[{LoadCustomPartySizeModel}] 옵션이 활성화되어 있어야 합니다." />
+    <string id="config_category_cheats_partysize_name" text="사용자 지정 플레이어 부대 규모 배율" />
+    <string id="config_category_cheats_partysize_description" text="플레이어 본인의 부대 최대 규모를 늘리기 위한 부대 규모 배율을 설정합니다." />
+    <string id="config_category_cheats_partysize_requirements" text="[{LoadCustomPartySizeModel}] 옵션이 활성화되어 있어야 합니다." />
+    <string id="config_category_cheats_clanpartysize_name" text="사용자 지정 플레이어 클랜 부대 규모 배율" />
+    <string id="config_category_cheats_clanpartysize_description" text="플레이어 클랜에 속한 모든 부대의 최대 규모를 늘리기 위한 부대 규모 배율을 설정합니다." />
+    <string id="config_category_cheats_clanpartysize_requirements" text="[{LoadCustomPartySizeModel}] 옵션이 활성화되어 있어야 합니다." />
+    <string id="config_category_cheats_aiclanpartysize_name" text="사용자 지정 AI 클랜 부대 규모 배율" />
+    <string id="config_category_cheats_aiclanpartysize_description" text="모든 AI 부대의 최대 규모를 늘리기 위한 부대 규모 배율을 설정합니다." />
+    <string id="config_category_cheats_aiclanpartysize_requirements" text="[{LoadCustomPartySizeModel}] 옵션이 활성화되어 있어야 합니다." />
+    <string id="config_category_base_fromvillages_name" text="수비대에 새 병사 직접 생성" />
+    <string id="config_category_base_fromvillages_description" text="이 옵션을 활성화하면 Improved Garrison이 주변 마을에서 병사가 생성되기를 기다리지 않고 매일 수비대에 새로운 병사를 &apos;허공에서&apos; 직접 생성합니다." />
+    <string id="config_category_base_fromvillages_extradescription" text="자동 모병과 마을에서 모병이 모두 활성화된 경우, 정착지와 귀속된 마을에서 모병 가능한 병사를 찾습니다. 모병 가능한 병사 수는 유지들과의 관계도에 영향을 받는다는 점에 유의하세요. 최소 신병 수(기본값 4명)가 모이면 부대가 생성되어 수비대로 출발합니다. 모병된 병사는 마을 모병 풀에서 제거되므로 마을에서 추가 병사가 생성되기까지 시간이 걸립니다." />
+    <string id="config_category_base_spawnamount_name" text="생성할 병사 수" />
+    <string id="config_category_base_spawnamount_description" text="주변 마을과 정착지에서 모병하지 않을 때 수비대에 직접 생성할 병사 수를 설정합니다." />
+    <string id="config_category_base_spawnamount_requirements" text="[{RecruitsAreRecruitedFromVillages}] 옵션이 활성화되어 있어야 합니다." />
+    <string id="config_category_cheats_onlynoble_name" text="수비대에 귀족 병사 생성" />
+    <string id="config_category_cheats_onlynoble_description" text="이 옵션을 활성화하면 수비대에 귀족 병사가 &apos;허공에서&apos; 직접 생성됩니다. 생성 인원수는 [{AmountOfUnitsToSpawn}]에서 설정할 수 있습니다." />
+    <string id="config_category_cheats_onlynoble_requirements" text="[{RecruitsAreRecruitedFromVillages}] 옵션이 활성화되어 있어야 합니다!" />
+    <string id="config_category_base_loadfood_name" text="식량 채집 모듈 불러오기" />
+    <string id="config_category_base_loadfood_description" text="Improved Garrisons의 식량 채집 모듈을 불러옵니다. 이를 통해 성과 정착지에 식량 보너스를 추가하는 옵션을 사용할 수 있습니다." />
+    <string id="config_category_base_loadfood_requirements" text="게임을 재시작해야 합니다." />
+    <string id="config_category_cheats_foodbonusenable_name" text="식량 보너스 활성화" />
+    <string id="config_category_cheats_foodbonusenable_description" text="소유한 성과 정착지에 식량 보너스를 활성화합니다." />
+    <string id="config_category_cheats_foodbonusenable_requirements" text="[{LoadFoodGatheringModule}] 옵션이 활성화되어 있어야 합니다." />
+    <string id="config_category_cheats_garrisondonteat_name" text="수비대 식량 소모 없음 활성화" />
+    <string id="config_category_cheats_garrisondonteat_description" text="수비대가 소비하는 식량만큼 정착지에 식량 보너스를 추가합니다. 이는 수비대의 식량 소비를 상쇄하기 위한 우회 기능입니다." />
+    <string id="config_category_cheats_garrisondonteat_requirements" text="[{LoadFoodGatheringModule}] 옵션이 활성화되어 있어야 합니다." />
+    <string id="config_category_base_foodamount_name" text="일일 식량 보너스 양" />
+    <string id="config_category_base_foodamount_description" text="플레이어의 각 성과 정착지가 매일 얻는 일일 식량 보너스 양을 설정합니다." />
+    <string id="config_category_base_foodamount_requirements" text="[{LoadFoodGatheringModule}] 옵션이 활성화되어 있어야 합니다." />
+    <string id="config_category_default_recruitment_name" text="기본값으로 지역 모병 활성화" />
+    <string id="config_category_default_recruitment_description" text="플레이어 수비대의 지역 모병을 기본으로 활성화합니다." />
+    <string id="config_category_default_recruitthreshold_name" text="최대 모병 기준치 기본 인원수" />
+    <string id="config_category_default_recruitthreshold_description" text="모병이 중단될 때까지 모집할 수비대 병사의 기본 최대 인원수를 설정합니다." />
+    <string id="config_category_default_onlyelite_name" text="기본값으로 정예 병사만 모병 활성화" />
+    <string id="config_category_default_onlyelite_description" text="정예 병사만 모병하는 옵션을 기본으로 활성화합니다." />
+    <string id="config_category_default_prisonerrecruit_name" text="기본값으로 포로 모병 활성화" />
+    <string id="config_category_default_prisonerrecruit_description" text="플레이어 수비대의 포로 모병을 기본으로 활성화합니다." />
+    <string id="config_category_default_prisonerthreshold_name" text="기본값으로 기준치 초과 포로 모병 활성화" />
+    <string id="config_category_default_prisonerthreshold_description" text="플레이어 수비대의 기준치 초과 포로 모병을 기본으로 활성화합니다." />
+    <string id="config_category_default_training_name" text="기본값으로 훈련 활성화" />
+    <string id="config_category_default_training_description" text="플레이어 수비대의 훈련을 기본으로 활성화합니다." />
+    <string id="config_category_default_training_requirements" text="매일 수비대 병사들은 정해진(조절 가능한) 양의 경험치를 얻습니다. 승급이 가능해지면 두 가지 방식으로 처리됩니다. 특정 승급 목표를 선택해 승급 경로를 지정했다면 Improved Garrison은 해당 목표를 향해 승급시킵니다. 목표가 설정되지 않았다면 경로는 무작위로 선택됩니다. 비용을 제한하고 싶다면 최대 승급 티어를 제한할 수 있습니다(단, 사용자 지정 승급 목표가 우선 적용됩니다)." />
+    <string id="config_category_default_maximumtier_name" text="최대 훈련 티어 기본 설정" />
+    <string id="config_category_default_maximumtier_description" text="수비대 병사가 훈련될 기본 최대 티어입니다." />
+    <string id="config_category_default_guardupgrade_name" text="기본값으로 경비대 병사 승급 허용" />
+    <string id="config_category_default_guardupgrade_description" text="플레이어 경비 부대가 소속 병사를 승급시키는 것을 기본으로 허용합니다." />
+    <string id="config_category_default_replenish_name" text="기본값으로 경비 부대 병력 보충 활성화" />
+    <string id="config_category_default_replenish_description" text="경비 부대의 병력 보충 및 치료를 기본으로 활성화합니다." />
+    <string id="config_category_default_guardssell_name" text="기본값으로 경비대 포로 거래 활성화" />
+    <string id="config_category_default_guardssell_description" text="포로 거래를 기본으로 활성화합니다." />
+    <string id="config_category_default_guardprisonerrecruit_name" text="기본값으로 경비대 포로 모병 허용" />
+    <string id="config_category_default_guardprisonerrecruit_description" text="플레이어 경비 부대의 포로 모병을 기본으로 허용합니다." />
+    <string id="config_category_default_hideoutclear_name" text="기본값으로 경비대 은신처 소탕 허용" />
+    <string id="config_category_default_hideoutclear_description" text="경비대의 은신처 소탕을 기본으로 허용합니다." />
+    <string id="config_category_default_buyhorses_name" text="기본값으로 경비대 말 구매 허용" />
+    <string id="config_category_default_buyhorses_description" text="경비대가 추가 이동 속도를 얻기 위해 말을 구매하는 것을 기본으로 허용합니다." />
+    <string id="config_category_npc_guardparties_name" text="NPC의 경비 부대 생성 허용" />
+    <string id="config_category_npc_guardparties_description" text="다른 세력이 영지를 방어하기 위해 경비 부대를 창설할 수 있도록 허용합니다." />
+    <string id="config_category_npc_npcguardspawnthreshold_name" text="NPC 경비대 생성 기준치" />
+    <string id="config_category_npc_npcguardspawnthreshold_description" text="새 경비 부대가 생성되기 위해 도달해야 하는 NPC 수비대 규모입니다." />
+    <string id="config_category_npc_npcguardspawnthreshold_requirements" text="[{EnableNPCMode}] 옵션이 활성화되어 있어야 합니다." />
+    <string id="config_category_npc_npcguardsizemultiplier_name" text="NPC 경비 부대 규모 배율" />
+    <string id="config_category_npc_npcguardsizemultiplier_description" text="NPC 경비 부대의 규모를 조정합니다. &#10; &#10;소규모 경비 부대는 0.2로 설정하세요.&#10;대규모 경비 부대는 0.8로 설정하세요." />
+    <string id="config_category_npc_npcguardsizemultiplier_requirements" text="[{EnableNPCMode}] 옵션이 활성화되어 있어야 합니다." />
+    <string id="config_category_npc_worldrecruit_name" text="NPC 지역 모병" />
+    <string id="config_category_npc_worldrecruit_description" text="모든 NPC 수비대에 자동 모병을 활성화합니다." />
+    <string id="config_category_npc_prisonerrecruit_name" text="NPC 포로 모병" />
+    <string id="config_category_npc_prisonerrecruit_description" text="모든 NPC 수비대에 포로 모병을 활성화합니다." />
+    <string id="config_category_npc_recruitthreshold_name" text="NPC 최대 모병 기준치" />
+    <string id="config_category_npc_recruitthreshold_description" text="모병이 중단될 때까지 모집할 최대 수비대 병사 수입니다." />
+    <string id="config_category_npc_recruitthreshold_requirements" text="[{EnableNPCWorldRecruitment}] 옵션이 활성화되어 있어야 합니다." />
+    <string id="config_category_npc_training_name" text="NPC 수비대 훈련" />
+    <string id="config_category_npc_training_description" text="모든 NPC 수비대에 수비대 병사 훈련을 활성화합니다." />
+    <string id="config_category_npc_trainingtier_name" text="NPC 최대 훈련 티어" />
+    <string id="config_category_npc_trainingtier_description" text="NPC 수비대 병사가 훈련될 최대 티어입니다." />
+    <string id="config_category_npc_trainingtier_requirements" text="[{EnableNPCGarrisonTraining}] 옵션이 활성화되어 있어야 합니다." />
+    <string id="config_category_npc_foodgathering_name" text="NPC 보너스 식량 채집" />
+    <string id="config_category_npc_foodgathering_description" text="모든 NPC 수비대에 보너스 식량을 부여합니다." />
+    <string id="config_category_npc_foodgathering_requirements" text="[{LoadFoodGatheringModule}] 옵션이 활성화되어 있어야 합니다." />
+    <string id="config_category_npc_foodamount_name" text="NPC 식량 보너스 양" />
+    <string id="config_category_npc_foodamount_description" text="NPC 보너스 식량 채집이 활성화된 경우 모든 NPC 수비대가 얻는 식량 보너스 양입니다." />
+    <string id="config_category_npc_foodamount_requirements" text="[{LoadFoodGatheringModule}] 옵션이 활성화되어 있어야 합니다." />
+    <string id="info_recruitment_recruitervalue" text="값은 1에서 150 사이여야 합니다" />
+  </strings>
+</base>
