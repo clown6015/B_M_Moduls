@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="한국어" />
+	</tags>
+	<strings>
+		<string id="misc_cr_loaderro" text="CharacterReload 로드 중 오류가 발생하여 불러올 수 없습니다: " />
+		<string id="misc_cr_onmapload" text="CharacterReload를 성공적으로 불러왔습니다." />
+		<string id="misc_cr_DoRefleshAPoint" text="영웅의 능력치 포인트가 초기화되었습니다." />
+		<string id="misc_cr_DoRefleshFPoint" text="영웅의 숙련 포인트가 초기화되었습니다." />
+		<string id="misc_cr_DoRefleshPerk" text="영웅의 특성 트리가 초기화되었습니다." />
+		<string id="misc_cr_DoRefleshTraits" text="영웅의 성향이 강화되었습니다." />
+		<string id="misc_cr_DoRefleshLevel" text="영웅의 레벨이 초기화되었습니다." />
+		<string id="bottom_ReAttHero" text="능력치 초기화" />
+		<string id="bottom_RefocusHero" text="숙련 포인트 초기화" />
+		<string id="bottom_RePerksHero" text="특성 초기화" />
+		<string id="bottom_ReTraitsHero" text="성향 강화" />
+		<string id="bottom_ReLevelHero" text="레벨 초기화" />
+		<string id="tips_cr_DoRefleshPerks" text="영웅의 특성을 초기화한 후에는 변경 사항을 적용하려면 게임을 저장한 뒤 다시 불러와야 합니다!" />
+		<string id="tips_cr_DoRefleshTrait" text="영웅의 성향을 강화한 후에는 변경 사항을 적용하려면 클랜 화면을 닫았다가 다시 열어야 합니다!" />
+		<string id="tips_cr_DoRefleshLevel" text="영웅의 레벨을 초기화한 후에는 변경 사항을 적용하려면 클랜 화면을 닫았다가 다시 열어야 합니다!" />
+		<string id="tips_cr_HeroGrowAdult" text="당신의 자녀가 이제 어엿한 영웅으로 성장했습니다!" />
+		<string id="tips_cr_Yes" text="예" />
+		<string id="tips_cr_No" text="아니오" />
+		<string id="CharacterCreation_ModNameText" text="CharacterReload" />
+		<string id="CharacterCration_ModNameText" text="CharacterReload" />
+		<string id="CharacterCreation_Section0" text="섹션 0: 디버그 모드" />
+		<string id="CharacterCreation_DebugModeName" text="디버그 출력 활성화" />
+		<string id="CharacterCreation_DebugModeHint" text="DCC의 디버그 출력을 활성화합니다. 재시작할 필요가 없습니다." />
+		<string id="CharacterCreation_Section1" text="섹션 1: 덮어쓰기 설정" />
+		<string id="CharacterCreation_IgnoreDailyTickName" text="외모 덮어쓰기 유지" />
+		<string id="CharacterCreation_IgnoreDailyTickHint" text="게임이 캐릭터의 외모를 원래대로 되돌리지 않도록 방지하려면 이 옵션을 켜 두십시오. 재시작할 필요가 없습니다." />
+		<string id="CharacterCreation_OverrideAgeName" text="나이 고정" />
+		<string id="CharacterCreation_OverrideAgeHint" text="활성화하면 외모 편집(FaceGen)에서 영웅의 나이가 변경되지 않도록 방지합니다. 재시작할 필요가 없습니다." />
+		<string id="CharacterCreation_DisableAutoAgingName" text="자동 노화 비활성화" />
+		<string id="CharacterCreation_DisableAutoAgingHint" text="활성화하면 나이에 따라 신체 외모가 변하는 것을 방지합니다. 재시작할 필요가 없습니다." />
+		<string id="CharacterCreation_Section2" text="섹션 2: 나이 모델" />
+		<string id="CharacterCreation_CustomAgeModelName" text="사용자 지정 나이 모델" />
+		<string id="CharacterCreation_CustomAgeModelHint" text="사용자 지정 나이 모델을 사용하려면 활성화하십시오. 다른 모드가 사용자 지정 나이 모델을 사용하는 경우 비활성화하십시오. 재시작이 필요합니다." />
+		<string id="CharacterCreation_BecomeInfantAgeName" text="유아기 시작 나이" />
+		<string id="CharacterCreation_BecomeInfantAgeHint" text="기본 유아기 시작 나이를 설정합니다. 재시작할 필요가 없습니다." />
+		<string id="CharacterCreation_BecomeChildAgeName" text="아동기 시작 나이" />
+		<string id="CharacterCreation_BecomeChildAgeHint" text="기본 아동기 시작 나이를 설정합니다. 재시작할 필요가 없습니다." />
+		<string id="CharacterCreation_BecomeTeenagerAgeName" text="청소년기 시작 나이" />
+		<string id="CharacterCreation_BecomeTeenagerAgeHint" text="기본 청소년기 시작 나이를 설정합니다. 재시작할 필요가 없습니다." />
+		<string id="CharacterCreation_BecomeAdultAgeName" text="성인기 시작 나이" />
+		<string id="CharacterCreation_BecomeAdultAgeHint" text="기본 성인기 시작 나이를 설정합니다. 재시작할 필요가 없습니다." />
+		<string id="CharacterCreation_BecomeOldAgeName" text="노년기 시작 나이" />
+		<string id="CharacterCreation_BecomeOldAgeHint" text="기본 노년기 시작 나이를 설정합니다. 재시작할 필요가 없습니다." />
+		<string id="CharacterCreation_MaxAgeName" text="최대 나이" />
+		<string id="CharacterCreation_MaxAgeHint" text="기본 최대 나이를 설정합니다. 재시작할 필요가 없습니다." />
+		<string id="CharacterCreation_LoadedModMessage" text="상세 캐릭터 생성(Detailed Character Creation)을 불러왔습니다." />
+		<string id="CharacterCreation_EditAppearanceForHeroMessage" text="외모 편집 시작 대상: " />
+		<string id="CharacterCreation_ErrorLoadingDccMessage" text="상세 캐릭터 생성 초기화 중 오류 발생:" />
+		<string id="CharacterCreation_ExpectedActualAgeMessage" text="[디버그] 영웅 {HERO_NAME} 예상 나이: {AGE1}, 실제 나이: {AGE2}" />
+		<string id="CharacterCreation_ChangingNameForText" text="이름 변경 대상: " />
+		<string id="CharacterCreation_InvalidCharacterText" text="유효하지 않은 캐릭터입니다." />
+		<string id="CharacterCreation_InvalidNameText" text="유효하지 않은 이름입니다." />
+		<string id="CharacterCreation_CharacterRenamerText" text="캐릭터 이름 변경" />
+		<string id="CharacterCreation_CharacterFirstNameRenamerText" text="캐릭터 이름(First Name) 변경" />
+		<string id="CharacterCreation_EnterNewFirstNameText" text="새로운 이름을 입력하십시오. 현재 이름: |" />
+		<string id="CharacterCreation_EnterNewNameText" text="새로운 이름을 입력하십시오. 현재 이름: |" />
+		<string id="CharacterCreation_RenameText" text="이름 변경" />
+		<string id="CharacterCreation_CancelText" text="취소" />
+		<string id="cr_edit_troops" text="병력 편집" />
+		<string id="EditTroops_TroopCounterText" text="병력 수 설정" />
+		<string id="EditTroops_EnterTroopCountText" text="병력 수를 입력하십시오" />
+		<string id="EditTroops_SetCountText" text="수량 설정" />
+		<string id="cr_edit_equipment" text="장비 편집" />
+		<string id="cr_edit_equipment_msg" text="장비 편집 대상: " />
+		<string id="cr_edit_equipment_child_warn" text="경고: 스켈레톤 모드 없이 아동 장비를 편집하면 메쉬 왜곡이 발생할 수 있습니다." />
+		<string id="EditEquipment_EquipmentCounterText" text="장비 수량 설정" />
+		<string id="EditEquipment_EnterEquipmentCountText" text="장비 수량을 입력하십시오" />
+		<string id="cr_hero_bonus_desc" text="Character Reload 보너스" />
+		<string id="cr_hero_admin" text="영웅 편집" />
+		<string id="cr_hero_skillandperk" text="기술 및 특성" />
+		<string id="cr_hero_attrbute" text="능력치" />
+		<string id="cr_hero_trait" text="성향" />
+		<string id="bottom_HeroTemplate" text="영웅 템플릿" />
+		<string id="cr_hero_focus" text="숙련" />
+		<string id="cr_hero_skilllevel" text="기술 레벨" />
+		<string id="cr_Select_Hero" text="영웅 선택" />
+		<string id="cr_hero_level" text="레벨" />
+		<string id="cr_hero_sp" text="SP" />
+		<string id="CharacterCreation_HeroUpdatedMsg" text="영웅 업데이트됨: " />
+		<string id="CharacterCreation_ErrorText" text="오류:" />
+		<string id="CharacterCreation_DebugSetAppearanceMsg" text="[디버그] 외모 설정 대상: " />
+		<string id="CharacterCreation_DebugResultMsg" text="[디버그] 결과: " />
+		<string id="CharacterCreation_DccDisabledMsg" text="상세 캐릭터 생성이 비활성화되었습니다." />
+		<string id="CharacterCreation_DccEnabledMsg" text="상세 캐릭터 생성을 활성화했습니다. V 키를 눌러 접속하십시오." />
+		<string id="CharacterCreation_FormatMsgHeader" text="형식: " />
+		<string id="CharacterCreation_HeroNameText" text="영웅 이름" />
+		<string id="CharacterCreation_AgeText" text="나이" />
+		<string id="CharacterCreation_HeroNotFoundMsg" text="영웅을 찾을 수 없습니다" />
+		<string id="CharacterCreation_EnterAgeMsg" text="나이를 입력하십시오." />
+		<string id="CharacterCreation_SuccessMsg" text="성공" />
+		<string id="CharacterCreation_ProcessSkinsXmlDebug" text="[CharacterCreation] 파일 로드 순서를 반전하기 위해 Skins XML 패치 중" />
+		<string id="cr_edit_appearance" text="외모 편집" />
+		<string id="cr_change_name" text="이름 변경" />
+		<string id="cr_hero_grow" text="성인으로 성장" />
+		<string id="str_facegen_skin_TorsoBelly" text="허리 둘레" />
+		<string id="str_facegen_skin_TorsoHips" text="골반 너비" />
+		<string id="str_facegen_skin_TorsoButt" text="둔부 볼륨" />
+		<string id="str_facegen_skin_Thigh" text="허벅지 굵기" />
+		<string id="str_facegen_skin_Calf" text="종아리 굵기" />
+		<string id="str_facegen_skin_Foot" text="발 크기" />
+		<string id="str_facegen_skin_TorsoX" text="몸통 너비" />
+		<string id="str_facegen_skin_TorsoY" text="몸통 두께" />
+		<string id="str_facegen_skin_TorsoZ" text="허리선 / 몸통 높이" />
+		<string id="str_facegen_skin_ThoraxX" text="흉부 / 가슴 너비" />
+		<string id="str_facegen_skin_ThoraxY" text="가슴 돌출도 / 두께" />
+		<string id="str_facegen_skin_Shoulders" text="삼각근 / 어깨 크기" />
+		<string id="str_facegen_skin_UpperarmSize" text="상완 굵기" />
+		<string id="str_facegen_skin_ForearmSize" text="전완 굵기" />
+		<string id="str_facegen_skin_HandSize" text="손 크기" />
+		<string id="str_facegen_skin_weight" text="근육 선명도" />
+		<string id="str_facegen_skin_build" text="이 항목 무시" />
+		<string id="str_facegen_skin_Weight2" text="체중" />
+		<string id="str_facegen_skin_Build2" text="근육량" />
+		<string id="str_facegen_skin_FaceScaleOverall" text="머리 전체 크기" />
+		<string id="str_facegen_skin_FaceSlimness" text="얼굴 너비 (V라인)" />
+		<string id="str_facegen_skin_CranialDepth" text="두개골 깊이 (뒤통수)" />
+		<string id="str_facegen_skin_FaceHeightScale" text="얼굴 길이 / 높이" />
+		<string id="str_facegen_skin_NeckLengthScale" text="목 길이" />
+		<string id="str_facegen_skin_NeckSlimness" text="목 너비" />
+		<string id="str_facegen_skin_NeckProfileDepth" text="목 측면 두께" />
+		<string id="str_facegen_skin_JawNeckBlend" text="턱-목 각도" />
+		<string id="str_facegen_skin_HeadPosture" text="머리 자세" />
+		<string id="str_facegen_skin_TrapeziusSlope" text="어깨 경사 (승모근)" />
+		<string id="str_facegen_skin_ClavicleWidth" text="쇄골 너비" />
+		<string id="str_facegen_skin_UpperChestDepth" text="윗가슴 돌출도" />
+		<string id="str_facegen_skin_LegLengthThigh" text="허벅지 길이" />
+		<string id="str_facegen_skin_LegLengthCalf" text="종아리 / 정강이 길이" />
+		<string id="str_facegen_skin_ArmLength" text="팔 길이" />
+		<string id="str_facegen_skin_WaistLowerZ" text="하부 몸통 높이" />
+		<string id="str_facegen_skin_ShoulderFrame" text="목-어깨 골격" />
+		<string id="str_facegen_skin_HeadNeckBalance" text="머리 기울기 균형" />
+		<string id="str_facegen_skin.TorsoBelly" text="허리 둘레" />
+		<string id="str_facegen_skin.TorsoHips" text="골반 너비" />
+		<string id="str_facegen_skin.TorsoButt" text="둔부 볼륨" />
+		<string id="str_facegen_skin.Thigh" text="허벅지 굵기" />
+		<string id="str_facegen_skin.Calf" text="종아리 굵기" />
+		<string id="str_facegen_skin.Foot" text="발 크기" />
+		<string id="str_facegen_skin.TorsoX" text="몸통 너비" />
+		<string id="str_facegen_skin.TorsoY" text="몸통 두께" />
+		<string id="str_facegen_skin.TorsoZ" text="허리선 / 몸통 높이" />
+		<string id="str_facegen_skin.ThoraxX" text="흉부 / 가슴 너비" />
+		<string id="str_facegen_skin.ThoraxY" text="가슴 돌출도 / 두께" />
+		<string id="str_facegen_skin.LegLengthThigh" text="허벅지 길이" />
+		<string id="str_facegen_skin.LegLengthCalf" text="종아리 / 정강이 길이" />
+		<string id="str_facegen_skin.ArmLength" text="팔 길이" />
+		<string id="str_facegen_skin.WaistLowerZ" text="하부 몸통 높이" />
+		<string id="str_facegen_skin.Shoulders" text="삼각근 / 어깨 크기" />
+		<string id="str_facegen_skin.UpperarmSize" text="상완 굵기" />
+		<string id="str_facegen_skin.ForearmSize" text="전완 굵기" />
+		<string id="str_facegen_skin.HandSize" text="손 크기" />
+		<string id="str_facegen_skin.weight" text="근육 선명도" />
+		<string id="str_facegen_skin.build" text="이 항목 무시" />
+		<string id="str_facegen_skin.Weight2" text="체중" />
+		<string id="str_facegen_skin.Build2" text="근육량" />
+		<string id="str_facegen_skin.FaceScaleOverall" text="머리 전체 크기" />
+		<string id="str_facegen_skin.FaceSlimness" text="얼굴 너비 (V라인)" />
+		<string id="str_facegen_skin.CranialDepth" text="두개골 깊이 (뒤통수)" />
+		<string id="str_facegen_skin.FaceHeightScale" text="얼굴 길이 / 높이" />
+		<string id="str_facegen_skin.NeckLengthScale" text="목 길이" />
+		<string id="str_facegen_skin.NeckSlimness" text="목 너비" />
+		<string id="str_facegen_skin.NeckProfileDepth" text="목 측면 두께" />
+		<string id="str_facegen_skin.JawNeckBlend" text="턱-목 각도" />
+		<string id="str_facegen_skin.HeadPosture" text="머리 자세" />
+		<string id="str_facegen_skin.TrapeziusSlope" text="어깨 경사 (승모근)" />
+		<string id="str_facegen_skin.ClavicleWidth" text="쇄골 너비" />
+		<string id="str_facegen_skin.UpperChestDepth" text="윗가슴 돌출도" />
+		<string id="str_facegen_skin.ShoulderFrame" text="목-어깨 골격" />
+		<string id="str_facegen_skin.HeadNeckBalance" text="머리 기울기 균형" />
+		<string id="bottom_SavedList" text="저장된 외모" />
+		<string id="bottom_SaveCurrent" text="현재 외모 저장" />
+		<string id="bottom_LoadCurrent" text="선택 외모 불러오기" />
+		<string id="bottom_DeleteCurrent" text="선택 외모 삭제" />
+		<string id="tips_cr_InputSaveName" text="저장할 이름을 입력하십시오" />
+		<string id="tips_cr_MaxSaved" text="최대 저장 가능 개수: " />
+		<string id="tips_cr_ConfirmLoad" text="불러오기 확인" />
+		<string id="tips_cr_IncloudBody" text="신체 특징도 함께 불러오시겠습니까?" />
+		<string id="tips_cr_WarningToDelete" text="경고: 삭제 확인" />
+		<string id="tips_cr_WarningToDelete2" text="이 작업은 데이터를 영구히 삭제하며 되돌릴 수 없습니다." />
+		<string id="cr_execute_Import" text="가져오기" />
+		<string id="cr_execute_export" text="내보내기" />
+		<string id="misc_cr_ExecuteExportl" text="영웅을 파일로 내보내기" />
+		<string id="misc_cr_ExecuteImport" text="파일에서 영웅 가져오기" />
+		<string id="tips_cr_doexport" text="캐릭터를 다음 경로로 내보냈습니다: " />
+		<string id="tips_cr_doimport" text="다음 경로에서 캐릭터를 가져왔습니다: " />
+		<string id="tips_cr_set_value" text="값 설정" />
+		<string id="tips_cr_cancel" text="취소" />
+		<string id="tips_cr_error_input" text="입력 오류: 숫자만 입력하십시오." />
+		<string id="tips_cr_for_now" text=" 현재 값: |" />
+		<string id="cr_settlement_change_name" text="이름 변경" />
+		<string id="cr_settlement_change_owner" text="소유자 변경" />
+		<string id="cr_settlement_reset_name" text="이름 초기화" />
+		<string id="cr_settlement_town_management" text="마을 관리" />
+		<string id="cr_settlement_rebel" text="반란 일으키기" />
+		<string id="cr_settlement_change_name_title" text="정착지 이름 변경" />
+		<string id="cr_settlement_change_name_body" text="새로운 정착지 이름을 입력하십시오. 현재 이름: |" />
+		<string id="cr_settlement_change_owner_title" text="소유자 변경" />
+		<string id="cr_settlement_change_owner_body" text="이 정착지의 소유자를 다음 인물로 변경하시겠습니까: " />
+		<string id="cr_settlement_set_prosperity_title" text="번영도 설정" />
+		<string id="cr_settlement_set_prosperity_body" text="번영도 값을 입력하십시오. 현재 값: |" />
+		<string id="cr_settlement_set_militia_title" text="민병대 설정" />
+		<string id="cr_settlement_set_militia_body" text="민병대 수치를 입력하십시오. 현재 값: |" />
+		<string id="cr_settlement_set_loyalty_title" text="충성도 설정" />
+		<string id="cr_settlement_set_loyalty_body" text="충성도 값을 입력하십시오. 현재 값: |" />
+		<string id="cr_settlement_set_security_title" text="치안 설정" />
+		<string id="cr_settlement_set_security_body" text="치안 값을 입력하십시오. 현재 값: |" />
+		<string id="cr_settlement_set_food_title" text="식량 설정" />
+		<string id="cr_settlement_set_food_body" text="식량 수치를 입력하십시오. 현재 값: |" />
+		<string id="cr_clan_change_name" text="이름 변경" />
+		<string id="cr_clan_edit_banner" text="배너 편집" />
+		<string id="cr_clan_inherit_kingdom_color" text="왕국 색상 상속" />
+		<string id="cr_clan_war" text="전쟁" />
+		<string id="cr_clan_peace" text="평화" />
+		<string id="cr_clan_alliance" text="동맹" />
+		<string id="cr_clan_end_alliance" text="동맹 파기" />
+		<string id="cr_clan_max_companions" text="최대 동료 수" />
+		<string id="cr_clan_max_parties" text="최대 부대 수" />
+		<string id="cr_clan_set_renown" text="명성 설정" />
+		<string id="cr_clan_get_relation_message" text="작업할 대상 클랜 선택됨: " />
+		<string id="cr_clan_set_influence_title" text="영향력 설정" />
+		<string id="cr_clan_set_influence_body" text="영향력 값을 입력하십시오. 현재 값: |" />
+		<string id="cr_clan_set_renown_title" text="명성 설정" />
+		<string id="cr_clan_set_renown_body" text="명성 값을 입력하십시오. 현재 값: |" />
+		<string id="cr_clan_change_name_title" text="클랜 이름 변경" />
+		<string id="cr_clan_change_name_body" text="새로운 클랜 이름을 입력하십시오. 현재 이름: |" />
+		<string id="cr_clan_change_informal_name_title" text="클랜 약칭 변경" />
+		<string id="cr_clan_change_informal_name_body" text="새로운 클랜 약칭을 입력하십시오. 현재 이름: |" />
+		<string id="cr_clan_set_max_companions_title" text="최대 동료 수 설정" />
+		<string id="cr_clan_set_max_companions_body" text="최대 동료 수를 입력하십시오. 현재 값: |" />
+		<string id="cr_clan_set_max_parties_title" text="최대 부대 수 설정" />
+		<string id="cr_clan_set_max_parties_body" text="최대 부대 수를 입력하십시오. 현재 값: |" />
+		<string id="cr_hero_set_relation" text="관계 설정" />
+		<string id="cr_hero_set_relation_title" text="관계 설정" />
+		<string id="cr_hero_set_relation_body1" text="관계 수치를 입력하십시오 (" />
+		<string id="cr_hero_set_relation_body2" text=" ~ " />
+		<string id="cr_hero_get_relation_message" text="관계를 변경할 대상: " />
+		<string id="cr_hero_set_encyclopedia_text_title" text="백과사전 배경 이야기 편집: " />
+		<string id="cr_hero_set_speed_bonus_title" text="이동 속도 보너스 설정" />
+		<string id="cr_hero_set_speed_bonus_body" text="이동 속도 보너스 값을 입력하십시오. 현재 값: |" />
+		<string id="cr_hero_set_morale_bonus_title" text="사기 보너스 설정" />
+		<string id="cr_hero_set_morale_bonus_body" text="사기 보너스 값을 입력하십시오. 현재 값: |" />
+		<string id="cr_hero_set_spotting_range_bonus_title" text="시야 범위 보너스 설정" />
+		<string id="cr_hero_set_spotting_range_bonus_body" text="시야 범위 보너스 값을 입력하십시오. 현재 값: |" />
+		<string id="cr_hero_set_inventory_capacity_bonus_title" text="소지 중량 보너스 설정" />
+		<string id="cr_hero_set_inventory_capacity_bonus_body" text="소지 중량 보너스 값을 입력하십시오. 현재 값: |" />
+		<string id="cr_hero_set_party_member_size_limit_bonus_title" text="부대원 상한 보너스 설정" />
+		<string id="cr_hero_set_party_member_size_limit_bonus_body" text="부대원 상한 보너스 값을 입력하십시오. 현재 값: |" />
+		<string id="cr_hero_set_party_prisoner_size_limit_bonus_title" text="포로 상한 보너스 설정" />
+		<string id="cr_hero_set_party_prisoner_size_limit_bonus_body" text="포로 상한 보너스 값을 입력하십시오. 현재 값: |" />
+		<string id="cr_hero_set_health_bonus_title" text="영웅 체력 설정" />
+		<string id="cr_hero_set_health_bonus_body" text="영웅 체력 값을 입력하십시오. 현재 값: |" />
+		<string id="cr_hero_make_dead_title" text="사망 처리" />
+		<string id="cr_hero_make_dead_body" text="이 캐릭터를 사망 처리하시겠습니까?" />
+		<string id="cr_hero_make_resurrect_title" text="부활 처리" />
+		<string id="cr_hero_make_resurrect_body" text="이 캐릭터를 부활시키겠습니까?" />
+		<string id="cr_hero_set_gold_bonus_title" text="영웅 금화 설정" />
+		<string id="cr_hero_set_gold_bonus_body" text="영웅 금화 값을 입력하십시오. 현재 값: |" />
+		<string id="cr_hero_set_global_skill_title" text="전역 최대 기술 수치 설정" />
+		<string id="cr_hero_set_global_skill_body" text="전역 최대 기술 수치를 입력하십시오" />
+		<string id="cr_hero_set_skill_title" text="기술 수치 설정" />
+		<string id="cr_hero_set_skill_body" text="기술 수치를 입력하십시오" />
+		<string id="cr_kingdom_change_name" text="이름 변경" />
+		<string id="cr_kingdom_reset_name" text="이름 초기화" />
+		<string id="cr_kingdom_change_name_title" text="왕국 이름 변경" />
+		<string id="cr_kingdom_change_name_body" text="새로운 왕국 이름을 입력하십시오. 현재 이름: |" />
+		<string id="cr_kingdom_change_informal_name_title" text="왕국 약칭 변경" />
+		<string id="cr_kingdom_change_informal_name_body" text="새로운 왕국 약칭을 입력하십시오. 현재 이름: |" />
+		<string id="cr_kingdom_change_formal_name_title" text="왕국 공식 명칭 변경" />
+		<string id="cr_kingdom_change_formal_name_body" text="새로운 왕국 공식 명칭(직함)을 입력하십시오. 현재 명칭: |" />
+		<string id="cr_relationship_manager" text="관계 관리자" />
+		<string id="cr_relationship_mangager" text="관계 관리자" />
+		<string id="cr_relationship_manager_cancel" text="취소" />
+		<string id="cr_relationship_manager_select_action_vector" text="적용 방향 선택" />
+		<string id="cr_relationship_manager_menu_hero_to_hero" text="영웅 대 영웅 메뉴" />
+		<string id="cr_relationship_manager_menu_hero_to_clan" text="영웅 대 클랜 메뉴" />
+		<string id="cr_relationship_manager_menu_hero_to_faction" text="영웅 대 세력 메뉴" />
+		<string id="cr_relationship_manager_menu_clan_to_clan" text="클랜 대 클랜 메뉴" />
+		<string id="cr_relationship_manager_menu_clan_to_faction" text="클랜 대 세력 메뉴" />
+		<string id="cr_relationship_manager_menu_faction_to_faction" text="세력 대 세력 메뉴" />
+		<string id="cr_relationship_manager_create_kingdom" text="새 왕국 창설" />
+		<string id="cr_relationship_manager_leave_kingdom" text="왕국 탈퇴" />
+		<string id="cr_relationship_manager_change_ruling_clan" text="통치 클랜 변경" />
+		<string id="cr_relationship_manager_join_kingdom" text="정식 봉신으로 왕국 합류" />
+		<string id="cr_relationship_manager_join_kingdom_mercenary" text="용병으로 왕국 합류" />
+		<string id="cr_relationship_manager_peace" text="평화 협정" />
+		<string id="cr_relationship_manager_war" text="전쟁 선포" />
+		<string id="cr_relationship_manager_create_new_clan" text="새 클랜 창설" />
+		<string id="cr_relationship_manager_become_clan_leader" text="클랜 지도자 되기" />
+		<string id="cr_relationship_manager_leave_clan" text="클랜 탈퇴" />
+		<string id="cr_relationship_manager_join_clan" text="클랜 합류" />
+		<string id="cr_relationship_manager_divorce" text="이혼" />
+		<string id="cr_relationship_manager_native_marry_offer" text="바닐라 청혼 제의" />
+		<string id="cr_relationship_manager_marry" text="결혼" />
+		<string id="cr_relationship_manager_change_occupation" text="신분 변경" />
+		<string id="cr_relationship_manager_become_parent" text="부모 되기 (아버지/어머니)" />
+		<string id="cr_relationship_manager_become_pregnant" text="임신시키기" />
+		<string id="cr_relationship_manager_set_relation_value" text="관계 수치 설정" />
+		<string id="cr_rm_marry_action_left_to_right_p1" text="결과:" />
+		<string id="cr_rm_marry_action_left_to_right_p2" text="결혼 대상:" />
+		<string id="cr_rm_marry_action_left_to_right_p3" text="합류할" />
+		<string id="cr_rm_marry_action_left_to_right_p4" text="클랜:" />
+		<string id="cr_rm_divorce_action_left_to_right_p2" text="이혼 대상:" />
+		<string id="cr_rm_marry_action" text="결혼" />
+		<string id="cr_rm_occupation_change_action_p1" text="결과:" />
+		<string id="cr_rm_occupation_change_action_p2" text="신분 변경:" />
+		<string id="cr_rm_occupation_change_action_p3" text="-&gt;" />
+		<string id="cr_rm_occupation_change_action" text="신분 변경" />
+		<string id="cr_rm_become_relative_action_p1" text="결과:" />
+		<string id="cr_rm_become_relative_action_p2" text="다음 인물의 아버지 관계 해제:" />
+		<string id="cr_rm_become_relative_action_p3" text="다음 인물의 어머니 관계 해제:" />
+		<string id="cr_rm_become_relative_action_p4" text="다음 인물의 자녀가 됨:" />
+		<string id="cr_rm_become_relative_action" text="혈연 관계 설정" />
+		<string id="cr_rm_divorce_action_p1" text="결과:" />
+		<string id="cr_rm_divorce_action_p2" text="다음 인물과 이혼:" />
+		<string id="cr_rm_divorce_action_p3" text="이혼할 배우자가 없습니다" />
+		<string id="cr_rm_divorce_action" text="이혼" />
+		<string id="cr_rm_pregnant_action_p1" text="결과:" />
+		<string id="cr_rm_pregnant_action_p2" text="다음 인물의 아이를 임신:" />
+		<string id="cr_rm_pregnant_action_p3" text="임신할 배우자가 없습니다" />
+		<string id="cr_rm_pregnant_action_p4" text="여성이 아닙니다" />
+		<string id="cr_rm_pregnant_action" text="임신" />
+		<string id="cr_relationship_manager_remove_relative" text="혈연 관계 해제" />
+		<string id="cr_rm_hover_any_action" text="작업 버튼 위에 마우스를 올리면 결과와 경고를 확인할 수 있습니다." />
+		<string id="cr_rm_no_clan" text="클랜 없음" />
+		<string id="cr_rm_no_kingdom" text="왕국 없음" />
+		<string id="cr_rm_no_leader" text="지도자 없음" />
+		<string id="cr_rm_remove_relative_done" text="{HERO1}와(과) {HERO2} 사이의 혈연 및 전 배우자 관계가 해제되었습니다." />
+		<string id="cr_rm_remove_relative_none" text="{HERO1}와(과) {HERO2} 사이에 직접적인 부모/자녀 또는 전 배우자 관계가 없습니다." />
+		<string id="cr_rm_remove_relative_siblings" text="참고: {HERO1}와(과) {HERO2}은(는) 공통 부모 {PARENT}을(를) 둔 형제자매입니다. 혈연 관계를 끊으려면 둘 중 한 명과 {PARENT}을(를) 선택하십시오." />
+		<string id="cr_rm_remove_relative_spouses" text="참고: {HERO1}와(과) {HERO2}은(는) 현재 결혼 상태입니다. 결혼을 끝내려면 '이혼'을 사용하십시오." />
+		<string id="cr_rm_remove_relative_will_break_father" text="- {PARENT}은(는) 더 이상 {CHILD}의 아버지가 아니게 됩니다." />
+		<string id="cr_rm_remove_relative_will_break_mother" text="- {PARENT}은(는) 더 이상 {CHILD}의 어머니가 아니게 됩니다." />
+		<string id="cr_rm_remove_relative_will_break_child" text="- {CHILD}은(는) {PARENT}의 자녀 목록에서 제거됩니다." />
+		<string id="cr_rm_remove_relative_will_break_exspouse" text="- {HERO1}와(과) {HERO2}은(는) 서로의 전 배우자 목록에서 제거됩니다." />
+		<string id="cr_rm_become_relative_self_error" text="경고: 캐릭터는 자기 자신의 부모가 될 수 없습니다 ({HERO})." />
+		<string id="cr_rm_become_relative_reverse_clean" text="참고: 가계도 무한 루프를 방지하기 위해 역방향 부모-자녀 관계({CHILD}이(가) {PARENT}의 부모였던 관계)가 자동으로 제거됩니다." />
+		<string id="cr_rm_become_relative_hover" text="방향(&lt;---- 또는 ----&gt;)을 선택하여 한 영웅을 다른 영웅의 아버지/어머니로 만듭니다. 같은 성별의 기존 부모는 대체됩니다." />
+		<string id="cr_rm_set_relation_hover" text="{HERO1}와(과) {HERO2}의 현재 개인 관계: {REL}.\n클릭하면 새 관계 수치를 설정하는 대화 상자가 열립니다." />
+		<string id="cr_rm_pregnant_hover" text="방향(&lt;---- 또는 ----&gt;)을 선택하여 선택한 여성 영웅이 현재 배우자의 아이를 임신하게 합니다.\n- {HERO1}: {STATUS1}\n- {HERO2}: {STATUS2}" />
+		<string id="cr_rm_pregnant_already" text="{HERO}은(는) 이미 임신 중입니다." />
+		<string id="cr_rm_occupation_hover" text="새로운 신분을 선택하여 &lt;---- ({HERO1}: {OCC1}) 또는 ----&gt; ({HERO2}: {OCC2})에 적용합니다." />
+		<string id="cr_rm_occupation_warn_lord" text="경고: 클랜을 변경하지 않고 영주(Lord)/주인공(MainHero)의 신분을 변경하면 부대 및 클랜 행동에 영향을 줄 수 있습니다." />
+		<string id="cr_rm_marry_hover" text="바닐라 조건을 무시하고 {HERO1}와(과) {HERO2}을(를) 즉시 결혼시킵니다.\n부부가 어느 클랜에 속할지 방향(&lt;---- 또는 ----&gt;)을 선택하십시오." />
+		<string id="cr_rm_marry_warn_noclan" text="경고: 대상 영웅에게 클랜이 없습니다! {HERO}은(는) 기존 클랜을 떠나 방랑자가 됩니다." />
+		<string id="cr_rm_native_marry_hover" text="캠페인 지도에서 {HERO1}와(과) {HERO2} 사이의 바닐라 청혼 제의를 보냅니다.\n참고: 지도 팝업을 보려면 관계 관리자를 닫으십시오. 바닐라 UI에서는 왼쪽 영웅이 플레이어 클랜 소속이어야 합니다." />
+		<string id="cr_rm_divorce_hover" text="방향(&lt;---- 또는 ----&gt;)을 선택하여 선택한 영웅을 현재 배우자와 이혼시킵니다.\n- {HERO1} 배우자: {SPOUSE1}\n- {HERO2} 배우자: {SPOUSE2}" />
+		<string id="cr_rm_paste_hover" text="배치할 슬롯(&lt;---- 왼쪽 또는 ----&gt; 오른쪽)을 선택하십시오: {TARGET}" />
+		<string id="cr_rm_paste_left" text="{TARGET}을(를) 왼쪽 슬롯에 배치합니다 ({CURRENT} 대체)." />
+		<string id="cr_rm_paste_right" text="{TARGET}을(를) 오른쪽 슬롯에 배치합니다 ({CURRENT} 대체)." />
+		<string id="cr_rm_join_clan_hover" text="결과:\n- {HERO}은(는) 클랜({OLD_CLAN})을 떠나 {NEW_CLAN} 클랜에 합류합니다.\n- {HERO}의 신분이 영주(Lord)가 됩니다." />
+		<string id="cr_rm_warn_main_hero_clan" text="경고: {HERO}은(는) 주인공(MainHero)입니다! 주인공이 속한 클랜에서 클랜 지도자가 아닐 경우, 관련 모드가 없으면 바닐라 클랜 화면(L)을 열 때 게임이 충돌할 수 있습니다(또는 '클랜 지도자 되기'를 클릭하십시오)." />
+		<string id="cr_rm_warn_clan_leader_leave" text="경고: {HERO}은(는) {CLAN}의 현재 지도자입니다! 탈퇴하면 {CLAN}에 지도자가 없어집니다." />
+		<string id="cr_rm_leave_clan_hover" text="결과:\n- {HERO}은(는) 클랜({OLD_CLAN})을 떠나 무소속이 됩니다.\n- {HERO}의 신분이 방랑자(Wanderer)가 됩니다." />
+		<string id="cr_rm_become_clan_leader_hover" text="결과:\n- {HERO}이(가) {CLAN} 클랜의 새 지도자가 됩니다 ({OLD_LEADER} 대체).\n- 이전 지도자의 금화가 {HERO}에게 이전됩니다." />
+		<string id="cr_rm_warn_not_in_clan" text="경고: {HERO}은(는) 현재 {CLAN}의 구성원이 아닙니다 (현재 클랜: {CURRENT_CLAN}). 클랜 계층 문제를 방지하려면 먼저 '클랜 합류'를 클릭하십시오." />
+		<string id="cr_rm_create_clan_hover" text="결과:\n- {HERO}이(가) 새 클랜({CULTURE})을 창설하고 지도자가 되며, 15,000 금화를 받고 무작위 왕국에 합류한 뒤 정착지로 이동합니다." />
+		<string id="cr_rm_war_hover" text="결과:\n- {FACTION1}와(과) {FACTION2}이(가) 전쟁을 선포합니다." />
+		<string id="cr_rm_war_vassal_note" text="참고: 봉신 클랜이 선택되었으므로 소속된 상위 왕국 전체가 전쟁에 돌입합니다!" />
+		<string id="cr_rm_war_same_faction" text="경고: 양측 모두 동일한 세력({FACTION})에 속해 있습니다!" />
+		<string id="cr_rm_peace_hover" text="결과:\n- {FACTION1}와(과) {FACTION2}이(가) 평화를 맺고 진행 중인 적대 행위(약탈/공성)를 중단합니다." />
+		<string id="cr_rm_join_kingdom_merc_hover" text="결과:\n- {CLAN} 클랜(현재: {OLD_KINGDOM})이 용병으로 {KINGDOM} 왕국에 합류합니다." />
+		<string id="cr_rm_join_kingdom_hover" text="결과:\n- {CLAN} 클랜(현재: {OLD_KINGDOM})이 정식 봉신 영주 클랜으로 {KINGDOM} 왕국에 합류합니다 (영지 유지)." />
+		<string id="cr_rm_warn_ruling_clan" text="경고: {CLAN}은(는) {KINGDOM}의 통치 클랜입니다! 통치 클랜을 먼저 변경하지 않고 왕국을 변경하거나 탈퇴하면 왕국 로직이 손상될 수 있습니다." />
+		<string id="cr_rm_change_ruling_clan_hover" text="결과:\n- {CLAN} 클랜이 {KINGDOM}의 새 통치 클랜이 됩니다 ({OLD_RULING_CLAN} 대체)." />
+		<string id="cr_rm_warn_clan_not_in_kingdom" text="경고: {CLAN} 클랜은 {KINGDOM}의 구성원이 아닙니다 (현재 왕국: {OLD_KINGDOM}). 먼저 왕국에 합류하십시오!" />
+		<string id="cr_rm_leave_kingdom_hover" text="결과:\n- {CLAN} 클랜이 {KINGDOM} 왕국을 탈퇴합니다.\n- 경고: {CLAN}이(가) 소유한 모든 영지({FIEFS})가 {KINGDOM}의 통치자에게 이전됩니다!" />
+		<string id="cr_rm_leave_kingdom_none" text="{CLAN} 클랜은 어느 왕국에도 속해 있지 않습니다." />
+		<string id="cr_rm_create_kingdom_hover" text="결과:\n- {CLAN} 클랜이 {CULTURE} 문화의 새 왕국을 창설하고 통치 클랜이 됩니다." />
+		<string id="cr_rm_create_kingdom_warn" text="경고: {CLAN} 클랜은 이미 {KINGDOM} 왕국에 속해 있습니다! 먼저 '왕국 탈퇴'를 클릭하십시오. 그렇지 않으면 새 왕국 창설이 작동하지 않습니다." />
+		<string id="cr_rm_alliance_hover" text="결과:\n- {KINGDOM1} 왕국과 {KINGDOM2} 왕국이 공식 동맹을 체결합니다." />
+		<string id="cr_rm_end_alliance_hover" text="결과:\n- {KINGDOM1} 왕국과 {KINGDOM2} 왕국이 동맹을 파기합니다." />
+		<string id="02c5bQSM" text="버리기" />
+		<string id="2abtb4xu" text="독립" />
+		<string id="tTLvo8sM" text="클랜 등급" />
+		<string id="ODEnkg0o" text="클랜 전력" />
+		<string id="zZlWRZjO" text="전쟁" />
+		<string id="6qv6Hdww" text="한도" />
+		<string id="WiNRdfsm" text="완료" />
+		<string id="3CpNUnVl" text="취소" />
+		<string id="MnluqvyE" text="내 과거에 대해서는 이야기하고 싶지 않습니다." />
+		<string id="pBb6sevv" text="새 고용주를 찾고 있다는 말씀만 드리겠습니다. 대우와 보수만 좋다면 충성스럽게 섬기겠습니다." />
+		<string id="chj1X7VP" text="우리 사이에 다툴 일은 없다고 생각합니다." />
+		<string id="b3YNi4LG" text="저는 {CONVERSATION_HERO.LINK}입니다. {FACTION_DESCRIPTION}" />
+		<string id="!" text="비공식" />
+	</strings>
+</base>
