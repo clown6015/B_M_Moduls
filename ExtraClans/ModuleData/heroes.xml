@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Heroes>
+  <Hero id="lord_ec_aserai_1a" faction="Faction.clan_ec_aserai_1" spouse="Hero.lord_ec_aserai_1b" text="{=hero_desc.lord_ec_aserai_1a}Ayyam is the head of the Banu Tammar, a respected noble family of the Aserai confederacy known for guarding the southern trade routes and desert wells." />
+  <Hero id="lord_ec_aserai_1b" faction="Faction.clan_ec_aserai_1" spouse="Hero.lord_ec_aserai_1a" />
+  <Hero id="lord_ec_aserai_1c" faction="Faction.clan_ec_aserai_1" father="Hero.lord_ec_aserai_1a" mother="Hero.lord_ec_aserai_1b" />
+  <Hero id="lord_ec_aserai_1d" faction="Faction.clan_ec_aserai_1" father="Hero.lord_ec_aserai_1a" mother="Hero.lord_ec_aserai_1b" />
+  <Hero id="lord_ec_aserai_1e" faction="Faction.clan_ec_aserai_1" father="Hero.lord_ec_aserai_1a" mother="Hero.lord_ec_aserai_1b" />
+  <Hero id="lord_ec_aserai_2a" faction="Faction.clan_ec_aserai_2" spouse="Hero.lord_ec_aserai_2b" text="{=hero_desc.lord_ec_aserai_2a}Dhashwal is the head of the Banu Tharuq, a respected noble family of the Aserai confederacy known for guarding the southern trade routes and desert wells." />
+  <Hero id="lord_ec_aserai_2b" faction="Faction.clan_ec_aserai_2" spouse="Hero.lord_ec_aserai_2a" />
+  <Hero id="lord_ec_aserai_2c" faction="Faction.clan_ec_aserai_2" father="Hero.lord_ec_aserai_2a" mother="Hero.lord_ec_aserai_2b" />
+  <Hero id="lord_ec_aserai_2d" faction="Faction.clan_ec_aserai_2" father="Hero.lord_ec_aserai_2a" mother="Hero.lord_ec_aserai_2b" />
+  <Hero id="lord_ec_aserai_2e" faction="Faction.clan_ec_aserai_2" father="Hero.lord_ec_aserai_2a" mother="Hero.lord_ec_aserai_2b" />
+  <Hero id="lord_ec_aserai_3a" faction="Faction.clan_ec_aserai_3" spouse="Hero.lord_ec_aserai_3b" text="{=hero_desc.lord_ec_aserai_3a}Ghulassen is the head of the Banu Harranad, a respected noble family of the Aserai confederacy known for guarding the southern trade routes and desert wells." />
+  <Hero id="lord_ec_aserai_3b" faction="Faction.clan_ec_aserai_3" spouse="Hero.lord_ec_aserai_3a" />
+  <Hero id="lord_ec_aserai_3c" faction="Faction.clan_ec_aserai_3" father="Hero.lord_ec_aserai_3a" mother="Hero.lord_ec_aserai_3b" />
+  <Hero id="lord_ec_aserai_3d" faction="Faction.clan_ec_aserai_3" father="Hero.lord_ec_aserai_3a" mother="Hero.lord_ec_aserai_3b" />
+  <Hero id="lord_ec_aserai_3e" faction="Faction.clan_ec_aserai_3" father="Hero.lord_ec_aserai_3a" mother="Hero.lord_ec_aserai_3b" />
+  <Hero id="lord_ec_aserai_4a" faction="Faction.clan_ec_aserai_4" spouse="Hero.lord_ec_aserai_4b" text="{=hero_desc.lord_ec_aserai_4a}Iltas is the head of the Banu Khashal, a respected noble family of the Aserai confederacy known for guarding the southern trade routes and desert wells." />
+  <Hero id="lord_ec_aserai_4b" faction="Faction.clan_ec_aserai_4" spouse="Hero.lord_ec_aserai_4a" />
+  <Hero id="lord_ec_aserai_4c" faction="Faction.clan_ec_aserai_4" father="Hero.lord_ec_aserai_4a" mother="Hero.lord_ec_aserai_4b" />
+  <Hero id="lord_ec_aserai_4d" faction="Faction.clan_ec_aserai_4" father="Hero.lord_ec_aserai_4a" mother="Hero.lord_ec_aserai_4b" />
+  <Hero id="lord_ec_aserai_4e" faction="Faction.clan_ec_aserai_4" father="Hero.lord_ec_aserai_4a" mother="Hero.lord_ec_aserai_4b" />
+  <Hero id="lord_ec_aserai_5a" faction="Faction.clan_ec_aserai_5" spouse="Hero.lord_ec_aserai_5b" text="{=hero_desc.lord_ec_aserai_5a}Jassid is the head of the Banu Qaram, a respected noble family of the Aserai confederacy known for guarding the southern trade routes and desert wells." />
+  <Hero id="lord_ec_aserai_5b" faction="Faction.clan_ec_aserai_5" spouse="Hero.lord_ec_aserai_5a" />
+  <Hero id="lord_ec_aserai_5c" faction="Faction.clan_ec_aserai_5" father="Hero.lord_ec_aserai_5a" mother="Hero.lord_ec_aserai_5b" />
+  <Hero id="lord_ec_aserai_5d" faction="Faction.clan_ec_aserai_5" father="Hero.lord_ec_aserai_5a" mother="Hero.lord_ec_aserai_5b" />
+  <Hero id="lord_ec_aserai_5e" faction="Faction.clan_ec_aserai_5" father="Hero.lord_ec_aserai_5a" mother="Hero.lord_ec_aserai_5b" />
+  <Hero id="lord_ec_aserai_6a" faction="Faction.clan_ec_aserai_6" spouse="Hero.lord_ec_aserai_6b" text="{=hero_desc.lord_ec_aserai_6a}Khilam is the head of the Banu Sirsan, a respected noble family of the Aserai confederacy known for guarding the southern trade routes and desert wells." />
+  <Hero id="lord_ec_aserai_6b" faction="Faction.clan_ec_aserai_6" spouse="Hero.lord_ec_aserai_6a" />
+  <Hero id="lord_ec_aserai_6c" faction="Faction.clan_ec_aserai_6" father="Hero.lord_ec_aserai_6a" mother="Hero.lord_ec_aserai_6b" />
+  <Hero id="lord_ec_aserai_6d" faction="Faction.clan_ec_aserai_6" father="Hero.lord_ec_aserai_6a" mother="Hero.lord_ec_aserai_6b" />
+  <Hero id="lord_ec_aserai_6e" faction="Faction.clan_ec_aserai_6" father="Hero.lord_ec_aserai_6a" mother="Hero.lord_ec_aserai_6b" />
+  <Hero id="lord_ec_aserai_7a" faction="Faction.clan_ec_aserai_7" spouse="Hero.lord_ec_aserai_7b" text="{=hero_desc.lord_ec_aserai_7a}Madwan is the head of the Banu Mushala, a respected noble family of the Aserai confederacy known for guarding the southern trade routes and desert wells." />
+  <Hero id="lord_ec_aserai_7b" faction="Faction.clan_ec_aserai_7" spouse="Hero.lord_ec_aserai_7a" />
+  <Hero id="lord_ec_aserai_7c" faction="Faction.clan_ec_aserai_7" father="Hero.lord_ec_aserai_7a" mother="Hero.lord_ec_aserai_7b" />
+  <Hero id="lord_ec_aserai_7d" faction="Faction.clan_ec_aserai_7" father="Hero.lord_ec_aserai_7a" mother="Hero.lord_ec_aserai_7b" />
+  <Hero id="lord_ec_aserai_7e" faction="Faction.clan_ec_aserai_7" father="Hero.lord_ec_aserai_7a" mother="Hero.lord_ec_aserai_7b" />
+  <Hero id="lord_ec_aserai_8a" faction="Faction.clan_ec_aserai_8" spouse="Hero.lord_ec_aserai_8b" text="{=hero_desc.lord_ec_aserai_8a}Nathun is the head of the Banu Dhamin, a respected noble family of the Aserai confederacy known for guarding the southern trade routes and desert wells." />
+  <Hero id="lord_ec_aserai_8b" faction="Faction.clan_ec_aserai_8" spouse="Hero.lord_ec_aserai_8a" />
+  <Hero id="lord_ec_aserai_8c" faction="Faction.clan_ec_aserai_8" father="Hero.lord_ec_aserai_8a" mother="Hero.lord_ec_aserai_8b" />
+  <Hero id="lord_ec_aserai_8d" faction="Faction.clan_ec_aserai_8" father="Hero.lord_ec_aserai_8a" mother="Hero.lord_ec_aserai_8b" />
+  <Hero id="lord_ec_aserai_8e" faction="Faction.clan_ec_aserai_8" father="Hero.lord_ec_aserai_8a" mother="Hero.lord_ec_aserai_8b" />
+  <Hero id="lord_ec_aserai_9a" faction="Faction.clan_ec_aserai_9" spouse="Hero.lord_ec_aserai_9b" text="{=hero_desc.lord_ec_aserai_9a}Radan is the head of the Banu Ijaraz, a respected noble family of the Aserai confederacy known for guarding the southern trade routes and desert wells." />
+  <Hero id="lord_ec_aserai_9b" faction="Faction.clan_ec_aserai_9" spouse="Hero.lord_ec_aserai_9a" />
+  <Hero id="lord_ec_aserai_9c" faction="Faction.clan_ec_aserai_9" father="Hero.lord_ec_aserai_9a" mother="Hero.lord_ec_aserai_9b" />
+  <Hero id="lord_ec_aserai_9d" faction="Faction.clan_ec_aserai_9" father="Hero.lord_ec_aserai_9a" mother="Hero.lord_ec_aserai_9b" />
+  <Hero id="lord_ec_aserai_9e" faction="Faction.clan_ec_aserai_9" father="Hero.lord_ec_aserai_9a" mother="Hero.lord_ec_aserai_9b" />
+  <Hero id="lord_ec_aserai_10a" faction="Faction.clan_ec_aserai_10" spouse="Hero.lord_ec_aserai_10b" text="{=hero_desc.lord_ec_aserai_10a}Sudais is the head of the Banu Zaydan, a respected noble family of the Aserai confederacy known for guarding the southern trade routes and desert wells." />
+  <Hero id="lord_ec_aserai_10b" faction="Faction.clan_ec_aserai_10" spouse="Hero.lord_ec_aserai_10a" />
+  <Hero id="lord_ec_aserai_10c" faction="Faction.clan_ec_aserai_10" father="Hero.lord_ec_aserai_10a" mother="Hero.lord_ec_aserai_10b" />
+  <Hero id="lord_ec_aserai_10d" faction="Faction.clan_ec_aserai_10" father="Hero.lord_ec_aserai_10a" mother="Hero.lord_ec_aserai_10b" />
+  <Hero id="lord_ec_aserai_10e" faction="Faction.clan_ec_aserai_10" father="Hero.lord_ec_aserai_10a" mother="Hero.lord_ec_aserai_10b" />
+  <Hero id="lord_ec_battania_1a" faction="Faction.clan_ec_battania_1" spouse="Hero.lord_ec_battania_1b" text="{=hero_desc.lord_ec_battania_1a}Aedid leads the fen Brachar, a traditional highland clan of Battania whose warriors have long fought in the front ranks of the woodland hosts." />
+  <Hero id="lord_ec_battania_1b" faction="Faction.clan_ec_battania_1" spouse="Hero.lord_ec_battania_1a" />
+  <Hero id="lord_ec_battania_1c" faction="Faction.clan_ec_battania_1" father="Hero.lord_ec_battania_1a" mother="Hero.lord_ec_battania_1b" />
+  <Hero id="lord_ec_battania_1d" faction="Faction.clan_ec_battania_1" father="Hero.lord_ec_battania_1a" mother="Hero.lord_ec_battania_1b" />
+  <Hero id="lord_ec_battania_1e" faction="Faction.clan_ec_battania_1" father="Hero.lord_ec_battania_1a" mother="Hero.lord_ec_battania_1b" />
+  <Hero id="lord_ec_battania_2a" faction="Faction.clan_ec_battania_2" spouse="Hero.lord_ec_battania_2b" text="{=hero_desc.lord_ec_battania_2a}Borun leads the fen Calrain, a traditional highland clan of Battania whose warriors have long fought in the front ranks of the woodland hosts." />
+  <Hero id="lord_ec_battania_2b" faction="Faction.clan_ec_battania_2" spouse="Hero.lord_ec_battania_2a" />
+  <Hero id="lord_ec_battania_2c" faction="Faction.clan_ec_battania_2" father="Hero.lord_ec_battania_2a" mother="Hero.lord_ec_battania_2b" />
+  <Hero id="lord_ec_battania_2d" faction="Faction.clan_ec_battania_2" father="Hero.lord_ec_battania_2a" mother="Hero.lord_ec_battania_2b" />
+  <Hero id="lord_ec_battania_2e" faction="Faction.clan_ec_battania_2" father="Hero.lord_ec_battania_2a" mother="Hero.lord_ec_battania_2b" />
+  <Hero id="lord_ec_battania_3a" faction="Faction.clan_ec_battania_3" spouse="Hero.lord_ec_battania_3b" text="{=hero_desc.lord_ec_battania_3a}Cadfin leads the fen Cearthad, a traditional highland clan of Battania whose warriors have long fought in the front ranks of the woodland hosts." />
+  <Hero id="lord_ec_battania_3b" faction="Faction.clan_ec_battania_3" spouse="Hero.lord_ec_battania_3a" />
+  <Hero id="lord_ec_battania_3c" faction="Faction.clan_ec_battania_3" father="Hero.lord_ec_battania_3a" mother="Hero.lord_ec_battania_3b" />
+  <Hero id="lord_ec_battania_3d" faction="Faction.clan_ec_battania_3" father="Hero.lord_ec_battania_3a" mother="Hero.lord_ec_battania_3b" />
+  <Hero id="lord_ec_battania_3e" faction="Faction.clan_ec_battania_3" father="Hero.lord_ec_battania_3a" mother="Hero.lord_ec_battania_3b" />
+  <Hero id="lord_ec_battania_4a" faction="Faction.clan_ec_battania_4" spouse="Hero.lord_ec_battania_4b" text="{=hero_desc.lord_ec_battania_4a}Edwain leads the fen Fiachan, a traditional highland clan of Battania whose warriors have long fought in the front ranks of the woodland hosts." />
+  <Hero id="lord_ec_battania_4b" faction="Faction.clan_ec_battania_4" spouse="Hero.lord_ec_battania_4a" />
+  <Hero id="lord_ec_battania_4c" faction="Faction.clan_ec_battania_4" father="Hero.lord_ec_battania_4a" mother="Hero.lord_ec_battania_4b" />
+  <Hero id="lord_ec_battania_4d" faction="Faction.clan_ec_battania_4" father="Hero.lord_ec_battania_4a" mother="Hero.lord_ec_battania_4b" />
+  <Hero id="lord_ec_battania_4e" faction="Faction.clan_ec_battania_4" father="Hero.lord_ec_battania_4a" mother="Hero.lord_ec_battania_4b" />
+  <Hero id="lord_ec_battania_5a" faction="Faction.clan_ec_battania_5" spouse="Hero.lord_ec_battania_5b" text="{=hero_desc.lord_ec_battania_5a}Garain leads the fen Gwaithor, a traditional highland clan of Battania whose warriors have long fought in the front ranks of the woodland hosts." />
+  <Hero id="lord_ec_battania_5b" faction="Faction.clan_ec_battania_5" spouse="Hero.lord_ec_battania_5a" />
+  <Hero id="lord_ec_battania_5c" faction="Faction.clan_ec_battania_5" father="Hero.lord_ec_battania_5a" mother="Hero.lord_ec_battania_5b" />
+  <Hero id="lord_ec_battania_5d" faction="Faction.clan_ec_battania_5" father="Hero.lord_ec_battania_5a" mother="Hero.lord_ec_battania_5b" />
+  <Hero id="lord_ec_battania_5e" faction="Faction.clan_ec_battania_5" father="Hero.lord_ec_battania_5a" mother="Hero.lord_ec_battania_5b" />
+  <Hero id="lord_ec_battania_6a" faction="Faction.clan_ec_battania_6" spouse="Hero.lord_ec_battania_6b" text="{=hero_desc.lord_ec_battania_6a}Ioren leads the fen Leduin, a traditional highland clan of Battania whose warriors have long fought in the front ranks of the woodland hosts." />
+  <Hero id="lord_ec_battania_6b" faction="Faction.clan_ec_battania_6" spouse="Hero.lord_ec_battania_6a" />
+  <Hero id="lord_ec_battania_6c" faction="Faction.clan_ec_battania_6" father="Hero.lord_ec_battania_6a" mother="Hero.lord_ec_battania_6b" />
+  <Hero id="lord_ec_battania_6d" faction="Faction.clan_ec_battania_6" father="Hero.lord_ec_battania_6a" mother="Hero.lord_ec_battania_6b" />
+  <Hero id="lord_ec_battania_6e" faction="Faction.clan_ec_battania_6" father="Hero.lord_ec_battania_6a" mother="Hero.lord_ec_battania_6b" />
+  <Hero id="lord_ec_battania_7a" faction="Faction.clan_ec_battania_7" spouse="Hero.lord_ec_battania_7b" text="{=hero_desc.lord_ec_battania_7a}Lyfris leads the fen Morain, a traditional highland clan of Battania whose warriors have long fought in the front ranks of the woodland hosts." />
+  <Hero id="lord_ec_battania_7b" faction="Faction.clan_ec_battania_7" spouse="Hero.lord_ec_battania_7a" />
+  <Hero id="lord_ec_battania_7c" faction="Faction.clan_ec_battania_7" father="Hero.lord_ec_battania_7a" mother="Hero.lord_ec_battania_7b" />
+  <Hero id="lord_ec_battania_7d" faction="Faction.clan_ec_battania_7" father="Hero.lord_ec_battania_7a" mother="Hero.lord_ec_battania_7b" />
+  <Hero id="lord_ec_battania_7e" faction="Faction.clan_ec_battania_7" father="Hero.lord_ec_battania_7a" mother="Hero.lord_ec_battania_7b" />
+  <Hero id="lord_ec_battania_8a" faction="Faction.clan_ec_battania_8" spouse="Hero.lord_ec_battania_8b" text="{=hero_desc.lord_ec_battania_8a}Rhagyd leads the fen Ruamor, a traditional highland clan of Battania whose warriors have long fought in the front ranks of the woodland hosts." />
+  <Hero id="lord_ec_battania_8b" faction="Faction.clan_ec_battania_8" spouse="Hero.lord_ec_battania_8a" />
+  <Hero id="lord_ec_battania_8c" faction="Faction.clan_ec_battania_8" father="Hero.lord_ec_battania_8a" mother="Hero.lord_ec_battania_8b" />
+  <Hero id="lord_ec_battania_8d" faction="Faction.clan_ec_battania_8" father="Hero.lord_ec_battania_8a" mother="Hero.lord_ec_battania_8b" />
+  <Hero id="lord_ec_battania_8e" faction="Faction.clan_ec_battania_8" father="Hero.lord_ec_battania_8a" mother="Hero.lord_ec_battania_8b" />
+  <Hero id="lord_ec_battania_9a" faction="Faction.clan_ec_battania_9" spouse="Hero.lord_ec_battania_9b" text="{=hero_desc.lord_ec_battania_9a}Udris leads the fen Teicolar, a traditional highland clan of Battania whose warriors have long fought in the front ranks of the woodland hosts." />
+  <Hero id="lord_ec_battania_9b" faction="Faction.clan_ec_battania_9" spouse="Hero.lord_ec_battania_9a" />
+  <Hero id="lord_ec_battania_9c" faction="Faction.clan_ec_battania_9" father="Hero.lord_ec_battania_9a" mother="Hero.lord_ec_battania_9b" />
+  <Hero id="lord_ec_battania_9d" faction="Faction.clan_ec_battania_9" father="Hero.lord_ec_battania_9a" mother="Hero.lord_ec_battania_9b" />
+  <Hero id="lord_ec_battania_9e" faction="Faction.clan_ec_battania_9" father="Hero.lord_ec_battania_9a" mother="Hero.lord_ec_battania_9b" />
+  <Hero id="lord_ec_battania_10a" faction="Faction.clan_ec_battania_10" spouse="Hero.lord_ec_battania_10b" text="{=hero_desc.lord_ec_battania_10a}Cormac leads the fen Uimach, a traditional highland clan of Battania whose warriors have long fought in the front ranks of the woodland hosts." />
+  <Hero id="lord_ec_battania_10b" faction="Faction.clan_ec_battania_10" spouse="Hero.lord_ec_battania_10a" />
+  <Hero id="lord_ec_battania_10c" faction="Faction.clan_ec_battania_10" father="Hero.lord_ec_battania_10a" mother="Hero.lord_ec_battania_10b" />
+  <Hero id="lord_ec_battania_10d" faction="Faction.clan_ec_battania_10" father="Hero.lord_ec_battania_10a" mother="Hero.lord_ec_battania_10b" />
+  <Hero id="lord_ec_battania_10e" faction="Faction.clan_ec_battania_10" father="Hero.lord_ec_battania_10a" mother="Hero.lord_ec_battania_10b" />
+  <Hero id="lord_ec_khuzait_1a" faction="Faction.clan_ec_khuzait_1" spouse="Hero.lord_ec_khuzait_1b" text="{=hero_desc.lord_ec_khuzait_1a}Akadan is the noyan of the Aldusunit, guiding the clan's riders and herds across the eastern steppes in service to the Great Khan." />
+  <Hero id="lord_ec_khuzait_1b" faction="Faction.clan_ec_khuzait_1" spouse="Hero.lord_ec_khuzait_1a" />
+  <Hero id="lord_ec_khuzait_1c" faction="Faction.clan_ec_khuzait_1" father="Hero.lord_ec_khuzait_1a" mother="Hero.lord_ec_khuzait_1b" />
+  <Hero id="lord_ec_khuzait_1d" faction="Faction.clan_ec_khuzait_1" father="Hero.lord_ec_khuzait_1a" mother="Hero.lord_ec_khuzait_1b" />
+  <Hero id="lord_ec_khuzait_1e" faction="Faction.clan_ec_khuzait_1" father="Hero.lord_ec_khuzait_1a" mother="Hero.lord_ec_khuzait_1b" />
+  <Hero id="lord_ec_khuzait_2a" faction="Faction.clan_ec_khuzait_2" spouse="Hero.lord_ec_khuzait_2b" text="{=hero_desc.lord_ec_khuzait_2a}Alpan is the noyan of the Charait, guiding the clan's riders and herds across the eastern steppes in service to the Great Khan." />
+  <Hero id="lord_ec_khuzait_2b" faction="Faction.clan_ec_khuzait_2" spouse="Hero.lord_ec_khuzait_2a" />
+  <Hero id="lord_ec_khuzait_2c" faction="Faction.clan_ec_khuzait_2" father="Hero.lord_ec_khuzait_2a" mother="Hero.lord_ec_khuzait_2b" />
+  <Hero id="lord_ec_khuzait_2d" faction="Faction.clan_ec_khuzait_2" father="Hero.lord_ec_khuzait_2a" mother="Hero.lord_ec_khuzait_2b" />
+  <Hero id="lord_ec_khuzait_2e" faction="Faction.clan_ec_khuzait_2" father="Hero.lord_ec_khuzait_2a" mother="Hero.lord_ec_khuzait_2b" />
+  <Hero id="lord_ec_khuzait_3a" faction="Faction.clan_ec_khuzait_3" spouse="Hero.lord_ec_khuzait_3b" text="{=hero_desc.lord_ec_khuzait_3a}Atzorig is the noyan of the Demerkhen, guiding the clan's riders and herds across the eastern steppes in service to the Great Khan." />
+  <Hero id="lord_ec_khuzait_3b" faction="Faction.clan_ec_khuzait_3" spouse="Hero.lord_ec_khuzait_3a" />
+  <Hero id="lord_ec_khuzait_3c" faction="Faction.clan_ec_khuzait_3" father="Hero.lord_ec_khuzait_3a" mother="Hero.lord_ec_khuzait_3b" />
+  <Hero id="lord_ec_khuzait_3d" faction="Faction.clan_ec_khuzait_3" father="Hero.lord_ec_khuzait_3a" mother="Hero.lord_ec_khuzait_3b" />
+  <Hero id="lord_ec_khuzait_3e" faction="Faction.clan_ec_khuzait_3" father="Hero.lord_ec_khuzait_3a" mother="Hero.lord_ec_khuzait_3b" />
+  <Hero id="lord_ec_khuzait_4a" faction="Faction.clan_ec_khuzait_4" spouse="Hero.lord_ec_khuzait_4b" text="{=hero_desc.lord_ec_khuzait_4a}Buchul is the noyan of the Jalsyut, guiding the clan's riders and herds across the eastern steppes in service to the Great Khan." />
+  <Hero id="lord_ec_khuzait_4b" faction="Faction.clan_ec_khuzait_4" spouse="Hero.lord_ec_khuzait_4a" />
+  <Hero id="lord_ec_khuzait_4c" faction="Faction.clan_ec_khuzait_4" father="Hero.lord_ec_khuzait_4a" mother="Hero.lord_ec_khuzait_4b" />
+  <Hero id="lord_ec_khuzait_4d" faction="Faction.clan_ec_khuzait_4" father="Hero.lord_ec_khuzait_4a" mother="Hero.lord_ec_khuzait_4b" />
+  <Hero id="lord_ec_khuzait_4e" faction="Faction.clan_ec_khuzait_4" father="Hero.lord_ec_khuzait_4a" mother="Hero.lord_ec_khuzait_4b" />
+  <Hero id="lord_ec_khuzait_5a" faction="Faction.clan_ec_khuzait_5" spouse="Hero.lord_ec_khuzait_5b" text="{=hero_desc.lord_ec_khuzait_5a}Denek is the noyan of the Khurdyut, guiding the clan's riders and herds across the eastern steppes in service to the Great Khan." />
+  <Hero id="lord_ec_khuzait_5b" faction="Faction.clan_ec_khuzait_5" spouse="Hero.lord_ec_khuzait_5a" />
+  <Hero id="lord_ec_khuzait_5c" faction="Faction.clan_ec_khuzait_5" father="Hero.lord_ec_khuzait_5a" mother="Hero.lord_ec_khuzait_5b" />
+  <Hero id="lord_ec_khuzait_5d" faction="Faction.clan_ec_khuzait_5" father="Hero.lord_ec_khuzait_5a" mother="Hero.lord_ec_khuzait_5b" />
+  <Hero id="lord_ec_khuzait_5e" faction="Faction.clan_ec_khuzait_5" father="Hero.lord_ec_khuzait_5a" mother="Hero.lord_ec_khuzait_5b" />
+  <Hero id="lord_ec_khuzait_6a" faction="Faction.clan_ec_khuzait_6" spouse="Hero.lord_ec_khuzait_6b" text="{=hero_desc.lord_ec_khuzait_6a}Gusur is the noyan of the Maranjit, guiding the clan's riders and herds across the eastern steppes in service to the Great Khan." />
+  <Hero id="lord_ec_khuzait_6b" faction="Faction.clan_ec_khuzait_6" spouse="Hero.lord_ec_khuzait_6a" />
+  <Hero id="lord_ec_khuzait_6c" faction="Faction.clan_ec_khuzait_6" father="Hero.lord_ec_khuzait_6a" mother="Hero.lord_ec_khuzait_6b" />
+  <Hero id="lord_ec_khuzait_6d" faction="Faction.clan_ec_khuzait_6" father="Hero.lord_ec_khuzait_6a" mother="Hero.lord_ec_khuzait_6b" />
+  <Hero id="lord_ec_khuzait_6e" faction="Faction.clan_ec_khuzait_6" father="Hero.lord_ec_khuzait_6a" mother="Hero.lord_ec_khuzait_6b" />
+  <Hero id="lord_ec_khuzait_7a" faction="Faction.clan_ec_khuzait_7" spouse="Hero.lord_ec_khuzait_7b" text="{=hero_desc.lord_ec_khuzait_7a}Ilgai is the noyan of the Nangkhut, guiding the clan's riders and herds across the eastern steppes in service to the Great Khan." />
+  <Hero id="lord_ec_khuzait_7b" faction="Faction.clan_ec_khuzait_7" spouse="Hero.lord_ec_khuzait_7a" />
+  <Hero id="lord_ec_khuzait_7c" faction="Faction.clan_ec_khuzait_7" father="Hero.lord_ec_khuzait_7a" mother="Hero.lord_ec_khuzait_7b" />
+  <Hero id="lord_ec_khuzait_7d" faction="Faction.clan_ec_khuzait_7" father="Hero.lord_ec_khuzait_7a" mother="Hero.lord_ec_khuzait_7b" />
+  <Hero id="lord_ec_khuzait_7e" faction="Faction.clan_ec_khuzait_7" father="Hero.lord_ec_khuzait_7a" mother="Hero.lord_ec_khuzait_7b" />
+  <Hero id="lord_ec_khuzait_8a" faction="Faction.clan_ec_khuzait_8" spouse="Hero.lord_ec_khuzait_8b" text="{=hero_desc.lord_ec_khuzait_8a}Junjad is the noyan of the Olokhai, guiding the clan's riders and herds across the eastern steppes in service to the Great Khan." />
+  <Hero id="lord_ec_khuzait_8b" faction="Faction.clan_ec_khuzait_8" spouse="Hero.lord_ec_khuzait_8a" />
+  <Hero id="lord_ec_khuzait_8c" faction="Faction.clan_ec_khuzait_8" father="Hero.lord_ec_khuzait_8a" mother="Hero.lord_ec_khuzait_8b" />
+  <Hero id="lord_ec_khuzait_8d" faction="Faction.clan_ec_khuzait_8" father="Hero.lord_ec_khuzait_8a" mother="Hero.lord_ec_khuzait_8b" />
+  <Hero id="lord_ec_khuzait_8e" faction="Faction.clan_ec_khuzait_8" father="Hero.lord_ec_khuzait_8a" mother="Hero.lord_ec_khuzait_8b" />
+  <Hero id="lord_ec_khuzait_9a" faction="Faction.clan_ec_khuzait_9" spouse="Hero.lord_ec_khuzait_9b" text="{=hero_desc.lord_ec_khuzait_9a}Kuruntai is the noyan of the Oranarit, guiding the clan's riders and herds across the eastern steppes in service to the Great Khan." />
+  <Hero id="lord_ec_khuzait_9b" faction="Faction.clan_ec_khuzait_9" spouse="Hero.lord_ec_khuzait_9a" />
+  <Hero id="lord_ec_khuzait_9c" faction="Faction.clan_ec_khuzait_9" father="Hero.lord_ec_khuzait_9a" mother="Hero.lord_ec_khuzait_9b" />
+  <Hero id="lord_ec_khuzait_9d" faction="Faction.clan_ec_khuzait_9" father="Hero.lord_ec_khuzait_9a" mother="Hero.lord_ec_khuzait_9b" />
+  <Hero id="lord_ec_khuzait_9e" faction="Faction.clan_ec_khuzait_9" father="Hero.lord_ec_khuzait_9a" mother="Hero.lord_ec_khuzait_9b" />
+  <Hero id="lord_ec_khuzait_10a" faction="Faction.clan_ec_khuzait_10" spouse="Hero.lord_ec_khuzait_10b" text="{=hero_desc.lord_ec_khuzait_10a}Shakhor is the noyan of the Tebegun, guiding the clan's riders and herds across the eastern steppes in service to the Great Khan." />
+  <Hero id="lord_ec_khuzait_10b" faction="Faction.clan_ec_khuzait_10" spouse="Hero.lord_ec_khuzait_10a" />
+  <Hero id="lord_ec_khuzait_10c" faction="Faction.clan_ec_khuzait_10" father="Hero.lord_ec_khuzait_10a" mother="Hero.lord_ec_khuzait_10b" />
+  <Hero id="lord_ec_khuzait_10d" faction="Faction.clan_ec_khuzait_10" father="Hero.lord_ec_khuzait_10a" mother="Hero.lord_ec_khuzait_10b" />
+  <Hero id="lord_ec_khuzait_10e" faction="Faction.clan_ec_khuzait_10" father="Hero.lord_ec_khuzait_10a" mother="Hero.lord_ec_khuzait_10b" />
+  <Hero id="lord_ec_empire_n_1a" faction="Faction.clan_ec_empire_n_1" spouse="Hero.lord_ec_empire_n_1b" text="{=hero_desc.lord_ec_empire_n_1a}Acarion is the archon and head of house Astrethides, a patrician family aligned with the Senate of the Northern Empire." />
+  <Hero id="lord_ec_empire_n_1b" faction="Faction.clan_ec_empire_n_1" spouse="Hero.lord_ec_empire_n_1a" />
+  <Hero id="lord_ec_empire_n_1c" faction="Faction.clan_ec_empire_n_1" father="Hero.lord_ec_empire_n_1a" mother="Hero.lord_ec_empire_n_1b" />
+  <Hero id="lord_ec_empire_n_1d" faction="Faction.clan_ec_empire_n_1" father="Hero.lord_ec_empire_n_1a" mother="Hero.lord_ec_empire_n_1b" />
+  <Hero id="lord_ec_empire_n_1e" faction="Faction.clan_ec_empire_n_1" father="Hero.lord_ec_empire_n_1a" mother="Hero.lord_ec_empire_n_1b" />
+  <Hero id="lord_ec_empire_n_2a" faction="Faction.clan_ec_empire_n_2" spouse="Hero.lord_ec_empire_n_2b" text="{=hero_desc.lord_ec_empire_n_2a}Artimendros is the archon and head of house Calastides, a patrician family aligned with the Senate of the Northern Empire." />
+  <Hero id="lord_ec_empire_n_2b" faction="Faction.clan_ec_empire_n_2" spouse="Hero.lord_ec_empire_n_2a" />
+  <Hero id="lord_ec_empire_n_2c" faction="Faction.clan_ec_empire_n_2" father="Hero.lord_ec_empire_n_2a" mother="Hero.lord_ec_empire_n_2b" />
+  <Hero id="lord_ec_empire_n_2d" faction="Faction.clan_ec_empire_n_2" father="Hero.lord_ec_empire_n_2a" mother="Hero.lord_ec_empire_n_2b" />
+  <Hero id="lord_ec_empire_n_2e" faction="Faction.clan_ec_empire_n_2" father="Hero.lord_ec_empire_n_2a" mother="Hero.lord_ec_empire_n_2b" />
+  <Hero id="lord_ec_empire_n_3a" faction="Faction.clan_ec_empire_n_3" spouse="Hero.lord_ec_empire_n_3b" text="{=hero_desc.lord_ec_empire_n_3a}Cadomenos is the archon and head of house Dinamontes, a patrician family aligned with the Senate of the Northern Empire." />
+  <Hero id="lord_ec_empire_n_3b" faction="Faction.clan_ec_empire_n_3" spouse="Hero.lord_ec_empire_n_3a" />
+  <Hero id="lord_ec_empire_n_3c" faction="Faction.clan_ec_empire_n_3" father="Hero.lord_ec_empire_n_3a" mother="Hero.lord_ec_empire_n_3b" />
+  <Hero id="lord_ec_empire_n_3d" faction="Faction.clan_ec_empire_n_3" father="Hero.lord_ec_empire_n_3a" mother="Hero.lord_ec_empire_n_3b" />
+  <Hero id="lord_ec_empire_n_3e" faction="Faction.clan_ec_empire_n_3" father="Hero.lord_ec_empire_n_3a" mother="Hero.lord_ec_empire_n_3b" />
+  <Hero id="lord_ec_empire_n_4a" faction="Faction.clan_ec_empire_n_4" spouse="Hero.lord_ec_empire_n_4b" text="{=hero_desc.lord_ec_empire_n_4a}Caribos is the archon and head of house Eurtimides, a patrician family aligned with the Senate of the Northern Empire." />
+  <Hero id="lord_ec_empire_n_4b" faction="Faction.clan_ec_empire_n_4" spouse="Hero.lord_ec_empire_n_4a" />
+  <Hero id="lord_ec_empire_n_4c" faction="Faction.clan_ec_empire_n_4" father="Hero.lord_ec_empire_n_4a" mother="Hero.lord_ec_empire_n_4b" />
+  <Hero id="lord_ec_empire_n_4d" faction="Faction.clan_ec_empire_n_4" father="Hero.lord_ec_empire_n_4a" mother="Hero.lord_ec_empire_n_4b" />
+  <Hero id="lord_ec_empire_n_4e" faction="Faction.clan_ec_empire_n_4" father="Hero.lord_ec_empire_n_4a" mother="Hero.lord_ec_empire_n_4b" />
+  <Hero id="lord_ec_empire_n_5a" faction="Faction.clan_ec_empire_n_5" spouse="Hero.lord_ec_empire_n_5b" text="{=hero_desc.lord_ec_empire_n_5a}Chenon is the archon and head of house Lovanides, a patrician family aligned with the Senate of the Northern Empire." />
+  <Hero id="lord_ec_empire_n_5b" faction="Faction.clan_ec_empire_n_5" spouse="Hero.lord_ec_empire_n_5a" />
+  <Hero id="lord_ec_empire_n_5c" faction="Faction.clan_ec_empire_n_5" father="Hero.lord_ec_empire_n_5a" mother="Hero.lord_ec_empire_n_5b" />
+  <Hero id="lord_ec_empire_n_5d" faction="Faction.clan_ec_empire_n_5" father="Hero.lord_ec_empire_n_5a" mother="Hero.lord_ec_empire_n_5b" />
+  <Hero id="lord_ec_empire_n_5e" faction="Faction.clan_ec_empire_n_5" father="Hero.lord_ec_empire_n_5a" mother="Hero.lord_ec_empire_n_5b" />
+  <Hero id="lord_ec_empire_n_6a" faction="Faction.clan_ec_empire_n_6" spouse="Hero.lord_ec_empire_n_6b" text="{=hero_desc.lord_ec_empire_n_6a}Dasys is the archon and head of house Munitides, a patrician family aligned with the Senate of the Northern Empire." />
+  <Hero id="lord_ec_empire_n_6b" faction="Faction.clan_ec_empire_n_6" spouse="Hero.lord_ec_empire_n_6a" />
+  <Hero id="lord_ec_empire_n_6c" faction="Faction.clan_ec_empire_n_6" father="Hero.lord_ec_empire_n_6a" mother="Hero.lord_ec_empire_n_6b" />
+  <Hero id="lord_ec_empire_n_6d" faction="Faction.clan_ec_empire_n_6" father="Hero.lord_ec_empire_n_6a" mother="Hero.lord_ec_empire_n_6b" />
+  <Hero id="lord_ec_empire_n_6e" faction="Faction.clan_ec_empire_n_6" father="Hero.lord_ec_empire_n_6a" mother="Hero.lord_ec_empire_n_6b" />
+  <Hero id="lord_ec_empire_n_7a" faction="Faction.clan_ec_empire_n_7" spouse="Hero.lord_ec_empire_n_7b" text="{=hero_desc.lord_ec_empire_n_7a}Destor is the archon and head of house Nomanides, a patrician family aligned with the Senate of the Northern Empire." />
+  <Hero id="lord_ec_empire_n_7b" faction="Faction.clan_ec_empire_n_7" spouse="Hero.lord_ec_empire_n_7a" />
+  <Hero id="lord_ec_empire_n_7c" faction="Faction.clan_ec_empire_n_7" father="Hero.lord_ec_empire_n_7a" mother="Hero.lord_ec_empire_n_7b" />
+  <Hero id="lord_ec_empire_n_7d" faction="Faction.clan_ec_empire_n_7" father="Hero.lord_ec_empire_n_7a" mother="Hero.lord_ec_empire_n_7b" />
+  <Hero id="lord_ec_empire_n_7e" faction="Faction.clan_ec_empire_n_7" father="Hero.lord_ec_empire_n_7a" mother="Hero.lord_ec_empire_n_7b" />
+  <Hero id="lord_ec_empire_n_8a" faction="Faction.clan_ec_empire_n_8" spouse="Hero.lord_ec_empire_n_8b" text="{=hero_desc.lord_ec_empire_n_8a}Ecsorios is the archon and head of house Otsamides, a patrician family aligned with the Senate of the Northern Empire." />
+  <Hero id="lord_ec_empire_n_8b" faction="Faction.clan_ec_empire_n_8" spouse="Hero.lord_ec_empire_n_8a" />
+  <Hero id="lord_ec_empire_n_8c" faction="Faction.clan_ec_empire_n_8" father="Hero.lord_ec_empire_n_8a" mother="Hero.lord_ec_empire_n_8b" />
+  <Hero id="lord_ec_empire_n_8d" faction="Faction.clan_ec_empire_n_8" father="Hero.lord_ec_empire_n_8a" mother="Hero.lord_ec_empire_n_8b" />
+  <Hero id="lord_ec_empire_n_8e" faction="Faction.clan_ec_empire_n_8" father="Hero.lord_ec_empire_n_8a" mother="Hero.lord_ec_empire_n_8b" />
+  <Hero id="lord_ec_empire_n_9a" faction="Faction.clan_ec_empire_n_9" spouse="Hero.lord_ec_empire_n_9b" text="{=hero_desc.lord_ec_empire_n_9a}Eumenys is the archon and head of house Phorides, a patrician family aligned with the Senate of the Northern Empire." />
+  <Hero id="lord_ec_empire_n_9b" faction="Faction.clan_ec_empire_n_9" spouse="Hero.lord_ec_empire_n_9a" />
+  <Hero id="lord_ec_empire_n_9c" faction="Faction.clan_ec_empire_n_9" father="Hero.lord_ec_empire_n_9a" mother="Hero.lord_ec_empire_n_9b" />
+  <Hero id="lord_ec_empire_n_9d" faction="Faction.clan_ec_empire_n_9" father="Hero.lord_ec_empire_n_9a" mother="Hero.lord_ec_empire_n_9b" />
+  <Hero id="lord_ec_empire_n_9e" faction="Faction.clan_ec_empire_n_9" father="Hero.lord_ec_empire_n_9a" mother="Hero.lord_ec_empire_n_9b" />
+  <Hero id="lord_ec_empire_n_10a" faction="Faction.clan_ec_empire_n_10" spouse="Hero.lord_ec_empire_n_10b" text="{=hero_desc.lord_ec_empire_n_10a}Galon is the archon and head of house Teminides, a patrician family aligned with the Senate of the Northern Empire." />
+  <Hero id="lord_ec_empire_n_10b" faction="Faction.clan_ec_empire_n_10" spouse="Hero.lord_ec_empire_n_10a" />
+  <Hero id="lord_ec_empire_n_10c" faction="Faction.clan_ec_empire_n_10" father="Hero.lord_ec_empire_n_10a" mother="Hero.lord_ec_empire_n_10b" />
+  <Hero id="lord_ec_empire_n_10d" faction="Faction.clan_ec_empire_n_10" father="Hero.lord_ec_empire_n_10a" mother="Hero.lord_ec_empire_n_10b" />
+  <Hero id="lord_ec_empire_n_10e" faction="Faction.clan_ec_empire_n_10" father="Hero.lord_ec_empire_n_10a" mother="Hero.lord_ec_empire_n_10b" />
+  <Hero id="lord_ec_empire_s_1a" faction="Faction.clan_ec_empire_s_1" spouse="Hero.lord_ec_empire_s_1b" text="{=hero_desc.lord_ec_empire_s_1a}Gavalon is the head of house Acapanos, an aristocratic Imperial family committed to the legitimacy of the Southern Empire." />
+  <Hero id="lord_ec_empire_s_1b" faction="Faction.clan_ec_empire_s_1" spouse="Hero.lord_ec_empire_s_1a" />
+  <Hero id="lord_ec_empire_s_1c" faction="Faction.clan_ec_empire_s_1" father="Hero.lord_ec_empire_s_1a" mother="Hero.lord_ec_empire_s_1b" />
+  <Hero id="lord_ec_empire_s_1d" faction="Faction.clan_ec_empire_s_1" father="Hero.lord_ec_empire_s_1a" mother="Hero.lord_ec_empire_s_1b" />
+  <Hero id="lord_ec_empire_s_1e" faction="Faction.clan_ec_empire_s_1" father="Hero.lord_ec_empire_s_1a" mother="Hero.lord_ec_empire_s_1b" />
+  <Hero id="lord_ec_empire_s_2a" faction="Faction.clan_ec_empire_s_2" spouse="Hero.lord_ec_empire_s_2b" text="{=hero_desc.lord_ec_empire_s_2a}Haratheos is the head of house Altesios, an aristocratic Imperial family committed to the legitimacy of the Southern Empire." />
+  <Hero id="lord_ec_empire_s_2b" faction="Faction.clan_ec_empire_s_2" spouse="Hero.lord_ec_empire_s_2a" />
+  <Hero id="lord_ec_empire_s_2c" faction="Faction.clan_ec_empire_s_2" father="Hero.lord_ec_empire_s_2a" mother="Hero.lord_ec_empire_s_2b" />
+  <Hero id="lord_ec_empire_s_2d" faction="Faction.clan_ec_empire_s_2" father="Hero.lord_ec_empire_s_2a" mother="Hero.lord_ec_empire_s_2b" />
+  <Hero id="lord_ec_empire_s_2e" faction="Faction.clan_ec_empire_s_2" father="Hero.lord_ec_empire_s_2a" mother="Hero.lord_ec_empire_s_2b" />
+  <Hero id="lord_ec_empire_s_3a" faction="Faction.clan_ec_empire_s_3" spouse="Hero.lord_ec_empire_s_3b" text="{=hero_desc.lord_ec_empire_s_3a}Jacorios is the head of house Balastisos, an aristocratic Imperial family committed to the legitimacy of the Southern Empire." />
+  <Hero id="lord_ec_empire_s_3b" faction="Faction.clan_ec_empire_s_3" spouse="Hero.lord_ec_empire_s_3a" />
+  <Hero id="lord_ec_empire_s_3c" faction="Faction.clan_ec_empire_s_3" father="Hero.lord_ec_empire_s_3a" mother="Hero.lord_ec_empire_s_3b" />
+  <Hero id="lord_ec_empire_s_3d" faction="Faction.clan_ec_empire_s_3" father="Hero.lord_ec_empire_s_3a" mother="Hero.lord_ec_empire_s_3b" />
+  <Hero id="lord_ec_empire_s_3e" faction="Faction.clan_ec_empire_s_3" father="Hero.lord_ec_empire_s_3a" mother="Hero.lord_ec_empire_s_3b" />
+  <Hero id="lord_ec_empire_s_4a" faction="Faction.clan_ec_empire_s_4" spouse="Hero.lord_ec_empire_s_4b" text="{=hero_desc.lord_ec_empire_s_4a}Jeremos is the head of house Chromasos, an aristocratic Imperial family committed to the legitimacy of the Southern Empire." />
+  <Hero id="lord_ec_empire_s_4b" faction="Faction.clan_ec_empire_s_4" spouse="Hero.lord_ec_empire_s_4a" />
+  <Hero id="lord_ec_empire_s_4c" faction="Faction.clan_ec_empire_s_4" father="Hero.lord_ec_empire_s_4a" mother="Hero.lord_ec_empire_s_4b" />
+  <Hero id="lord_ec_empire_s_4d" faction="Faction.clan_ec_empire_s_4" father="Hero.lord_ec_empire_s_4a" mother="Hero.lord_ec_empire_s_4b" />
+  <Hero id="lord_ec_empire_s_4e" faction="Faction.clan_ec_empire_s_4" father="Hero.lord_ec_empire_s_4a" mother="Hero.lord_ec_empire_s_4b" />
+  <Hero id="lord_ec_empire_s_5a" faction="Faction.clan_ec_empire_s_5" spouse="Hero.lord_ec_empire_s_5b" text="{=hero_desc.lord_ec_empire_s_5a}Lacalion is the head of house Delicos, an aristocratic Imperial family committed to the legitimacy of the Southern Empire." />
+  <Hero id="lord_ec_empire_s_5b" faction="Faction.clan_ec_empire_s_5" spouse="Hero.lord_ec_empire_s_5a" />
+  <Hero id="lord_ec_empire_s_5c" faction="Faction.clan_ec_empire_s_5" father="Hero.lord_ec_empire_s_5a" mother="Hero.lord_ec_empire_s_5b" />
+  <Hero id="lord_ec_empire_s_5d" faction="Faction.clan_ec_empire_s_5" father="Hero.lord_ec_empire_s_5a" mother="Hero.lord_ec_empire_s_5b" />
+  <Hero id="lord_ec_empire_s_5e" faction="Faction.clan_ec_empire_s_5" father="Hero.lord_ec_empire_s_5a" mother="Hero.lord_ec_empire_s_5b" />
+  <Hero id="lord_ec_empire_s_6a" faction="Faction.clan_ec_empire_s_6" spouse="Hero.lord_ec_empire_s_6b" text="{=hero_desc.lord_ec_empire_s_6a}Leosios is the head of house Erchisasos, an aristocratic Imperial family committed to the legitimacy of the Southern Empire." />
+  <Hero id="lord_ec_empire_s_6b" faction="Faction.clan_ec_empire_s_6" spouse="Hero.lord_ec_empire_s_6a" />
+  <Hero id="lord_ec_empire_s_6c" faction="Faction.clan_ec_empire_s_6" father="Hero.lord_ec_empire_s_6a" mother="Hero.lord_ec_empire_s_6b" />
+  <Hero id="lord_ec_empire_s_6d" faction="Faction.clan_ec_empire_s_6" father="Hero.lord_ec_empire_s_6a" mother="Hero.lord_ec_empire_s_6b" />
+  <Hero id="lord_ec_empire_s_6e" faction="Faction.clan_ec_empire_s_6" father="Hero.lord_ec_empire_s_6a" mother="Hero.lord_ec_empire_s_6b" />
+  <Hero id="lord_ec_empire_s_7a" faction="Faction.clan_ec_empire_s_7" spouse="Hero.lord_ec_empire_s_7b" text="{=hero_desc.lord_ec_empire_s_7a}Lycos is the head of house Gessios, an aristocratic Imperial family committed to the legitimacy of the Southern Empire." />
+  <Hero id="lord_ec_empire_s_7b" faction="Faction.clan_ec_empire_s_7" spouse="Hero.lord_ec_empire_s_7a" />
+  <Hero id="lord_ec_empire_s_7c" faction="Faction.clan_ec_empire_s_7" father="Hero.lord_ec_empire_s_7a" mother="Hero.lord_ec_empire_s_7b" />
+  <Hero id="lord_ec_empire_s_7d" faction="Faction.clan_ec_empire_s_7" father="Hero.lord_ec_empire_s_7a" mother="Hero.lord_ec_empire_s_7b" />
+  <Hero id="lord_ec_empire_s_7e" faction="Faction.clan_ec_empire_s_7" father="Hero.lord_ec_empire_s_7a" mother="Hero.lord_ec_empire_s_7b" />
+  <Hero id="lord_ec_empire_s_8a" faction="Faction.clan_ec_empire_s_8" spouse="Hero.lord_ec_empire_s_8b" text="{=hero_desc.lord_ec_empire_s_8a}Morynon is the head of house Lestharos, an aristocratic Imperial family committed to the legitimacy of the Southern Empire." />
+  <Hero id="lord_ec_empire_s_8b" faction="Faction.clan_ec_empire_s_8" spouse="Hero.lord_ec_empire_s_8a" />
+  <Hero id="lord_ec_empire_s_8c" faction="Faction.clan_ec_empire_s_8" father="Hero.lord_ec_empire_s_8a" mother="Hero.lord_ec_empire_s_8b" />
+  <Hero id="lord_ec_empire_s_8d" faction="Faction.clan_ec_empire_s_8" father="Hero.lord_ec_empire_s_8a" mother="Hero.lord_ec_empire_s_8b" />
+  <Hero id="lord_ec_empire_s_8e" faction="Faction.clan_ec_empire_s_8" father="Hero.lord_ec_empire_s_8a" mother="Hero.lord_ec_empire_s_8b" />
+  <Hero id="lord_ec_empire_s_9a" faction="Faction.clan_ec_empire_s_9" spouse="Hero.lord_ec_empire_s_9b" text="{=hero_desc.lord_ec_empire_s_9a}Nethor is the head of house Manitesos, an aristocratic Imperial family committed to the legitimacy of the Southern Empire." />
+  <Hero id="lord_ec_empire_s_9b" faction="Faction.clan_ec_empire_s_9" spouse="Hero.lord_ec_empire_s_9a" />
+  <Hero id="lord_ec_empire_s_9c" faction="Faction.clan_ec_empire_s_9" father="Hero.lord_ec_empire_s_9a" mother="Hero.lord_ec_empire_s_9b" />
+  <Hero id="lord_ec_empire_s_9d" faction="Faction.clan_ec_empire_s_9" father="Hero.lord_ec_empire_s_9a" mother="Hero.lord_ec_empire_s_9b" />
+  <Hero id="lord_ec_empire_s_9e" faction="Faction.clan_ec_empire_s_9" father="Hero.lord_ec_empire_s_9a" mother="Hero.lord_ec_empire_s_9b" />
+  <Hero id="lord_ec_empire_s_10a" faction="Faction.clan_ec_empire_s_10" spouse="Hero.lord_ec_empire_s_10b" text="{=hero_desc.lord_ec_empire_s_10a}Olichor is the head of house Nebranos, an aristocratic Imperial family committed to the legitimacy of the Southern Empire." />
+  <Hero id="lord_ec_empire_s_10b" faction="Faction.clan_ec_empire_s_10" spouse="Hero.lord_ec_empire_s_10a" />
+  <Hero id="lord_ec_empire_s_10c" faction="Faction.clan_ec_empire_s_10" father="Hero.lord_ec_empire_s_10a" mother="Hero.lord_ec_empire_s_10b" />
+  <Hero id="lord_ec_empire_s_10d" faction="Faction.clan_ec_empire_s_10" father="Hero.lord_ec_empire_s_10a" mother="Hero.lord_ec_empire_s_10b" />
+  <Hero id="lord_ec_empire_s_10e" faction="Faction.clan_ec_empire_s_10" father="Hero.lord_ec_empire_s_10a" mother="Hero.lord_ec_empire_s_10b" />
+  <Hero id="lord_ec_empire_w_1a" faction="Faction.clan_ec_empire_w_1" spouse="Hero.lord_ec_empire_w_1b" text="{=hero_desc.lord_ec_empire_w_1a}Pacarios commands house Othalotos, a veteran military lineage supporting the marshals and legions of the Western Empire." />
+  <Hero id="lord_ec_empire_w_1b" faction="Faction.clan_ec_empire_w_1" spouse="Hero.lord_ec_empire_w_1a" />
+  <Hero id="lord_ec_empire_w_1c" faction="Faction.clan_ec_empire_w_1" father="Hero.lord_ec_empire_w_1a" mother="Hero.lord_ec_empire_w_1b" />
+  <Hero id="lord_ec_empire_w_1d" faction="Faction.clan_ec_empire_w_1" father="Hero.lord_ec_empire_w_1a" mother="Hero.lord_ec_empire_w_1b" />
+  <Hero id="lord_ec_empire_w_1e" faction="Faction.clan_ec_empire_w_1" father="Hero.lord_ec_empire_w_1a" mother="Hero.lord_ec_empire_w_1b" />
+  <Hero id="lord_ec_empire_w_2a" faction="Faction.clan_ec_empire_w_2" spouse="Hero.lord_ec_empire_w_2b" text="{=hero_desc.lord_ec_empire_w_2a}Pelicos commands house Pharchasys, a veteran military lineage supporting the marshals and legions of the Western Empire." />
+  <Hero id="lord_ec_empire_w_2b" faction="Faction.clan_ec_empire_w_2" spouse="Hero.lord_ec_empire_w_2a" />
+  <Hero id="lord_ec_empire_w_2c" faction="Faction.clan_ec_empire_w_2" father="Hero.lord_ec_empire_w_2a" mother="Hero.lord_ec_empire_w_2b" />
+  <Hero id="lord_ec_empire_w_2d" faction="Faction.clan_ec_empire_w_2" father="Hero.lord_ec_empire_w_2a" mother="Hero.lord_ec_empire_w_2b" />
+  <Hero id="lord_ec_empire_w_2e" faction="Faction.clan_ec_empire_w_2" father="Hero.lord_ec_empire_w_2a" mother="Hero.lord_ec_empire_w_2b" />
+  <Hero id="lord_ec_empire_w_3a" faction="Faction.clan_ec_empire_w_3" spouse="Hero.lord_ec_empire_w_3b" text="{=hero_desc.lord_ec_empire_w_3a}Phirentos commands house Phenigos, a veteran military lineage supporting the marshals and legions of the Western Empire." />
+  <Hero id="lord_ec_empire_w_3b" faction="Faction.clan_ec_empire_w_3" spouse="Hero.lord_ec_empire_w_3a" />
+  <Hero id="lord_ec_empire_w_3c" faction="Faction.clan_ec_empire_w_3" father="Hero.lord_ec_empire_w_3a" mother="Hero.lord_ec_empire_w_3b" />
+  <Hero id="lord_ec_empire_w_3d" faction="Faction.clan_ec_empire_w_3" father="Hero.lord_ec_empire_w_3a" mother="Hero.lord_ec_empire_w_3b" />
+  <Hero id="lord_ec_empire_w_3e" faction="Faction.clan_ec_empire_w_3" father="Hero.lord_ec_empire_w_3a" mother="Hero.lord_ec_empire_w_3b" />
+  <Hero id="lord_ec_empire_w_4a" faction="Faction.clan_ec_empire_w_4" spouse="Hero.lord_ec_empire_w_4b" text="{=hero_desc.lord_ec_empire_w_4a}Rhanos commands house Salastrys, a veteran military lineage supporting the marshals and legions of the Western Empire." />
+  <Hero id="lord_ec_empire_w_4b" faction="Faction.clan_ec_empire_w_4" spouse="Hero.lord_ec_empire_w_4a" />
+  <Hero id="lord_ec_empire_w_4c" faction="Faction.clan_ec_empire_w_4" father="Hero.lord_ec_empire_w_4a" mother="Hero.lord_ec_empire_w_4b" />
+  <Hero id="lord_ec_empire_w_4d" faction="Faction.clan_ec_empire_w_4" father="Hero.lord_ec_empire_w_4a" mother="Hero.lord_ec_empire_w_4b" />
+  <Hero id="lord_ec_empire_w_4e" faction="Faction.clan_ec_empire_w_4" father="Hero.lord_ec_empire_w_4a" mother="Hero.lord_ec_empire_w_4b" />
+  <Hero id="lord_ec_empire_w_5a" faction="Faction.clan_ec_empire_w_5" spouse="Hero.lord_ec_empire_w_5b" text="{=hero_desc.lord_ec_empire_w_5a}Salusios commands house Stracanasthes, a veteran military lineage supporting the marshals and legions of the Western Empire." />
+  <Hero id="lord_ec_empire_w_5b" faction="Faction.clan_ec_empire_w_5" spouse="Hero.lord_ec_empire_w_5a" />
+  <Hero id="lord_ec_empire_w_5c" faction="Faction.clan_ec_empire_w_5" father="Hero.lord_ec_empire_w_5a" mother="Hero.lord_ec_empire_w_5b" />
+  <Hero id="lord_ec_empire_w_5d" faction="Faction.clan_ec_empire_w_5" father="Hero.lord_ec_empire_w_5a" mother="Hero.lord_ec_empire_w_5b" />
+  <Hero id="lord_ec_empire_w_5e" faction="Faction.clan_ec_empire_w_5" father="Hero.lord_ec_empire_w_5a" mother="Hero.lord_ec_empire_w_5b" />
+  <Hero id="lord_ec_empire_w_6a" faction="Faction.clan_ec_empire_w_6" spouse="Hero.lord_ec_empire_w_6b" text="{=hero_desc.lord_ec_empire_w_6a}Sotherys commands house Sumessos, a veteran military lineage supporting the marshals and legions of the Western Empire." />
+  <Hero id="lord_ec_empire_w_6b" faction="Faction.clan_ec_empire_w_6" spouse="Hero.lord_ec_empire_w_6a" />
+  <Hero id="lord_ec_empire_w_6c" faction="Faction.clan_ec_empire_w_6" father="Hero.lord_ec_empire_w_6a" mother="Hero.lord_ec_empire_w_6b" />
+  <Hero id="lord_ec_empire_w_6d" faction="Faction.clan_ec_empire_w_6" father="Hero.lord_ec_empire_w_6a" mother="Hero.lord_ec_empire_w_6b" />
+  <Hero id="lord_ec_empire_w_6e" faction="Faction.clan_ec_empire_w_6" father="Hero.lord_ec_empire_w_6a" mother="Hero.lord_ec_empire_w_6b" />
+  <Hero id="lord_ec_empire_w_7a" faction="Faction.clan_ec_empire_w_7" spouse="Hero.lord_ec_empire_w_7b" text="{=hero_desc.lord_ec_empire_w_7a}Suvys commands house Therycos, a veteran military lineage supporting the marshals and legions of the Western Empire." />
+  <Hero id="lord_ec_empire_w_7b" faction="Faction.clan_ec_empire_w_7" spouse="Hero.lord_ec_empire_w_7a" />
+  <Hero id="lord_ec_empire_w_7c" faction="Faction.clan_ec_empire_w_7" father="Hero.lord_ec_empire_w_7a" mother="Hero.lord_ec_empire_w_7b" />
+  <Hero id="lord_ec_empire_w_7d" faction="Faction.clan_ec_empire_w_7" father="Hero.lord_ec_empire_w_7a" mother="Hero.lord_ec_empire_w_7b" />
+  <Hero id="lord_ec_empire_w_7e" faction="Faction.clan_ec_empire_w_7" father="Hero.lord_ec_empire_w_7a" mother="Hero.lord_ec_empire_w_7b" />
+  <Hero id="lord_ec_empire_w_8a" faction="Faction.clan_ec_empire_w_8" spouse="Hero.lord_ec_empire_w_8b" text="{=hero_desc.lord_ec_empire_w_8a}Thucasys commands house Zalastros, a veteran military lineage supporting the marshals and legions of the Western Empire." />
+  <Hero id="lord_ec_empire_w_8b" faction="Faction.clan_ec_empire_w_8" spouse="Hero.lord_ec_empire_w_8a" />
+  <Hero id="lord_ec_empire_w_8c" faction="Faction.clan_ec_empire_w_8" father="Hero.lord_ec_empire_w_8a" mother="Hero.lord_ec_empire_w_8b" />
+  <Hero id="lord_ec_empire_w_8d" faction="Faction.clan_ec_empire_w_8" father="Hero.lord_ec_empire_w_8a" mother="Hero.lord_ec_empire_w_8b" />
+  <Hero id="lord_ec_empire_w_8e" faction="Faction.clan_ec_empire_w_8" father="Hero.lord_ec_empire_w_8a" mother="Hero.lord_ec_empire_w_8b" />
+  <Hero id="lord_ec_empire_w_9a" faction="Faction.clan_ec_empire_w_9" spouse="Hero.lord_ec_empire_w_9b" text="{=hero_desc.lord_ec_empire_w_9a}Urios commands house Zebales, a veteran military lineage supporting the marshals and legions of the Western Empire." />
+  <Hero id="lord_ec_empire_w_9b" faction="Faction.clan_ec_empire_w_9" spouse="Hero.lord_ec_empire_w_9a" />
+  <Hero id="lord_ec_empire_w_9c" faction="Faction.clan_ec_empire_w_9" father="Hero.lord_ec_empire_w_9a" mother="Hero.lord_ec_empire_w_9b" />
+  <Hero id="lord_ec_empire_w_9d" faction="Faction.clan_ec_empire_w_9" father="Hero.lord_ec_empire_w_9a" mother="Hero.lord_ec_empire_w_9b" />
+  <Hero id="lord_ec_empire_w_9e" faction="Faction.clan_ec_empire_w_9" father="Hero.lord_ec_empire_w_9a" mother="Hero.lord_ec_empire_w_9b" />
+  <Hero id="lord_ec_empire_w_10a" faction="Faction.clan_ec_empire_w_10" spouse="Hero.lord_ec_empire_w_10b" text="{=hero_desc.lord_ec_empire_w_10a}Vasylops commands house Corstases, a veteran military lineage supporting the marshals and legions of the Western Empire." />
+  <Hero id="lord_ec_empire_w_10b" faction="Faction.clan_ec_empire_w_10" spouse="Hero.lord_ec_empire_w_10a" />
+  <Hero id="lord_ec_empire_w_10c" faction="Faction.clan_ec_empire_w_10" father="Hero.lord_ec_empire_w_10a" mother="Hero.lord_ec_empire_w_10b" />
+  <Hero id="lord_ec_empire_w_10d" faction="Faction.clan_ec_empire_w_10" father="Hero.lord_ec_empire_w_10a" mother="Hero.lord_ec_empire_w_10b" />
+  <Hero id="lord_ec_empire_w_10e" faction="Faction.clan_ec_empire_w_10" father="Hero.lord_ec_empire_w_10a" mother="Hero.lord_ec_empire_w_10b" />
+  <Hero id="lord_ec_sturgia_1a" faction="Faction.clan_ec_sturgia_1" spouse="Hero.lord_ec_sturgia_1b" text="{=hero_desc.lord_ec_sturgia_1a}Achyr is the boyar of the Boranoving, leading a veteran retinue of northern warriors from the frozen marches of Sturgia." />
+  <Hero id="lord_ec_sturgia_1b" faction="Faction.clan_ec_sturgia_1" spouse="Hero.lord_ec_sturgia_1a" />
+  <Hero id="lord_ec_sturgia_1c" faction="Faction.clan_ec_sturgia_1" father="Hero.lord_ec_sturgia_1a" mother="Hero.lord_ec_sturgia_1b" />
+  <Hero id="lord_ec_sturgia_1d" faction="Faction.clan_ec_sturgia_1" father="Hero.lord_ec_sturgia_1a" mother="Hero.lord_ec_sturgia_1b" />
+  <Hero id="lord_ec_sturgia_1e" faction="Faction.clan_ec_sturgia_1" father="Hero.lord_ec_sturgia_1a" mother="Hero.lord_ec_sturgia_1b" />
+  <Hero id="lord_ec_sturgia_2a" faction="Faction.clan_ec_sturgia_2" spouse="Hero.lord_ec_sturgia_2b" text="{=hero_desc.lord_ec_sturgia_2a}Borabos is the boyar of the Cholokhoving, leading a veteran retinue of northern warriors from the frozen marches of Sturgia." />
+  <Hero id="lord_ec_sturgia_2b" faction="Faction.clan_ec_sturgia_2" spouse="Hero.lord_ec_sturgia_2a" />
+  <Hero id="lord_ec_sturgia_2c" faction="Faction.clan_ec_sturgia_2" father="Hero.lord_ec_sturgia_2a" mother="Hero.lord_ec_sturgia_2b" />
+  <Hero id="lord_ec_sturgia_2d" faction="Faction.clan_ec_sturgia_2" father="Hero.lord_ec_sturgia_2a" mother="Hero.lord_ec_sturgia_2b" />
+  <Hero id="lord_ec_sturgia_2e" faction="Faction.clan_ec_sturgia_2" father="Hero.lord_ec_sturgia_2a" mother="Hero.lord_ec_sturgia_2b" />
+  <Hero id="lord_ec_sturgia_3a" faction="Faction.clan_ec_sturgia_3" spouse="Hero.lord_ec_sturgia_3b" text="{=hero_desc.lord_ec_sturgia_3a}Chavil is the boyar of the Dazheroving, leading a veteran retinue of northern warriors from the frozen marches of Sturgia." />
+  <Hero id="lord_ec_sturgia_3b" faction="Faction.clan_ec_sturgia_3" spouse="Hero.lord_ec_sturgia_3a" />
+  <Hero id="lord_ec_sturgia_3c" faction="Faction.clan_ec_sturgia_3" father="Hero.lord_ec_sturgia_3a" mother="Hero.lord_ec_sturgia_3b" />
+  <Hero id="lord_ec_sturgia_3d" faction="Faction.clan_ec_sturgia_3" father="Hero.lord_ec_sturgia_3a" mother="Hero.lord_ec_sturgia_3b" />
+  <Hero id="lord_ec_sturgia_3e" faction="Faction.clan_ec_sturgia_3" father="Hero.lord_ec_sturgia_3a" mother="Hero.lord_ec_sturgia_3b" />
+  <Hero id="lord_ec_sturgia_4a" faction="Faction.clan_ec_sturgia_4" spouse="Hero.lord_ec_sturgia_4b" text="{=hero_desc.lord_ec_sturgia_4a}Davan is the boyar of the Doronoving, leading a veteran retinue of northern warriors from the frozen marches of Sturgia." />
+  <Hero id="lord_ec_sturgia_4b" faction="Faction.clan_ec_sturgia_4" spouse="Hero.lord_ec_sturgia_4a" />
+  <Hero id="lord_ec_sturgia_4c" faction="Faction.clan_ec_sturgia_4" father="Hero.lord_ec_sturgia_4a" mother="Hero.lord_ec_sturgia_4b" />
+  <Hero id="lord_ec_sturgia_4d" faction="Faction.clan_ec_sturgia_4" father="Hero.lord_ec_sturgia_4a" mother="Hero.lord_ec_sturgia_4b" />
+  <Hero id="lord_ec_sturgia_4e" faction="Faction.clan_ec_sturgia_4" father="Hero.lord_ec_sturgia_4a" mother="Hero.lord_ec_sturgia_4b" />
+  <Hero id="lord_ec_sturgia_5a" faction="Faction.clan_ec_sturgia_5" spouse="Hero.lord_ec_sturgia_5b" text="{=hero_desc.lord_ec_sturgia_5a}Gorgi is the boyar of the Gendiroving, leading a veteran retinue of northern warriors from the frozen marches of Sturgia." />
+  <Hero id="lord_ec_sturgia_5b" faction="Faction.clan_ec_sturgia_5" spouse="Hero.lord_ec_sturgia_5a" />
+  <Hero id="lord_ec_sturgia_5c" faction="Faction.clan_ec_sturgia_5" father="Hero.lord_ec_sturgia_5a" mother="Hero.lord_ec_sturgia_5b" />
+  <Hero id="lord_ec_sturgia_5d" faction="Faction.clan_ec_sturgia_5" father="Hero.lord_ec_sturgia_5a" mother="Hero.lord_ec_sturgia_5b" />
+  <Hero id="lord_ec_sturgia_5e" faction="Faction.clan_ec_sturgia_5" father="Hero.lord_ec_sturgia_5a" mother="Hero.lord_ec_sturgia_5b" />
+  <Hero id="lord_ec_sturgia_6a" faction="Faction.clan_ec_sturgia_6" spouse="Hero.lord_ec_sturgia_6b" text="{=hero_desc.lord_ec_sturgia_6a}Kavyl is the boyar of the Iskanoving, leading a veteran retinue of northern warriors from the frozen marches of Sturgia." />
+  <Hero id="lord_ec_sturgia_6b" faction="Faction.clan_ec_sturgia_6" spouse="Hero.lord_ec_sturgia_6a" />
+  <Hero id="lord_ec_sturgia_6c" faction="Faction.clan_ec_sturgia_6" father="Hero.lord_ec_sturgia_6a" mother="Hero.lord_ec_sturgia_6b" />
+  <Hero id="lord_ec_sturgia_6d" faction="Faction.clan_ec_sturgia_6" father="Hero.lord_ec_sturgia_6a" mother="Hero.lord_ec_sturgia_6b" />
+  <Hero id="lord_ec_sturgia_6e" faction="Faction.clan_ec_sturgia_6" father="Hero.lord_ec_sturgia_6a" mother="Hero.lord_ec_sturgia_6b" />
+  <Hero id="lord_ec_sturgia_7a" faction="Faction.clan_ec_sturgia_7" spouse="Hero.lord_ec_sturgia_7b" text="{=hero_desc.lord_ec_sturgia_7a}Kyraslav is the boyar of the Khirinoving, leading a veteran retinue of northern warriors from the frozen marches of Sturgia." />
+  <Hero id="lord_ec_sturgia_7b" faction="Faction.clan_ec_sturgia_7" spouse="Hero.lord_ec_sturgia_7a" />
+  <Hero id="lord_ec_sturgia_7c" faction="Faction.clan_ec_sturgia_7" father="Hero.lord_ec_sturgia_7a" mother="Hero.lord_ec_sturgia_7b" />
+  <Hero id="lord_ec_sturgia_7d" faction="Faction.clan_ec_sturgia_7" father="Hero.lord_ec_sturgia_7a" mother="Hero.lord_ec_sturgia_7b" />
+  <Hero id="lord_ec_sturgia_7e" faction="Faction.clan_ec_sturgia_7" father="Hero.lord_ec_sturgia_7a" mother="Hero.lord_ec_sturgia_7b" />
+  <Hero id="lord_ec_sturgia_8a" faction="Faction.clan_ec_sturgia_8" spouse="Hero.lord_ec_sturgia_8b" text="{=hero_desc.lord_ec_sturgia_8a}Mikri is the boyar of the Morochoving, leading a veteran retinue of northern warriors from the frozen marches of Sturgia." />
+  <Hero id="lord_ec_sturgia_8b" faction="Faction.clan_ec_sturgia_8" spouse="Hero.lord_ec_sturgia_8a" />
+  <Hero id="lord_ec_sturgia_8c" faction="Faction.clan_ec_sturgia_8" father="Hero.lord_ec_sturgia_8a" mother="Hero.lord_ec_sturgia_8b" />
+  <Hero id="lord_ec_sturgia_8d" faction="Faction.clan_ec_sturgia_8" father="Hero.lord_ec_sturgia_8a" mother="Hero.lord_ec_sturgia_8b" />
+  <Hero id="lord_ec_sturgia_8e" faction="Faction.clan_ec_sturgia_8" father="Hero.lord_ec_sturgia_8a" mother="Hero.lord_ec_sturgia_8b" />
+  <Hero id="lord_ec_sturgia_9a" faction="Faction.clan_ec_sturgia_9" spouse="Hero.lord_ec_sturgia_9b" text="{=hero_desc.lord_ec_sturgia_9a}Nevig is the boyar of the Rukhanoving, leading a veteran retinue of northern warriors from the frozen marches of Sturgia." />
+  <Hero id="lord_ec_sturgia_9b" faction="Faction.clan_ec_sturgia_9" spouse="Hero.lord_ec_sturgia_9a" />
+  <Hero id="lord_ec_sturgia_9c" faction="Faction.clan_ec_sturgia_9" father="Hero.lord_ec_sturgia_9a" mother="Hero.lord_ec_sturgia_9b" />
+  <Hero id="lord_ec_sturgia_9d" faction="Faction.clan_ec_sturgia_9" father="Hero.lord_ec_sturgia_9a" mother="Hero.lord_ec_sturgia_9b" />
+  <Hero id="lord_ec_sturgia_9e" faction="Faction.clan_ec_sturgia_9" father="Hero.lord_ec_sturgia_9a" mother="Hero.lord_ec_sturgia_9b" />
+  <Hero id="lord_ec_sturgia_10a" faction="Faction.clan_ec_sturgia_10" spouse="Hero.lord_ec_sturgia_10b" text="{=hero_desc.lord_ec_sturgia_10a}Porev is the boyar of the Zamantoving, leading a veteran retinue of northern warriors from the frozen marches of Sturgia." />
+  <Hero id="lord_ec_sturgia_10b" faction="Faction.clan_ec_sturgia_10" spouse="Hero.lord_ec_sturgia_10a" />
+  <Hero id="lord_ec_sturgia_10c" faction="Faction.clan_ec_sturgia_10" father="Hero.lord_ec_sturgia_10a" mother="Hero.lord_ec_sturgia_10b" />
+  <Hero id="lord_ec_sturgia_10d" faction="Faction.clan_ec_sturgia_10" father="Hero.lord_ec_sturgia_10a" mother="Hero.lord_ec_sturgia_10b" />
+  <Hero id="lord_ec_sturgia_10e" faction="Faction.clan_ec_sturgia_10" father="Hero.lord_ec_sturgia_10a" mother="Hero.lord_ec_sturgia_10b" />
+  <Hero id="lord_ec_vlandia_1a" faction="Faction.clan_ec_vlandia_1" spouse="Hero.lord_ec_vlandia_1b" text="{=hero_desc.lord_ec_vlandia_1a}Anbard is the lord of house dey Caleus, a chivalric Vlandian lineage whose knights have served the realm for generations." />
+  <Hero id="lord_ec_vlandia_1b" faction="Faction.clan_ec_vlandia_1" spouse="Hero.lord_ec_vlandia_1a" />
+  <Hero id="lord_ec_vlandia_1c" faction="Faction.clan_ec_vlandia_1" father="Hero.lord_ec_vlandia_1a" mother="Hero.lord_ec_vlandia_1b" />
+  <Hero id="lord_ec_vlandia_1d" faction="Faction.clan_ec_vlandia_1" father="Hero.lord_ec_vlandia_1a" mother="Hero.lord_ec_vlandia_1b" />
+  <Hero id="lord_ec_vlandia_1e" faction="Faction.clan_ec_vlandia_1" father="Hero.lord_ec_vlandia_1a" mother="Hero.lord_ec_vlandia_1b" />
+  <Hero id="lord_ec_vlandia_2a" faction="Faction.clan_ec_vlandia_2" spouse="Hero.lord_ec_vlandia_2b" text="{=hero_desc.lord_ec_vlandia_2a}Armund is the lord of house dey Talivel, a chivalric Vlandian lineage whose knights have served the realm for generations." />
+  <Hero id="lord_ec_vlandia_2b" faction="Faction.clan_ec_vlandia_2" spouse="Hero.lord_ec_vlandia_2a" />
+  <Hero id="lord_ec_vlandia_2c" faction="Faction.clan_ec_vlandia_2" father="Hero.lord_ec_vlandia_2a" mother="Hero.lord_ec_vlandia_2b" />
+  <Hero id="lord_ec_vlandia_2d" faction="Faction.clan_ec_vlandia_2" father="Hero.lord_ec_vlandia_2a" mother="Hero.lord_ec_vlandia_2b" />
+  <Hero id="lord_ec_vlandia_2e" faction="Faction.clan_ec_vlandia_2" father="Hero.lord_ec_vlandia_2a" mother="Hero.lord_ec_vlandia_2b" />
+  <Hero id="lord_ec_vlandia_3a" faction="Faction.clan_ec_vlandia_3" spouse="Hero.lord_ec_vlandia_3b" text="{=hero_desc.lord_ec_vlandia_3a}Boscoric is the lord of house dey Drapand, a chivalric Vlandian lineage whose knights have served the realm for generations." />
+  <Hero id="lord_ec_vlandia_3b" faction="Faction.clan_ec_vlandia_3" spouse="Hero.lord_ec_vlandia_3a" />
+  <Hero id="lord_ec_vlandia_3c" faction="Faction.clan_ec_vlandia_3" father="Hero.lord_ec_vlandia_3a" mother="Hero.lord_ec_vlandia_3b" />
+  <Hero id="lord_ec_vlandia_3d" faction="Faction.clan_ec_vlandia_3" father="Hero.lord_ec_vlandia_3a" mother="Hero.lord_ec_vlandia_3b" />
+  <Hero id="lord_ec_vlandia_3e" faction="Faction.clan_ec_vlandia_3" father="Hero.lord_ec_vlandia_3a" mother="Hero.lord_ec_vlandia_3b" />
+  <Hero id="lord_ec_vlandia_4a" faction="Faction.clan_ec_vlandia_4" spouse="Hero.lord_ec_vlandia_4b" text="{=hero_desc.lord_ec_vlandia_4a}Carsten is the lord of house dey Verecsand, a chivalric Vlandian lineage whose knights have served the realm for generations." />
+  <Hero id="lord_ec_vlandia_4b" faction="Faction.clan_ec_vlandia_4" spouse="Hero.lord_ec_vlandia_4a" />
+  <Hero id="lord_ec_vlandia_4c" faction="Faction.clan_ec_vlandia_4" father="Hero.lord_ec_vlandia_4a" mother="Hero.lord_ec_vlandia_4b" />
+  <Hero id="lord_ec_vlandia_4d" faction="Faction.clan_ec_vlandia_4" father="Hero.lord_ec_vlandia_4a" mother="Hero.lord_ec_vlandia_4b" />
+  <Hero id="lord_ec_vlandia_4e" faction="Faction.clan_ec_vlandia_4" father="Hero.lord_ec_vlandia_4a" mother="Hero.lord_ec_vlandia_4b" />
+  <Hero id="lord_ec_vlandia_5a" faction="Faction.clan_ec_vlandia_5" spouse="Hero.lord_ec_vlandia_5b" text="{=hero_desc.lord_ec_vlandia_5a}Cunbert is the lord of house dey Ormanfard, a chivalric Vlandian lineage whose knights have served the realm for generations." />
+  <Hero id="lord_ec_vlandia_5b" faction="Faction.clan_ec_vlandia_5" spouse="Hero.lord_ec_vlandia_5a" />
+  <Hero id="lord_ec_vlandia_5c" faction="Faction.clan_ec_vlandia_5" father="Hero.lord_ec_vlandia_5a" mother="Hero.lord_ec_vlandia_5b" />
+  <Hero id="lord_ec_vlandia_5d" faction="Faction.clan_ec_vlandia_5" father="Hero.lord_ec_vlandia_5a" mother="Hero.lord_ec_vlandia_5b" />
+  <Hero id="lord_ec_vlandia_5e" faction="Faction.clan_ec_vlandia_5" father="Hero.lord_ec_vlandia_5a" mother="Hero.lord_ec_vlandia_5b" />
+  <Hero id="lord_ec_vlandia_6a" faction="Faction.clan_ec_vlandia_6" spouse="Hero.lord_ec_vlandia_6b" text="{=hero_desc.lord_ec_vlandia_6a}Dinoric is the lord of house dey Hongard, a chivalric Vlandian lineage whose knights have served the realm for generations." />
+  <Hero id="lord_ec_vlandia_6b" faction="Faction.clan_ec_vlandia_6" spouse="Hero.lord_ec_vlandia_6a" />
+  <Hero id="lord_ec_vlandia_6c" faction="Faction.clan_ec_vlandia_6" father="Hero.lord_ec_vlandia_6a" mother="Hero.lord_ec_vlandia_6b" />
+  <Hero id="lord_ec_vlandia_6d" faction="Faction.clan_ec_vlandia_6" father="Hero.lord_ec_vlandia_6a" mother="Hero.lord_ec_vlandia_6b" />
+  <Hero id="lord_ec_vlandia_6e" faction="Faction.clan_ec_vlandia_6" father="Hero.lord_ec_vlandia_6a" mother="Hero.lord_ec_vlandia_6b" />
+  <Hero id="lord_ec_vlandia_7a" faction="Faction.clan_ec_vlandia_7" spouse="Hero.lord_ec_vlandia_7b" text="{=hero_desc.lord_ec_vlandia_7a}Ethenbold is the lord of house dey Usanc, a chivalric Vlandian lineage whose knights have served the realm for generations." />
+  <Hero id="lord_ec_vlandia_7b" faction="Faction.clan_ec_vlandia_7" spouse="Hero.lord_ec_vlandia_7a" />
+  <Hero id="lord_ec_vlandia_7c" faction="Faction.clan_ec_vlandia_7" father="Hero.lord_ec_vlandia_7a" mother="Hero.lord_ec_vlandia_7b" />
+  <Hero id="lord_ec_vlandia_7d" faction="Faction.clan_ec_vlandia_7" father="Hero.lord_ec_vlandia_7a" mother="Hero.lord_ec_vlandia_7b" />
+  <Hero id="lord_ec_vlandia_7e" faction="Faction.clan_ec_vlandia_7" father="Hero.lord_ec_vlandia_7a" mother="Hero.lord_ec_vlandia_7b" />
+  <Hero id="lord_ec_vlandia_8a" faction="Faction.clan_ec_vlandia_8" spouse="Hero.lord_ec_vlandia_8b" text="{=hero_desc.lord_ec_vlandia_8a}Galric is the lord of house dey Tirby, a chivalric Vlandian lineage whose knights have served the realm for generations." />
+  <Hero id="lord_ec_vlandia_8b" faction="Faction.clan_ec_vlandia_8" spouse="Hero.lord_ec_vlandia_8a" />
+  <Hero id="lord_ec_vlandia_8c" faction="Faction.clan_ec_vlandia_8" father="Hero.lord_ec_vlandia_8a" mother="Hero.lord_ec_vlandia_8b" />
+  <Hero id="lord_ec_vlandia_8d" faction="Faction.clan_ec_vlandia_8" father="Hero.lord_ec_vlandia_8a" mother="Hero.lord_ec_vlandia_8b" />
+  <Hero id="lord_ec_vlandia_8e" faction="Faction.clan_ec_vlandia_8" father="Hero.lord_ec_vlandia_8a" mother="Hero.lord_ec_vlandia_8b" />
+  <Hero id="lord_ec_vlandia_9a" faction="Faction.clan_ec_vlandia_9" spouse="Hero.lord_ec_vlandia_9b" text="{=hero_desc.lord_ec_vlandia_9a}Guldrimand is the lord of house dey Palisont, a chivalric Vlandian lineage whose knights have served the realm for generations." />
+  <Hero id="lord_ec_vlandia_9b" faction="Faction.clan_ec_vlandia_9" spouse="Hero.lord_ec_vlandia_9a" />
+  <Hero id="lord_ec_vlandia_9c" faction="Faction.clan_ec_vlandia_9" father="Hero.lord_ec_vlandia_9a" mother="Hero.lord_ec_vlandia_9b" />
+  <Hero id="lord_ec_vlandia_9d" faction="Faction.clan_ec_vlandia_9" father="Hero.lord_ec_vlandia_9a" mother="Hero.lord_ec_vlandia_9b" />
+  <Hero id="lord_ec_vlandia_9e" faction="Faction.clan_ec_vlandia_9" father="Hero.lord_ec_vlandia_9a" mother="Hero.lord_ec_vlandia_9b" />
+  <Hero id="lord_ec_vlandia_10a" faction="Faction.clan_ec_vlandia_10" spouse="Hero.lord_ec_vlandia_10b" text="{=hero_desc.lord_ec_vlandia_10a}Hirobert is the lord of house dey Sirindac, a chivalric Vlandian lineage whose knights have served the realm for generations." />
+  <Hero id="lord_ec_vlandia_10b" faction="Faction.clan_ec_vlandia_10" spouse="Hero.lord_ec_vlandia_10a" />
+  <Hero id="lord_ec_vlandia_10c" faction="Faction.clan_ec_vlandia_10" father="Hero.lord_ec_vlandia_10a" mother="Hero.lord_ec_vlandia_10b" />
+  <Hero id="lord_ec_vlandia_10d" faction="Faction.clan_ec_vlandia_10" father="Hero.lord_ec_vlandia_10a" mother="Hero.lord_ec_vlandia_10b" />
+  <Hero id="lord_ec_vlandia_10e" faction="Faction.clan_ec_vlandia_10" father="Hero.lord_ec_vlandia_10a" mother="Hero.lord_ec_vlandia_10b" />
+  <Hero id="lord_ec_nord_1a" faction="Faction.clan_ec_nord_1" spouse="Hero.lord_ec_nord_1b" text="{=hero_desc.lord_ec_nord_1a}Aegi is the chieftain of the Aeralding, commanding seasoned mariners and shield-biters across the northern fjords." />
+  <Hero id="lord_ec_nord_1b" faction="Faction.clan_ec_nord_1" spouse="Hero.lord_ec_nord_1a" />
+  <Hero id="lord_ec_nord_1c" faction="Faction.clan_ec_nord_1" father="Hero.lord_ec_nord_1a" mother="Hero.lord_ec_nord_1b" />
+  <Hero id="lord_ec_nord_1d" faction="Faction.clan_ec_nord_1" father="Hero.lord_ec_nord_1a" mother="Hero.lord_ec_nord_1b" />
+  <Hero id="lord_ec_nord_1e" faction="Faction.clan_ec_nord_1" father="Hero.lord_ec_nord_1a" mother="Hero.lord_ec_nord_1b" />
+  <Hero id="lord_ec_nord_2a" faction="Faction.clan_ec_nord_2" spouse="Hero.lord_ec_nord_2b" text="{=hero_desc.lord_ec_nord_2a}Asgorm is the chieftain of the Bjulsing, commanding seasoned mariners and shield-biters across the northern fjords." />
+  <Hero id="lord_ec_nord_2b" faction="Faction.clan_ec_nord_2" spouse="Hero.lord_ec_nord_2a" />
+  <Hero id="lord_ec_nord_2c" faction="Faction.clan_ec_nord_2" father="Hero.lord_ec_nord_2a" mother="Hero.lord_ec_nord_2b" />
+  <Hero id="lord_ec_nord_2d" faction="Faction.clan_ec_nord_2" father="Hero.lord_ec_nord_2a" mother="Hero.lord_ec_nord_2b" />
+  <Hero id="lord_ec_nord_2e" faction="Faction.clan_ec_nord_2" father="Hero.lord_ec_nord_2a" mother="Hero.lord_ec_nord_2b" />
+  <Hero id="lord_ec_nord_3a" faction="Faction.clan_ec_nord_3" spouse="Hero.lord_ec_nord_3b" text="{=hero_desc.lord_ec_nord_3a}Bortur is the chieftain of the Froring, commanding seasoned mariners and shield-biters across the northern fjords." />
+  <Hero id="lord_ec_nord_3b" faction="Faction.clan_ec_nord_3" spouse="Hero.lord_ec_nord_3a" />
+  <Hero id="lord_ec_nord_3c" faction="Faction.clan_ec_nord_3" father="Hero.lord_ec_nord_3a" mother="Hero.lord_ec_nord_3b" />
+  <Hero id="lord_ec_nord_3d" faction="Faction.clan_ec_nord_3" father="Hero.lord_ec_nord_3a" mother="Hero.lord_ec_nord_3b" />
+  <Hero id="lord_ec_nord_3e" faction="Faction.clan_ec_nord_3" father="Hero.lord_ec_nord_3a" mother="Hero.lord_ec_nord_3b" />
+  <Hero id="lord_ec_nord_4a" faction="Faction.clan_ec_nord_4" spouse="Hero.lord_ec_nord_4b" text="{=hero_desc.lord_ec_nord_4a}Garmi is the chieftain of the Gisalding, commanding seasoned mariners and shield-biters across the northern fjords." />
+  <Hero id="lord_ec_nord_4b" faction="Faction.clan_ec_nord_4" spouse="Hero.lord_ec_nord_4a" />
+  <Hero id="lord_ec_nord_4c" faction="Faction.clan_ec_nord_4" father="Hero.lord_ec_nord_4a" mother="Hero.lord_ec_nord_4b" />
+  <Hero id="lord_ec_nord_4d" faction="Faction.clan_ec_nord_4" father="Hero.lord_ec_nord_4a" mother="Hero.lord_ec_nord_4b" />
+  <Hero id="lord_ec_nord_4e" faction="Faction.clan_ec_nord_4" father="Hero.lord_ec_nord_4a" mother="Hero.lord_ec_nord_4b" />
+  <Hero id="lord_ec_nord_5a" faction="Faction.clan_ec_nord_5" spouse="Hero.lord_ec_nord_5b" text="{=hero_desc.lord_ec_nord_5a}Jafnir is the chieftain of the Gutviding, commanding seasoned mariners and shield-biters across the northern fjords." />
+  <Hero id="lord_ec_nord_5b" faction="Faction.clan_ec_nord_5" spouse="Hero.lord_ec_nord_5a" />
+  <Hero id="lord_ec_nord_5c" faction="Faction.clan_ec_nord_5" father="Hero.lord_ec_nord_5a" mother="Hero.lord_ec_nord_5b" />
+  <Hero id="lord_ec_nord_5d" faction="Faction.clan_ec_nord_5" father="Hero.lord_ec_nord_5a" mother="Hero.lord_ec_nord_5b" />
+  <Hero id="lord_ec_nord_5e" faction="Faction.clan_ec_nord_5" father="Hero.lord_ec_nord_5a" mother="Hero.lord_ec_nord_5b" />
+  <Hero id="lord_ec_nord_6a" faction="Faction.clan_ec_nord_6" spouse="Hero.lord_ec_nord_6b" text="{=hero_desc.lord_ec_nord_6a}Hrani is the chieftain of the Hravalding, commanding seasoned mariners and shield-biters across the northern fjords." />
+  <Hero id="lord_ec_nord_6b" faction="Faction.clan_ec_nord_6" spouse="Hero.lord_ec_nord_6a" />
+  <Hero id="lord_ec_nord_6c" faction="Faction.clan_ec_nord_6" father="Hero.lord_ec_nord_6a" mother="Hero.lord_ec_nord_6b" />
+  <Hero id="lord_ec_nord_6d" faction="Faction.clan_ec_nord_6" father="Hero.lord_ec_nord_6a" mother="Hero.lord_ec_nord_6b" />
+  <Hero id="lord_ec_nord_6e" faction="Faction.clan_ec_nord_6" father="Hero.lord_ec_nord_6a" mother="Hero.lord_ec_nord_6b" />
+  <Hero id="lord_ec_nord_7a" faction="Faction.clan_ec_nord_7" spouse="Hero.lord_ec_nord_7b" text="{=hero_desc.lord_ec_nord_7a}Knudir is the chieftain of the Mjalnoring, commanding seasoned mariners and shield-biters across the northern fjords." />
+  <Hero id="lord_ec_nord_7b" faction="Faction.clan_ec_nord_7" spouse="Hero.lord_ec_nord_7a" />
+  <Hero id="lord_ec_nord_7c" faction="Faction.clan_ec_nord_7" father="Hero.lord_ec_nord_7a" mother="Hero.lord_ec_nord_7b" />
+  <Hero id="lord_ec_nord_7d" faction="Faction.clan_ec_nord_7" father="Hero.lord_ec_nord_7a" mother="Hero.lord_ec_nord_7b" />
+  <Hero id="lord_ec_nord_7e" faction="Faction.clan_ec_nord_7" father="Hero.lord_ec_nord_7a" mother="Hero.lord_ec_nord_7b" />
+  <Hero id="lord_ec_nord_8a" faction="Faction.clan_ec_nord_8" spouse="Hero.lord_ec_nord_8b" text="{=hero_desc.lord_ec_nord_8a}Odegar is the chieftain of the Njarthing, commanding seasoned mariners and shield-biters across the northern fjords." />
+  <Hero id="lord_ec_nord_8b" faction="Faction.clan_ec_nord_8" spouse="Hero.lord_ec_nord_8a" />
+  <Hero id="lord_ec_nord_8c" faction="Faction.clan_ec_nord_8" father="Hero.lord_ec_nord_8a" mother="Hero.lord_ec_nord_8b" />
+  <Hero id="lord_ec_nord_8d" faction="Faction.clan_ec_nord_8" father="Hero.lord_ec_nord_8a" mother="Hero.lord_ec_nord_8b" />
+  <Hero id="lord_ec_nord_8e" faction="Faction.clan_ec_nord_8" father="Hero.lord_ec_nord_8a" mother="Hero.lord_ec_nord_8b" />
+  <Hero id="lord_ec_nord_9a" faction="Faction.clan_ec_nord_9" spouse="Hero.lord_ec_nord_9b" text="{=hero_desc.lord_ec_nord_9a}Skorin is the chieftain of the Surthuring, commanding seasoned mariners and shield-biters across the northern fjords." />
+  <Hero id="lord_ec_nord_9b" faction="Faction.clan_ec_nord_9" spouse="Hero.lord_ec_nord_9a" />
+  <Hero id="lord_ec_nord_9c" faction="Faction.clan_ec_nord_9" father="Hero.lord_ec_nord_9a" mother="Hero.lord_ec_nord_9b" />
+  <Hero id="lord_ec_nord_9d" faction="Faction.clan_ec_nord_9" father="Hero.lord_ec_nord_9a" mother="Hero.lord_ec_nord_9b" />
+  <Hero id="lord_ec_nord_9e" faction="Faction.clan_ec_nord_9" father="Hero.lord_ec_nord_9a" mother="Hero.lord_ec_nord_9b" />
+  <Hero id="lord_ec_nord_10a" faction="Faction.clan_ec_nord_10" spouse="Hero.lord_ec_nord_10b" text="{=hero_desc.lord_ec_nord_10a}Svothir is the chieftain of the Thulgrimming, commanding seasoned mariners and shield-biters across the northern fjords." />
+  <Hero id="lord_ec_nord_10b" faction="Faction.clan_ec_nord_10" spouse="Hero.lord_ec_nord_10a" />
+  <Hero id="lord_ec_nord_10c" faction="Faction.clan_ec_nord_10" father="Hero.lord_ec_nord_10a" mother="Hero.lord_ec_nord_10b" />
+  <Hero id="lord_ec_nord_10d" faction="Faction.clan_ec_nord_10" father="Hero.lord_ec_nord_10a" mother="Hero.lord_ec_nord_10b" />
+  <Hero id="lord_ec_nord_10e" faction="Faction.clan_ec_nord_10" father="Hero.lord_ec_nord_10a" mother="Hero.lord_ec_nord_10b" />
+</Heroes>

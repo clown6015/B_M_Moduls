@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+  <Name value="Extra Clans"/>
+  <Id value="ExtraClans"/>
+  <Version value="v1.0.2"/>
+  <SingleplayerModule value="true"/>
+  <MultiplayerModule value="false"/>
+  <DependedModules>
+    <DependedModule Id="Native" />
+    <DependedModule Id="SandBoxCore" />
+    <DependedModule Id="Sandbox" />
+    <DependedModule Id="StoryMode" />
+    <DependedModule Id="NavalDLC" Optional="true" />
+  </DependedModules>
+  <SubModules>
+  </SubModules>
+  <Xmls>
+    <XmlNode>                
+      <XmlName id="NPCCharacters" path="lords"/>
+      <IncludedGameTypes>
+        <GameType value="Campaign"/>
+        <GameType value="CampaignStoryMode"/>
+        <GameType value="Sandbox"/>
+      </IncludedGameTypes>
+    </XmlNode>  
+    <XmlNode>
+      <XmlName id="Heroes" path="heroes"/>
+      <IncludedGameTypes>
+        <GameType value="Campaign"/>
+        <GameType value="CampaignStoryMode"/>
+        <GameType value="Sandbox"/>
+      </IncludedGameTypes>
+    </XmlNode>
+    <XmlNode>
+      <XmlName id="Factions" path="spclans"/>
+      <IncludedGameTypes>
+        <GameType value="Campaign"/>
+        <GameType value="CampaignStoryMode"/>
+        <GameType value="Sandbox"/>
+      </IncludedGameTypes>
+    </XmlNode>
+  </Xmls>
+</Module>
