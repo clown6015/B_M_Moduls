@@ -1,0 +1,29 @@
+﻿========================================================================
+[배너로드 한국어 번역 패치] Diplomacy (Bannerlord.Diplomacy v1.5.5)
+========================================================================
+
+1. 번역 범위 및 오류 수정 내역 (총 730개 문자열 100% 완벽 번역)
+   - language_data.xml 경로 버그 수정:
+     * 원본 KO/language_data.xml에서 xml_path에 "KO/" 경로가 누락되어 영문 원본이 로드되던 치명적 버그 수정
+   - std_module_strings_xml.xml (신규 286개 문자열 100% 번역):
+     * 원본 KO 폴더에 통째로 누락되어 있던 외교 행동, 동맹/불가침 조약, 전령, 영지 하사/반환, 부패/팽창주의/대항 연합 및 MCM 설정 266개 문장 + DLL 전용 키 20개 완벽 번역
+   - civil_war_strings_xml.xml (전체 156개 문자열):
+     * 기존 83개 문장 검수 + v1.5.5에 추가된 파벌 지지 포섭·설득·신규 왕국/파벌 명명 관련 누락 문장 73개 추가 번역
+   - war_exhaustion_strings.xml (전체 96개 문자열) & faction_names_xml.xml (189개) & help_strings_xml.xml (3개):
+     * 조건문 태그 문법 오류({?KINGDOM_LEADER. GENDER} 공백 오류 및 닫힘 태그 누락) 및 오타("동맹맹" -> "동맹") 전수 수정 완료
+
+2. 수동 설치 방법
+   - 이 폴더 안에 있는 ModuleData 폴더를 복사하여 아래 경로에 덮어쓰기 하세요:
+     * Steam 모듈 폴더: C:\Program Files (x86)\Steam\steamapps\common\Mount & Blade II Bannerlord\Modules\Bannerlord.Diplomacy\
+     * 또는 Vortex 스테이징 폴더: ...\Vortex\mountandblade2bannerlord\mods\Diplomacy ...\Modules\Bannerlord.Diplomacy\
+
+3. 모드 매니저 (Vortex / Mod Organizer 2) 및 넥서스(Nexus Mods) 배포 방법
+   - 폴더 내의 Modules 폴더를 압축(ZIP/7z)하여 모드 매니저로 설치하거나 넥서스에 업로드하세요.
+   - 압축 파일 내부 구조:
+     Modules\Bannerlord.Diplomacy\ModuleData\Languages\KO\language_data.xml
+     Modules\Bannerlord.Diplomacy\ModuleData\Languages\KO\civil_war_strings_xml.xml
+     Modules\Bannerlord.Diplomacy\ModuleData\Languages\KO\faction_names_xml.xml
+     Modules\Bannerlord.Diplomacy\ModuleData\Languages\KO\help_strings_xml.xml
+     Modules\Bannerlord.Diplomacy\ModuleData\Languages\KO\std_module_strings_xml.xml
+     Modules\Bannerlord.Diplomacy\ModuleData\Languages\KO\war_exhaustion_strings.xml
+========================================================================

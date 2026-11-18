@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="한국어" />
+  </tags>
+  <strings>
+    <string id="0WVHMfN8" text="반란군 와해" />
+    <string id="BVNGIAMM" text="{PARENT_KINGDOM} 왕국을 황폐화시킨 반란군을 진압했습니다. {PLAYER_PARTICIPATION}" />
+    <string id="x5ThZR5A" text="새로운 왕국의 등장" />
+    <string id="nRxyMIEE" text="{PARENT_KINGDOM} 이 내전에서 패배하여 왕국을 통합하는 데 실패했습니다. {KINGDOM} 이 등장했습니다. {PLAYER_PARTICIPATION}" />
+    <string id="1OQGJkqb" text="반란군 파벌의 등장" />
+    <string id="pqjZ6wck" text="{KINGDOM} 에 반군 파벌이 등장했습니다. 클랜 {CLAN_NAME} 이 이끌고 있습니다. {DEMAND}" />
+    <string id="ZAfNviVS" text="독립" />
+    <string id="wUspUo1y" text="퇴위" />
+    <string id="LF19GulH" text="왕국에서 탈퇴합니다. 이 부족은 새로운 왕국을 설립합니다. 티어 4 이상의 부족만 독립 파벌을 만들 수 있습니다." />
+    <string id="GK1seKeJ" text="왕국의 지도자를 강제로 물러나게 하세요. 선거를 통해 왕국의 새로운 지도자가 결정됩니다." />
+    <string id="brEXAKDb" text="반란군은 자신들의 영토를 왕국으로부터 분리하여 독립할 수 있게 해달라고 요구합니다." />
+    <string id="8A6JPMWp" text="반란군은 {LEADER} 가 왕좌에서 물러날 것을 요구합니다." />
+    <string id="ChzQncc0" text="반란" />
+    <string id="WUAv0u4U" text="지지자 모집" />
+    <string id="fw0k1KFl" text="요구: {DEMAND_NAME}" />
+    <string id="FajeZClv" text="{REBELS} ({KINGDOM} 반란군)" />
+    <string id="nAvLFv5Q" text="내전 발발" />
+    <string id="2PpZkBOB" text="{KINGDOM} 에서 내전이 발발했습니다. {REBEL_KINGDOM} 은 {CLAN_NAME} 클랜이 이끌고 있습니다. {DEMAND}" />
+    <string id="o0HIAHqg" text="반란군 왕국은 외교적 행동의 대상이 될 수 없습니다." />
+    <string id="GKSaZESx" text="새 군주가 선출되고 목표가 완료되면 {PARENT_KINGDOM} 의 {REBELS} 은 해산합니다." />
+    <string id="BPcKHP0D" text="반란군의 지도자로서 {INFLUENCE} 영향력을 얻었습니다." />
+    <string id="UoMvwnTb" text="반란군의 지도자로서 {INFLUENCE} 영향력을 잃었습니다." />
+    <string id="QiX6m5cp" text="반란군의 일원으로서 {INFLUENCE} 영향력을 얻었습니다." />
+    <string id="yrz8GMUb" text="반란군의 일원으로서 {INFLUENCE} 영향력을 잃었습니다." />
+    <string id="SNLviWvc" text="충성파의 수장으로서 {INFLUENCE} 영향력을 잃었습니다." />
+    <string id="2I1X5fAC" text="충성파의 수장으로서 {INFLUENCE} 영향력을 얻었습니다." />
+    <string id="4FfA8RL4" text="충성파의 일원으로서 {INFLUENCE} 영향력을 잃었습니다." />
+    <string id="uUu7DEDU" text="충성파의 일원으로서 {INFLUENCE} 영향력을 얻었습니다." />
+    <string id="f66sNaiz" text="당신은 반란군에 참여할 수 없습니다" />
+    <string id="DZ6dpEn3" text="파벌 가입" />
+    <string id="uTCw0WiH" text="파벌 탈퇴" />
+    <string id="1OUDq7Ul" text="힘의 균형" />
+    <string id="5q7TvMGL" text="반란 선포" />
+    <string id="Ysrttgis" text="선포 날짜: {CAMPAIGN_TIME}" />
+    <string id="o3w3jNzZ" text="요구사항: {DEMAND_NAME}" />
+    <string id="hbPiVQVK" text="현재상태: {STATUS}" />
+    <string id="TvSHYACm" text="규모" />
+    <string id="dlANhHUd" text="파벌" />
+    <string id="hBSo0Ziq" text="파벌 설립" />
+    <string id="2PglxF8k" text="파벌의 요구사항 선택" />
+    <string id="gypPPxUJ" text="파벌" />
+    <string id="aWWzFITw" text="현 국가 지도자의 퇴위" />
+    <string id="2Pv3DsVm" text="{PARENT_KINGDOM} 는 {REBELS} 상대로 내전에서 패배했습니다. {LEADER}는 현 지도자의 퇴위를 선언했습니다. {PLAYER_PARTICIPATION}" />
+    <string id="GkhKppOk" text="영지가 너무 적음" />
+    <string id="Jc1mCVuY" text="성격: 계산적" />
+    <string id="cjbVV7E3" text="클랜 등급이 너무 낮음" />
+    <string id="Vp9EcnuC" text="파벌 성향" />
+    <string id="dr1OCcmL" text="국가 지도자와의 관계" />
+    <string id="mouJZAAy" text="파벌 지도자와의 관계" />
+    <string id="FtX4LPXF" text="왕국 규모" />
+    <string id="VFwDRHc7" text="참여자" />
+    <string id="IYO5TNTg" text="지배 정당성" />
+    <string id="YLUocN5e" text="파벌 지도자가 지배 정당성을 가지고 있음" />
+    <string id="qAcR4Yee" text="파벌에 친밀한 클랜이 있음" />
+    <string id="1AZK0UVJ" text="국가 지도자가 지배 정당성이 없음" />
+    <string id="ovgs58sT" text="이미 반란이 일어난 상태에서는 파벌을 만들 수 없습니다." />
+    <string id="VbpiW2bd" text="내전이 일어난 직후에는 파벌을 만들 수 없습니다." />
+    <string id="JDk8ustS" text="용병은 파벌을 만들 수 없습니다." />
+    <string id="quo5erz6" text="국가 지도자는 파벌을 만들 수 없습니다." />
+    <string id="luvsD6Zn" text="반란군 왕국에서는 파벌을 만들 수 없습니다." />
+    <string id="iXMeCmj0" text="클랜 등급이 4 이상이어야 합니다." />
+    <string id="Xu3rnEEa" text="{KINGDOM_NAME}에 파벌을 만드려면 {KINGDOM_NAME}에 소속되어야 합니다." />
+    <string id="DxJH7ciY" text="한 왕국에는 퇴위 목적의 파벌이 하나만 존재할 수 있습니다." />
+    <string id="zTZWwJfN" text="당신은 두 개의 파벌을 이끌 수 없습니다." />
+    <string id="EYB5Uggd" text="파벌 지도자가 {TRAIT}임" />
+    <string id="E00ywbqb" text="국가 지도자가 {TRAIT}임" />
+    <string id="GeevRiNR" text="{LABEL}{newline} {newline}{REASON}" />
+    <string id="ALSuNVzE" text="{EXCEPTION}{newline} {newline}{DEMAND_HINT}" />
+    <string id="eDZeFUTH" text="내전" />
+    <string id="VB97zQeJ" text="내전이 다시 일어날 수 있는 최소 기간" />
+    <string id="5cUqaLk4" text="내전을 일으키고 반란군 파벌이 왕국을 건설할 수 있는 최소한의 기간입니다. 기본값은 240입니다." />
+    <string id="UdadyqpN" text="반란군 파벌이 만들어질 수 있는 일간 확률" />
+    <string id="yznXCi1d" text="클랜이 반란군 파벌을 만들 일간 확률. 기본값은 100%." />
+    <string id="r312b3Of" text="반란군 파벌에 가입할 일간 확률" />
+    <string id="06oPGRj0" text="클랜이 반란군 파벌에 가입하고 파벌을 지원하게 될 일간 확률입니다. 기본값은 100%." />
+    <string id="lIbUuQB1" text="내전 발생 일간 확률" />
+    <string id="zr10ZS3L" text="내전이 발생하게 될 일간 확률입니다. 기본값은 50%." />
+    <string id="VNILqmoY" text="파벌이 존속할 수 있는 최대 일 수" />
+    <string id="rNJIvaSm" text="파벌이 내전을 일으키지 않고 존속할 수 있는 최대 기간입니다. 기본값은 120일." />
+    <string id="6kNmdLxZ" text="파벌을 만드는데 필요한 영향력" />
+    <string id="EwbXg3va" text="파벌을 만드는데 필요한 영향력입니다. 기본값은 100." />
+    <string id="7wK0mmw1" text="파벌 참여도" />
+    <string id="aqvIdG7w" text="클랜이 파벌을 생성하거나 가입하는 경향에 영향을 끼치는 수치입니다. 수치를 높이면 파벌에 참여할 가능성이 높아집니다. 기본값은 0." />
+    <string id="kT4rWq8Z" text="내전 개시 필요 파벌 군사력" />
+    <string id="mB2xNv6P" text="AI가 이끄는 파벌이 내전을 일으키기 위해 필요한 왕국 전체 군사력 대비 비중입니다. 용맹(Valor) 특성이 높은 지도자는 최대 15%p 더 낮은 비중으로도 내전을 시작할 수 있습니다. 내전 발생 빈도를 줄이려면 이 값을 높이십시오. 기본값은 65%입니다." />
+    <string id="FRabdGen" text="그대 가문의 공헌은 더 공정한 영지와 영향력을 받을 자격이 있습니다. 우리와 함께하십시오." />
+    <string id="FRabdHon" text="우리 왕국에는 가문들을 존중하는 군주가 필요합니다. 더 나은 지도자를 세울 수 있도록 힘을 보태 주십시오." />
+    <string id="FRalready" text="이 클랜은 이미 당신의 요구를 지지하고 있습니다. 직접 지지를 요청하십시오." />
+    <string id="FRargLoss" text="그 정도 논리로는 나를 설득할 수 없소." />
+    <string id="FRargOne" text="{FACTION_RECRUITMENT_ARGUMENT_0}" />
+    <string id="FRargTwo" text="{FACTION_RECRUITMENT_ARGUMENT_1}" />
+    <string id="FRargWin" text="상당히 설득력 있는 주장이군요." />
+    <string id="FRaskSup" text="그대의 가문은 {RECRUITMENT_FACTION_NAME}와 우리의 요구를 지지하겠습니까?" />
+    <string id="FRcancelA" text="이 문제는 여기까지만 해 두지요." />
+    <string id="FRcanDesc" text="접촉할 클랜 수장을 선택하십시오. 직접 만나 대화하거나 백과사전 페이지의 '전령 보내기'를 통해 파벌 지지를 요청할 수 있습니다." />
+    <string id="FRcanHint" text="군사력: {STRENGTH}{newline}지지 점수: {SCORE} / {REQUIRED}{newline}수장과의 관계도: {RELATION}{newline}설득 관계도 보정치: 최대 {RELATION_EFFECT}%p{newline}{REASONS}" />
+    <string id="FRcanName" text="{CLAN} - 지지 점수: {SCORE} / {REQUIRED}" />
+    <string id="FRchanged" text="상황이 변하여 더 이상 이 클랜을 포섭할 수 없습니다." />
+    <string id="FRdaysTxt" text="{DAYS}일" />
+    <string id="FRdecision" text="그렇다면 그대의 결정은 무엇입니까?" />
+    <string id="FReliminated" text="이 클랜은 이미 멸문했습니다." />
+    <string id="FRfailed" text="나를 설득하지 못했소. 우리 가문은 당신의 파벌에 가담하지 않겠소." />
+    <string id="FRgoodbye" text="알겠소. 그럼 다른 이야기를 나누도록 하지요." />
+    <string id="FRhearArg" text="내가 어째서 그대와 함께 그런 위험을 감수해야 하는지 말해 보시오." />
+    <string id="FRhesitnt" text="아직 그대의 요구를 지지할 준비가 되지 않았소. 나를 먼저 설득해야 할 것이오." />
+    <string id="FRintroTx" text="{FACTION_RECRUITMENT_RESPONSE}" />
+    <string id="FRisMember" text="이 클랜은 이미 당신의 파벌을 지지하고 있습니다." />
+    <string id="FRjoinLog" text="{CLAN} 클랜이 {FACTION}에 합류했습니다." />
+    <string id="FRjoinNow" text="우리 가문은 {FACTION_NAME}와 뜻을 함께하겠소." />
+    <string id="FRjoinYou" text="{CLAN} 클랜이 당신의 파벌인 {FACTION}에 합류했습니다." />
+    <string id="FRleadsOther" text="이 클랜은 {FACTION_NAME}의 수장이므로 다른 파벌에 합류할 수 없습니다." />
+    <string id="FRmakeCas" text="내 주장을 들어보시오. (비용: 영향력 {RECRUITMENT_COST})" />
+    <string id="FRmercenary" text="용병 클랜은 반란 파벌에 가담할 수 없습니다." />
+    <string id="FRminor" text="소수 파벌은 반란 파벌로 포섭할 수 없습니다." />
+    <string id="FRnoClans" text="현재 포섭 가능한 클랜이 없습니다. 클랜 관계도를 높이거나 영향력을 모으거나, 포섭 재시도 대기시간이 끝날 때까지 기다리십시오." />
+    <string id="FRnoLeader" text="이 클랜에는 접촉할 수장이 없습니다." />
+    <string id="FRnotAct" text="파벌이 지지 세력을 모으는 동안에만 포섭을 진행할 수 있습니다." />
+    <string id="FRnotLed" text="지지자를 포섭하려면 이 파벌의 지도자여야 합니다." />
+    <string id="FRonCool" text="이 클랜에 다시 접촉하려면 {DAYS}일을 더 기다려야 합니다." />
+    <string id="FRopposed" text="이 클랜은 당신의 요구에 강하게 반대하고 있습니다. 설득을 시도하기 전에 먼저 지지 명분을 개선하십시오." />
+    <string id="FRotherRealm" text="이 클랜은 다른 왕국 소속입니다." />
+    <string id="FRpending" text="이미 이 클랜을 상대로 설득을 진행 중입니다." />
+    <string id="FRpledged" text="우리 가문은 {FACTION_NAME}와 함께하겠소. {DAYS}일 동안 지지를 서약하리다." />
+    <string id="FRpledgeT" text="남은 지지 서약 기간" />
+    <string id="FRprisoner" text="이 클랜의 수장은 현재 포로 상태이므로 지지를 서약할 수 없습니다." />
+    <string id="FRreactTx" text="{FACTION_RECRUITMENT_RESPONSE}" />
+    <string id="FRrebelling" text="이미 반란이 시작된 후에는 클랜이 파벌에 합류할 수 없습니다." />
+    <string id="FRrebelRealm" text="반란군 왕국 소속의 클랜은 다른 반란 파벌에 가담할 수 없습니다." />
+    <string id="FRrecBtn" text="지지 세력 포섭" />
+    <string id="FRrecOff" text="플레이어 파벌 포섭 기능이 비활성화되어 있습니다." />
+    <string id="FRrespTxt" text="{FACTION_RECRUITMENT_RESPONSE}" />
+    <string id="FRruler" text="집권 왕가 클랜은 반란 파벌에 가담할 수 없습니다." />
+    <string id="FRsecCal" text="우리 가문들은 독립된 왕국으로서 더 번영할 수 있습니다. 우리의 미래는 우리 스스로 결정해야 합니다." />
+    <string id="FRsecession" text="이 클랜은 분리 독립 파벌인 {FACTION_NAME}을(를) 지지하고 있어 다른 파벌에 합류할 수 없습니다." />
+    <string id="FRsecVal" text="우리 가문들이 힘을 합치면 우리만의 왕국을 능히 지켜낼 수 있습니다. 함께 일어섭시다." />
+    <string id="FRsetBo1" text="파벌 포섭 설득 보너스" />
+    <string id="FRsetBo2" text="파벌 합류 설득에 성공했을 때 추가로 부여되는 지지 점수입니다. 총합이 100에 도달해야 합류합니다. 새로운 시도부터 적용됩니다. 기본값은 25입니다." />
+    <string id="FRsetCd1" text="파벌 포섭 재시도 대기시간(일)" />
+    <string id="FRsetCd2" text="모든 파벌을 통틀어 동일한 클랜에 다시 포섭을 시도하기까지 걸리는 일수입니다. 새로운 시도부터 적용됩니다. 기본값은 14일입니다." />
+    <string id="FRsetCo1" text="파벌 포섭 영향력 비용" />
+    <string id="FRsetCo2" text="실패하거나 중단한 시도를 포함하여 설득을 시도할 때마다 소모되는 영향력입니다. 이미 합류 의사가 있는 클랜에게 요청할 때는 소모되지 않습니다. 기본값은 25입니다." />
+    <string id="FRsetOn1" text="플레이어 파벌 포섭 활성화" />
+    <string id="FRsetOn2" text="파벌 지도자가 다른 클랜에게 퇴위 및 분리 독립 지지를 요청하거나 설득할 수 있도록 허용합니다. 비활성화 시 신규 포섭이 중단되며 기존 서약은 정상 만료됩니다. 기본값은 활성화입니다." />
+    <string id="FRsetPl1" text="파벌 포섭 서약 유지 기간(일)" />
+    <string id="FRsetPl2" text="포섭된 클랜이 일반 지지율 판정으로 돌아가기 전까지 파벌에 머물기로 약속하는 일수입니다. 수장, 소속 왕국, 자격 요건이 변경되면 서약이 조기 종료됩니다. 기본값은 30일입니다." />
+    <string id="FRsetRe1" text="포섭 시 관계도 보정 활성화" />
+    <string id="FRsetRe2" text="클랜 수장과의 관계도를 반영하여 파벌 포섭 설득 성공 확률을 조정합니다. 매력 스킬과 성격 특성도 함께 반영됩니다. 기본값은 활성화입니다." />
+    <string id="FRsetRw1" text="파벌 포섭 관계도 영향력 수치" />
+    <string id="FRsetRw2" text="관계도 +100 또는 -100에서 적용되는 설득 성공 확률의 최대 변동치(%p)입니다. 관계도 +50에서는 절반의 보너스가 적용되며, 부정적 관계에서는 페널티가 적용됩니다. 기본값은 25%p입니다." />
+    <string id="FRunavailable" text="이 클랜의 수장과는 현재 접촉할 수 없습니다." />
+    <string id="FRviewLdr" text="클랜 수장 보기" />
+    <string id="FNkdmTtl" text="신규 왕국 이름 지정" />
+    <string id="FNkdmTxt" text="당신의 영지가 {PARENT_KINGDOM}로부터 분리 독립했습니다. 새로운 왕국의 이름을 정하십시오." />
+    <string id="FNnameTtl" text="파벌 이름 지정" />
+    <string id="FNnameTxt" text="당신의 파벌이 불릴 이름을 정하십시오." />
+    <string id="FNrenBtn" text="파벌 이름 변경" />
+  </strings>
+</base>
