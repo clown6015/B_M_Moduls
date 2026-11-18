@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
   <tags>
     <tag language="한국어" />
   </tags>
   <strings>
-
     <!-- 정착지 메뉴: 루트 -->
-
     <!-- 정착지 메뉴: 수비대 -->
     <string id="MLW_garrison_no_units" text="아직 커스텀 병종을 편집하지 않았습니다. 먼저 병종 편집기에서 유닛을 편집하십시오." />
     <string id="MLW_garrison_left_roster" text="나의 커스텀 병종" />
     <string id="MLW_garrison_right_roster" text="수비대 편성 구성" />
-
     <!-- 정착지 메뉴: 민병대 -->
     <string id="MLW_militia_none_to_disband" text="이곳에는 해산할 민병대가 없습니다." />
-
     <!-- 편집기: 상단 헤더 및 명령 -->
     <string id="MLW_editor_title" text="MLW 병종 편집기" />
     <string id="MLW_editor_save" text="저장" />
@@ -29,7 +25,6 @@
     <string id="MLW_editor_discard_no" text="계속 편집" />
     <string id="MLW_editor_root_node" text="기본(루트) 병종" />
     <string id="MLW_editor_upgrade_node" text="승급 병종" />
-
     <!-- 편집기: 컬럼 -->
     <string id="MLW_editor_skills" text="스킬" />
     <string id="MLW_editor_combat" text="전투 스킬" />
@@ -51,12 +46,10 @@
     <string id="MLW_editor_male" text="남성" />
     <string id="MLW_editor_female" text="여성" />
     <string id="MLW_editor_mixed" text="혼성" />
-
     <!-- 편집기: 미리보기 얼굴 -->
     <string id="MLW_editor_face" text="얼굴" />
     <string id="MLW_editor_randomize" text="미리보기 얼굴 다시 굴리기" />
     <string id="MLW_editor_face_note" text="미리보기 전용입니다. 실제 전투에서는 해당 문화권의 외형 범위 내에서 병사마다 무작위 얼굴이 생성되므로 특정 얼굴을 고정할 수 없습니다." />
-
     <!-- 편집기: 장비 슬롯 -->
     <string id="MLW_slot_weapon1" text="무기 1" />
     <string id="MLW_slot_weapon2" text="무기 2" />
@@ -78,7 +71,6 @@
     <string id="MLW_slot_no_loadout" text="[MLW] 존재하지 않는 장비 세트입니다." />
     <string id="MLW_slot_select" text="선택" />
     <string id="MLW_slot_cancel" text="취소" />
-
     <!-- 편집기: 파생 병종 분류 -->
     <string id="MLW_editor_general_type" text="기본 병종 분류: {TYPE}" />
     <string id="MLW_editor_general_type_note" text="병종 분류는 전투 장비 세트에 따라 자동 결정됩니다. 전투 시 각 병사는 자신에게 부여된 장비 세트에 맞춰 부대에 배치됩니다." />
@@ -87,13 +79,11 @@
     <string id="MLW_type_archer" text="궁병" />
     <string id="MLW_type_cavalry" text="기병" />
     <string id="MLW_type_horsearcher" text="궁기병" />
-
     <!-- 편집기: 승급 트리 -->
     <string id="MLW_editor_upgraded_from" text="이전 단계 병종" />
     <string id="MLW_editor_upgrade_1" text="승급 분기 1" />
     <string id="MLW_editor_upgrade_2" text="승급 분기 2" />
     <string id="MLW_editor_upgrade_3" text="승급 분기 3" />
-
     <!-- 프리셋 창: 프레임 -->
     <string id="MLW_presets_archetypes" text="병종 역할군 (아키타입)" />
     <string id="MLW_presets_grade" text="등급 (GRADE)" />
@@ -108,12 +98,10 @@
     <string id="MLW_presets_ceiling" text="단일 스킬 최대 상한: {CEILING}" />
     <string id="MLW_presets_note" text="MLW Reforged에서는 모든 등급(Grade)이 해금되어 있습니다." />
     <string id="MLW_presets_describe" text="주력: {MAIN}.  부력: {SECONDARY}.  보조: {TERTIARY}." />
-
     <!-- 프리셋 창: Grade VI 치트 등급 -->
     <string id="MLW_presets_cheat_points" text="편집 가능한 모든 스킬 600 고정" />
     <string id="MLW_presets_cheat_ceiling" text="해전(War Sails) 스킬 활성화 시 함께 포함" />
     <string id="MLW_presets_cheat_note" text="치트 등급 — 일반 밸런스를 벗어난 최대 능력치 설정입니다." />
-
     <!-- 프리셋 역할군 -->
     <string id="MLW_arch_infantry" text="보병" />
     <string id="MLW_arch_infantry_role" text="전열에서 검과 방패로 싸우는 표준 보병입니다." />
@@ -133,7 +121,6 @@
     <string id="MLW_arch_horsearcher_role" text="빠른 기동력으로 마상에서 활을 쏘는 궁기병입니다." />
     <string id="MLW_arch_custom" text="사용자 지정" />
     <string id="MLW_arch_custom_role" text="스킬 수치를 직접 수동으로 배분합니다." />
-
     <!-- 프리셋 창 내 스킬 명칭 -->
     <string id="MLW_skill_onehanded" text="한손 무기" />
     <string id="MLW_skill_twohanded" text="양손 무기" />
@@ -143,13 +130,11 @@
     <string id="MLW_skill_throwing" text="투척" />
     <string id="MLW_skill_riding" text="기마술" />
     <string id="MLW_skill_athletics" text="운동능력" />
-
     <!-- militia.xml 민병대 병종명 -->
     <string id="MLW_militia_footman" text="MLWR 민병대 보병" />
     <string id="MLW_militia_archer" text="MLWR 민병대 궁병" />
     <string id="MLW_militia_footman_veteran" text="MLWR 고참 민병대 보병" />
     <string id="MLW_militia_archer_veteran" text="MLWR 고참 민병대 궁병" />
-
     <!-- 정착지 병력 관리 화면 -->
     <string id="MLW_branch_elite" text="정예(귀족)" />
     <string id="MLW_branch_regular" text="일반(평민)" />
@@ -239,7 +224,6 @@
     <string id="MLW_tab_militia_title" text="민병대 관리" />
     <string id="MLW_tab_trees" text="병종 트리" />
     <string id="MLW_tab_trees_title" text="병종 트리" />
-
     <!-- 병종 트리 및 수비대 개요 -->
     <string id="MLW_garrison_edit_template" text="수비대 편성 템플릿 편집" />
     <string id="MLW_garrison_edit_template_note" text="표준 부대 편성 화면을 엽니다. 원하는 병종을 오른쪽 목록으로 옮긴 뒤 완료(Done)를 누르면 이 정착지의 목표 수비대 구성으로 저장됩니다." />
@@ -262,12 +246,10 @@
     <string id="MLW_tree_tier_root" text="기본(루트)" />
     <string id="MLW_tree_tier_step" text="{STEP}차 승급" />
     <string id="MLW_tree_troops_header" text="계통 내 병종 목록 ({COUNT})" />
-
     <!-- 공통 저장 대화상자 버튼 -->
     <string id="MLW_preset_name_confirm" text="계속" />
     <string id="MLW_preset_overwrite_confirm" text="덮어쓰기" />
     <string id="MLW_preset_unnamed" text="슬롯 {SLOT}" />
-
     <!-- 민병대 불러오기/내보내기 및 모드 상태 -->
     <string id="MLW_garrison_feature_off" text="모드 설정에서 커스텀 수비대 기능이 꺼져 있어, 이곳의 설정과 무관하게 바닐라 병종이 충원됩니다." />
     <string id="MLW_militia_io_bad_name" text="저장 파일 이름을 입력해야 합니다." />
@@ -307,7 +289,6 @@
     <string id="MLW_militia_io_wrong_type" text="올바른 민병대 내보내기 파일이 아닙니다." />
     <string id="MLW_militia_io_wrong_version" text="이 민병대 파일의 버전은 {FOUND}이며, 현재 버전에서는 최대 {SUPPORTED}까지만 지원합니다." />
     <string id="MLW_mode_disabled" text="모드 설정에서 비활성화됨" />
-
     <!-- 편집기: 아이템 목록 필터 -->
     <string id="MLW_editor_filter_culture" text="문화 필터" />
     <string id="MLW_editor_filter_tier" text="티어 필터" />
@@ -325,7 +306,6 @@
     <string id="MLW_filter_tier_name" text="{TIER}티어" />
     <string id="MLW_filter_tier_title" text="티어별 아이템 필터링" />
     <string id="MLW_slot_nothing_filtered" text="현재 필터 조건에 맞는 아이템이 없습니다. ({FILTER})" />
-
     <!-- 수비대 템플릿: SavedRoots\Garrison 파일 입출력 -->
     <string id="MLW_garrison_io_apply_body" text="{SETTLEMENT}에 이 수비대 구성을 적용합니다. 병종 자체는 변경되지 않으며, 저장된 병종과 현재 병종이 일치하는지 확인한 뒤 일치할 때만 적용됩니다." />
     <string id="MLW_garrison_io_apply_confirm" text="적용" />
@@ -357,7 +337,6 @@
     <string id="MLW_garrison_io_saved" text="수비대 템플릿이 '{NAME}'(으)로 저장되었습니다." />
     <string id="MLW_garrison_io_wrong_type" text="올바른 수비대 템플릿 파일이 아닙니다." />
     <string id="MLW_garrison_io_wrong_version" text="이 템플릿의 버전은 {FOUND}이며, 현재 버전에서는 최대 {SUPPORTED}까지만 지원합니다." />
-
     <!-- 구 장비 편집기: 모듈 및 장비 세트 -->
     <string id="TD_Btn_Cancel" text="취소" />
     <string id="TD_Btn_Confirm" text="확인" />
@@ -368,12 +347,32 @@
     <string id="TD_Set_Civilian" text="평상복 장비 세트" />
     <string id="TD_Set_Modify_Equipment" text="장비 수정" />
     <string id="TD_Set_TempNameFormat" text="{NAME}-{SET} {INDEX}" />
-
     <!-- 수비대 템플릿 불러오기 거부 안내 및 민병대 해산 알림 -->
     <string id="MLW_garrison_io_refuse_different" text="다음 병종의 상태가 저장된 템플릿과 다릅니다: {NAMES}." />
     <string id="MLW_garrison_io_refuse_missing" text="템플릿에 포함된 병종 중 {COUNT}종이 현재 게임에 존재하지 않습니다." />
     <string id="MLW_garrison_io_refuse_unverifiable" text="파일에 다음 병종의 저장된 상태 정보가 없습니다: {NAMES}." />
     <string id="MLW_garrison_io_refused" text="템플릿이 적용되지 않았습니다. ({REASONS}) 먼저 '불러오기 / 내보내기' 탭에서 일치하는 병종 트리를 불러온 뒤 다시 시도하십시오." />
     <string id="MLW_militia_disbanded" text="{SETTLEMENT}: 민병대 해산 완료 ({COUNT}명). 이제 지정된 병종으로 민병대가 새로 충원됩니다." />
+    <string id="MLW_g0" text="커스텀 병종 스폰 설정" />
+    <string id="MLW_g" text="수비대 및 민병대" />
+    <string id="MLW_g2" text="모드 정보 및 진단" />
+    <string id="MLW_s1" text="플레이어 정착지에서 커스텀 병종 스폰" />
+    <string id="MLW_h1" text="활성화하면 플레이어가 소유한 정착지(도시·성·마을)에서 커스텀 병종이 등장합니다." />
+    <string id="MLW_s2" text="플레이어 왕국 전역에서 커스텀 병종 스폰" />
+    <string id="MLW_h2" text="활성화하면 플레이어 왕국에 속한 모든 마을, 도시, 성에서 커스텀 병종이 등장합니다." />
+    <string id="MLW_s3" text="클랜원의 커스텀 병종 모병 허용" />
+    <string id="MLW_h3" text="활성화하면 플레이어 가문(클랜)의 부대원들이 일반 병종 대신 플레이어의 커스텀 병종을 모병합니다. '왕국 영주들의 커스텀 병종 모병 허용'보다 우선 적용되며, 두 옵션을 모두 켜도 안전하게 작동합니다." />
+    <string id="MLW_s4" text="왕국 영주들의 커스텀 병종 모병 허용" />
+    <string id="MLW_h4" text="활성화하면 플레이어 왕국에 속한 모든 클랜과 영주들이 어디서든 플레이어의 커스텀 병종을 모병합니다. '클랜원의 커스텀 병종 모병 허용'과 함께 켜 두면 플레이어 클랜은 클랜 옵션이, 나머지 왕국 가문은 이 옵션이 담당합니다." />
+    <string id="MLW_s5" text="봉신 영주 부대에 커스텀 병종 배치" />
+    <string id="MLW_h5" text="활성화하면 플레이어 왕국 소속 가문의 영주들이 부대를 생성할 때 고유 문화권 병종 대신 플레이어의 커스텀 병종으로 부대를 편성합니다. 부대 규모와 티어 비율은 바닐라와 동일하게 유지되며, 실제로 승급 트리를 구성한 병종만 사용됩니다." />
+    <string id="MLW_s6" text="플레이어 정착지 커스텀 수비대 활성화" />
+    <string id="MLW_h6" text="커스텀 수비대 시스템의 마스터 스위치입니다. 활성화하면 소유한 도시와 성 메뉴에 커스텀 수비대 관리 기능이 활성화되어, 어떤 커스텀 병종을 몇 명씩 수비대에 충원할지 지정할 수 있습니다." />
+    <string id="MLW_s7" text="플레이어 정착지 커스텀 민병대 활성화" />
+    <string id="MLW_h7" text="활성화하면 플레이어가 소유한 도시, 성, 마을의 민병대가 문화권 기본 민병대 대신 4종의 커스텀 민병대 병종(근접/원거리 일반 및 고참)으로 양성됩니다. 타 세력의 정착지에는 영향을 주지 않습니다." />
+    <string id="MLW_s8" text="모드 버전" />
+    <string id="MLW_h8" text="현재 설치된 MLW Reforged 모듈의 버전입니다." />
+    <string id="MLW_s9" text="디버그 로그 출력 활성화" />
+    <string id="MLW_h9" text="문제 해결을 위해 MLW 내부 진단 기록을 디버그 로그 파일에 출력합니다." />
   </strings>
 </base>
